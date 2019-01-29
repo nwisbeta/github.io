@@ -1,5 +1,5 @@
 # github.io
 
-NWIS beat GitHub Pages repository
+NWIS beta GitHub Pages repository
 
 Developing APIs for NHS Wwales Informatics Service
