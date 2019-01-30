@@ -3,10 +3,10 @@ repository: nwisbeta/nwisbeta.github.io
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
 
-topnav_title: NHS Wales Informatics Service: Software Development
+topnav_title: "NHS Wales Informatics Service: Software Development"
 # this appears on the top navigation bar next to the home button
 
-site_title: NWIS Software Development: Health APIs
+site_title: "NWIS Software Development: Health APIs"
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
 company_name: NHS Wales Informatics Service
