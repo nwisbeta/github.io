@@ -29,7 +29,7 @@ entries:
       type: homepage
 
     - title: Partnership
-      url: /mydoc_introduction.html
+      url: /partnership.html
       output: web, pdf
       
   - title: Patient Demographic Data API
