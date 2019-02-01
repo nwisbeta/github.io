@@ -31,7 +31,7 @@ entries:
     - title: Partnership
       url: /mydoc_introduction.html
       output: web, pdf
- 
+      
   - title: Patient Demographic Data API
     output: web, pdf
 
@@ -55,7 +55,7 @@ entries:
     - title: Request example
       url: /mydoc_content_reuse.html
       output: web, pdf
-  
+
 # - title: Reference Data API
 #    output: web, pdf
 

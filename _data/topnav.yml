@@ -15,19 +15,18 @@ topnav_dropdowns:
   folders:
     - title: Health APIs
       folderitems:
+        - title: API guides
+          url: /apiguides_landing_page.html
         - title: Patient Demographic Data
-          url: /mydoc_introduction.html
-        - title: Reference Data
-          url: /p1_landing_page.html
-        - title: Diagnostic Observations and Reports
-          url: /p2_landing_page.html
+          url: /pt_dmgrphc_landing_page.html
+        
 
-    - title: Jekyll Help
+    - title: Partners
       folderitems:
-        - title: Jekyll Tutorials
-          external_url: https://jekyllrb.com/tutorials/home/
-        - title: Jekyll documentation
-          external_url: http://jekyllrb.com/docs/home/
-        - title: Jekyll on Stack Overflow
-          external_url: http://stackoverflow.com/questions/tagged/jekyll
-       
+        - title: Life Sciences Hub
+          external_url: https://lshubwales.com/
+        - title: HAPI FHIR
+          external_url: http://hapifhir.io/
+        - title: University Health Network
+          external_url: https://www.uhn.ca/
+          
