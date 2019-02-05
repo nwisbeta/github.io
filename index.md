@@ -3,6 +3,7 @@ title: "Software Development Kits for Health APIs"
 keywords: NWIS HAPI APIs
 tags: [NWIS, NWIS_API, DHEW, API]
 sidebar: mydoc_sidebar
+toc: false
 permalink: index.html
 summary: An overview of NWIS work on Health APIs, based on the FHIR specification .
 ---
