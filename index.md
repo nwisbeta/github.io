@@ -1,5 +1,5 @@
 ---
-title: "Software Development Kits for Health APIs"
+title: "Digital Health Ecosystem for Health and Care across Wales"
 keywords: NWIS HAPI APIs
 tags: [NWIS, NWIS_API, DHEW, API]
 sidebar: mydoc_sidebar
@@ -9,7 +9,7 @@ summary: An overview of NWIS work on Health APIs, based on the FHIR specificatio
 ---
 
 
-## Digital Health Ecosystem for Health and Care across Wales
+## Developing Health Application Programming Interfaces (APIs)
 
 NHS Wales Informatics Services (NWIS) and the Life Sciences Hub Wales, supported by Welsh Government’s Efficiency Through Technology Programme, are creating the Digital Health Ecosystem Wales (DHEW) network.
  

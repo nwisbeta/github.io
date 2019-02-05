@@ -23,7 +23,7 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Software Development Kits
+    - title: Health APIs for Wales
       url: /index.html
       output: web, pdf
       type: homepage
@@ -41,15 +41,15 @@ entries:
       output: web, pdf
 
     - title: Resources
-      url: /mydoc_lists.html
+      url: /resources.html
       output: web, pdf
 
     - title: Endpoints and methods
-      url: /mydoc_conditional_logic.html
+      url: /endpointsandmethods.html
       output: web, pdf
 
     - title: Parameters
-      url: /mydoc_content_reuse.html
+      url: /parameters.html
       output: web, pdf
 
     - title: Request example
