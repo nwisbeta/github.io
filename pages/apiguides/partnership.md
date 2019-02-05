@@ -17,4 +17,3 @@ The NHS Wales Informatics Service has been developing the first in a series of a
 
 [See the FHIR test server, run by University Health Network](https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/)
 
-{% include links.html %}

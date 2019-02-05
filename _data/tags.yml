@@ -7,3 +7,7 @@ allowed-tags:
   - NWIS_API
   - DHEW
   - API
+  - resources
+  - endpoints_and_methods
+  - parameters
+  - request_example
