@@ -53,7 +53,7 @@ entries:
       output: web, pdf
 
     - title: Request example
-      url: /mydoc_content_reuse.html
+      url: /requestexamples.html
       output: web, pdf
 
 # - title: Reference Data API
