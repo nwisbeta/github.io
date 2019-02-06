@@ -109,8 +109,5 @@ sidebars:
 - product2_sidebar
 - other
 
-note: content
-# Include to enable using 'Note' alerts in pages text.
-
 # description: "NWIS test Health API documentation. On GitHub Pages template, using a Jekyll documentation theme courtesy Tom Johnson, @tomjoht on GitHub."
 # the description is used in the feed.xml file

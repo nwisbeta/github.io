@@ -7,9 +7,8 @@ permalink: diag_obs_reports_landing_page.html
 folder: diag_obs_reports
 ---
 
-<h2> Introduction </h2>
+## Introduction 
 
-<p> The NHS Wales National Architecture includes a large number of application and other integration capabilities. NWIS are deploying these capabilities to support information sharing between applications and services. The goal is to reduce duplication of information collection, to improve care efficiency, and to ensure patient safety. </p>
+The Diagnostic Observations and Reports API enables users to retrieve a patient's test results using the patient's NHS number (parameter: identifier).
 
-<p> The NHS Wales Software Development Kit supports NHS Wales organisations and other partners in the public and private sector. It provides detailed information to enable standardised application development to a wider audience of developers and system suppliers. </p>
-
+{% include note.html content="The data within the service is test data and must not be considered or used for live use. While the API implements the full FHIR specification, it only contains the data for 100 fictitious patient records." %}
