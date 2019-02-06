@@ -13,9 +13,9 @@ topnav:
 topnav_dropdowns:
 - title: Topnav dropdowns
   folders:
-    - title: Health APIs
+    - title: Software Dev Kit
       folderitems:
-        - title: API guides
+        - title: Overview
           url: /apiguides_landing_page.html
         - title: Patient Demographic Data
           url: /pt_dmgrphc_landing_page.html

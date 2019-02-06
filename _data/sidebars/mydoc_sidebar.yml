@@ -2,7 +2,7 @@
 
 entries:
 - title: sidebar
-  product: Health APIs
+  product: Software Dev Kit for Health APIs
   version: 0.1
   folders:
 
@@ -23,7 +23,7 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Health APIs for Wales
+    - title: Health APIs for NHS Wales
       url: /index.html
       output: web, pdf
       type: homepage
