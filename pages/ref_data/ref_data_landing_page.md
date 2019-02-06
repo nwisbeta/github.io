@@ -1,5 +1,5 @@
 ---
-title: Reference Data
+title: Reference Data API
 keywords: 
 sidebar: mydoc_sidebar
 toc: false
@@ -13,6 +13,7 @@ The Reference Data API enables users to retrieve NHS organisational data: in par
 
 {% include note.html content="The data within the service is test data and must not be considered or used for live use. While the API implements the full FHIR specification, it only contains the data for 100 fictitious patient records, and some representative data." %}
 
+
 | Reference Data Type | FHIR Resource Type | 
 |-------|--------|
 | Health Boards | Organisation |
@@ -22,7 +23,7 @@ The Reference Data API enables users to retrieve NHS organisational data: in par
 
 ###	Relationships & Filtering
 
-The API populates the partOf element of the General Practice with the FHIR Id of the Heath Board and uses it to map the parent/ child relationship between Health Board and General Practice. 
+The API populates the **partOf** element of the General Practice with the **FHIR Id** of the Heath Board and uses it to map the parent/ child relationship between Health Board and General Practice. 
 
 The API uses the PractitionerRole resource to map the relationship between General Practitioners and General Practice. 
 ### Organisation Types
