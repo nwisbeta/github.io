@@ -14,6 +14,8 @@ The Patient Demographic Data API enables users to search for patient records usi
 * family name and address
 * patient identifier - for NHS Wales, the patient's NHS number
 
+{% include note.html content= "The data within the service is test data and must not be considered or used for live use. While the API implements the full FHIR specification, it only contains the data for 100 fictitious patient records." %}
+
 ### Retrieve patient records by performing a patient demographic search
 
 

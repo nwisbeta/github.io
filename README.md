@@ -1,5 +1,5 @@
-# github.io
+# nwisbeta.github.io
 
-NWIS beta GitHub Pages repository
+GitHub Pages for NHS Wales Software Development Kit for Health APIs
 
-Developing APIs for NHS Wales Informatics Service
+NHS Wales Informatics Service is building tools to develop APIs for NHS use in Wales.
