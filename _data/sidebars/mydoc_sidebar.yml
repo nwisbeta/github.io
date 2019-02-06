@@ -29,7 +29,11 @@ entries:
       type: homepage
 
     - title: Partnership
-      url: /partnership.html
+      url: /apiguides_partnership.html
+      output: web, pdf
+      
+    - title: Getting Started
+      url: /apiguides_getting_started.html
       output: web, pdf
       
   - title: Patient Demographic Data API
@@ -41,19 +45,19 @@ entries:
       output: web, pdf
 
     - title: Resources
-      url: /resources.html
+      url: /pt_dmgrphc_resources.html
       output: web, pdf
 
     - title: Endpoints and methods
-      url: /endpointsandmethods.html
+      url: /pt_dmgrphc_endpointsandmethods.html
       output: web, pdf
 
     - title: Parameters
-      url: /parameters.html
+      url: /pt_dmgrphc_parameters.html
       output: web, pdf
 
     - title: Request example
-      url: /requestexamples.html
+      url: /pt_dmgrphc_requestexamples.html
       output: web, pdf
 
 # - title: Reference Data API

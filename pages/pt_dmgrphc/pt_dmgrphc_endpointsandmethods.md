@@ -3,7 +3,7 @@ title: "Patient Demographic Data API: Endpoints and methods"
 keywords: 
 sidebar: mydoc_sidebar
 toc: false
-permalink: endpointsandmethods.html
+permalink: pt_dmgrphc_endpointsandmethods.html
 folder: pt_dmgrphc
 ---
 

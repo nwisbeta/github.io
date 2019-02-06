@@ -3,7 +3,7 @@ title: "Patient Demographic Data API: Request examples and responses"
 keywords: 
 sidebar: mydoc_sidebar
 toc: false
-permalink: requestexamples.html
+permalink: pt_dmgrphc_requestexamples.html
 folder: pt_dmgrphc
 ---
 

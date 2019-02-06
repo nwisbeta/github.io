@@ -4,7 +4,7 @@ keywords:
 summary: "NHS Wales is working with Life Sciences Hub Wales to build Health APIs."
 sidebar: mydoc_sidebar
 toc: false
-permalink: partnership.html
+permalink: apiguides_partnership.html
 folder: apiguides
 ---
 ## Digital Health Ecosystem for Wales (DHEW)
