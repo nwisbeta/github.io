@@ -43,39 +43,24 @@ entries:
     - title: Overview
       url: /pt_dmgrphc_landing_page.html
       output: web, pdf
+      type: homepage
+      
+#    - title: Resources
+#      url: /pt_dmgrphc_resources.html
+#      output: web, pdf
 
-    - title: Resources
-      url: /pt_dmgrphc_resources.html
-      output: web, pdf
+#    - title: Endpoints and methods
+#      url: /pt_dmgrphc_endpointsandmethods.html
+#      output: web, pdf
 
-    - title: Endpoints and methods
-      url: /pt_dmgrphc_endpointsandmethods.html
-      output: web, pdf
+#    - title: Parameters
+#      url: /pt_dmgrphc_parameters.html
+#      output: web, pdf
 
-    - title: Parameters
-      url: /pt_dmgrphc_parameters.html
-      output: web, pdf
-
-    - title: Request example
-      url: /pt_dmgrphc_requestexamples.html
-      output: web, pdf
+#    - title: Request example
+#      url: /pt_dmgrphc_requestexamples.html
+#      output: web, pdf
 
 # - title: Reference Data API
 #    output: web, pdf
 
-#   folderitems:
-#   - title: Overview
-#     url: /mydoc_sidebar_navigation.html
-#     output: web, pdf
-
-#    - title: Case studies
-#      url: /mydoc_yaml_tutorial.html
-#      output: web, pdf
-
-#    - title: Resources
-#      url: /mydoc_tags.html
-#      output: web, pdf
-
-#    - title: Design and build
-#      url: /mydoc_series.html
-#      output: web, pdf
