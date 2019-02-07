@@ -2,7 +2,7 @@
 title: Reference Data API
 keywords: 
 sidebar: mydoc_sidebar
-toc: false
+toc: true
 permalink: ref_data_landing_page.html
 folder: ref_data
 ---

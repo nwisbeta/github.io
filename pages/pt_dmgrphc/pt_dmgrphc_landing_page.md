@@ -2,7 +2,7 @@
 title: Patient Demographic Data API
 keywords: 
 sidebar: mydoc_sidebar
-toc: false
+toc: true
 permalink: pt_dmgrphc_landing_page.html
 folder: pt_dmgrphc
 ---
@@ -87,7 +87,7 @@ namespace FhirTestClient1
 ````
 
 
-## Use case: retrieve patient records by patient identifier
+### Use case: retrieve patient records by patient identifier
 
 After selecting the `Patient` resource, the additional search parameter is
 
