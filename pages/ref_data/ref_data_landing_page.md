@@ -247,7 +247,7 @@ This query uses two parameters for the `Organization` resource:
 
 If  you know the `identifier` ODS National Code for the Health Board,  you can find out its FHIR `_id`.
 
-1. Using the ODS code 7A1 from the previous use case:
+1. Using the ODS code 7A1 from the previous use case, search for an organisation using parameter `identifier`:
 
    ````
    GET https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/baseDstu3/Organization?identifier=7A1
@@ -316,5 +316,44 @@ If  you know the `identifier` ODS National Code for the Health Board,  you can f
 
    [Same result as HTML](https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/baseDstu3/Organization?type=GPPractice&partof=125)
 
+### Use case: retrieve a list of Practitioners
+
+Select the resource `Practitioner`.    
+Search without adding additional parameters.
+
+````
+GET https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/baseDstu3/Practitioner
+````
+[Web interface response for Practioner resource](https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/search?serverId=home&resource=Practitioner&param.0.qualifier=&param.0.0=&param.0.name=_language&param.0.type=string&sort_by=&sort_direction=&resource-search-limit=&pretty=false)
+
+[Same result as HTML](https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/baseDstu3/Practitioner)
+
+### Use Case: retrieve a specific Practitioner by National Code
+
+Select the resource `Practitioner`.  
+Add parameter 'identifier' with value `` <National code> ``.  
+Example National code: G8433963
+
+````
+GET https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/baseDstu3/Practitioner?identifier=G8433963
+````
+[Web interface response for Practioner resource with identifier G8433963](https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/search?serverId=home&resource=Practitioner&param.0.0=&param.0.1=G8433963&param.0.name=identifier&param.0.type=token&sort_by=&sort_direction=&resource-search-limit=&pretty=false)
+
+[Same result as HTML](https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/baseDstu3/Practitioner?identifier=G8433963)
 
 
+### Use Case: retrieve a specific organisation and the related practitioners
+This query allows you to search for general practitioners who work at a specific practice.  
+
+Select the `PractitionerRole` resource.  
+Include the resource `Practitioner`, with the parameter `practitioner`.  
+Add the parameter `Organization` with the FHIR ID value 430 - the ID for an example practice.
+
+````
+GET 
+https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/baseDstu3/PractitionerRole?_include=PractitionerRole:practitioner&organization:Organization=430
+````
+
+[Web interface response for PractionerRole resource, including Practitioner resource with parameter practitioner, and the parameter Organization with value 430](https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/search?serverId=home&resource=PractitionerRole&param.0.0=&param.0.1=430&param.0.name=organization&param.0.type=reference&_include=PractitionerRole%3Apractitioner&sort_by=&sort_direction=&resource-search-limit=&pretty=false)
+
+[Same result as HTML](https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/baseDstu3/PractitionerRole?_include=PractitionerRole:practitioner&organization:Organization=430)
