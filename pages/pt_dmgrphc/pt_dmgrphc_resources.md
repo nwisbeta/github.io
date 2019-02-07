@@ -10,3 +10,5 @@ folder: pt_dmgrphc
 ## API resources 
 
 Content about API resources.
+
+{% include links.html %}

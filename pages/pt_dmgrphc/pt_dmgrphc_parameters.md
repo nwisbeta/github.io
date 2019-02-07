@@ -10,3 +10,5 @@ folder: pt_dmgrphc
 ## API parameters
 
 Content about API parameters.
+
+{% include links.html %}

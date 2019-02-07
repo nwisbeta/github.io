@@ -53,3 +53,13 @@ entries:
       url: /ref_data_landing_page.html
       output: web, pdf
       type: homepage
+      
+  - title: Diagnostic Observations and Reports API
+    output: web, pdf
+    folderitems:
+    
+    - title: Overview
+      url: /diag_obs_reports_landing_page.html
+      output: web, pdf
+      type: homepage
+      

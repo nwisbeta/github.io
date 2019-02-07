@@ -25,3 +25,5 @@ To install the NuGet package to your .NET project, enter the following text in t
 ````cs
 PM> Install-Package Hl7.Fhir.Specification.STU3 -Version 0.94.0
 ````
+
+{% include links.html %}

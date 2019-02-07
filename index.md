@@ -21,10 +21,9 @@ The first API developed by NHS Wales Informatics Service identifies the [demogra
 ## Test server
  [https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/](https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/)
  
-This development is hosted on a test platform. The service must not be used or connected to any
-live system or service. 
+This development is hosted on a test platform. The service must not be used or connected to any live system or service. 
 
-The data within the service is test data and must not be considered or used for live use. While the API implements the full FHIR specification, it only contains the data for 100 fictitious patient records. 
+{% include note.html content="The data within the service is test data and must not be considered or used for live use. While the API implements the full FHIR specification, it only contains the data for 100 fictitious patient records, and some representative data." %}
 
 The service may be unavailable for maintenance.
 

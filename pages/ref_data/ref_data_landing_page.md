@@ -357,3 +357,6 @@ https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/baseDstu3/PractitionerRole
 [Web interface response for PractionerRole resource, including Practitioner resource with parameter practitioner, and the parameter Organization with value 430](https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/search?serverId=home&resource=PractitionerRole&param.0.0=&param.0.1=430&param.0.name=organization&param.0.type=reference&_include=PractitionerRole%3Apractitioner&sort_by=&sort_direction=&resource-search-limit=&pretty=false)
 
 [Same result as HTML](https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/baseDstu3/PractitionerRole?_include=PractitionerRole:practitioner&organization:Organization=430)
+
+
+{% include links.html %}

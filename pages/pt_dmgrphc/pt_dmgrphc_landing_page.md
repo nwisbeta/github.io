@@ -26,8 +26,8 @@ For each use case, append a query to this base URL.
 
 ### Use case: retrieve patient records by performing a patient demographic search
 
-After selecting the `Patient` resource, the search parameters are
-
+Select the `Patient` resource.  
+Add the search parameters:  
 * `family`: a portion of the family name of the patient. Value matches 'Davies'
 * `address`: a server defined search that may match any of the string fields in the Address, including line, city, state, country, postalCode, and/or text. Value matches 'Pentre Bach'
 
@@ -143,3 +143,5 @@ namespace FhirTestClient1
  } 
  
 ````
+
+{% include links.html %}

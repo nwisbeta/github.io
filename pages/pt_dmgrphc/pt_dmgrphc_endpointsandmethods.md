@@ -10,3 +10,6 @@ folder: pt_dmgrphc
 ## API endpoints and methods
 
 Content about API endpoints and methods.
+
+
+{% include links.html %}

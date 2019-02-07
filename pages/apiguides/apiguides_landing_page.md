@@ -13,3 +13,4 @@ folder: apiguides
 
 <p> The NHS Wales Software Development Kit supports NHS Wales organisations and other partners in the public and private sector. It provides detailed information to enable standardised application development to a wider audience of developers and system suppliers. </p>
 
+{% include links.html %}

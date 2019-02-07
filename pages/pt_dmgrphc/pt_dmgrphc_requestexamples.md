@@ -10,3 +10,5 @@ folder: pt_dmgrphc
 ## Examples of requests and responses
 
 Sample requests and responses from the server.
+
+{% include links.html %}
