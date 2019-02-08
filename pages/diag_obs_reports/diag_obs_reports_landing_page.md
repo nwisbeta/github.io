@@ -139,33 +139,9 @@ This structure for a DiagnosticReport conaining nested Observations contained wi
 ### Use case: chart a patient's test result data
 
 The C# code sample below illustrates how to chart a patient’s test result data. In this example, we’ll retrieve all the sodim results for the patient using the code NA.  
-This code is Wales Result Report Service code, and this system is identified by the URI:[https://fhir.nhs.uk/Id/nhs-number](https://fhir.nhs.uk/Id/nhs-number)
+This code is Wales Result Report Service code, and this system is identified by the URI: 
 
-````c#
-var observationCode = "NA";
-var wrrsSystemIdentifier = "http://wrrs.wales.nhs.uk";
-
-Bundle sodiumObservations = client.Search<Observation>(new string[]
-{
-    $"patient.identifier={nhsNoSystemIdentifier}|{patientId}",
-    $"code={wrrsSystemIdentifier}|{observationCode}"
-});
-
-foreach (var entry in sodiumObservations.Entry)
-{
-    Observation sodiumObservation = entry.Resource as Observation;
-    Console.WriteLine(((Quantity)sodiumObservation?.Value)?.ValueElement.Value);
-}
-
-````
-This code writes the patient’s sodium result values to the console.  
-
-These values values can be taken along with the result date to a graph for display to the user.
-
-The same search via URL
-````
-https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/baseDstu3/Observation?patient.identifier=https://fhir.nhs.uk/Id/nhs-number%7C3795624164&code=http://wrrs.wales.nhs.uk%7CNA&_format=html/xml
-````
+[https://fhir.nhs.uk/Id/nhs-number](https://fhir.nhs.uk/Id/nhs-number)
 
 
 
