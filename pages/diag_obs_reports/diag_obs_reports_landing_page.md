@@ -122,7 +122,7 @@ Estimated GFR (Plasma): Authorised by CAV: Rachel Brixey-McCann on 22/10/2018 at
 
 The report contains four results:
 
-* (Urea and Electrolytes
+* Urea and Electrolytes
 * eGFR and electrolytes (Plasma)
 * Creatinine [Plasma] 
 * Estimated GFR (Plasma) 
@@ -134,6 +134,38 @@ The diagnosticReport.Results field contains references to the four 'top level' r
 For simplicity, all the observations are included as 'contained' resources within the DiagnosticReport FHIR resource - see the notes on contained resources [URL:https://hl7.org/fhir/STU3/references.html#contained](https://hl7.org/fhir/STU3/references.html#contained). 
 
 This structure for a DiagnosticReport conaining nested Observations contained within the report is based on this example from the FHIR specification  [URL: http://hl7.org/fhir/STU3/diagnosticreport-example-ghp.html](http://hl7.org/fhir/STU3/diagnosticreport-example-ghp.html).
+
+
+### Use case: chart a patient's test result data
+
+The C# code sample below illustrates how to chart a patient’s test result data. In this example, we’ll retrieve all the sodim results for the patient using the code NA.  
+This code is Wales Result Report Service code, and this system is identified by the URI:[https://fhir.nhs.uk/Id/nhs-number](https://fhir.nhs.uk/Id/nhs-number)
+
+````c#
+var observationCode = "NA";
+var wrrsSystemIdentifier = "http://wrrs.wales.nhs.uk";
+
+Bundle sodiumObservations = client.Search<Observation>(new string[]
+{
+    $"patient.identifier={nhsNoSystemIdentifier}|{patientId}",
+    $"code={wrrsSystemIdentifier}|{observationCode}"
+});
+
+foreach (var entry in sodiumObservations.Entry)
+{
+    Observation sodiumObservation = entry.Resource as Observation;
+    Console.WriteLine(((Quantity)sodiumObservation?.Value)?.ValueElement.Value);
+}
+
+````
+This code writes the patient’s sodium result values to the console.  
+
+These values values can be taken along with the result date to a graph for display to the user.
+
+The same search via URL
+````
+https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/baseDstu3/Observation?patient.identifier=https://fhir.nhs.uk/Id/nhs-number%7C3795624164&code=http://wrrs.wales.nhs.uk%7CNA&_format=html/xml
+````
 
 
 
