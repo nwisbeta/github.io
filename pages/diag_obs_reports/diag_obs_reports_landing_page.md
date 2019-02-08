@@ -136,14 +136,6 @@ For simplicity, all the observations are included as 'contained' resources withi
 This structure for a DiagnosticReport conaining nested Observations contained within the report is based on this example from the FHIR specification  [URL: http://hl7.org/fhir/STU3/diagnosticreport-example-ghp.html](http://hl7.org/fhir/STU3/diagnosticreport-example-ghp.html).
 
 
-### Use case: chart a patient's test result data
-
-The C# code sample below illustrates how to chart a patient’s test result data. In this example, we’ll retrieve all the sodim results for the patient using the code NA.  
-This code is Wales Result Report Service code, and this system is identified by the URI: 
-
-[https://fhir.nhs.uk/Id/nhs-number](https://fhir.nhs.uk/Id/nhs-number)
-
-
 
 
 {% include links.html %}
