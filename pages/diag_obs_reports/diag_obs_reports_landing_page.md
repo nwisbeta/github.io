@@ -2,7 +2,7 @@
 title: Diagnostic Observations and Reports API
 keywords: 
 sidebar: mydoc_sidebar
-toc: false
+toc: true
 permalink: diag_obs_reports_landing_page.html
 folder: diag_obs_reports
 ---
