@@ -54,7 +54,7 @@ GET https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/baseDstu3/Organization
 
 [Same result as HTML](https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/baseDstu3/Organization?type=GPPractice)
 
-## Retrieve a specific organisation using its FHIR id
+### Retrieve a specific organisation using its FHIR id
 
 Select the resource `Organization`.  
 
@@ -181,7 +181,7 @@ GET https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/baseDstu3/Organization
 }
 ````
 
-## Retrieve a specific organisation using its Organisational Data Services (ODS) National Code
+### Retrieve a specific organisation using its Organisational Data Services (ODS) National Code
 
 Select the resource `Organization`.  
 Add parameter `identifier`, with value of ODS National Code.  
@@ -207,7 +207,7 @@ GET https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/baseDstu3/Organization
 
 [Same result as HTML](https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/baseDstu3/Organization?identifier=W00143)
 
-## Retrieve a list of General Practices within a specific Health Board
+### Retrieve a list of General Practices within a specific Health Board
 
 This query uses two parameters for the `Organization` resource:
 * `type` - examples include HB for Health Board and GPP for General Practice
