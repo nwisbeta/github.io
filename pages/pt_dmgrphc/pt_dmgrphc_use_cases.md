@@ -2,7 +2,7 @@
 title: "Patient Demographic Data API: Use Case Queries"
 keywords: 
 sidebar: mydoc_sidebar
-toc: false
+toc: true
 permalink: pt_dmgrphc_use_cases.html
 folder: pt_dmgrphc
 ---
@@ -16,7 +16,7 @@ FHIR base URL: [https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/baseDstu3]
 For each use case, append a query to this base URL.  
 Building search queries through the FHIR server UI is a good way of learning how to construct URLs and client code as it provides both, together with the returned results.
 
-### Use case: retrieve patient records by performing a patient demographic search
+### Retrieve patient records by performing a patient demographic search
 
 Select the `Patient` resource.  
 Add the search parameters:  
@@ -79,7 +79,7 @@ namespace FhirTestClient1
 ````
 
 
-### Use case: retrieve patient records by patient identifier
+### Retrieve patient records by patient identifier
 
 After selecting the `Patient` resource, the additional search parameter is
 

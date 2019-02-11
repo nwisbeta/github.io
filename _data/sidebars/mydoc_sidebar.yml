@@ -18,7 +18,7 @@ entries:
       url: /tocpage.html
       output: pdf
       type: frontmatter
-
+      
   - title: Overview
     output: web, pdf
     folderitems:
@@ -57,6 +57,10 @@ entries:
       url: /ref_data_landing_page.html
       output: web, pdf
       type: homepage
+    
+    - title: Use Case Queries
+      url: /ref_data_use_cases.html
+      output: web, pdf
       
   - title: Diagnostic Observations and Reports API
     output: web, pdf
