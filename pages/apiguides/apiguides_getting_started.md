@@ -15,6 +15,8 @@ From the HL7® FHIR® [product brief](https://www.hl7.org/implement/standards/pr
 
 See a [full description of the FHIR® specification](http://hl7.org/fhir/index.html).
 
+## System requirements
+
 NWIS used the Hl7.Fhir.Specification.STU3 NuGet package,
 which provides client tools and functionality for working with the FHIR specification.
 
