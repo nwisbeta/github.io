@@ -24,12 +24,12 @@ The Software Development Kits explain the features available from the Health API
 
 ## Technical setup required to build GitHub Pages
 
-* full permissions to download and run software on the laptop
+* obtain full permissions to download and run software on the laptop
 * set up a GitHub personal login, and an organisation account
 * start an organisation respository, and set up GitHub Pages. Free organisation repositories are public. 
-* download
- * Git for Windows https://gitforwindows.org/
- * Jekyll for Windows, using RubyInstaller and Bundler https://jekyllrb.com/docs/installation/windows/
+* download and run:
+  * Git for Windows https://gitforwindows.org/
+  * Jekyll for Windows, using RubyInstaller and Bundler https://jekyllrb.com/docs/installation/windows/
 * within the organisation repository, download and set up Jekyll documentation theme https://idratherbewriting.com/documentation-theme-jekyll/
 
 
