@@ -1,5 +1,5 @@
 ---
-title: Use case queries
+title: Use Case Queries
 keywords: 
 sidebar: mydoc_sidebar
 toc: true
@@ -159,3 +159,4 @@ The same search via URL:
 https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/baseDstu3/Observation?patient.identifier=https://fhir.nhs.uk/Id/nhs-number%7C3795624164&code=http://wrrs.wales.nhs.uk%7CNA&_format=html/xml
 ````
 
+{% include links.html %}

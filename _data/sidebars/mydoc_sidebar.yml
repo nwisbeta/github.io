@@ -45,6 +45,10 @@ entries:
       output: web, pdf
       type: homepage
       
+    - title: Use Case Queries
+      url: /pt_dmgrphc_use_cases.html
+      output: web, pdf
+      
   - title: Reference Data API
     output: web, pdf
       
@@ -63,3 +67,6 @@ entries:
       output: web, pdf
       type: homepage
       
+    - title: Use Case Queries
+      url: /diag_obs_reports_use_cases.html
+      output: web, pdf
