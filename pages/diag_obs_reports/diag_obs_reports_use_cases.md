@@ -20,7 +20,7 @@ The queries for finding patient records using demographic data or NHS number are
 
 ### Retrieve a list of patient's test results
 
-This query is a two-step process: obtain the `Patient` parameter `id`, which is distinct from the `Patient`'s `identifier` (their NHS number). In this example, the `id` is a number assigned by their (fictional) hospital.
+This query is a two-step process: obtain the `Patient` parameter `id`, which is distinct from the `Patient`'s `identifier` (their NHS number). In this example, the `id` is a number assigned by their (fictional) hospital. Then use the `id` in a `DiagnosticReport` query.
 
 1. Use the `Patient` resource, with parameter `identifier` (the patient's NHS number) to find the the patient's `id`, as it appears in the XML/HTML response.  
 
