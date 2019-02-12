@@ -20,13 +20,20 @@ The queries for finding patient records using demographic data or NHS number are
 
 ### Retrieve a list of patient's test results
 
-1. Use the `Patient` resource, with parameter `identifier` (the patient's NHS number) to find the first part of a GET request in a URL.  
+This query is a two-step process: obtain the `Patient` parameter `id`, which is distinct from the `Patient`'s `identifier` (their NHS number). In this example, the `id` is a number assigned by their (fictional) hospital.
 
-The example NHS number is 3795624164. In this case, the format of the results is XML.
+1. Use the `Patient` resource, with parameter `identifier` (the patient's NHS number) to find the the patient's `id`, as it appears in the XML/HTML response.
+
+The example NHS number is 3795624164. 
 
 ```` 
-GET https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/baseDstu3/Patient?identifier=3795624164&_format=xml
+GET https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/baseDstu3/Patient?identifier=3795624164
 ````
+
+[Web interface response for search for patient with NHS number](https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/search?serverId=home&resource=Patient&param.0.0=&param.0.1=3795624164&param.0.name=identifier&param.0.type=token&sort_by=&sort_direction=&resource-search-limit)
+
+[Same result as HTML](https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/baseDstu3/Patient?identifier=3795624164)
+
 
 Using the `DiagnosticReport` resource base query, add the `patient.identifier` parameter (the NHS number) with value 3795624164 to the URL.  
 In this example, the result format is html/xml.
