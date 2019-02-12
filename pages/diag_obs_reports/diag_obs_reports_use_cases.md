@@ -34,7 +34,7 @@ This query is a two-step process: obtain the `Patient` parameter `id`, which is 
 
    [Same result as HTML](https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/baseDstu3/Patient?identifier=3795624164)
 
-   #### Sample of the HTML result: see `Patient` parameter `id` is 43
+   Sample of the HTML result: the `Patient` parameter `id` is 43
    ````html
    {
   "resourceType": "Bundle",
