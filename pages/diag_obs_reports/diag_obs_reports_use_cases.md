@@ -22,27 +22,60 @@ The queries for finding patient records using demographic data or NHS number are
 
 This query is a two-step process: obtain the `Patient` parameter `id`, which is distinct from the `Patient`'s `identifier` (their NHS number). In this example, the `id` is a number assigned by their (fictional) hospital.
 
-1. Use the `Patient` resource, with parameter `identifier` (the patient's NHS number) to find the the patient's `id`, as it appears in the XML/HTML response.
+1. Use the `Patient` resource, with parameter `identifier` (the patient's NHS number) to find the the patient's `id`, as it appears in the XML/HTML response.  
 
-The example NHS number is 3795624164. 
+   The example NHS number is 3795624164. 
 
-```` 
-GET https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/baseDstu3/Patient?identifier=3795624164
-````
+   ```` 
+   GET https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/baseDstu3/Patient?identifier=3795624164
+   ````
 
-[Web interface response for search for patient with NHS number](https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/search?serverId=home&resource=Patient&param.0.0=&param.0.1=3795624164&param.0.name=identifier&param.0.type=token&sort_by=&sort_direction=&resource-search-limit)
+   [Web interface response for search for patient with NHS number](https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/search?serverId=home&resource=Patient&param.0.0=&param.0.1=3795624164&param.0.name=identifier&param.0.type=token&sort_by=&sort_direction=&resource-search-limit)
 
-[Same result as HTML](https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/baseDstu3/Patient?identifier=3795624164)
+   [Same result as HTML](https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/baseDstu3/Patient?identifier=3795624164)
+
+   #### Sample of the HTML result: see `Patient` parameter `id` is 43
+   ````html
+   {
+  "resourceType": "Bundle",
+  "id": "c93a13fc-3a1a-4df8-a9dd-9dbc05473026",
+  "type": "searchset",
+  "total": 1,
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/baseDstu3/Patient?identifier=3795624164"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/baseDstu3/Patient/43",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "43",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2018-03-15T14:57:23.164+00:00"
+
+   ````
+
+2. Select the `DiagnosticReport` resource.  
+Add the `patient` parameter, and enter the `id` from  previous query: 43.  
 
 
-Using the `DiagnosticReport` resource base query, add the `patient.identifier` parameter (the NHS number) with value 3795624164 to the URL.  
-In this example, the result format is html/xml.
+   ````
+GET https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/baseDstu3/DiagnosticReport?patient=43
+   ````
 
-````
-GET  https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/baseDstu3/DiagnosticReport?patient.identifier=3795624164&_format=html/xml
-````
+   [Web interface response to DiagnosticReport query with patient id parameter 43](https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/search?serverId=home&resource=DiagnosticReport&param.0.0=&param.0.1=43&param.0.name=patient&param.0.type=reference&sort_by=&sort_direction=&resource-search-limit
+)  
 
-[Response to DiagnosticReport query with patient identifier parameter in html/xml format](https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/baseDstu3/DiagnosticReport?patient.identifier=3795624164&_format=html/xml)
+   The list of results are ordered by `DiagnosticReport` id.  
+   You can select and view an individual report from the web interface.  
+   
+   [Same response as HTML](https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/baseDstu3/DiagnosticReport?patient=43)
+
+
 
 The C# code sample shows how to build a query, within a console application. [See Getting Started for package installation instructions](/apiguides_getting_started).
 
@@ -74,9 +107,21 @@ namespace DHEW_DemoFhirConsole
 }
 ````
 
-### View a patient's test result
+### View a patient's single test result
 
-The C# code sample below illustrates how to view a patient's test result using a DiagnosticReport id, which will have been retrieved using the previous call.
+Select the `DiagnosticReport` resource.  
+Add parameter `_id` and enter the resource ID. Example value: 11011.  
+
+````
+GET https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/baseDstu3/DiagnosticReport?_id=11011
+````
+
+[Web interface response for DiagnosticReport with single _id value](https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/search?serverId=home&resource=DiagnosticReport&param.0.0=&param.0.1=11011&param.0.name=_id&param.0.type=token&sort_by=&sort_direction=&resource-search-limit)
+
+[Same result in HTML](https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/baseDstu3/DiagnosticReport?_id=11011)
+
+
+The C# code sample below illustrates how to build this query using the `DiagnosticReport` parameter `_id`.
 
 ````c#
 DiagnosticReport diagnosticReport = client.Read<DiagnosticReport>("DiagnosticReport/11011"); Console.WriteLine(diagnosticReport.Text.Div);
@@ -125,45 +170,63 @@ These results are expressed as FHIR `Observation` resources, which in turn refer
 
 The diagnosticReport.Results field contains references to the four 'top level' results.  
 
-For simplicity, all the observations are included as 'contained' resources within the DiagnosticReport FHIR resource - see the notes on contained resources [URL:https://hl7.org/fhir/STU3/references.html#contained](https://hl7.org/fhir/STU3/references.html#contained). 
+For simplicity, all the observations are included as 'contained' resources within the `DiagnosticReport` FHIR resource. [See the notes from H17 on contained resources](https://hl7.org/fhir/STU3/references.html#contained). 
 
-This structure for a DiagnosticReport conaining nested `Observations` contained within the report is based on this example from the FHIR specification  [URL: http://hl7.org/fhir/STU3/diagnosticreport-example-ghp.html](http://hl7.org/fhir/STU3/diagnosticreport-example-ghp.html).
+This structure for a `DiagnosticReport` containing nested `Observations` follows [this example from the FHIR specification](http://hl7.org/fhir/STU3/diagnosticreport-example-ghp.html).
 
-### Chart a patient's test result data
+### Retrieve a series of a single test, to build a chart
 
-The C# code sample below illustrates how to chart a patient's test result data. In this example, we'll retrieve all the sodim results for the patient using the code NA. 
+This use case has two steps.
 
-This code is Wales Result Report Service code, and this system is identified by the URI: 
+1. Retrieve all the sodium results for a patient, using Wales Results Reports Service (WRRS) code NA.  
 
-[https://fhir.nhs.uk/Id/nhs-number](https://fhir.nhs.uk/Id/nhs-number)
+   Select the resource `Observation`.  
+   Add the parameters `patient` with resource id 43, and parameter `code` as NA.  
+   
+   ````
+   GET https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/baseDstu3/Observation?patient=43&code=NA
+   ````
+   
+   [Web interface response for query of Observation with two parameters](https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/search?serverId=home&resource=Observation&param.0.0=&param.0.1=43&param.0.name=patient&param.0.type=reference&param.1.0=&param.1.1=NA&param.1.name=code&param.1.type=token&sort_by=&sort_direction=&resource-search-limit)
+   
+   The list of results are ordered by `Observation` id.  
 
-````c#  
-var observationCode = "NA";  
+   [Same result as HTML](https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/baseDstu3/Observation?patient=43&code=NA)
+   
+   
+   The C# code sample below illustrates how to display a patient's test result data, using their NHS number, and the WRRS observation code.
 
-var wrrsSystemIdentifier = "http://wrrs.wales.nhs.uk";  
+   The WRRS system is identified by the URI: [https://fhir.nhs.uk/Id/nhs-number](https://fhir.nhs.uk/Id/nhs-number)
 
-Bundle sodiumObservations = client.Search<Observation>(new string[]  
-{
+   ````c#  
+   var observationCode = "NA";  
+
+   var wrrsSystemIdentifier = "http://wrrs.wales.nhs.uk";  
+
+   Bundle sodiumObservations = client.Search<Observation>(new string[]  
+   {
     $"patient.identifier={nhsNoSystemIdentifier}|{patientId}",  
     $"code={wrrsSystemIdentifier}|{observationCode}"  
 	
-});
+   });
 
-foreach (var entry in sodiumObservations.Entry)
-{
-    Observation sodiumObservation = entry.Resource as Observation;
-    Console.WriteLine(((Quantity)sodiumObservation?.Value)?.ValueElement.Value);
-}
-````
+   foreach (var entry in sodiumObservations.Entry)
+      {
+       Observation sodiumObservation = entry.Resource as Observation;
+       Console.WriteLine(((Quantity)sodiumObservation?.Value)?.ValueElement.Value);
+   }
+   ````
 
-This code writes the patient's sodium result values to the console.  
 
-These values values can be taken along with the result date to a graph for display to the user.
+   The same search via URL:
 
-The same search via URL:
-
-````
+   ````
 https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/baseDstu3/Observation?patient.identifier=https://fhir.nhs.uk/Id/nhs-number%7C3795624164&code=http://wrrs.wales.nhs.uk%7CNA&_format=html/xml
-````
+   ````
+
+   This code writes the patient's sodium result values to the console.  
+
+2. Take these values along with the result dates to a graph for display to the user.
+
 
 {% include links.html %}
