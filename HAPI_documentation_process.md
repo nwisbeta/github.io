@@ -30,24 +30,35 @@ Only collaborators on the nwisbeta repository (maximum of 3) have admin permissi
   * Jekyll for Windows, using RubyInstaller and Bundler https://jekyllrb.com/docs/installation/windows/
 * within the organisation repository, download and set up Jekyll documentation theme https://idratherbewriting.com/documentation-theme-jekyll/
 
-### Documentation theme notes
+NOTE: with the nwisbeta site now established, you do not need another copy of the documentation theme, unless you are building a new site from scratch.
 
-Set up pages following the documentation theme instructions on the site. Some features are not yet in full use but are available for future iterations.
+## Jekyll
 
-Most content controls used on the nwisbeta site (for editing headers, footers, top and side navigation) appear in the following files:
+If you have not used Jekyll before, see the Jekyll website for an intro.
+
+TL:dr: You create content: text in kramdown Markdown, add images or data in appropriate folders.  
+
+You commit the content to your local repository, and run Jekyll from the command line.  
+
+Jekyll creates the HTML versions of the pages. You don't need to edit any HTML manually.
+
+## Documentation theme notes
+
+The nwisbeta.github.io site was set up following the documentation theme instructions. Some features are not yet in full use but are available for future iterations.
+
+Most content controls used on the nwisbeta site (for editing headers, footers, top and side navigation) appear in:
 
 * _config.yml
 * _data/topnav.yml
 * _data/sidebars/mydoc_sidebar.yml
 * _includes/footer.html
 
-Jekyll creates the HTML versions of the pages. You don't need to edit them manually.
-
 Run Jekyll locally to preview pages in your browser at 127.0.0.1:4000/
 
 You must run Jekyll within the nwisbeta.github.io directory on your local machine. It will generate errors if you try to run it from another directory.
 
-### Adding new content to the site
+
+## Adding new content to the site
 
 This process requires:
 
@@ -55,10 +66,10 @@ This process requires:
 * basic familiarity with Git commands
 * the tools described in the technical setup installed on your local machine.
 
-1. Clone the nwisbeta site from GitHub, to your local machine.
-https://github.com/nwisbeta/nwisbeta.github.io.git
+1. Clone the nwisbeta site from GitHub, to your local machine.  
+   https://github.com/nwisbeta/nwisbeta.github.io.git
 
-   If you already have a copy of the site, pull a current version of the repository using Git commands.
+   If you already have a local copy of the site, pull a current version of the repository using Git commands.
 
 2. Open Notepad++, and open the nwisbeta.github.io folder as a workspace.
 
