@@ -2,9 +2,7 @@
 
 * define document requirements
 * assess existing documentation available
-* examine best practice and comperable API documentation examples, as modelled by NHS Digital [https://developer.nhs.uk/apis/](https://developer.nhs.uk/apis/)   
-
-Examples include:
+* examine best practice and comperable API documentation examples, as modelled by NHS Digital [https://developer.nhs.uk/apis/](https://developer.nhs.uk/apis/). Examples include:
   * Minimum viable product sample: [http://www.openods.co.uk/](http://www.openods.co.uk/) 
   * Target product sample: [https://developer.nhs.uk/apis/ods/](https://developer.nhs.uk/apis/ods/)
   * High quality example for depth and thoroughness [https://developer.nhs.uk/apis/nrls/index.html](https://developer.nhs.uk/apis/nrls/index.html)
@@ -31,7 +29,7 @@ Only collaborators on the nwisbeta repository can submit pull requests (ie publi
 * within the organisation repository, download and set up Jekyll documentation theme https://idratherbewriting.com/documentation-theme-jekyll/
 * set up pages following the documentation theme instructions.
 
-Most content controls for this site (eg editing headers, footers, top and side navigation) appear in the following files:
+Most content controls used on the nwisbeta site (editing headers, footers, top and side navigation) appear in the following files:
 
 * _config.yml
 * _data/topnav.yml
