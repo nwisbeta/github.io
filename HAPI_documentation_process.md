@@ -1,7 +1,7 @@
 ## Documentation process to date
 
-* define document requirements
 * assess existing documentation available
+* define documentation requirements: API guide based on best practice
 * examine best practice and comperable API documentation examples, as modelled by NHS Digital [https://developer.nhs.uk/apis/](https://developer.nhs.uk/apis/). Examples include:
   * Minimum viable product sample: [http://www.openods.co.uk/](http://www.openods.co.uk/) 
   * Target product sample: [https://developer.nhs.uk/apis/ods/](https://developer.nhs.uk/apis/ods/)
@@ -13,10 +13,11 @@
 
 ## Open source comments and corrections
 
-Each page includes an 'Edit Me' button. The button links to a 'reviews_feedback' branch of nwisbeta.github.io repository.
+On the nwis.github.io pages, each page includes an 'Edit Me' button. The button links to a 'reviews_feedback' branch of nwisbeta.github.io repository.
 
-Anyone with GitHub access can add comments or corrections to the text and commit them. 
-Only collaborators on the nwisbeta repository can submit pull requests (ie publish changes). 
+Anyone with a GitHub account can add comments or corrections to the text and commit them.   
+
+Only collaborators on the nwisbeta repository (maximum of 3) have admin permissions to submit pull requests (ie publish changes). 
 
 ## Technical setup required to build GitHub Pages
 
