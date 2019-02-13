@@ -22,8 +22,17 @@ Anyone with GitHub access can add comments or corrections to the text and commit
 
 * obtain full permissions to download and run software on the laptop
 * set up a GitHub personal login, and an organisation account
-* start an organisation respository, and set up GitHub Pages. Free organisation repositories are public. 
+* start an organisation respository (github.com/nwisbeta), and set up GitHub Pages. Free organisation repositories are public. 
 * download and run:
   * Git for Windows https://gitforwindows.org/
   * Jekyll for Windows, using RubyInstaller and Bundler https://jekyllrb.com/docs/installation/windows/
 * within the organisation repository, download and set up Jekyll documentation theme https://idratherbewriting.com/documentation-theme-jekyll/
+* set up pages following the documentation theme instructions.
+
+Most content controls for this site (eg editing headers, footers, top and side navigation) appear in the following files:
+
+* _config.yml
+* _data/topnav.yml
+* _data/sidebars/mydoc_sidebar.yml
+* _includes/footer.html
+
