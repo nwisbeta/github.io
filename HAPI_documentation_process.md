@@ -27,7 +27,7 @@ Only collaborators on the nwisbeta repository can submit pull requests (ie publi
   * Git for Windows https://gitforwindows.org/
   * Jekyll for Windows, using RubyInstaller and Bundler https://jekyllrb.com/docs/installation/windows/
 * within the organisation repository, download and set up Jekyll documentation theme https://idratherbewriting.com/documentation-theme-jekyll/
-* set up pages following the documentation theme instructions.
+* set up pages following the documentation theme instructions 
 
 Most content controls used on the nwisbeta site (editing headers, footers, top and side navigation) appear in the following files:
 
@@ -36,3 +36,12 @@ Most content controls used on the nwisbeta site (editing headers, footers, top a
 * _data/sidebars/mydoc_sidebar.yml
 * _includes/footer.html
 
+Create new content in .md files, using kramdown Markdown, and let Jekyll create the HTML versions of the pages. 
+
+References:
+
+* https://idratherbewriting.com/documentation-theme-jekyll/index.html
+* https://jekyllrb.com/docs/installation/windows/
+* https://kramdown.gettalong.org/quickref.html
+* https://help.github.com/categories/github-pages-basics/
+* https://git-scm.com/doc
