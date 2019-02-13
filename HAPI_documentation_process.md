@@ -2,9 +2,11 @@
 
 * define document requirements
 * assess existing documentation available
-* examine best practice and comperable API documentation examples, as modelled by NHS Digital [https://developer.nhs.uk/apis/](https://developer.nhs.uk/apis/) Examples include:
+* examine best practice and comperable API documentation examples, as modelled by NHS Digital [https://developer.nhs.uk/apis/](https://developer.nhs.uk/apis/)   
+
+Examples include:
   * Minimum viable product sample: [http://www.openods.co.uk/](http://www.openods.co.uk/) 
-  * Target product sa,[;e: [https://developer.nhs.uk/apis/ods/](https://developer.nhs.uk/apis/ods/)
+  * Target product sample: [https://developer.nhs.uk/apis/ods/](https://developer.nhs.uk/apis/ods/)
   * High quality example for depth and thoroughness [https://developer.nhs.uk/apis/nrls/index.html](https://developer.nhs.uk/apis/nrls/index.html)
   
 * move existing documentation from Word and PDF format to GitHub, in the preferred Jekyll documentation theme
@@ -15,8 +17,8 @@
 
 Each page includes an 'Edit Me' button. The button links to a 'reviews_feedback' branch of nwisbeta.github.io repository.
 
-Anyone with GitHub access can add comments or corrections to the text and commit them. Pull requests are limited to collaborators, who have admin privileges. 
-
+Anyone with GitHub access can add comments or corrections to the text and commit them. 
+Only collaborators on the nwisbeta repository can submit pull requests (ie publish changes). 
 
 ## Technical setup required to build GitHub Pages
 
