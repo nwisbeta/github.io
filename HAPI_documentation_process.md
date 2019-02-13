@@ -11,13 +11,6 @@
 * ask questions to address gaps in current documentation, particularly user need and audience
 * refine existing documentation towards the example goals
 
-## Open source comments and corrections
-
-On the nwis.github.io pages, each page includes an 'Edit Me' button. The button links to a 'reviews_feedback' branch of nwisbeta.github.io repository.
-
-Anyone with a GitHub account can add comments or corrections to the text and commit them.   
-
-Only collaborators on the nwisbeta repository (maximum of 3) have admin permissions to submit pull requests (ie publish changes). 
 
 ## Technical setup required to build GitHub Pages
 
@@ -36,9 +29,9 @@ NOTE: with the nwisbeta site now established, you do not need another copy of th
 
 If you have not used Jekyll before, see the Jekyll website for an intro.
 
-TL:dr: You create content: text in kramdown Markdown, add images or data in appropriate folders.  
+TL:dr: You create content: text in kramdown Markdown, add images or data, and save content in appropriate folders.  
 
-You commit the content to your local repository, and run Jekyll from the command line.  
+You commit (and push) the content, and run Jekyll from the command line.  
 
 Jekyll creates the HTML versions of the pages. You don't need to edit any HTML manually.
 
@@ -56,7 +49,6 @@ Most content controls used on the nwisbeta site (for editing headers, footers, t
 Run Jekyll locally to preview pages in your browser at 127.0.0.1:4000/
 
 You must run Jekyll within the nwisbeta.github.io directory on your local machine. It will generate errors if you try to run it from another directory.
-
 
 ## Adding new content to the site
 
@@ -77,13 +69,16 @@ This process requires:
 
 3. Use the GitBash command line interface to add and commit changes, using Git commands.  
  
-   You can view your changes before pushing them to the repository by running Jekyll in the commandline: `bundle exec jekyll serve`.
+4. View your changes *before* pushing them to the repository (and making them live) by running Jekyll in the commandline: `bundle exec jekyll serve`.  View the site in your browser at 127.0.0.1:4000/
 
-For new API products: 
+5. Push content to the repository.
+
+For new entries in the side navigation (like a new API): 
 
 1. In the command line, use `mkdir` under /pages to create a new directory.
 
-2. Create new content within the directory, saved as .md files, using kramdown Markdown. Use a previous .md file as an example for the frontmatter, changing the file paths for the new content. Jekyll requires the frontmatter to create the HTML versions of pages. 
+2. Create new content within the directory, saved as .md files, using kramdown Markdown. 
+   Use a previous .md file as an example for the frontmatter, changing the file paths for the new content. Jekyll requires the frontmatter to create the HTML versions of pages correctly. 
 
 3. In _data/sidebars/mydoc_sidebar.yml, add the new directory as an entry in the side navigation. Note the syntax and indentation for the entry. Every indent space matters.
 
@@ -91,6 +86,17 @@ For new API products:
 
 5. Run Jekyll locally to check the pages appear correctly before pushing to the repository.
 
+## Open source comments and corrections
+
+On the nwis.github.io pages, each page includes an 'Edit Me' button. The button links to the nwisbeta.github.io repository.  
+
+Editing files requires a GitHub account.  
+
+GitHub account holders who attempt to edit create a fork of the site, in their *own* accounts. They can add comments or corrections to the text, commit them, and send a pull request. The pull request appears in the nwisbeta repository.
+
+Only collaborators with admin permissions on the nwisbeta repository can approve pull requests (ie publish changes). 
+
+Not yet tested edits submitted by collaborators who have generic permissions.
 
 ## References:
 
