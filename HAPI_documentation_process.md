@@ -21,28 +21,71 @@ Only collaborators on the nwisbeta repository (maximum of 3) have admin permissi
 
 ## Technical setup required to build GitHub Pages
 
-* obtain full permissions to download and run software on the laptop
-* set up a GitHub personal login, and an organisation account
+* obtain full permissions to download and run software on the local machine
+* set up a GitHub personal login, and an organisation account (nwisbeta)
 * start an organisation respository (github.com/nwisbeta), and set up GitHub Pages. Free organisation repositories are public. 
-* download and run:
-  * Git for Windows https://gitforwindows.org/
+* download and install the following tools, using instructions on their sites:
+  * Notepad++ https://notepad-plus-plus.org/ as tool to build the site on the laptop
+  * Git for Windows https://gitforwindows.org/ to upload content to GitHub. GitBash provides command line interface
   * Jekyll for Windows, using RubyInstaller and Bundler https://jekyllrb.com/docs/installation/windows/
 * within the organisation repository, download and set up Jekyll documentation theme https://idratherbewriting.com/documentation-theme-jekyll/
-* set up pages following the documentation theme instructions 
 
-Most content controls used on the nwisbeta site (editing headers, footers, top and side navigation) appear in the following files:
+### Documentation theme notes
+
+Set up pages following the documentation theme instructions on the site. Some features are not yet in full use but are available for future iterations.
+
+Most content controls used on the nwisbeta site (for editing headers, footers, top and side navigation) appear in the following files:
 
 * _config.yml
 * _data/topnav.yml
 * _data/sidebars/mydoc_sidebar.yml
 * _includes/footer.html
 
-Create new content in .md files, using kramdown Markdown, and let Jekyll create the HTML versions of the pages. 
+Jekyll creates the HTML versions of the pages. You don't need to edit them manually.
 
-References:
+Run Jekyll locally to preview pages in your browser at 127.0.0.1:4000/
+
+You must run Jekyll within the nwisbeta.github.io directory on your local machine. It will generate errors if you try to run it from another directory.
+
+### Adding new content to the site
+
+This process requires:
+
+* GitHub account
+* basic familiarity with Git commands
+* the tools described in the technical setup installed on your local machine.
+
+1. Clone the nwisbeta site from GitHub, to your local machine.
+https://github.com/nwisbeta/nwisbeta.github.io.git
+
+   If you already have a copy of the site, pull a current version of the repository using Git commands.
+
+2. Open Notepad++, and open the nwisbeta.github.io folder as a workspace.
+
+   From Notepad++ you can edit existing files and save changes locally.
+
+3. Use the GitBash command line interface to add and commit changes, using Git commands.  
+ 
+   You can view your changes before pushing them to the repository by running Jekyll in the commandline: `bundle exec jekyll serve`.
+
+For new API products: 
+
+1. In the command line, use `mkdir` under /pages to create a new directory.
+
+2. Create new content within the directory, saved as .md files, using kramdown Markdown. Use a previous .md file as an example for the frontmatter, changing the file paths for the new content. Jekyll requires the frontmatter to create the HTML versions of pages. 
+
+3. In _data/sidebars/mydoc_sidebar.yml, add the new directory as an entry in the side navigation. Note the syntax and indentation for the entry. Every indent space matters.
+
+4. Save files. Add and commit using Git commands. 
+
+5. Run Jekyll locally to check the pages appear correctly before pushing to the repository.
+
+
+## References:
 
 * https://idratherbewriting.com/documentation-theme-jekyll/index.html
 * https://jekyllrb.com/docs/installation/windows/
 * https://kramdown.gettalong.org/quickref.html
 * https://help.github.com/categories/github-pages-basics/
 * https://git-scm.com/doc
+* https://notepad-plus-plus.org/ 
