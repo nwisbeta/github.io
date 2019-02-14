@@ -2,7 +2,7 @@
 title: "Documentation process for NWIS Health APIs"
 keywords: NWIS HAPI APIs
 tags: [NWIS, NWIS_API, DHEW, API]
-permalink: index.html
+permalink: 
 summary: An outline of documentation process for Health APIs.
 ---
 
