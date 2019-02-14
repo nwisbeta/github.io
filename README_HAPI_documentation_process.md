@@ -27,3 +27,10 @@ summary: An outline of documentation process for Health APIs.
 * review meeting to consider input and changes, and agree what to changes (optional) 
 * incorporate comments and publish update, incrementing the document number and title as required
 
+## References
+
+* https://idratherbewriting.com/learnapidoc/
+* https://developer.nhs.uk/apis/
+* https://developer.nhs.uk/learn/fhir-profile-vs-api/
+* http://hl7.org/fhir/STU3/overview-dev.html 
+

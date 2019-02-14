@@ -21,17 +21,17 @@ NOTE: with the nwisbeta site now established, you do not need another copy of th
 
 ## Jekyll
 
-If you have not used Jekyll before, see the Jekyll website for an intro.
+If you have not used Jekyll before, [see the Jekyll website for an intro](https://jekyllrb.com/tutorials/convert-site-to-jekyll/#what-is-a-jekyll-website).
 
-TL:dr: You create content: text in kramdown Markdown, add images or data, and save content in appropriate folders.  
+TL:dr: You create content: mainly text in kramdown Markdown. Add images or data. Save content in appropriate folders.  
 
 You commit (and push) the content, and run Jekyll from the command line.  
 
-Jekyll creates the HTML versions of the pages. You don't need to edit any HTML manually.
+Jekyll creates the HTML versions of the pages, following the instructions in the theme to provide the layout, formatting and navigation. *You don't need to edit any HTML manually.*
 
 ## Documentation theme notes
 
-The nwisbeta.github.io site was set up following the documentation theme instructions. Some features are not yet in full use but are available for future iterations.
+The nwisbeta.github.io site was set up following the documentation theme instructions. Some features are not yet in use but are available for future iterations.
 
 Most content controls used on the nwisbeta site (for editing headers, footers, top and side navigation) appear in:
 
@@ -42,7 +42,7 @@ Most content controls used on the nwisbeta site (for editing headers, footers, t
 
 Run Jekyll locally to preview pages in your browser at 127.0.0.1:4000/
 
-You must run Jekyll within the nwisbeta.github.io directory on your local machine. It will generate errors if you try to run it from another directory.
+You *must* run Jekyll within the nwisbeta.github.io directory on your local machine. It will generate errors if you try to run it from another directory.
 
 ## Adding new content to the site
 
@@ -50,7 +50,7 @@ This process requires:
 
 * GitHub account
 * basic familiarity with Git commands
-* the tools described in the technical setup installed on your local machine.
+* the tools described in the technical setup installed on your local machine
 
 1. Clone the nwisbeta site from GitHub, to your local machine.  
    https://github.com/nwisbeta/nwisbeta.github.io.git
@@ -74,7 +74,7 @@ For new entries in the side navigation (like a new API):
 2. Create new content within the directory, saved as .md files, using kramdown Markdown. 
    Use a previous .md file as an example for the frontmatter, changing the file paths for the new content. Jekyll requires the frontmatter to create the HTML versions of pages correctly. 
 
-3. In _data/sidebars/mydoc_sidebar.yml, add the new directory as an entry in the side navigation. Note the syntax and indentation for the entry. Every indent space matters.
+3. In _data/sidebars/mydoc_sidebar.yml, add the new directory as an entry in the side navigation. Pay attention to  the syntax and indentation for the entry. Every indent space matters.
 
 4. Save files. Add and commit using Git commands. 
 
@@ -90,9 +90,9 @@ GitHub account holders who attempt to edit create a fork of the site, in their *
 
 Only collaborators with admin permissions on the nwisbeta repository can approve pull requests (ie publish changes). 
 
-Not yet tested edits submitted by collaborators who have generic permissions.
+Not yet tested: how GitHub handles edits submitted by collaborators who have non-admin permissions.
 
-## References:
+## References
 
 * https://idratherbewriting.com/documentation-theme-jekyll/index.html
 * https://jekyllrb.com/docs/installation/windows/
