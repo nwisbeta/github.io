@@ -21,13 +21,13 @@ NOTE: you do not need another copy of the documentation theme, unless you are bu
 
 ## Jekyll
 
-If you have not used Jekyll before, [see the Jekyll website for an ground-up intro](https://jekyllrb.com/tutorials/convert-site-to-jekyll/#what-is-a-jekyll-website).
+If you have not used Jekyll before, [see the Jekyll website for a ground-up intro](https://jekyllrb.com/tutorials/convert-site-to-jekyll/#what-is-a-jekyll-website).
 
-TL:dr: You create content: mainly text in kramdown Markdown. Add images or data. Save content in appropriate folders.  
+**TL:dr**: You create content: mainly text in kramdown Markdown. Add images or data. Save content in appropriate folders.  
 
 You commit (and push) the content, and run Jekyll from the command line.  
 
-Jekyll creates the HTML versions of the pages, following the instructions in the theme to provide the layout, formatting and navigation. *You don't need to edit any HTML manually.*
+Jekyll creates the HTML versions of the pages, following the instructions in the theme to provide the layout, formatting and navigation. **You don't need to edit any HTML manually.**
 
 ## Documentation theme notes
 
@@ -48,7 +48,7 @@ You *must* run Jekyll within the nwisbeta.github.io directory on your local mach
 
 This process requires:
 
-* GitHub account
+* a GitHub account
 * basic familiarity with Git commands
 * the software tools described in the technical setup, installed on your local machine
 
@@ -63,7 +63,7 @@ This process requires:
 
 3. Use the GitBash command line interface to add and commit changes, using Git commands.  
  
-4. View your changes *before* pushing them to the repository (and making them live) by running Jekyll in the commandline: `bundle exec jekyll serve`.  View the site in your browser at 127.0.0.1:4000/
+4. View your changes **before** pushing them to the repository (and making them live) by running Jekyll in the commandline: `bundle exec jekyll serve`.  View the site in your browser at 127.0.0.1:4000/
 
 5. Push content to the repository.
 
