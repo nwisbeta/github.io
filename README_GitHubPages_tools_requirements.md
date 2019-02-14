@@ -15,13 +15,13 @@ summary: An outline of software, publishing tools and skills required to documen
   * Notepad++ https://notepad-plus-plus.org/ as tool to build the site on the laptop
   * Git for Windows https://gitforwindows.org/ to upload content to GitHub. GitBash provides command line interface
   * Jekyll for Windows, using RubyInstaller and Bundler https://jekyllrb.com/docs/installation/windows/
-* within the organisation repository, download and set up Jekyll documentation theme https://idratherbewriting.com/documentation-theme-jekyll/
+* download and set up [Jekyll documentation theme](https://idratherbewriting.com/documentation-theme-jekyll/) within the organisation repository
 
-NOTE: with the nwisbeta site now established, you do not need another copy of the documentation theme, unless you are building a new site from scratch.
+NOTE: you do not need another copy of the documentation theme, unless you are building a new site from scratch.
 
 ## Jekyll
 
-If you have not used Jekyll before, [see the Jekyll website for an intro](https://jekyllrb.com/tutorials/convert-site-to-jekyll/#what-is-a-jekyll-website).
+If you have not used Jekyll before, [see the Jekyll website for an ground-up intro](https://jekyllrb.com/tutorials/convert-site-to-jekyll/#what-is-a-jekyll-website).
 
 TL:dr: You create content: mainly text in kramdown Markdown. Add images or data. Save content in appropriate folders.  
 
@@ -50,14 +50,14 @@ This process requires:
 
 * GitHub account
 * basic familiarity with Git commands
-* the tools described in the technical setup installed on your local machine
+* the software tools described in the technical setup, installed on your local machine
 
 1. Clone the nwisbeta site from GitHub, to your local machine.  
-   https://github.com/nwisbeta/nwisbeta.github.io.git
+   https://github.com/nwisbeta/nwisbeta.github.io.git 
 
    If you already have a local copy of the site, pull a current version of the repository using Git commands.
 
-2. Open Notepad++, and open the nwisbeta.github.io folder as a workspace.
+2. In Notepad++, open the nwisbeta.github.io folder as a workspace.
 
    From Notepad++ you can edit existing files and save changes locally.
 
@@ -90,7 +90,7 @@ GitHub account holders who attempt to edit create a fork of the site, in their *
 
 Only collaborators with admin permissions on the nwisbeta repository can approve pull requests (ie publish changes). 
 
-Not yet tested: how GitHub handles edits submitted by collaborators who have non-admin permissions.
+Not yet tested: how GitHub handles edits submitted by collaborators with non-admin permissions.
 
 ## References
 
