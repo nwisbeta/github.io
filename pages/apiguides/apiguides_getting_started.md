@@ -2,7 +2,7 @@
 title: Getting Started
 keywords: 
 sidebar: mydoc_sidebar
-toc: false
+toc: true
 permalink: apiguides_getting_started.html
 folder: apiguides
 ---
@@ -14,6 +14,18 @@ From the HL7® FHIR® [product brief](https://www.hl7.org/implement/standards/pr
 > FHIR is an interoperability standard intended to facilitate the exchange of healthcare information between organizations. It consists of 2 main parts – a content model in the form of ‘resources’, and a specification for the exchange of these resources in the form of real-time RESTful interfaces as well as messaging and Documents.
 
 See a [full description of the FHIR® specification](http://hl7.org/fhir/index.html).
+
+## Rate limit
+
+No rate limit applied on this server: suitable for testing purposes only.
+
+## Authentication  
+
+No authentication steps required to access the test server.
+
+## Authorisation
+
+No authorisation steps required to access the tests server.
 
 ## System requirements
 
