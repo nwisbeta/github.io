@@ -16,16 +16,5 @@ The goal is to create a library of Application Programming Interfaces (APIs) tha
 
 The project will provide access to the NHS Wales architecture in incremental phases, using internet-based application programming interfaces (APIs).  The initial phases deliver access to test case APIs.
  
-The first API developed by NHS Wales Informatics Service identifies the [demographic details (and NHS Number) of patients](/pt_dmgrphc_landing_page.html) presenting at NHS Wales.
- 
-## Test server
- [https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/](https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/)
- 
-This development is hosted on a test platform. The service must not be used or connected to any live system or service. 
-
-{% include note.html content="The data within the service is test data and must not be considered or used for live use. While the API implements the full FHIR specification, it only contains the data for 100 fictitious patient records, and some representative data." %}
-
-The service may be unavailable for maintenance.
-
 
 {% include links.html %}
