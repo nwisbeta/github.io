@@ -8,9 +8,9 @@ folder: ontoserver_codesystem
 
 ## CodeSystem resource
 
-The `CodeSystem` resource records which code system the Ontoserver is running. For NHS Wales' use, the code system is SNOMED CT, with the United Kingdom Edition reference set module. 
+The `CodeSystem` resource records which code system the Ontoserver is running. For NHS Wales' use, the code system is SNOMED CT, with the United Kingdom Edition reference set module.   
 
-The FHIR website provides [detailed documentation about the CodeSystem resource](https://www.hl7.org/fhir/STU3/codesystem.html).
+The FHIR website provides [detailed documentation about the CodeSystem resource](https://www.hl7.org/fhir/STU3/codesystem.html).  
 
 Querying the `CodeSystem` resource confirms its key properties:
 
@@ -22,7 +22,7 @@ Querying the `CodeSystem` resource confirms its key properties:
 
 ### View CodeSystem
 
-Enter the base URL with the `CodeSystem` resource. 
+Enter the base URL with the `CodeSystem` resource.   
 
 
 
