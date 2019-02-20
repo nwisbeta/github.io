@@ -48,7 +48,8 @@ To install the NuGet package to your .NET project, enter the following text in t
 
 ````cs
 PM> Install-Package Hl7.Fhir.Specification.STU3 -Version 0.94.0
-````
+````  
+
 ## Ontoserver
 
 Ontoserver is a clinical terminology server based on the Fast Health Interoperability Resources (FHIR) standard.  See the summary on [Ontoserver: a syndicated terminology server](https://doi.org/10.1186/s13326-018-0191-z) from Journal of Biomedical Semantics, 2018.
@@ -62,18 +63,34 @@ Some of its key features include:
 
 Designed in Australia, Ontoserver has syndicated international and localised versions, including one for use by NHS.
 
-[Ontoserver system requirements](https://ontoserver.csiro.au/docs/5.3/index.html) for installation are available from their site.
-
 Ontoserver is a means of providing access to the SNOMED CT ontology, which is the [clinical terminology standard for NHS Wales](http://gov.wales/docs/dhss/publications/151118whc053en.pdf)
 
-## Test Ontoservers
+{% include note.html content="This server is a test platform. The service must not be used or connected to any live system or service." %}
+
+### Rate limit
+
+No rate limit applied on this server: suitable for testing purposes only.
+
+### Authentication  
+
+No authentication steps required to access the test server.
+
+### Authorisation
+
+No authorisation steps required to access the test server.
+
+### Test Ontoservers
 
 * Ontoserver's public demonstration server, providing multiple ontology systems [https://ontoserver.csiro.au/stu3-latest/](https://ontoserver.csiro.au/stu3-latest/)
 * SNOMED CT Support Service (Ubuntu) [https://daleonto.ukwest.cloudapp.azure.com/fhir/](https://daleonto.ukwest.cloudapp.azure.com/fhir/)
 * SNOMED CT Support Service (Windows) [https://mjconto.ukwest.cloudapp.azure.com/fhir](https://mjconto.ukwest.cloudapp.azure.com/fhir)
 
-Ontoserver provide a package of sample APIs [from the Ontoserver home page](https://ontoserver.csiro.au/). 
+## System requirements
 
-These pages illustrate a relevant set of these URLs run in [Postman, the API development tool](https://www.getpostman.com/).
+[Ontoserver system requirements](https://ontoserver.csiro.au/docs/5.3/index.html) for installation are available from their site.
+
+A package of sample APIs are available [from the Ontoserver home page](https://ontoserver.csiro.au/). 
+
+These pages illustrate a set of these URLs run in [Postman, the API development tool](https://www.getpostman.com/), to ensure the server is responding correctly.
 
 {% include links.html %}
