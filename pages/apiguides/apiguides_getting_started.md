@@ -50,7 +50,7 @@ To install the NuGet package to your .NET project, enter the following text in t
 PM> Install-Package Hl7.Fhir.Specification.STU3 -Version 0.94.0
 ````  
 
-## Ontoserver
+## Ontoserver using FHIR® standard
 
 Ontoserver is a clinical terminology server based on the Fast Health Interoperability Resources (FHIR) standard.  See the summary on [Ontoserver: a syndicated terminology server](https://doi.org/10.1186/s13326-018-0191-z) from Journal of Biomedical Semantics, 2018.
 
@@ -67,6 +67,8 @@ Ontoserver is a means of providing access to the SNOMED CT ontology, which is th
 
 {% include note.html content="This server is a test platform. The service must not be used or connected to any live system or service." %}
 
+The FHIR [Terminology Module](https://hl7.org/fhir/STU3/terminology-module.html) documents the terminology resources, operations and concepts used most frequently on the Ontoserver.
+
 ### Rate limit
 
 No rate limit applied on this server: suitable for testing purposes only.
@@ -81,9 +83,9 @@ No authorisation steps required to access the test server.
 
 ### Test Ontoservers
 
+* NHS Wales Ontoserver, serving SNOMED CT [https://nhswales-snomed-dev.app/fhir/
+](https://nhswales-snomed-dev.app/fhir/)
 * Ontoserver's public demonstration server, providing multiple ontology systems [https://ontoserver.csiro.au/stu3-latest/](https://ontoserver.csiro.au/stu3-latest/)
-* SNOMED CT Support Service (Ubuntu) [https://daleonto.ukwest.cloudapp.azure.com/fhir/](https://daleonto.ukwest.cloudapp.azure.com/fhir/)
-* SNOMED CT Support Service (Windows) [https://mjconto.ukwest.cloudapp.azure.com/fhir](https://mjconto.ukwest.cloudapp.azure.com/fhir)
 
 ## System requirements
 

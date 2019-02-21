@@ -7,11 +7,25 @@ permalink: ontoserver_codesystem_landing_page.html
 folder: ontoserver_codesystem 
 ---
 
-## CodeSystem resource
+## FHIR resource: CodeSystem
 
-The `CodeSystem` resource records which code system the Ontoserver is running. For NHS Wales' use, the code system is SNOMED CT, with the United Kingdom Edition reference set module.   
+The FHIR `CodeSystem` resource defines the code systems the a server instance has available.  
 
 The FHIR website provides [detailed documentation about the CodeSystem resource](https://www.hl7.org/fhir/STU3/codesystem.html).  
+
+Ontoserver supports multiple code systems, including SNOMED CT and specialist ontologies for laboratory processes.  
+
+NHS Wales uses SNOMED CT as its base code system, with the United Kingdom Edition reference set module.  
+
+These API examples use the NHS Wales Ontoserver.
+
+### View available Code Systems
+
+Enter the base URL with the `CodeSystem` resource.   
+
+`
+GET http://nhswales-snomed-dev.app/fhir/CodeSystem
+`
 
 Querying the `CodeSystem` resource confirms its key properties:
 
@@ -21,9 +35,57 @@ Querying the `CodeSystem` resource confirms its key properties:
 * What filters can be used in value sets that use the code system in a ValueSet.compose element
 * What properties the concepts defined by the code system
 
-### View CodeSystem
+The response should list:
 
-Enter the base URL with the `CodeSystem` resource.   
+* which SNOMED CT version is installed
+* SNOMED CT United Kingdom Edition reference set
+* any previous versions, most recent first, with a summary of changes to the version
 
+### Search for all Code Systems on a server, and list their names and URLs
 
+Search for code systems using search result parameter `_elements`.
+
+`
+GET http://nhswales-snomed-dev.app/fhir/CodeSystem?_elements=name%2Curl
+`  
+
+For this resource:
+
+* `name`: a computer-friendly name (not the same as a 'title' or 'id')
+* `url`: the code system's globally-unique URI
+
+### Search for CodeSystem by URL  
+
+FHIR identifies all code systems with a globally-unique logical URI. If you know the URL you're looking for, you can find all the code systems that use that URL.
+
+`
+GET http://nhswales-snomed-dev.app/fhir/CodeSystem?url:below=http://snomed.info
+`  
+
+In this example, the search subsumes any URLs that contain [http://snowmed.info](http://snowmed.info).
+
+A single server can contain multiple editions (national) or versions (published quarterly or half-yearly) of SNOWMED CT. 
+
+### Use $Lookup Operation on the CodeSystem to find an individual concept
+
+The CodeSystem resource supports operations including $lookup, $subsumes, and $compose. 
+
+If you know a concept's unique identifier, you can find its entry on the server.
+
+Rocket fuel  
+`
+GET http://nhswales-snomed-dev.app/fhir/CodeSystem/$lookup?system=http://snomed.info/sct&code=77132009
+
+`
+
+Myocardial infarction  
+`
+GET http://nhswales-snomed-dev.app/fhir/CodeSystem/$lookup?system=http://snomed.info/sct&code=22298006
+`
+
+Appendectomy/Appendicectomy  
+
+`
+GET http://nhswales-snomed-dev.app/fhir/CodeSystem/$lookup?system=http://snomed.info/sct&code=80146002
+`
 

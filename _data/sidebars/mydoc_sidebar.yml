@@ -75,7 +75,7 @@ entries:
       url: /diag_obs_reports_use_cases.html
       output: web, pdf
       
-  - title: "Ontoserver: Code System API"
+  - title: "Ontoserver: CodeSystem APIs"
     output: web, pdf
     folderitems:
     
