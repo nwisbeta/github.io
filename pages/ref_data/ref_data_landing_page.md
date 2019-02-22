@@ -13,11 +13,40 @@ The Reference Data API enables users to retrieve NHS organisational data: in par
 
 {% include note.html content="The data within the service is test data and must not be considered or used for live use. While the API implements the full FHIR specification, it only contains the data for 100 fictitious patient records, and some representative data." %}
 
+The FHIR website provides full documentation for all resources.
+
+## Resource: Organization
+
+The full FHIR resource `Organization` is a base resource, with [13  parameters](https://www.hl7.org/fhir/STU3/organization.html) for building search queries, as well as the [common parameters that apply to all resources](https://www.hl7.org/fhir/STU3/search.html#all).
+
+The interface provides a [brief description of each parameter](https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/resource?serverId=home&pretty=true&resource=Organization) in the drop-down field.
+
+### Parameters in the use cases
+
+|Parameters | Description |
+|-------|--------|
+|identifier | identifies the organisation across multiple systems: for NHS Wales, the Organisational Data Services (ODS) National Code | 
+|_id | the resource's logical id |
+|type | the kind of organisation described |
+|partof | the organisation of which this organisation forms a part |
+
+## Resource: Practitioner
+
+The full FHIR resource `Practitioner` is a base resource, with [17 parameters](https://www.hl7.org/fhir/STU3/practitioner.html) for building search queries, as well as the[common parameters that apply to all resources](https://www.hl7.org/fhir/STU3/search.html#all).
+
+### Parameters in the use cases
+
+|Parameters | Description |
+|-------|--------|
+|identifier | identifies the practitioner - for NHS Wales, use the practitioner's National Code |
+
+
+
 
 | Reference Data Type | FHIR Resource Type | 
 |-------|--------|
-| Health Boards | `Organisation` |
-| General Practices | `Organisation` |
+| Health Boards | `Organization` |
+| General Practices | `Organization` |
 | General Practitioners | `Practitioner` |
 | Practitioner Role | `PractitionerRole` |
 

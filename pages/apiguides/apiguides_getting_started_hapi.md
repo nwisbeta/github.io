@@ -41,7 +41,7 @@ From the home page, the HAPI server's interface makes some basic server actions 
 * posting a bundle and storing them, in a single actions
 * showing all tags in use on the server
 
-### Endpoints
+## Endpoints
 
 The HAPI server offers dozens of potential endpoints by enabling developers to build precise search queries and CRUD operations. 
 
@@ -55,15 +55,15 @@ Clicking any populated resource pulls up the resource's search and operations pa
 
 See [`Observation` resource search page](https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/resource?serverId=home&pretty=true&resource=Observation) as example. 
 
-### Rate limit
+## Rate limit
 
 No rate limit applied on this server: suitable for testing purposes only.
 
-### Authentication  
+## Authentication  
 
 No authentication steps required to access the test server.
 
-### Authorisation
+## Authorisation
 
 No authorisation steps required to access the test server.
 
