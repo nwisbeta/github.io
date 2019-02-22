@@ -24,13 +24,9 @@ entries:
     folderitems:
 
     - title: Health APIs for NHS Wales
-      url: /index.html
+      url: /apiguides_landing_page.html
       output: web, pdf
       type: homepage
-
-    - title: Partnership
-      url: /apiguides_partnership.html
-      output: web, pdf
       
     - title: Getting Started
       url: /apiguides_getting_started.html
