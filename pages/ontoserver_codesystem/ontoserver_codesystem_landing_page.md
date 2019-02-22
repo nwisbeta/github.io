@@ -66,28 +66,15 @@ In this example, the search subsumes any URLs that contain [http://snowmed.info]
 
 A single server can contain multiple editions (national) or versions (published quarterly or half-yearly) of SNOWMED CT. 
 
-### Use $Lookup Operation on the CodeSystem to find an individual concept
+### $Lookup operation on CodeSystem to find a concept
 
 The CodeSystem resource supports operations including $lookup, $subsumes, and $compose. 
 
 If you know a concept's unique identifier, you can find its entry on the server.
 
-Rocket fuel  
-
-`
-GET http://nhswales-snomed-dev.app/fhir/CodeSystem/$lookup?system=http://snomed.info/sct&code=77132009
-
-`
-
-Myocardial infarction  
+Search for myocardial infarction, a disorder with several synonyms  
 
 `
 GET http://nhswales-snomed-dev.app/fhir/CodeSystem/$lookup?system=http://snomed.info/sct&code=22298006
-`
-
-Appendectomy/Appendicectomy  
-
-`
-GET http://nhswales-snomed-dev.app/fhir/CodeSystem/$lookup?system=http://snomed.info/sct&code=80146002
 `
 

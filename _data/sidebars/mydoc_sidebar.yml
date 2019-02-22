@@ -24,16 +24,16 @@ entries:
     folderitems:
 
     - title: Health APIs for NHS Wales
-      url: /index.html
+      url: /apiguides_landing_page.html
       output: web, pdf
       type: homepage
-
-    - title: Partnership
-      url: /apiguides_partnership.html
+      
+    - title: Getting Started with HAPI server
+      url: /apiguides_getting_started_hapi.html
       output: web, pdf
       
-    - title: Getting Started
-      url: /apiguides_getting_started.html
+    - title: Getting Started with Ontoserver
+      url: /apiguides_getting_started_ontoserver.html
       output: web, pdf
       
   - title: Patient Demographic Data API
