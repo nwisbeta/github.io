@@ -6,6 +6,7 @@ toc: true
 permalink: apiguides_getting_started_hapi.html
 folder: apiguides
 ---
+## HAPI-FHIR server
 
 The APIs on the HAPI server use the HL7® Fast Healthcare Interoperability Resources (FHIR®) specification. 
 
@@ -13,13 +14,10 @@ From the HL7® FHIR® [product brief](https://www.hl7.org/implement/standards/pr
 
 > FHIR is an interoperability standard intended to facilitate the exchange of healthcare information between organizations. It consists of 2 main parts – a content model in the form of ‘resources’, and a specification for the exchange of these resources in the form of real-time RESTful interfaces as well as messaging and Documents.
 
-See a [full description of the FHIR® specification](http://hl7.org/fhir/index.html).
-
-## HAPI-FHIR server
-
- [https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/](https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/)
- 
 This development is a test platform. The service must not be used or connected to any live system or service. 
+
+[https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/](https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/)
+ 
 
 {% include note.html content="The data within the service is test data and must not be considered or used for live use. While the API implements the full FHIR specification, it only contains the data for 100 fictitious patient records, and some representative data." %}
 
