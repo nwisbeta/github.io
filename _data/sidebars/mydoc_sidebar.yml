@@ -29,7 +29,7 @@ entries:
       type: homepage
       
     - title: Getting Started
-      url: /apiguides_getting_started.html
+      url: /apiguides_getting_started_hapi.html
       output: web, pdf
       
   - title: Patient Demographic Data API
