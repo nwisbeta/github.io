@@ -49,6 +49,8 @@ The APIs featured use `GET` queries that can integrate into existing information
 
 This full implementation of FHIR includes all FHIR resources, though only some contain example data for testing. The resources appear in the interface showing number of entries.
 
+The full implementation includes many parameters that are not needed for NHS Wales, such as the veterinary parameters.
+
 Clicking any populated resource pulls up the resource's search and operations page, with search parameters and includes applicable to that resource.
 
 See [`Observation` resource search page](https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/resource?serverId=home&pretty=true&resource=Observation) as example. 
