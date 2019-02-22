@@ -58,7 +58,7 @@ GET https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/baseDstu3/Organization
 
 Select the resource `Organization`.  
 
-Add parameter `_id` - the ID of the resource.  
+Add parameter `_id` - the logical id of the resource.  
 
 Example value: 364
 
@@ -211,9 +211,9 @@ GET https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/baseDstu3/Organization
 
 This query uses two parameters for the `Organization` resource:
 * `type` - examples include HB for Health Board and GPP for General Practice
-* `partof` - an organisation of which this organisation forms a part. Value is the organisation's FHIR `_id` 
+* `partof` - an organisation of which this organisation forms a part. Value is the organisation resource's logical `_id` 
 
-If  you know the `identifier` ODS National Code for the Health Board,  you can find out its FHIR `_id`.
+If  you know the `identifier` ODS National Code for the Health Board,  you can find out its resource `_id`.
 
 1. Using the ODS code 7A1 from the previous use case, search for an organisation using parameter `identifier`:
 
@@ -315,7 +315,7 @@ This query allows you to search for general practitioners who work at a specific
 
 Select the `PractitionerRole` resource.  
 Include the resource `Practitioner`, with the parameter `practitioner`.  
-Add the parameter `Organization` with the FHIR ID value 430 - the ID for an example practice.
+Add the parameter `Organization` with the resource's logical id value 430 - the ID for an example practice.
 
 ````
 GET 

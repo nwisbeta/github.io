@@ -30,19 +30,6 @@ The interface provides a [brief description of each parameter](https://dhew.wale
 |type | the kind of organisation described |
 |partof | the organisation of which this organisation forms a part |
 
-## Resource: Practitioner
-
-The full FHIR resource `Practitioner` is a base resource, with [17 parameters](https://www.hl7.org/fhir/STU3/practitioner.html) for building search queries, as well as the[common parameters that apply to all resources](https://www.hl7.org/fhir/STU3/search.html#all).
-
-### Parameters in the use cases
-
-|Parameters | Description |
-|-------|--------|
-|identifier | identifies the practitioner - for NHS Wales, use the practitioner's National Code |
-
-
-
-
 | Reference Data Type | FHIR Resource Type | 
 |-------|--------|
 | Health Boards | `Organization` |
@@ -52,12 +39,16 @@ The full FHIR resource `Practitioner` is a base resource, with [17 parameters](h
 
 ###	Relationships & Filtering
 
-The API populates the `partOf` element of the General Practice with the `FHIR Id` of the Heath Board and uses it to map the parent/child relationship between Health Board and General Practice. 
+The API populates the `partOf` element of the General Practice with the Health Board organization's logical id. This element makes the Health Board the 'parent' of the  General Practice 'child'. 
 
-The API uses the `PractitionerRole` resource to map the relationship between General Practitioners and General Practice. 
+The API uses the `PractitionerRole` resource to connect General Practitioners and General Practices. 
+
+A single Practitioner can hold more than one PractitionerRole.  The [FHIR PractitionerRole pages](https://www.hl7.org/fhir/STU3/practitionerrole.html#bnc) note:
+
+> Practitioner performs different roles within the same or even different organizations. Depending on jurisdiction and custom, it may be necessary to maintain a specific Practitioner Resource for each such role or have a single Practitioner with multiple roles. The role can be limited to a specific period, after which authorization for this role ends. Note that the represented organization need not necessarily be the (direct) employer of a Practitioner.  
 
 ### Organisation Types
-`Organisation` FHIR resource types are coded as follows:
+`Organisation` FHIR resource types in this example include:
  * `HB`
  * `GPPractice`
  
@@ -67,6 +58,33 @@ The API limits the number of results returned to 10.
 
 ### Language
 The API uses extension definitions to include both organisation names and addresses in both Welsh and English (where the data is available) in the returned dataset. See the use case and example queries.
+
+
+## Resource: Practitioner
+
+The full FHIR resource `Practitioner` is a base resource, with [17 parameters](https://www.hl7.org/fhir/STU3/practitioner.html) for building search queries, as well as the [common parameters that apply to all resources](https://www.hl7.org/fhir/STU3/search.html#all).
+
+### Parameters in the use cases
+
+|Parameters | Description |
+|-------|--------|
+|identifier | identifies the practitioner - for NHS Wales, use the practitioner's National Code |
+|practitioner | a person who provides defined services for the organisation |
+
+
+
+## Resource: PractitionerRole
+
+The full FHIR resource `PractitionerRole` is a base resource, with [13 parameters](https://www.hl7.org/fhir/STU3/practitionerrole.html) for building search queries, as well as the [common parameters that apply to all resources](https://www.hl7.org/fhir/STU3/search.html#all).
+
+### Parameters in the use cases
+
+|Parameters | Description |
+|-------|--------|
+|organization | the resource's logical id |
+
+
+
 
 
 
