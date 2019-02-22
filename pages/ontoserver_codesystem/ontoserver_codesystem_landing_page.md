@@ -73,12 +73,14 @@ The CodeSystem resource supports operations including $lookup, $subsumes, and $c
 If you know a concept's unique identifier, you can find its entry on the server.
 
 Rocket fuel  
+
 `
 GET http://nhswales-snomed-dev.app/fhir/CodeSystem/$lookup?system=http://snomed.info/sct&code=77132009
 
 `
 
 Myocardial infarction  
+
 `
 GET http://nhswales-snomed-dev.app/fhir/CodeSystem/$lookup?system=http://snomed.info/sct&code=22298006
 `
