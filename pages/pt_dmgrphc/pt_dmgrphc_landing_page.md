@@ -9,10 +9,7 @@ folder: pt_dmgrphc
 
 ## Introduction 
 
-The Patient Demographic Data API uses search on the `Patient` resource, to find patient records using patient demographic details, including:
-
-* family name and address
-* patient identifier - for NHS Wales, the patient's NHS number
+The Patient Demographic Data API uses search on the `Patient` resource, to find patient records using patient demographic details.
 
 {% include note.html content="The data within the service is test data and must not be considered or used for live use. While the API implements the full FHIR specification, it only contains the data for 100 fictitious patient records." %}
 
@@ -37,10 +34,6 @@ In FHIR, `identifier` is distinct from `_id`, which is the logical id of the res
 FHIR documentation [highlights this distinction](https://www.hl7.org/fhir/STU3/patient.html#ids) and notes:
 
 > A Patient record's Resource Id can never change. For this reason the identifiers with which humans are concerned (often called MRN - Medical Record Number, or UR - Unit Record) should not be used for the resource's id, since MRN's may change, i.e. as a result of having duplicate records of the same patient. Instead they should be represented in the Patient.identifier list where they can be managed. This is also useful for the case of institutions that have acquired multiple numbers because of mergers of patient record systems over time.
-
-
  
-
-
 
 {% include links.html %}

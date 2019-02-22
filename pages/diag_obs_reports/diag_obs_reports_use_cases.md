@@ -196,7 +196,7 @@ This use case has two steps.
    
    The C# code sample below illustrates how to display a patient's test result data, using their NHS number, and the WRRS observation code.
 
-   The WRRS system is identified by the URI: [https://fhir.nhs.uk/Id/nhs-number](https://fhir.nhs.uk/Id/nhs-number)
+   The WRRS system is identified by the URI: [http://wrrs.wales.nhs.uk](http://wrrs.wales.nhs.uk)
 
    ````c#  
    var observationCode = "NA";  
