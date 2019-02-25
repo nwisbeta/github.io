@@ -19,7 +19,7 @@ Building search queries through the FHIR server UI is a good way of learning how
 
 ### Retrieve a list of organizations
 
-Select the resource `Organization` (note US spelling).  
+Select the resource `Organization`.  
 Search without adding additional parameters.
 
 ````
