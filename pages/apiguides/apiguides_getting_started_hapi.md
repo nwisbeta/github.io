@@ -1,6 +1,7 @@
 ---
 title: Getting Started with HAPI server
 keywords: 
+tags: [getting_started, FHIR, HAPI]
 sidebar: mydoc_sidebar
 toc: true
 permalink: apiguides_getting_started_hapi.html

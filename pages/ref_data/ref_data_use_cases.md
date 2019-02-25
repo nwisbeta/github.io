@@ -1,5 +1,6 @@
 ---
 title: "Reference Data API: Use Case Queries"
+tags: [NWIS_API, FHIR, use_case, code_sample]
 keywords: 
 sidebar: mydoc_sidebar
 toc: true

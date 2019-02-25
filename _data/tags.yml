@@ -3,11 +3,12 @@
 # In other words, the last line must be the last tag in the allowed-tags list.
 allowed-tags:
   - getting_started
-  - NWIS
+  - FHIR
+  - HAPI
   - NWIS_API
   - DHEW
-  - API
   - resources
   - endpoints_and_methods
   - parameters
-  - request_example
+  - use_case
+  - code_sample

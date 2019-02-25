@@ -1,5 +1,6 @@
 ---
 title: Getting Started
+tags: [getting_started, FHIR]
 keywords: 
 sidebar: mydoc_sidebar
 toc: true

@@ -1,5 +1,6 @@
 ---
 title: Diagnostic Observations and Reports API
+tags: [NWIS_API, FHIR, resources, parameters, endpoints_and_methods]
 keywords: 
 sidebar: mydoc_sidebar
 toc: true
