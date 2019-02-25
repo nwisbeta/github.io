@@ -15,9 +15,7 @@ More information about the DHEW at [Life Sciences Hub Wales website](https://www
 The goal is to create a library of Application Programming Interfaces (APIs) that implementers can adopt to simplify integration and interoperability with NHS Wales National Architecture.
 
 The project will provide access to the NHS Wales architecture in incremental phases, using internet-based application programming interfaces (APIs).  The initial phases deliver access to test case APIs.
- 
-The first API developed by NHS Wales Informatics Service identifies the [demographic details (and NHS Number) of patients](/pt_dmgrphc_landing_page.html) presenting at NHS Wales.
- 
+  
 ## Test server
  [https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/](https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/)
  
