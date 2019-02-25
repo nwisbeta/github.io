@@ -5,6 +5,7 @@ allowed-tags:
   - getting_started
   - FHIR
   - HAPI
+  - NWIS
   - NWIS_API
   - DHEW
   - resources
