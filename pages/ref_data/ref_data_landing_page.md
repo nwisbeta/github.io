@@ -10,7 +10,7 @@ folder: ref_data
 
 ## Introduction 
 
-The Reference Data API enables users to retrieve NHS organisational data: in particular, to find individual organisations like a single GP practice, or a group of organisations, like all the GP practices within one health board.
+The Reference Data API enables users to retrieve NHS organizational data: in particular, to find individual organizations like a single GP practice, or a group of organizations, like all the GP practices within one health board.
 
 {% include note.html content="The data within the service is test data and must not be considered or used for live use. While the API implements the full FHIR specification, it only contains the data for 100 fictitious patient records, and some representative data." %}
 
@@ -26,10 +26,10 @@ The interface provides a [brief description of each parameter](https://dhew.wale
 
 |Parameters | Description |
 |-------|--------|
-|identifier | identifies the organisation across multiple systems: for NHS Wales, the Organisational Data Services (ODS) National Code | 
+|identifier | identifies the organization across multiple systems: for NHS Wales, the Organisational Data Services (ODS) National Code | 
 |_id | the resource's logical id |
-|type | the kind of organisation described |
-|partof | the organisation of which this organisation forms a part |
+|type | the kind of organization described |
+|partof | the organization of which this organization forms a part |
 
 | Reference Data Type | FHIR Resource Type | 
 |-------|--------|
@@ -48,7 +48,7 @@ A single Practitioner can hold more than one PractitionerRole.  The [FHIR Practi
 
 > Practitioner performs different roles within the same or even different organizations. Depending on jurisdiction and custom, it may be necessary to maintain a specific Practitioner Resource for each such role or have a single Practitioner with multiple roles. The role can be limited to a specific period, after which authorization for this role ends. Note that the represented organization need not necessarily be the (direct) employer of a Practitioner.  
 
-### Organisation Types
+### Organization Types
 `Organisation` FHIR resource types in this example include:
  * `HB`
  * `GPPractice`
@@ -58,7 +58,7 @@ A single Practitioner can hold more than one PractitionerRole.  The [FHIR Practi
 The API limits the number of results returned to 10.
 
 ### Language
-The API uses extension definitions to include both organisation names and addresses in both Welsh and English (where the data is available) in the returned dataset. See the use case and example queries.
+The API uses extension definitions to include both organization names and addresses in both Welsh and English (where the data is available) in the returned dataset. See the use case and example queries.
 
 
 ## Resource: Practitioner
@@ -70,7 +70,7 @@ The full FHIR resource `Practitioner` is a base resource, with [17 parameters](h
 |Parameters | Description |
 |-------|--------|
 |identifier | identifies the practitioner - for NHS Wales, use the practitioner's National Code |
-|practitioner | a person who provides defined services for the organisation |
+|practitioner | a person who provides defined services for the organization |
 
 
 

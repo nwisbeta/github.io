@@ -132,7 +132,7 @@ This code writes a text summary of the resource to the console.
 
 ````
 Laboratory number: 900012453904
-Result/Report origin: Organisation: 7A4 - Department: BSC
+Result/Report origin: Organization: 7A4 - Department: BSC
 
 Urea and Electrolytes [Plasma] (Authorised[A])
 Sodium                        140                   mmol/L          133-146
