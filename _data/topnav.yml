@@ -17,16 +17,14 @@ topnav_dropdowns:
       folderitems:
         - title: Overview
           url: /apiguides_landing_page.html
-        - title: Patient Demographic Data
+        - title: Patient Demographic Data API
           url: /pt_dmgrphc_landing_page.html
-        
-
+        - title: Reference Data API
+          url: /ref_data_landing_page.html        
+        - title: Diagnostic Observations and Reports API
+          url: /diag_obs_reports_landing_page.html        
     - title: Partners
       folderitems:
         - title: Life Sciences Hub
           external_url: https://lshubwales.com/
-        - title: HAPI FHIR
-          external_url: http://hapifhir.io/
-        - title: University Health Network
-          external_url: https://www.uhn.ca/
           
