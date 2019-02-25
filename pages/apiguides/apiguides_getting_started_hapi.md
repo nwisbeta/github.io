@@ -29,7 +29,7 @@ The service may be unavailable for maintenance.
 On its FHIR resources, the HAPI server supports:
 
 * multiple Search options
-* search History 
+* option to view the resource update History 
 * Validate operations
 * Create, Read, Update, and Delete (CRUD) operations
 
