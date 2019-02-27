@@ -26,6 +26,18 @@ Ontoserver is a means of providing access to the SNOMED CT ontology, which is th
 
 The FHIR [Terminology Module](https://hl7.org/fhir/STU3/terminology-module.html) documents the terminology resources, operations and concepts used most frequently on the Ontoserver.
 
+### Endpoints
+
+The Ontoserver offers dozens of endpoints by enabling developers to collect medical terminology from the server with queries. The queries are controlled with filters and parameters to widen or narrow them for a given request.
+
+No endpoint writes to, modifies or deletes data provided by the Ontoserver.
+
+The APIs featured use 
+
+* `GET` queries to confirm the server is populated with the correct data
+* `$expand` and `$validate` operations to test their performance on the `ValueSet` resource 
+
+
 ## NHS Wales Ontoserver
 
 [https://nhswales-snomed-dev.app/fhir/](https://nhswales-snomed-dev.app/fhir/)
