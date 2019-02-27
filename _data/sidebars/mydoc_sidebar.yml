@@ -83,3 +83,12 @@ entries:
       url: /ontoserver_codesystem_landing_page.html
       output: web, pdf
       type: homepage 
+
+  - title: "Ontoserver: ValueSet APIs"
+    output: web, pdf
+    folderitems:
+    
+    - title: Overview
+      url: /ontoserver_valueset_landing_page.html
+      output: web, pdf
+      type: homepage 

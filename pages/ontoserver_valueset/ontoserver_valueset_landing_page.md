@@ -13,6 +13,8 @@ The FHIR resource `ValueSet` specifies a set of codes drawn from one or more cod
 
 You can use value sets to limit the permitted values for elements, or specify values in a pick list on a user interface.
 
+`ValueSet` has 12 search parameters as well as the common parameters that apply to all resources. 
+
 Value sets containing only SNOMED CT components may be represented as SNOMED CT reference sets.
 
 The FHIR website provides [detailed documentation about the ValueSet resource](https://www.hl7.org/fhir/STU3/valueset.html).  
@@ -27,12 +29,41 @@ These API examples use the NHS Wales Ontoserver.
 
 Enter the base URL with the `ValueSet` resource.   
 
-The response depends on which value sets are installed on the given Ontoserver. the NHS Wales Ontoserver has no ValueSets specified.
+The response depends on which value sets are installed on the given Ontoserver. The NHS Wales Ontoserver has no ValueSets specified.
 
 `
 GET http://nhswales-snomed-dev.app/fhir/ValueSet
 `
+
 [HTML response for search of ValueSet](https://nhswales-snomed-dev.app/fhir/ValueSet)
 
 [Result of search on the public Ontoserver, with several ValueSet examples](https://stu3.ontoserver.csiro.au/fhir/ValueSet)
+
+### View all ValueSets with summarised results
+
+The common search result parameter `_summary` returns only a part of the resource. In this case, it returns only those elements marked as 'summary' in the resource's base definition.
+
+On a server with ValueSets implemented, a summarised request generates a much faster response  than an unsummarised one. 
+
+`
+https://nhswales-snomed-dev.app/fhir/ValueSet?_summary=true
+`
+
+[HTML response for search of ValueSet, summarised](https://nhswales-snomed-dev.app/fhir/ValueSet?_summary=true)
+
+
+### View all ValueSets with name 'a' 
+
+The `ValueSet` resource's structure includes both `name` (computer-friendly) and `title` (human friendly) elements. 
+
+Based on tests to other Ontoservers, this query returns results where the name of the ValueSet begins with 'a' (rather than contains 'a').
+
+`
+GET https://stu3.ontoserver.csiro.au/fhir/ValueSet?name=a
+`
+
+[HTML response to search for ValueSet with name starting with 'a'](http://nhswales-snomed-dev.app/fhir/ValueSet?name=a)
+
+[Result of same search on public Ontoserver with multiple ValueSet examples](https://stu3.ontoserver.csiro.au/fhir/ValueSet?name=a)
+
 

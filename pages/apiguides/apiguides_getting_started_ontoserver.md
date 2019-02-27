@@ -30,7 +30,7 @@ The FHIR [Terminology Module](https://hl7.org/fhir/STU3/terminology-module.html)
 
 The Ontoserver offers dozens of endpoints by enabling developers to collect medical terminology from the server with queries. The queries are controlled with filters and parameters to widen or narrow them for a given request.
 
-No endpoint writes to, modifies or deletes data provided by the Ontoserver.
+No endpoint in these APIs writes to, modifies or deletes data provided by the Ontoserver.
 
 The APIs featured use 
 
