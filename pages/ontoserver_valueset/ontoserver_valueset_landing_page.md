@@ -90,3 +90,19 @@ To restrict results to the $expand operation, you can add a text filter, so the 
 `
 
 [HTML response to expand ValueSet with concepts subsumed by concept 'Event', filtered for text 'met'](https://nhswales-snomed-dev.app/fhir/ValueSet/$expand?url=http://snomed.info/sct?fhir_vs=isa/272379006&filter=met)
+
+### $expand and use ECL to search several ValueSets with Filter of “plaster” 
+
+SNOMED CT's Expression Constraint Language (ECL) allows you to build complex searches of resources in the query, from the URL. 
+
+In this example, the query specifies that the server search several concepts by their codes, and sets a string filter of 'plaster' to narrow the search.
+
+In plain text the ECL search string is
+
+`<<105590001 OR <<373873005 OR <<10358901000001101 OR <<14423008 OR << 80919006&filter=plaster`
+
+`GET https://nhswales-snomed-dev.app/fhir/ValueSet/$expand?url=http://snomed.info/sct?fhir_vs=ecl/%3C%3C105590001%20OR%20%3C%3C373873005%20OR%20%3C%3C10358901000001101%20OR%20%3C%3C14423008%20OR%20%3C%3C80919006&filter=plaster
+`
+
+[HTML response to search of selected ValueSets using ECL](https://nhswales-snomed-dev.app/fhir/ValueSet/$expand?url=http://snomed.info/sct?fhir_vs=ecl/%3C%3C105590001%20OR%20%3C%3C373873005%20OR%20%3C%3C10358901000001101%20OR%20%3C%3C14423008%20OR%20%3C%3C80919006&filter=plaster)
+
