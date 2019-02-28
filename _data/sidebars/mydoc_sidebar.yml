@@ -32,7 +32,7 @@ entries:
       url: /apiguides_getting_started_hapi.html
       output: web, pdf
       
-    - title: Getting Started with Ontoserver
+    - title: Getting Started with SNOMED CT
       url: /apiguides_getting_started_ontoserver.html
       output: web, pdf
       
@@ -75,7 +75,7 @@ entries:
       url: /diag_obs_reports_use_cases.html
       output: web, pdf
       
-  - title: "Ontoserver: CodeSystem APIs"
+  - title: "SNOMED: CodeSystem APIs"
     output: web, pdf
     folderitems:
     
@@ -84,7 +84,7 @@ entries:
       output: web, pdf
       type: homepage 
 
-  - title: "Ontoserver: ValueSet APIs"
+  - title: "SNOMED: ValueSet APIs"
     output: web, pdf
     folderitems:
     
