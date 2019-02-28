@@ -80,6 +80,7 @@ The FHIR website provides [documentation on ValueSet operations](http://hl7.org/
 
 ` GET http://nhswales-snomed-dev.app/fhir/ValueSet/$expand?url=http://snomed.info/sct?fhir_vs=isa/272379006
 `
+
 [HTML response to expand ValueSet with all codes subsumed by the concept 'Event'](https://nhswales-snomed-dev.app/fhir/ValueSet/$expand?url=http://snomed.info/sct?fhir_vs=isa/272379006)
 
 ### $expand a ValueSet with all concepts subsumed by 'Event', filtered by string 'met'
@@ -87,7 +88,7 @@ The FHIR website provides [documentation on ValueSet operations](http://hl7.org/
 To restrict results to the $expand operation, you can add a text filter, so the results must contain the string specified.
 
 ` GET http://nhswales-snomed-dev.app/fhir/ValueSet/$expand?url=http://snomed.info/sct?fhir_vs=isa/272379006&filter=met 
-`
+`  
 
 [HTML response to expand ValueSet with concepts subsumed by concept 'Event', filtered for text 'met'](https://nhswales-snomed-dev.app/fhir/ValueSet/$expand?url=http://snomed.info/sct?fhir_vs=isa/272379006&filter=met)
 
