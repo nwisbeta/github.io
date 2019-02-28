@@ -1,5 +1,5 @@
 ---
-title: "Ontoserver: ValueSet APIs"
+title: "Ontology server: ValueSet APIs"
 keywords: 
 sidebar: mydoc_sidebar
 toc: true
@@ -23,7 +23,7 @@ The FHIR website provides [detailed documentation about the ValueSet resource](h
 
 NHS Wales uses SNOMED CT as its base code system, with the United Kingdom Edition reference set module.  
 
-These API examples use the NHS Wales Ontoserver.
+These API examples use the NHS Wales test ontology server.
 
 ### View available ValueSets
 
@@ -37,7 +37,7 @@ GET http://nhswales-snomed-dev.app/fhir/ValueSet
 
 [HTML response for search of ValueSet](https://nhswales-snomed-dev.app/fhir/ValueSet)
 
-[Result of search on the public Ontoserver, with several ValueSet examples](https://stu3.ontoserver.csiro.au/fhir/ValueSet)
+[Result of search on a public test ontology server, with several ValueSet examples](https://stu3.ontoserver.csiro.au/fhir/ValueSet)
 
 ### View all ValueSets with summarised results
 
@@ -56,7 +56,7 @@ https://nhswales-snomed-dev.app/fhir/ValueSet?_summary=true
 
 The `ValueSet` resource's structure includes both `name` (computer-friendly) and `title` (human friendly) elements. 
 
-Based on tests to other Ontoservers, this query returns results where the name of the ValueSet begins with 'a' (rather than contains 'a').
+Based on tests to other ontology servers, this query returns results where the name of the ValueSet begins with 'a' (rather than contains 'a').
 
 `
 GET https://stu3.ontoserver.csiro.au/fhir/ValueSet?name=a
@@ -64,6 +64,6 @@ GET https://stu3.ontoserver.csiro.au/fhir/ValueSet?name=a
 
 [HTML response to search for ValueSet with name starting with 'a'](http://nhswales-snomed-dev.app/fhir/ValueSet?name=a)
 
-[Result of same search on public Ontoserver with multiple ValueSet examples](https://stu3.ontoserver.csiro.au/fhir/ValueSet?name=a)
+[Result of same search on public test ontology server with multiple ValueSet examples](https://stu3.ontoserver.csiro.au/fhir/ValueSet?name=a)
 
 

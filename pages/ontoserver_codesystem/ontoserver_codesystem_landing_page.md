@@ -1,5 +1,5 @@
 ---
-title: "Ontoserver: CodeSystem APIs"
+title: "Ontology server: CodeSystem APIs"
 keywords: 
 sidebar: mydoc_sidebar
 toc: true
@@ -13,11 +13,11 @@ The FHIR `CodeSystem` resource defines the code systems the a server instance ha
 
 The FHIR website provides [detailed documentation about the CodeSystem resource](https://www.hl7.org/fhir/STU3/codesystem.html).  
 
-Ontoserver supports multiple code systems, including SNOMED CT and specialist ontologies for laboratory processes.  
+An ontology server can support multiple code systems, including SNOMED CT and specialist ontologies for laboratory processes.  
 
 NHS Wales uses SNOMED CT as its base code system, with the United Kingdom Edition reference set module.  
 
-These API examples use the NHS Wales Ontoserver.
+These API examples use the NHS Wales test ontology server.
 
 ### View available Code Systems
 
@@ -40,7 +40,7 @@ The response should list:
 `
 GET http://nhswales-snomed-dev.app/fhir/CodeSystem
 `
-[HTML result of search for CodeSystem on the Ontoserver](https://nhswales-snomed-dev.app/fhir/CodeSystem)
+[HTML response to search for CodeSystem on the Ontoserver](https://nhswales-snomed-dev.app/fhir/CodeSystem)
 
 ### Search for all Code Systems on a server, and list their names and URLs
 
@@ -55,7 +55,7 @@ For this resource:
 GET http://nhswales-snomed-dev.app/fhir/CodeSystem?_elements=name%2Curl
 `  
 
-[HTML version of search for CodeSystems on a server, listing names and URIs](https://nhswales-snomed-dev.app/fhir/CodeSystem?_elements=name%2Curl)
+[HTML response to search for CodeSystems on a server, listing names and URIs](https://nhswales-snomed-dev.app/fhir/CodeSystem?_elements=name%2Curl)
 
 
 ### Search for CodeSystem by URL  
@@ -83,4 +83,4 @@ Search for myocardial infarction, a disorder with several synonyms.
 GET http://nhswales-snomed-dev.app/fhir/CodeSystem/$lookup?system=http://snomed.info/sct&code=22298006
 `
 
-[HTML version of $Lookup for myocardial infarction](https://nhswales-snomed-dev.app/fhir/CodeSystem/$lookup?system=http://snomed.info/sct&code=22298006)
+[HTML response of $lookup for myocardial infarction](https://nhswales-snomed-dev.app/fhir/CodeSystem/$lookup?system=http://snomed.info/sct&code=22298006)
