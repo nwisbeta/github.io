@@ -68,31 +68,31 @@ GET http://nhswales-snomed-dev.app/fhir/ValueSet?name=a)
 
 [Result of same search on public test ontology server with multiple ValueSet examples](https://stu3.ontoserver.csiro.au/fhir/ValueSet?name=a)
 
-### $expand a ValueSet with all concepts subsumed by the concept 'Event'
+### $expand implicit ValueSet with all concepts subsumed by the concept 'Event'
 
 $expand is an operation available on the `ValueSet` resource: by expanding the definition of a single concept, you can create a collection of codes suitable for data entry or data validation. It uses the canonical URL for the concept 'Event' as its definition.
 
 In this operation, the server returns all the codes that are 'under' (subsumed by) the code for the SNOMED concept of 'Event'. 
 
-These more narrowly-defined events are 'implicit' in the 'Events' concept. 
+The FHIR website provides [documentation on using SNOMED with FHIR, and on implicit ValueSet queries](https://hl7.org/fhir/STU3/snomedct.html#implicit). From the website:
 
-The FHIR website provides [documentation on ValueSet operations](http://hl7.org/fhir/STU3/valueset-operations.html).
+> Implicit value sets are those whose specification can be predicted based on the grammar of the underlying code system, and the known structure of the URL that identifies them. SNOMED CT has two common sets of implicit value sets defined: By Subsumption, and By Reference Set. These implicit value sets do not use complex queries. This allows a single URL to serve as a value set definition that defines a value set, and can serve as the basis for the $expansion operation.
 
 ` GET http://nhswales-snomed-dev.app/fhir/ValueSet/$expand?url=http://snomed.info/sct?fhir_vs=isa/272379006
 `
 
 [HTML response to expand ValueSet with all codes subsumed by the concept 'Event'](https://nhswales-snomed-dev.app/fhir/ValueSet/$expand?url=http://snomed.info/sct?fhir_vs=isa/272379006)
 
-### $expand a ValueSet with all concepts subsumed by 'Event', filtered by string 'met'
+### $expand implicit ValueSet with all concepts subsumed by 'Event', filtered by string 'met'
 
-To restrict results to the $expand operation, you can add a text filter, so the results must contain the string specified.
+This query builds on the previous $expand operation. To restrict results to the $expand operation, you can add a text filter, so the results must contain the string specified.
 
 ` GET http://nhswales-snomed-dev.app/fhir/ValueSet/$expand?url=http://snomed.info/sct?fhir_vs=isa/272379006&filter=met 
 `  
 
 [HTML response to expand ValueSet with concepts subsumed by concept 'Event', filtered for text 'met'](https://nhswales-snomed-dev.app/fhir/ValueSet/$expand?url=http://snomed.info/sct?fhir_vs=isa/272379006&filter=met)
 
-### $expand and use ECL to search several ValueSets with Filter of “plaster” 
+### $expand and use ECL to search several ValueSets with a filter string of 'plaster'
 
 SNOMED CT's Expression Constraint Language (ECL) allows you to build complex searches of resources in the query, from the URL. 
 
@@ -102,12 +102,52 @@ From [SNOMED ECL documentation](https://confluence.ihtsdotools.org/display/DOCEC
 
 > Two consecutive 'less than' signs (i.e. "<<") indicates that the expression constraint is satisfied by all descendants of the specified concept plus the specified concept itself. 
 
-In plain text the ECL search string is
+In plain text, the ECL search string is
 
-`<<105590001 OR <<373873005 OR <<10358901000001101 OR <<14423008 OR << 80919006&filter=plaster`
+> <<105590001 OR <<373873005 OR <<10358901000001101 OR <<14423008 OR << 80919006&filter=plaster
 
 `GET https://nhswales-snomed-dev.app/fhir/ValueSet/$expand?url=http://snomed.info/sct?fhir_vs=ecl/%3C%3C105590001%20OR%20%3C%3C373873005%20OR%20%3C%3C10358901000001101%20OR%20%3C%3C14423008%20OR%20%3C%3C80919006&filter=plaster
 `
 
 [HTML response to search of selected ValueSets using ECL](https://nhswales-snomed-dev.app/fhir/ValueSet/$expand?url=http://snomed.info/sct?fhir_vs=ecl/%3C%3C105590001%20OR%20%3C%3C373873005%20OR%20%3C%3C10358901000001101%20OR%20%3C%3C14423008%20OR%20%3C%3C80919006&filter=plaster)
+
+### $expand all available reference sets  
+
+Reference sets (refsets) are a feature in SNOMED CT for enabling local customisation. From the [SNOMED Confluence pages](https://confluence.ihtsdotools.org/display/DOCTIG/3.2.1.+Reference+Sets):
+
+> Practical uses of Reference Sets include:
+> * Indicating the descriptions that contain acceptable and preferred term for each concept in a particular language or dialect;
+> * Subsets of components that are included, excluded from the set of values that can be used in a particular country, organization, specialty or data entry context;
+> * Frequency of use of descriptions or concepts in particular country, organization, specialty or context;
+Suitability of particular concepts for use in a particular field in a record or message;
+> * Structure and ordering of hierarchies displaying concepts for user navigation.
+
+This query operation expands all concept IDs that correspond to real reference sets defined in the specified SNOMED CT edition.
+
+`GET https://nhswales-snomed-dev.app/fhir/ValueSet/$expand?url=http://snomed.info/sct?fhir_vs=refset
+`
+
+[HTML response to expanding all refsets](https://nhswales-snomed-dev.app/fhir/ValueSet/$expand?url=http://snomed.info/sct?fhir_vs=refset)
+
+### $expand all available refsets with a filter of 'allergy' 
+
+In this operation, the results of the $expand refset operation are filtered with a text string 'allergy'. So of all refsets available, the response will list only those with 'allergy' in the name.
+
+`GET https://nhswales-snomed-dev.app/fhir/ValueSet/$expand?url=http://snomed.info/sct?fhir_vs=refset&filter=allergy
+`
+
+[HTML response to expanding the refsets, then filtering results](https://nhswales-snomed-dev.app/fhir/ValueSet/$expand?url=http://snomed.info/sct?fhir_vs=refset&filter=allergy)
+
+### $validate a code to ensure it exists within a ValueSet, and matches its display wording
+
+The FHIR website [describes this ValueSet operation](https://hl7.org/fhir/STU3/valueset-operations.html#4.8.16.2). 
+
+`GET https://nhswales-snomed-dev.app/fhir/ValueSet/$validate-code?system=http://snomed.info/sct&code=122298005&url=http://snomed.info/sct?fhir_vs&display=Astrovirus%20RNA%20assay
+`
+
+In this instance, the code system is case sensitive. The display string 'Astrovirus RNA assay' gets a 'true' result, but the display string 'astrovirus RNA assay' gets only partial confirmation. See example.
+
+[HTML response to $validate operation for 'Astrovirus RNA assay'](https://nhswales-snomed-dev.app/fhir/ValueSet/$validate-code?system=http://snomed.info/sct&code=122298005&url=http://snomed.info/sct?fhir_vs&display=Astrovirus%20RNA%20assay)
+
+[HTML response to $validate operation for (lowercase) 'astrovirus RNA assay'](https://nhswales-snomed-dev.app/fhir/ValueSet/$validate-code?system=http://snomed.info/sct&code=122298005&url=http://snomed.info/sct?fhir_vs&display=astrovirus%20RNA%20assay)
 
