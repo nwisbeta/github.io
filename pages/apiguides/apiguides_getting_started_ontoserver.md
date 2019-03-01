@@ -9,13 +9,13 @@ folder: apiguides
 
 ## SNOMED CT using FHIR® standard
 
-NHS Wales is testing a clinical terminology server based on the Fast Health Interoperability Resources (FHIR) standard.  See the summary on [Ontoserver: a syndicated terminology server](https://doi.org/10.1186/s13326-018-0191-z) from Journal of Biomedical Semantics, 2018.
+NHS Wales is testing APIs that provide access to the  SNOMED CT ontology, provided by a dedicated ontology server.
 
-An ontology server provides access to the SNOMED CT ontology, which is the [clinical terminology standard for NHS Wales](http://gov.wales/docs/dhss/publications/151118whc053en.pdf)
+SNOMED CT is the [clinical terminology standard for NHS Wales](http://gov.wales/docs/dhss/publications/151118whc053en.pdf).
+
+SNOMED follows the Fast Health Interoperability Resources (FHIR) standard.  The FHIR [Terminology Module](https://hl7.org/fhir/STU3/terminology-module.html) documents the terminology resources, operations and concepts used most frequently to incorporate medical terminology.
 
 {% include note.html content="This server is a test platform. The service must not be used or connected to any live system or service." %}
-
-The FHIR [Terminology Module](https://hl7.org/fhir/STU3/terminology-module.html) documents the terminology resources, operations and concepts used most frequently on this test server.
 
 ### Endpoints
 
@@ -34,8 +34,6 @@ The APIs featured use
 [https://nhswales-snomed-dev.app/fhir/](https://nhswales-snomed-dev.app/fhir/)
 
 This server has SNOMED CT as a base ontology, with the United Kingdom reference set.
-
-Ontoserver has a public demonstration server, providing multiple ontology systems [https://ontoserver.csiro.au/stu3-latest/](https://ontoserver.csiro.au/stu3-latest/)
 
 ### Rate limit
 

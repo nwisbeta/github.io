@@ -1,5 +1,5 @@
 ---
-title: "Ontology server: CodeSystem APIs"
+title: "SNOMED: CodeSystem APIs"
 keywords: 
 sidebar: mydoc_sidebar
 toc: true

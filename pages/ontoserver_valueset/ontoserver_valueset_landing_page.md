@@ -1,5 +1,5 @@
 ---
-title: "Ontology server: ValueSet APIs"
+title: "SNOMED: ValueSet APIs"
 keywords: 
 sidebar: mydoc_sidebar
 toc: true
@@ -96,7 +96,11 @@ To restrict results to the $expand operation, you can add a text filter, so the 
 
 SNOMED CT's Expression Constraint Language (ECL) allows you to build complex searches of resources in the query, from the URL. 
 
-In this example, the query specifies that the server search several concepts by their codes, and sets a string filter of 'plaster' to narrow the search.
+In this example, the query specifies that the server search several expanded concepts by their codes, and sets a string filter of 'plaster' to narrow the search. The double 'less than' sign includes the top level concept in the search.
+
+From [SNOMED ECL documentation](https://confluence.ihtsdotools.org/display/DOCECL/6.1+Simple+Expression+Constraints)
+
+> Two consecutive 'less than' signs (i.e. "<<") indicates that the expression constraint is satisfied by all descendants of the specified concept plus the specified concept itself. 
 
 In plain text the ECL search string is
 
