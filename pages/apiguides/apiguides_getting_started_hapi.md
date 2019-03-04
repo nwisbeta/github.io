@@ -73,7 +73,9 @@ No authorisation steps required to access the test server.
 NWIS used the Hl7.Fhir.Specification.STU3 NuGet package,
 which provides client tools and functionality for working with the FHIR specification.
 
-[Download package and read documentation](http://ewoutkramer.github.io/fhir-net-api/)
+[Download package](http://ewoutkramer.github.io/fhir-net-api/)
+
+[Read documentation](http://docs.simplifier.net/fhirnetapi/index.html)
 
 To install the NuGet package to your .NET project, enter the following text in the Package Manager Console: 
 
