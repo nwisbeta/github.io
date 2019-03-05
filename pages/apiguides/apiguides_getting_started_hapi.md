@@ -68,7 +68,7 @@ No authentication steps required to access the test server.
 
 No authorisation steps required to access the test server.
 
-## System requirements
+## FHIR® libraries
 
 NWIS used the Hl7.Fhir.Specification.STU3 NuGet package,
 which provides client tools and functionality for working with the FHIR specification.
