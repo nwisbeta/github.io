@@ -40,6 +40,13 @@ From the home page, the HAPI server's interface makes some basic server actions 
 * posting a bundle and storing them, in a single actions
 * showing all tags in use on the server
 
+On its web interface, for every query you can view:
+
+* client code you can copy to execute within your own client
+* a copy of the request, with its headers - clicking 
+* a copy of the response readers
+* the result body, available as raw JSON, raw XML, HTML JSON, or HTML XML
+
 ## Endpoints
 
 The HAPI server offers dozens of potential endpoints by enabling developers to build precise search queries and CRUD operations. 
