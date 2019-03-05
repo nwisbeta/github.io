@@ -70,8 +70,9 @@ No authorisation steps required to access the test server.
 
 ## FHIR® libraries
 
-NWIS used the Hl7.Fhir.Specification.STU3 NuGet package,
-which provides client tools and functionality for working with the FHIR specification.
+For this version of the test server, NWIS used a .NET framework and wrote its sample integrations in C#. 
+
+NWIS used the Hl7.Fhir.Specification.STU3 NuGet package, which provides client tools and functionality for working with the FHIR specification.
 
 [Download package](http://ewoutkramer.github.io/fhir-net-api/)
 
