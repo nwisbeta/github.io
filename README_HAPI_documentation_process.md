@@ -57,7 +57,7 @@ OR
 
 ## Reference documentation
 
-Tom Johnson explains this well, and there's software available for base some of this documentation on code comments.
+Tom Johnson explains this well, and there's software available for basing some of this documentation on code comments.
 https://idratherbewriting.com/learnapidoc/docendpoints.html
 
 Include:  
@@ -68,12 +68,12 @@ Include:
 
 ## Code samples and user case examples
 
+
 # References
 
-* https://idratherbewriting.com/learnapidoc/
-* https://www.gov.uk/guidance/how-to-document-apis
-* https://www.gov.uk/guidance/writing-api-reference-documentation
-* https://developer.nhs.uk/apis/
-* https://developer.nhs.uk/learn/fhir-profile-vs-api/
-* http://hl7.org/fhir/STU3/overview-dev.html 
+* GDS guidance https://www.gov.uk/guidance/how-to-document-apis
+* GDS guidance for reference documentation https://www.gov.uk/guidance/writing-api-reference-documentation
+* Tom Johnson tutorial https://idratherbewriting.com/learnapidoc/
+* NHS Digital API hub https://developer.nhs.uk/apis/
+* FHIR standard STU3, http://hl7.org/fhir/STU3/overview-dev.html 
 
