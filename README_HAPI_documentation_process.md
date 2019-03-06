@@ -33,10 +33,46 @@ Contact nhswales.tech@wales.nhs.uk, subject line 'HAPI server API', to discuss u
 * review meeting to consider input and changes, and agree what to changes (optional) 
 * incorporate comments and publish update, incrementing the document number and title as required
 
+# Proposed API documentation headings
+
+All this content requires a conscious effort to write in plain language, and consider the user needs. 
+For example: 
+
+* are users going to 'plug in' to the API provided as-is, and use it to retrieve information for their systems?  
+OR
+* are users going to build their own APIs, and need guidance of how to make their API work with the tools available (like HAPI server or SNOMED CT)?
+
+## Overview
+
+ - what this API does, for example, 'this API looks up patient data from X and delivers it to Y')
+ - how it does this process
+ - why this API matters, for example, 'this API allows legacy NHS systems to share patient data with a minimum of changes to existing systems, and delivers information in a format that is readable by both machines and humans'.
+ - how this API will fit in existing systems, or possibly replace existing systems
+
+## Getting started
+
+- define the technical and expertise requirements to download and run the API. Will it run on any tech stack or is it designed for one system only? What is available?
+- provide any setup, installation, test processes required to run the API (or develop a similar one)
+- list any tools required
+
+## Reference documentation
+
+Tom Johnson explains this well, and there's software available for base some of this documentation on code comments.
+https://idratherbewriting.com/learnapidoc/docendpoints.html
+
+Include:  
+* authorisation and authentication
+* rate limiting
+* versioning
+* status and error codes
+
+## Code samples and user case examples
+
 # References
 
 * https://idratherbewriting.com/learnapidoc/
 * https://www.gov.uk/guidance/how-to-document-apis
+* https://www.gov.uk/guidance/writing-api-reference-documentation
 * https://developer.nhs.uk/apis/
 * https://developer.nhs.uk/learn/fhir-profile-vs-api/
 * http://hl7.org/fhir/STU3/overview-dev.html 
