@@ -43,7 +43,9 @@ Each resource carries a human-readable text representation, using HTML as a fall
 
 FHIR is published as a Standard for Trial Use (STU). The NWIS test server is supporting STU3.
 
+## Contact
 
+Email nhswales.tech@wales.nhs.uk, subject line 'HAPI server API', to discuss using these APIs in an application.
 
 
 {% include links.html %}
