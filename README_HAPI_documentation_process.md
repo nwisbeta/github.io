@@ -5,10 +5,6 @@ tags: [NWIS, README]
 permalink: 
 summary: An outline of documentation process for Health APIs.
 ---
-# Use the service
-
-Contact nhswales.tech@wales.nhs.uk, subject line 'HAPI server API', to discuss using the service.
-
 # Documentation process to date
 
 * assess existing documentation available
@@ -67,6 +63,7 @@ Include:
 * status and error codes
 
 ## Code samples and user case examples
+Show how the API works and what comes back in responses
 
 
 # References
@@ -77,3 +74,6 @@ Include:
 * NHS Digital API hub https://developer.nhs.uk/apis/
 * FHIR standard STU3, http://hl7.org/fhir/STU3/overview-dev.html 
 
+# Use the service
+
+Contact nhswales.tech@wales.nhs.uk, subject line 'HAPI server API', to discuss using the APIs as part of a service.
