@@ -17,9 +17,9 @@ FHIR base URL: [https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/baseDstu3]
 For each use case, append a query to this base URL.  
 Building search queries through the FHIR server UI is a good way of learning how to construct URLs and client code as it provides both, together with the returned results.
 
-### Retrieve a list of organisations
+### Retrieve a list of organizations
 
-Select the resource `Organization` (note US spelling).  
+Select the resource `Organization`.  
 Search without adding additional parameters.
 
 ````
@@ -32,7 +32,7 @@ The web interface allows you to read and edit individual entries listed by their
 [Same result as HTML](https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/baseDstu3/Organization)
 
 
-###	Retrieve a list of organisations of a specific type
+###	Retrieve a list of organizations of a specific type
 
 Select the resource `Organization`.  
 Add parameter `type` and enter a type code.  
@@ -55,7 +55,7 @@ GET https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/baseDstu3/Organization
 
 [Same result as HTML](https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/baseDstu3/Organization?type=GPPractice)
 
-### Retrieve a specific organisation using its FHIR id
+### Retrieve a specific organization using its FHIR id
 
 Select the resource `Organization`.  
 
@@ -182,7 +182,7 @@ GET https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/baseDstu3/Organization
 }
 ````
 
-### Retrieve a specific organisation using its Organisational Data Services (ODS) National Code
+### Retrieve a specific organization using its Organisational Data Services (ODS) National Code
 
 Select the resource `Organization`.  
 Add parameter `identifier`, with value of ODS National Code.  
@@ -212,11 +212,11 @@ GET https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/baseDstu3/Organization
 
 This query uses two parameters for the `Organization` resource:
 * `type` - examples include HB for Health Board and GPP for General Practice
-* `partof` - an organisation of which this organisation forms a part. Value is the organisation resource's logical `_id` 
+* `partof` - an organization of which this organization forms a part. Value is the organization resource's logical `_id` 
 
 If  you know the `identifier` ODS National Code for the Health Board,  you can find out its resource `_id`.
 
-1. Using the ODS code 7A1 from the previous use case, search for an organisation using parameter `identifier`:
+1. Using the ODS code 7A1 from the previous use case, search for an organization using parameter `identifier`:
 
    ````
    GET https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/baseDstu3/Organization?identifier=7A1
@@ -311,7 +311,7 @@ GET https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/baseDstu3/Practitioner
 [Same result as HTML](https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/baseDstu3/Practitioner?identifier=G8433963)
 
 
-### Retrieve a specific organisation and the related practitioners
+### Retrieve a specific organization and the related practitioners
 This query allows you to search for general practitioners who work at a specific practice.  
 
 Select the `PractitionerRole` resource.  

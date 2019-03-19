@@ -29,7 +29,7 @@ The service may be unavailable for maintenance.
 On its FHIR resources, the HAPI server supports:
 
 * multiple Search options
-* search History 
+* option to view the resource update History 
 * Validate operations
 * Create, Read, Update, and Delete (CRUD) operations
 
@@ -39,6 +39,13 @@ From the home page, the HAPI server's interface makes some basic server actions 
 * retrieving the updated history across resource types
 * posting a bundle and storing them, in a single actions
 * showing all tags in use on the server
+
+On its web interface, for every query you can view:
+
+* client code you can copy to execute within your own client
+* a copy of the request, with its headers - clicking 
+* a copy of the response readers
+* the result body, available as raw JSON, raw XML, HTML JSON, or HTML XML
 
 ## Endpoints
 
@@ -68,12 +75,15 @@ No authentication steps required to access the test server.
 
 No authorisation steps required to access the test server.
 
-## System requirements
+## FHIR® libraries
 
-NWIS used the Hl7.Fhir.Specification.STU3 NuGet package,
-which provides client tools and functionality for working with the FHIR specification.
+For this version of the test server, NWIS used a .NET framework and wrote its sample integrations in C#. 
 
-[Download package and read documentation](http://ewoutkramer.github.io/fhir-net-api/)
+NWIS used the Hl7.Fhir.Specification.STU3 NuGet package, which provides client tools and functionality for working with the FHIR specification.
+
+[Download package](http://ewoutkramer.github.io/fhir-net-api/)
+
+[Read documentation](http://docs.simplifier.net/fhirnetapi/index.html)
 
 To install the NuGet package to your .NET project, enter the following text in the Package Manager Console: 
 

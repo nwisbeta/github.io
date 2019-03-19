@@ -90,7 +90,7 @@ After selecting the `Patient` resource, the additional search parameter is
 GET https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/baseDstu3/Patient?identifier=3795624126
 ````
 
-[Server interface response searching for patient by NHS number](https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/search?serverId=home&pretty=false&resource=Patient&param.0.0=&param.0.1=3795624126&param.0.name=identifier&param.0.type=token&sort_by=&sort_direction=&resource-search-limit=) provides client code, the request as a URL, the response header, and the result.
+[Web interface response searching for patient by NHS number](https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/search?serverId=home&pretty=false&resource=Patient&param.0.0=&param.0.1=3795624126&param.0.name=identifier&param.0.type=token&sort_by=&sort_direction=&resource-search-limit=) provides client code, the request as a URL, the response header, and the result.
 
 [same response as HTML](https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/baseDstu3/Patient?identifier=3795624126)
 

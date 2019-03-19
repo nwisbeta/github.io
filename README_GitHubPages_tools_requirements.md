@@ -9,13 +9,13 @@ summary: An outline of software, publishing tools and skills required to documen
 ## Software setup required to build GitHub Pages
 
 * obtain full permissions to download and run software on the local machine
-* set up a GitHub personal login, and an organisation account (nwisbeta)
-* start an organisation respository (github.com/nwisbeta), and set up GitHub Pages. Free organisation repositories are public. 
+* set up a GitHub personal login, and an organization account (nwisbeta)
+* start an organization respository (github.com/nwisbeta), and set up GitHub Pages. Free organization repositories are public. 
 * download and install the following tools, using instructions on their sites:
   * Notepad++ https://notepad-plus-plus.org/ as tool to build the site on the laptop
   * Git for Windows https://gitforwindows.org/ to upload content to GitHub. GitBash provides command line interface
   * Jekyll for Windows, using RubyInstaller and Bundler https://jekyllrb.com/docs/installation/windows/
-* download and set up [Jekyll documentation theme](https://idratherbewriting.com/documentation-theme-jekyll/) within the organisation repository
+* download and set up [Jekyll documentation theme](https://idratherbewriting.com/documentation-theme-jekyll/) within the organization repository
 
 NOTE: you do not need another copy of the documentation theme, unless you are building a new site from scratch.
 
