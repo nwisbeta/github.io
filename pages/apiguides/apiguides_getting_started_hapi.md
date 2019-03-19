@@ -77,7 +77,8 @@ No authorisation steps required to access the test server.
 
 ## FHIR® libraries
 
-For this version of the test server, NWIS used a .NET framework and wrote its sample integrations in C#. 
+### .NET
+For this version of the test server, NWIS used a Microsoft .NET framework and wrote its sample integrations in C#. 
 
 NWIS used the Hl7.Fhir.Specification.STU3 NuGet package, which provides client tools and functionality for working with the FHIR specification.
 
@@ -90,5 +91,19 @@ To install the NuGet package to your .NET project, enter the following text in t
 ````cs
 PM> Install-Package Hl7.Fhir.Specification.STU3 -Version 0.94.0
 ````  
+
+### Java 
+
+[Java API for HL7® FHIR clients and servers](https://github.com/jamesagnew/hapi-fhir) 
+
+### JavaScript
+
+[SMART on FHIR® JavaScript client library](https://github.com/smart-on-fhir/client-js)
+
+### Python
+
+[SMART FHIR Client](https://github.com/smart-on-fhir/client-py)
+
+
 
 {% include links.html %}

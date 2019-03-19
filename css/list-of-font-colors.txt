@@ -1,0 +1,12 @@
+# 808080 = mid gray
+# ED1951 = bright red/pink
+# 248ec2 = teal for focus
+# 347DBE = middle blue for top nav
+# FAFAFA = gray-white
+# 649345 = mid green tooltip
+# 015CAE = strong blue for border, H1 printed
+# 595959 = dk gray for H2 printed
+# E50E51 = another red-pink for H3 printed
+# 679DCE = blue gray for H4 heading, printed
+# 216f9b = dk teal, anchor link, hover
+# 12A3C9 = pale teal
