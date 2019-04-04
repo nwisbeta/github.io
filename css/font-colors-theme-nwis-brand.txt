@@ -1,0 +1,37 @@
+Tom Johnson's Jekyll theme base colours, original
+
+# 808080 = mid gray
+# ED1951 = bright red/pink
+# 248ec2 = teal for focus
+# 347DBE = middle blue for top nav
+# FAFAFA = gray-white
+# 649345 = mid green tooltip
+# 015CAE = strong blue for border, H1 printed
+# 595959 = dk gray for H2 printed
+# E50E51 = another red-pink for H3 printed
+# 679DCE = blue gray for H4 heading, printed
+# 216f9b = dk teal, anchor link, hover
+# 12A3C9 = pale teal
+# F0F0F0 = v pale gray, navbar-brand hover
+
+NHS Wales palette swapped in
+Base
+#2C3E72 = NHS Blue (mid dk)
+#12A3C9 NHS Blue teal
+#97CC39 NHS Green (lime)
+
+Black and white
+#FFFFFF white
+#000000 black 
+#595959 dk grey
+#E3E3E3 lt grey
+
+Alert
+#CB1C19 NHS Red
+#E58304 NHS Orange (correct)
+#F4BF11 NHS Yellow (correct)
+
+Accent
+#00A8B1 NHS Aqua
+#AD235E NHS Rose
+#663587 NHS Purple
