@@ -13,16 +13,16 @@ topnav:
 topnav_dropdowns:
 - title: Topnav dropdowns
   folders:
-    - title: Software Dev Kit
+    - title: NWIS Products
       folderitems:
         - title: Overview
           url: /apiguides_landing_page.html
-        - title: Patient Demographic Data API
-          url: /pt_dmgrphc_landing_page.html
-        - title: Reference Data API
-          url: /ref_data_landing_page.html        
-        - title: Diagnostic Observations and Reports API
-          url: /diag_obs_reports_landing_page.html        
+        - title: App Design Standards
+          url: /app_design_landing_page.html
+#       - title: Reference Data API
+#          url: /ref_data_landing_page.html        
+#        - title: Diagnostic Observations and Reports API
+#          url: /diag_obs_reports_landing_page.html        
     - title: Partners
       folderitems:
         - title: Life Sciences Hub
