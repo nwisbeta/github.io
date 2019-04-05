@@ -14,6 +14,9 @@ Tom Johnson's Jekyll theme base colours, original
 # 12A3C9 = pale teal
 # F0F0F0 = v pale gray, navbar-brand hover
 
+UX UI App Design from rescontechnologies.com
+Top nav colour is #38507F
+
 NHS Wales palette swapped in
 Base
 #2C3E72 = NHS Blue (mid dk)
