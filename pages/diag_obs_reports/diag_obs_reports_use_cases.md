@@ -2,7 +2,7 @@
 title: Use Case Queries
 tags: [NWIS_API, FHIR, use_case, code_sample]
 keywords: 
-sidebar: mydoc_sidebar
+sidebar: api_sidebar
 toc: true
 permalink: diag_obs_reports_use_cases.html
 folder: diag_obs_reports

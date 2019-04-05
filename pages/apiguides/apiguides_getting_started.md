@@ -2,7 +2,7 @@
 title: Getting Started
 tags: [getting_started, FHIR]
 keywords: 
-sidebar: mydoc_sidebar
+sidebar: api_sidebar
 toc: true
 permalink: apiguides_getting_started.html
 folder: apiguides
