@@ -156,4 +156,41 @@ entries:
 
     - title: Onboarding
       url: /onboarding.html
-      output: web, pdf                 
+      output: web, pdf
+
+  - title: Icons and Images
+    output: web, pdf
+    
+    folderitems:  
+    - title: Icons 
+      url: /icons.html
+      output: web, pdf
+      
+    - title: Images 
+      url: /images.html
+      output: web, pdf
+  
+  - title: Accessibility
+    output: web, pdf
+    
+    folderitems:  
+    - title: Accessibility  
+      url: /accessibility.html
+      output: web, pdf
+
+  - title: Information and Clinical Governance
+    output: web, pdf
+    
+    folderitems:  
+    - title: Information and Clinical Governance  
+      url: /information-clinical-governance.html
+      output: web, pdf
+      
+  - title: Interoperability
+    output: web, pdf
+    
+    folderitems:  
+    - title: Interoperability 
+      url: /interoperability.html
+      output: web, pdf
+ 

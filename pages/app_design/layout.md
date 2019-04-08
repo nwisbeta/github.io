@@ -7,7 +7,7 @@ permalink: layout.html
 folder: app_design 
 ---
 
-# Layout
+
 A consistent layout must be used across similar pages and components (WCAG 2.1, Material.io, iOS Human Interface Guidelines)
 Example: Consistent menu item locations, see Figures below
 Example: Consistent button locations, see Figures below
