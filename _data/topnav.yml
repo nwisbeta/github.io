@@ -19,10 +19,7 @@ topnav_dropdowns:
           url: /apiguides_landing_page.html
         - title: App Design Standards
           url: /app_design_landing_page.html
-#       - title: Reference Data API
-#          url: /ref_data_landing_page.html        
-#        - title: Diagnostic Observations and Reports API
-#          url: /diag_obs_reports_landing_page.html        
+               
     - title: Partners
       folderitems:
         - title: Life Sciences Hub
