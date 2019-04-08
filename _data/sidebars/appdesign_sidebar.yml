@@ -70,10 +70,56 @@ entries:
   - title: Access
     output: web, pdf
     
-    - title: Sample 7
-      url: /p1_sample7.html
+    folderitems:  
+    - title: App Loading 
+      url: /app-loading.html
       output: web, pdf
       
-    - title: Sample 7
-      url: /p1_sample7.html
+    - title: Log in and Log out 
+      url: /log-in-log-out.html
       output: web, pdf
+      
+    - title: Registration
+      url: /registration.html
+      output: web, pdf
+      
+  - title: Navigation
+    output: web, pdf
+    
+    folderitems:  
+    - title: Menus
+      url: /menus.html
+      output: web, pdf
+      
+    - title: Transitions
+      url: /transitions.html
+      output: web, pdf
+
+    - title: Touch Gesture Controls
+      url: /touch-gesture-control.html
+      output: web, pdf
+      
+    - title: Buttons
+      url: /buttons.html
+      output: web, pdf
+  
+  - title: Selection Controls
+      url: /selection-controls.html
+      output: web, pdf
+
+    - title: Touch Gesture Controls
+      url: /touch-gesture-control.html
+      output: web, pdf
+      
+    - title: Search
+      url: /search.html
+      output: web, pdf
+  
+  - title: Filters
+      url: /filters.html
+      output: web, pdf
+   
+  - title: Ordering
+      url: /ordering.html
+      output: web, pdf
+           

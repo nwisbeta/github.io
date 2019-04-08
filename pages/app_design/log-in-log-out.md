@@ -39,3 +39,11 @@ Log in after timeout page must display forgotten details messaging and link if t
 Log out button must be displayed on log in after timeout page (see Tools > Buttons)
 Failed log ins or PIN entry
 After failed log in or PIN entry the user must be logged out and taken to the log in page
+
+Log Out
+Log out button must be located in settings (Material.io)
+Log out action must end session
+User must be logged out of session and taken to log in page after clicking log out button
+
+App Examples:
+Example settings page covering general settings, preferences, accessibility, legal/privacy information and log out
