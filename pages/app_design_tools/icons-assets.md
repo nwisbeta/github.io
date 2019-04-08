@@ -706,10 +706,3 @@ To download all of the icons and assets listed below please click [here](/assets
 	</div>
 	
 	
-# App and Page Loading
-
-
-The following loading moving loading or progress indicators should be displayed for page loading
-
-File Name	Descriptor
-Loading_n (where n = 1 to 11)	Set of loading icons in white
