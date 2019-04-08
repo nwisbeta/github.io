@@ -1,8 +1,7 @@
 # This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
 
-
 entries:
-- title: Sidebar
+- title: sidebar
   product: App Design Standards
   version: 1.0
   folders:
@@ -103,23 +102,58 @@ entries:
       url: /buttons.html
       output: web, pdf
   
-  - title: Selection Controls
+    - title: Selection Controls
       url: /selection-controls.html
       output: web, pdf
 
-    - title: Touch Gesture Controls
-      url: /touch-gesture-control.html
-      output: web, pdf
-      
     - title: Search
       url: /search.html
       output: web, pdf
   
-  - title: Filters
+    - title: Filters
       url: /filters.html
       output: web, pdf
    
-  - title: Ordering
+    - title: Ordering
       url: /ordering.html
       output: web, pdf
-           
+ 
+  - title: User Interaction
+    output: web, pdf
+    
+    folderitems:  
+    - title: Messaging
+      url: /messaging.html
+      output: web, pdf
+      
+    - title: Errors
+      url: /errors.html
+      output: web, pdf
+
+    - title: User Feedback
+      url: /user-feedback.html
+      output: web, pdf
+      
+    - title: Data Entry
+      url: /data-entry.html
+      output: web, pdf
+  
+    - title: Data Display
+      url: /data-display.html
+      output: web, pdf
+
+    - title: Pop Ups
+      url: /popups.html
+      output: web, pdf
+  
+    - title: Notifications
+      url: /notifications.html
+      output: web, pdf
+   
+    - title: Support and Tutorials
+      url: /support-and-tutorials.html
+      output: web, pdf
+
+    - title: Onboarding
+      url: /onboarding.html
+      output: web, pdf                 
