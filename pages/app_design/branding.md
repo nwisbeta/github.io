@@ -8,7 +8,7 @@ folder: app_design
 ---
 
 
-# Branding
+
 Launch Screen App Icon
 Launch screen app icons must be simple and use a single object or logo on a solid colour background
 Launch screen app icons with a white background must have a coloured icon with a solid colour border

@@ -8,7 +8,6 @@ folder: app_design
 ---
 
 
-# Standard Features
 Most mobile apps exhibit common features such as the Home and Settings screens
 This section guides how to implement standard features in a common manner
 Standard features must be used where relevant
@@ -152,3 +151,8 @@ Example generic profile page enabling users to view and edit their profile infor
 
 Search
 See Navigation > Search
+
+Orientation
+Portrait and landscape orientation should be supported (WCAG 2.1, iOS Human Interface Guidelines)
+Landscape should be used to optimise data display
+Example: Data view

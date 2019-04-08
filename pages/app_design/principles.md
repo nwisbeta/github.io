@@ -7,7 +7,6 @@ permalink: principles.html
 folder: app_design 
 ---
 
-# Principles
 
 The design standards have been produced to align with the following principles
 

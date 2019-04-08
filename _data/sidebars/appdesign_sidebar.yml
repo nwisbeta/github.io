@@ -51,6 +51,29 @@ entries:
       url: /standard-features.html
       output: web, pdf
 
+    - title: Typography
+      url: /typography.html
+      output: web, pdf
+
+    - title: Terminology and Language
+      url: /terminology-and-language.html
+      output: web, pdf
+      
+    - title: Page Loading and Power Use
+      url: /page-loading-power-use.html
+      output: web, pdf
+
+    - title: Responsiveness and Adaptivity
+      url: /responsiveness.html
+      output: web, pdf
+      
+  - title: Access
+    output: web, pdf
+    
+    - title: Sample 7
+      url: /p1_sample7.html
+      output: web, pdf
+      
     - title: Sample 7
       url: /p1_sample7.html
       output: web, pdf
