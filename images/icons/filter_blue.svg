@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 74.069 32.138">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #325083;
+      }
+
+      .cls-1 {
+        font-size: 18px;
+        font-family: Calibri;
+      }
+
+      .cls-3 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_97" data-name="Group 97" transform="translate(-114.931 -71)">
+    <text id="Filter" class="cls-1" transform="translate(151 92)"><tspan x="0" y="0">Filter</tspan></text>
+    <g id="baseline-filter_list-24px" transform="translate(114.931 71)">
+      <path id="Path_142" data-name="Path 142" class="cls-2" d="M12.374,22.069H17.73V19.391H12.374ZM3,6V8.678H27.1V6Zm4.017,9.374H23.086V12.7H7.017Z" transform="translate(1.017 2.035)"/>
+      <path id="Path_143" data-name="Path 143" class="cls-3" d="M0,0H32.138V32.138H0Z"/>
+    </g>
+  </g>
+</svg>

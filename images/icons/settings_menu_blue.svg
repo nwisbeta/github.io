@@ -1,0 +1,15 @@
+<svg id="baseline-more_horiz-24px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 41.568 41.568">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #325083;
+      }
+    </style>
+  </defs>
+  <path id="Path_148" data-name="Path 148" class="cls-1" d="M0,0H41.568V41.568H0Z"/>
+  <path id="Path_149" data-name="Path 149" class="cls-2" d="M7.464,10a3.464,3.464,0,1,0,3.464,3.464A3.474,3.474,0,0,0,7.464,10Zm20.784,0a3.464,3.464,0,1,0,3.464,3.464A3.474,3.474,0,0,0,28.248,10ZM17.856,10a3.464,3.464,0,1,0,3.464,3.464A3.474,3.474,0,0,0,17.856,10Z" transform="translate(2.928 7.32)"/>
+</svg>
