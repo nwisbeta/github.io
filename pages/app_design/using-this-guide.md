@@ -11,35 +11,42 @@ folder: app_design
 
 The following terms in this guide have specific meanings as below and are consistently used in other NWIS software development standards. They will be in italic format throughout the standards.
 
-Do/must: this must be enforced
+_Do/must_: an absolute requirement of the standard 
 
-Do not/must not: this is not permitted
+_Do not/must not_: this feature is not permitted in this standard
 
-Should/should not: target best practice specification however cannot always be achieved due to external factors such as device differences (e.g. type, other software installed and working memory)
+_Should/should not_: follows the standard wherever possible, but not always possible due to external factors such as device differences (e.g. type, other software installed and working memory)
 
-Avoid: this should be prevented but is tolerated in some circumstances
-If required: this should only be used if appropriate or required but is not enforced
+_Avoid_: this feature or result does not meet the standard, but is tolerated in limited, documented circumstances  
 
-Exceptions: sometimes exceptions to these standards are necessary to optimise UI and/or UX. These are stated in the text but must always be accompanied by the appropriate documentation, including senior stakeholder sign-off, linked to the development checklists (see Tools > Exceptions)
+_If required_: this should only be used if appropriate or required but is not enforced
 
-Example: this provides an example of an implementation of the standard
+_Exceptions_: sometimes exceptions to these standards are necessary to optimise UI and/or UX. The standard defines where exceptions are permitted. Document every exception, including senior stakeholder sign-off, using the development checklists (see Tools > Exceptions).
 
-Other Terminology: terms such as "critical" and "important" are referred to throughout this standards documentation however they have not been defined within these standards. It is expected these terms will be defined elsewhere as further explained in the User Interaction/Notifications section.
+_Example_: this provides an example of an implementation of the standard
+
+_Other Terminology_: terms such as "critical" and "important" are referred to throughout this standards documentation however they have not been defined within these standards. It is expected these terms will be defined elsewhere as further explained in the User Interaction/Notifications section.
+
+See [OpenAPI Specification](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.2.md#version-302) for similar use of key words.
 
 # Governance Impact on UI/UX Standards
 
-There are multiple areas where clinical, information and quality assurance governance will impact on UI and UX design standards. Where these standards have identified potential for a serious safety impact surrounding the implementation of a design standard guideline the need for reference to controls has been highlighted. Where reference to clinical and/or information governance is required and needs to be linked to the implementation of these standards, is made explicit in this text.
+Clinical, information and quality assurance governance will affect UI and UX design standards. 
 
-The areas where further governance considerations are needed in the current form of the guidance are:
+Where these standards could lead to a serious safety effect, the standard indicates the need to refer to controls. 
+
+The standard is explicit when clinical and/or information governance is required, to implement the standard safely.
+
+This standard requires further governance considerations review for:
 
 * Notifications
 * Alerts
 
-There are multiple other areas where care is needed in implementation of clinical mobile applications. If there is any doubt on the potential real-world impact of implementation of mobile app functions then the design or development team must seek clinical and/or information governance guidance and sign off.
+Implementing clinical mobile applications requires care. Designers and developers must seek clinical and/or information governance guidance and sign off, in case of any doubt about real-world impact of the app function.
 
 # Referencing
 
-These standards reference other standards and guidelines documentation where relevant. These references appear in parentheses.
+These standards refer to other standards and guidelines documentation where relevant, in parentheses.
 
 # Updates
 
