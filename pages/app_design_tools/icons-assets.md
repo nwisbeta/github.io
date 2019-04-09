@@ -20,9 +20,7 @@ New icons must only be created if icons provided are not suitable
 
 To download all of the icons and assets listed below please click [here](/assets/downloads/icons-assets/nwis-icons-assets.zip)
 
-			
-			<div class="table-responsive">
-				<table class="table table-bordered table-hover icon-table">
+<table class="table table-bordered table-hover icon-table">
 					<thead>
 						<tr>
 							<th>File Name</th>
@@ -702,7 +700,3 @@ To download all of the icons and assets listed below please click [here](/assets
 					</tbody>
 				</table>
 			</div>
-		</div>
-	</div>
-	
-	
