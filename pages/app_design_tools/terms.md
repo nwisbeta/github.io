@@ -7,7 +7,7 @@ permalink: terms.html
 folder: app_design_tools 
 ---
 
-General terms:
+# General terms
 Log In
 Log Out
 Register
@@ -25,7 +25,8 @@ To Do List
 Filter
 Search
 Patient Information
-Menu items:
+
+# Menu items
 Home
 Settings
 Feed
@@ -35,7 +36,8 @@ Settings
 Profile
 Help
 Menu
-Settings:
+
+# Settings
 User preferences
 Profile
 First name

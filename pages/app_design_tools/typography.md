@@ -9,22 +9,31 @@ folder: app_design_tools
 
 
 # General
-Style	Font Type	Font Size (sp)	Font Case	Font Emphasis
-Title	Calibri	34	Title	Bold
-Heading	Calibri	20	Title	Bold
-Subtitle	Calibri	16	Sentence	Plain
-Body	Calibri	14	Sentence	Important information in bold i.e. patient name
-Buttons
-Style	Font Type	Font Size (em/rem)	Font Case	Font Emphasis
-Title	Calibri	14	Title	Plain
-Pop Ups
-Style	Font Type	Font Size (em/rem)	Font Case	Font Emphasis
-Heading	Calibri	16	Title	Bold
-Body	Calibri	14	Sentence	Plain
-Links
-Style	Font Type	Font Size (em/rem)	Font Case	Font Emphasis
-Body	Calibri	14	Sentence	Bold Underlined
+| Style    | Font Type | Font Size (sp) | Font Case | Font Emphasis                                   |
+|----------|-----------|----------------|-----------|-------------------------------------------------|
+| Title    | Calibri   | 34             | Title     | Bold                                            |
+| Heading  | Calibri   | 20             | Title     | Bold                                            |
+| Subtitle | Calibri   | 16             | Sentence  | Plain                                           |
+| Body     | Calibri   | 14             | Sentence  | Important information in bold i.e. patient name |
 
+# Buttons
+
+| Style | Font Type | Font Size (em/rem) | Font Case | Font Emphasis |
+|-------|-----------|--------------------|-----------|---------------|
+| Title | Calibri   | 14                 | Title     | Plain         |
+
+# Pop Ups
+
+| Style   | Font Type | Font Size (em/rem) | Font Case | Font Emphasis |
+|---------|-----------|--------------------|-----------|---------------|
+| Heading | Calibri   | 16                 | Title     | Bold          |
+| Body    | Calibri   | 14                 | Sentence  | Plain         |
+
+# Links
+
+| Style | Font Type | Font Size (em/rem) | Font Case | Font Emphasis   |
+|-------|-----------|--------------------|-----------|-----------------|
+| Body  | Calibri   | 14                 | Sentence  | Bold Underlined |
 
 # Typography Standard Values
 
@@ -79,15 +88,20 @@ Area of work/speciality
 # Font Conversions
 
 ## Font Size
-Conversion ratio
-em/rem	sp	pt
-0.0625	1.0	1.0
-Example conversions
-sp	pt	em.rem
-10	10	0.625
-12	12	0.75
-24	24	1.5
-60	60	3.75
-Touch targets
-px	dp	mm
-44	58.6	9.3
+| em/rem | sp  | pt  |
+|--------|-----|-----|
+| 0.0625 | 1.0 | 1.0 |
+
+## Example conversions
+
+| sp | pt | em.rem |
+|----|----|--------|
+| 10 | 10 | 0.625  |
+| 12 | 12 | 0.75   |
+| 24 | 24 | 1.5    |
+| 60 | 60 | 3.75   |
+
+## Touch targets
+| px | dp   | mm  |
+|----|------|-----|
+| 44 | 58.6 | 9.3 |

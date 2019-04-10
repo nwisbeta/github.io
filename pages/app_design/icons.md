@@ -18,6 +18,7 @@ Do not use text within an icon (iOS Human Interface Guidelines)
 All icons must be labelled with appropriate text (see Tools > Icons) (WCAG 2.1)
 All icons must be labelled with appropriate text (see Tools > Icons) (WCAG 2.1) – though text must not be included within an icon (iOS Human Interface Guidelines)
 Title case must be used for icon labels
+<img src="/images/examples/design-standards-icons-home-example.png" style="max-width: 120px;">
 
 Icon touch targets must be a minimum of 44px x 44px and surrounded by a small amount of inactive space (WCAG 2.1, Material.io)
 Icons must be used in PNG or SGV formats (Material.io)

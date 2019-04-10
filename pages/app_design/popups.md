@@ -7,7 +7,7 @@ permalink: popups.html
 folder: app_design 
 ---
 
-Pop Ups
+
 Pop ups must require an action to be taken (Material.io)
 Pop ups must provide relevant and actionable information (Material.io)
 Pop ups must use consistent messaging (see Tools > Messaging)
@@ -21,3 +21,7 @@ Pop ups must display one or two action buttons (Material.io) (see Navigation > B
 When a pop up is present the background must be darkened with a transparent overlay
 There must be a minimum contrast ratio of 3:1 between the pop up colour and colour of the background behind the pop up (WCAG 2.1) (see Accessibility)
 To close a pop up, an action button must be selected by the user (Material.io)
+
+App Examples:
+Example showing pop up message design with pop up action buttons
+<img class="img-responsive img-thumbnail" src="/images/examples/design-standards-user-interaction-popup.png">
