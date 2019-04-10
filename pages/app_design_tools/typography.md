@@ -9,12 +9,14 @@ folder: app_design_tools
 
 
 # General
+
 | Style    | Font Type | Font Size (sp) | Font Case | Font Emphasis                                   |
 |----------|-----------|----------------|-----------|-------------------------------------------------|
 | Title    | Calibri   | 34             | Title     | Bold                                            |
 | Heading  | Calibri   | 20             | Title     | Bold                                            |
 | Subtitle | Calibri   | 16             | Sentence  | Plain                                           |
 | Body     | Calibri   | 14             | Sentence  | Important information in bold i.e. patient name |
+
 
 # Buttons
 
@@ -43,7 +45,7 @@ App design units
 For unit conversions see Tools > Conversions
 
 Font size
-Default value: sp
+Default value: sp (EDIT: SP stands for Scale independent pixels. It is same as dp unit but it is also scaled by the user's font size preference.)
 
 Touch targets
 Default value: px
