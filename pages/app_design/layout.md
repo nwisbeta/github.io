@@ -31,3 +31,26 @@ Data fields must be displayed as one data field on each row
 Margins and spacing should be used where possible (iOS Human Interface Guidelines, Material.io, UWP)
 App Examples:
 
+<div class="col-sm-12">
+	<h3>App Examples:</h3>
+	<div class="row">
+		<div class="col-md-3 col-lg-2">
+			<h5>Generic App Layout</h5>
+			<img class="img-responsive img-thumbnail" src="/images/examples/design-standards-generic-layout.png">
+		</div>
+				
+		<div class="col-md-3 col-lg-2">
+			<h5>Log In Page</h5>
+			<img class="img-responsive img-thumbnail" src="/images/examples/design-standards-layout-login.png">
+		</div>
+			
+		<div class="col-md-3 col-lg-2">
+			<h5>Patient Information</h5>
+			<img class="img-responsive img-thumbnail" src="/images/examples/design-standards-layout-patient-info.png">
+		</div>
+				
+		<div class="col-md-3 col-lg-2">
+			<h5>Settings Menu</h5>
+			<img class="img-responsive img-thumbnail" src="/images/examples/design-standards-layout-settings.png">
+		</div>
+	</div>	
