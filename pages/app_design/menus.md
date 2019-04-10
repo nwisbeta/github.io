@@ -15,6 +15,11 @@ Menu items on the bottom menu should be symmetrical
 Touch targets must be a minimum of 44px x 44px and surrounded by a small amount of inactive space (WCAG 2.1, Material.io)
 Do not use more than two menu items on top menu (top left and right)
 Touch targets must be a minimum of 44px x 44px and surrounded by a small amount of inactive space (WCAG 2.1, Material.io)
+
+App Examples:
+Example layout showing back button placement which enables the user to navigate to the previous page if there is no direct menu location
+<img class="img-responsive img-thumbnail" src="/images/examples/design-standards-navigation-example-1.png">
+
 Menu items must be enabled on all pages except when a keyboard is displayed (see below) (iOS Human Interface Guidelines)
 Bottom menu items must be hidden when a keyboard is displayed (iOS Human Interface Guidelines)
 Menu items must take the user to the main screen associated with the menu item (Material.io)
@@ -27,6 +32,8 @@ Icons must be used for each menu item with meaningful related text (Material.io)
 Menu item text must be short (Material.io)
 Do not wrap or shrink menu item text (Material.io)
 
+<img src="/images/examples/design-standards-navigation-menus.png" style="max-width: 120px"> 
+
 Consistent terms must be used for all menu items (see Tools > Terms)
 Consistent icons must be used for all menu icons (see Tools > Icons)
 Current menu location must be highlighted in a different colour to other menu items
@@ -38,6 +45,8 @@ Menu items must display relevant number of notifications in a red circle on the 
 Example: Critical notifications
 Example: Pending requests
 Example: Alerts requiring action
+<img src="/images/examples/design-standards-navigation-feed-image.png" style="max-width: 120px">
+
 
 Wherever possible symmetry should be kept in the app icon placement design
 Example: If a middle functional icon is required then the app should be designed to have a middle functional icon on the other side

@@ -14,6 +14,8 @@ Filter text and icon must be used to indicate presence of filter option
 Avoid using more than seven filter options
 Filters should allow the user to narrow search options using the simplest method available
 Example: Toggle for yes/no options
+<img src="/images/examples/design-standards-navigation-filters-icon.png" style="max-width: 120px;">
+
 Do not display irrelevant filter options
 Filter results text and icon must be used when filter results are displayed to enable filter options to be changed
 Users must be able to reset filter options

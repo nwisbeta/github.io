@@ -13,3 +13,4 @@ Example: Confirmation messages for data entry
 Example: Show entry of each digit as a dot for PIN entry
 App Examples:
 Example user feedback pop up display with pop up action buttons
+<img class="img-responsive img-thumbnail" src="/images/examples/design-standards-user-interaction-feedback.png">

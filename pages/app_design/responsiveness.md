@@ -16,3 +16,7 @@ Maintenance of overall app layout and appearance (iOS Human Interface Guidelines
 Using available screen space (iOS Human Interface Guidelines)
 Applying readability margins on larger devices to keep text lines short enough for easy reading (iOS Human Interface Guidelines)
 Adequate margins and spacing (iOS Human Interface Guidelines)
+
+App Examples:
+Tablet information display example
+<img class="img-responsive img-thumbnail" src="/images/examples/design-standards-responsiveness-tablet.png">

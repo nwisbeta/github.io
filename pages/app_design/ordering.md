@@ -20,3 +20,4 @@ Example: Manually ordering patient list or to-do items
 Alerts must be ordered by high alert to low/no alert
 App Examples:
 Example alerts page showing alerts with appropriate ordering
+<img class="img-responsive img-thumbnail" src="/images/examples/design-standards-ordering-example.png">

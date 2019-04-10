@@ -7,7 +7,7 @@ permalink: buttons.html
 folder: app_design 
 ---
 
-Buttons
+
 Buttons must allow the user to complete a specific action with a single tap (Material.io, iOS Human Interface Guidelines, UWP)
 Buttons must display a clear message relating to the action of the button (Material.io, iOS Human Interface Guidelines)
 Buttons text must be short and fit the button size (Material.io, iOS Human Interface Guidelines)
@@ -17,11 +17,12 @@ Buttons must be adaptive to different devices and screen sizes (see Core Guideli
 Button touch targets must be a minimum of 44px x 44px and surrounded by a small amount of inactive space (WCAG 2.1, Material.io)
 Button examples can be found in Tools > Buttons
 
-Contained Buttons
+# Contained Buttons
 Contained buttons must be used to perform an important action with a single tap (Material.io)
 Buttons must be contained with colour fill that is consistent with the colour palettes (see Core Guidelines > Branding) (Material.io)
 Title case must be used for button text (iOS Human Interface Guidelines)
 Example: Save, Log Out
+<img src="/assets/images/examples/design-standards-navigation-buttons-logout.png">
 
 Appropriate font must be used for button text (see Core Guidelines > Typography > Font)
 Appropriate font colour must be used (see Core Guidelines > Typography > Font)
@@ -29,8 +30,11 @@ Button text must be centralised
 Buttons must be rectangular
 Buttons must have 2dp elevation
 Buttons must have a central alignment
-Pop Up Buttons
+# Pop Up Buttons
+
 Pop up buttons must be located side by side at the bottom left and right of a pop up message (side by side with at least 8dp between buttons)
+
+<img src="/assets/images/examples/design-standards-navigation-buttons-popup-example.png">
 
 Pop up buttons must use consistent messaging (see Tools > Messaging > Pop Ups)
 Pop ups must display one or two action buttons for the user to select from (Material.io)

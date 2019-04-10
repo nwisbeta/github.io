@@ -10,6 +10,10 @@ folder: app_design
 Error messages must be relevant, understandable and actionable (Material.io)
 Error messages must explain what went wrong and how to fix it in the error message text (GOV.UK Design System, WCAG 2.1)
 do not use technical language (GOV.UK Design System)
+
+App Examples:
+Example error message pop up display
+<img class="img-responsive img-thumbnail" src="/images/examples/design-standards-ui-errors-example.png">
 Error messages must be short and fit on one or two lines (iOS Human Interface Guidelines)
 Error messages must appear as a pop up with a heading (minimum bold 20 sp and body text (minimum 14 sp)
 Error messages must be in sentence case (see Core Guidelines > Typography)

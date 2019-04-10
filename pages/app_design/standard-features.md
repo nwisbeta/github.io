@@ -21,6 +21,8 @@ Home can be configured or personalised in settings if required
 App Examples:
 Example homepage displaying the most important feature for a specific clinical app
 
+<img class="img-responsive img-thumbnail" src="/images/examples/design-standards-sf-search.png">
+
 # Settings
 Settings must be displayed as three dots in the top right corner
 Setting must cover general settings such as technical settings, preferences, help, app information, accessibility settings, feedback, legal/privacy information and log out
@@ -36,6 +38,8 @@ Clicking a settings menu item must open a new page which must have a back button
 App Examples:
 Example settings page covering general settings, preferences, accessibility, legal/privacy information and log out
 
+<img class="img-responsive img-thumbnail" src="/images/examples/design-standards-sf-settings.png">
+
 # Help
 Help must be included within the settings menu containing access to help functions such as support information and tutorials.
 Support information should be categorised into the different app functions it relates to.
@@ -47,7 +51,8 @@ Tutorials
 Walkthroughs
 Help content must be easy to read and use simple language (target a reading age of 7-9 (WCAG 2.1)– avoid using technical language (Material.io)
 Help content should contain step by step instructions and relevant images (Material.io)
-Feed (if used)
+
+#Feed (if used)
 Feed must include regularly updated information which can include:
 News
 Content
@@ -62,8 +67,11 @@ Important or critical feed items must appear at the top of the feed until acknow
 Once a feed item has been acknowledged it must be stored as a past feed item and displayed with a different colour background to differentiate it from unread feed items
 One month history of feed items must be displayed (load 10 items at a time)
 Clicking a feed item must open a new page which must have a back button (top left corner) to enable navigation back to the feed page
+
 Feed icon must signal important notices on the bottom menu unless notification menu item is present
 If notification menu item is present, important notices must be displayed in notifications and direct user to relevant notice in feed for acknowledgement/read receipt
+
+<img src="/images/examples/design-standards-sf-feed-notification-icon.png" style="max-width: 100px;">
 
 Scroll gestures must be used to allow the user to move through the feed items (see Navigation > Gesture Control)
 Swipe down gesture must be used to allow the user to refresh the feed (see Navigation > Gesture Control)
@@ -71,7 +79,9 @@ Clicking the feed menu item whilst in the feed must scroll to the top of the fee
 App Examples:
 Example feed page
 
-Connection and communication functions
+<img class="img-responsive img-thumbnail" src="/images/examples/design-standards-sf-feed-example.png">
+
+#Connection and communication functions
 Connection and communication functions are intended to cover connecting or communicating with people or entities
 Example: A ward or patient within a particular hospital
 A search bar should be present at the top of the page to allow the user to search for connections
@@ -81,20 +91,25 @@ Clicking the connection/communication group menu item whilst in the feed must sc
 App Examples:
 Example generic connection/communication page covering community and communication features
 
-Watchlist and alerts
+<img class="img-responsive img-thumbnail" src="/images/examples/design-standards-sf-communication-example.png">
+
+# Watchlist and alerts
 Watchlist and alerts must be accessible on clinician apps
 Notifications are generally used instead of watchlist/alerts for patient facing apps (see Standard Features > Notifications)
 Watchlist and alerts must be ordered from highest to lowest priority (see Navigation > Ordering)
 Scroll gesture must be used to allow the user to navigate through items (see Navigation > Gesture Control)
 Swipe down gesture must be used to allow the user to refresh the page (see Navigation > Gesture Control)
 Clicking the watchlist/alerts menu item whilst in the watchlist/alerts menu must scroll to the top of the feed and refresh the page (see Navigation > Gesture Control)
-Watchlist
+## Watchlist
 Users must be able to modify which patients or people appear on their watchlist
-Alerts
+## Alerts
 Any alert must be addressed and resolved using protocols that have been established and signed off at the executive governance level. For clinical alerts signing off must be completed by both clinical and information governance personnel. The date and national body that signed off the protocols must be displayed at the top of this alert section and updated or ratified periodically.
 
-Alert Protocol Version	Sign Off Date	Signatories (list)
-Pending		
+| Alert Protocol Version | Sign Off Date | Signatories (list) |
+|------------------------|---------------|--------------------|
+| Pending                |               |                    |
+
+	
 Alerts must be displayed with the time and date they were triggered
 Critical alerts must provide a notification to the user
 Critical notifications within the app (see User Interaction > Pop Ups) should prevent the user from doing other things until they take action (iOS Human Interface Guidelines)
@@ -103,6 +118,8 @@ Important alerts must appear at the top of the page until acknowledged by the us
 Once an alert has been acknowledged it must be stored as a past alert and displayed with a different colour background to differentiate it from current alerts
 One month history of alerts must be displayed (load 10 items at a time)
 Feed/watchlist icons must signal alerts/important notices on the bottom menu
+
+<img src="/images/examples/design-standards-sf-feed-notification-icon.png" style="max-width: 100px;">
 
 Alerts must be displayed in an accessible format that differentiates high, medium and low priority alerts without relying on colour (see Accessibility) (WCAG 2.1)
 High priority alerts must be displayed with a hexagon with NWIS red fill
@@ -116,11 +133,15 @@ The above guidelines ensures that colour must not be used as the only visual rep
 App Examples:
 Example watchlist page for a clinical app, enabling users to select/deselect users on their watchlist and highlighting important notifications
 
-Notifications
+<img class="img-responsive img-thumbnail" src="/images/examples/design-standards-sf-watchlist.png">
+
+# Notifications
 Any notification must be addressed and resolved using protocols that have been established and signed off at the executive governance level. For clinical notifications signing off must be completed by both clinical and information governance personnel. The date and national body that signed off the protocols must be displayed at the top of this alert section and updated or ratified at least annually.
 
-Notification Protocol Version	Sign Off Date	Signatories (list)
-Pending		
+| Notification Protocol Version | Sign Off Date | Signatories (list) |
+|-------------------------------|---------------|--------------------|
+| Pending                       |               |                    |
+
 The highest priority notifications must be displayed at the top of the page
 After that the display ordering must be in time order. That is, most recent notifications must be displayed at the top of the page
 Notifications must be displayed with the time and date they were sent from the server, or received by the app if the server information is not available
@@ -136,7 +157,9 @@ Clicking the notifications menu item whilst in the notifications menu must scrol
 App Examples:
 Example generic notifications page allowing the users to view and retrieve notifications, with unread notifications displaying at the top of the page
 
-Profile
+<img class="img-responsive img-thumbnail" src="/images/examples/design-standards-sf-notification-example.png">
+
+# Profile
 This profile guidance applies to both professionals (including clinicians) and members of the public, for public facing apps
 Profile must include at least three personal identifiers such as:
 First Name
@@ -149,7 +172,9 @@ Users must be able to view and edit their profile information
 App Examples:
 Example generic profile page enabling users to view and edit their profile information
 
-Search
+<img class="img-responsive img-thumbnail" src="/images/examples/design-standards-sf-profile-example.png">
+
+# Search
 See Navigation > Search
 
 Orientation

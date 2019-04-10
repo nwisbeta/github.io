@@ -34,6 +34,12 @@ An error message must be displayed immediately (whilst the user is completing da
 App Examples:
 Generic registration page detailing user credentials required for registration
 
+<img class="img-responsive img-thumbnail" src="/images/examples/design-standards-access-registration1.png">
+
 Generic registration page detailing user credentials required for registration
 
+<img class="img-responsive img-thumbnail" src="/images/examples/design-standards-access-registration2.png">
+
 Generic registration page detailing term and conditions as a summary and in full
+
+<img class="img-responsive img-thumbnail" src="/images/examples/design-standards-access-registration3.png">

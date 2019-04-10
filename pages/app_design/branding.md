@@ -25,7 +25,7 @@ Launch screen app icons must use NWIS colours (See Branding > Colour)
 
 NWIS logo must be used as the home button icon to ensure branding is on every page 
 Example home icon using NWIS logo
-<img src="/images/examples/design-standards-home-example.png" style="max-width: 120px">
+<img src="/images/examples/design-standards-home-example.png" alt="Examples of white icon on a solid colour background, and coloured icon on a white background, with a colour border" style="max-width: 120px">
 
 Do not use the same logo more than once on each page
 

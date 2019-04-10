@@ -7,12 +7,12 @@ permalink: data-display.html
 folder: app_design 
 ---
 
-Data Display
+
 Data must display must be consistent
 Consistent values must be used (see Tools > Standard Values)
 SI Units must be used as default
 Example: metres, kilograms, litres
-Patient information
+# Patient information
 Three pieces of identifiable patient information must be displayed on clinical apps to identify patient including patient name (first and last name), NHS number, DOB (age)
 Example: SMITH, John (M) 943 476 5919 03/04/56 (62yrs) (NHS Common User Interface)
 Last name must be in uppercase (all capitals) to clearly distinguish it from the first name (NHS Common User Interface)
@@ -32,7 +32,8 @@ Do not display more information than is required (ICO, GDPR)
 Additional non-essential information must be displayed through the user being able to expand a higher level component to reveal lower level components (see Navigation > Gesture Control) or pop up (see User Interaction > Pop Ups)
 App Examples:
 Example clinical app patient information display
+<img class="img-responsive img-thumbnail" src="/images/examples/design-standards-ui-patient-info.png">
 
-Patient Results
+# Patient Results
 Only show recent or relevant patient results to avoid display of inaccurate/misleading information (GDPR, ICO)
 Results must only be displayed on appropriate screen size otherwise an error message must be provided notifying the user that they must use another device to view the results (see Tools > Messaging > Error Messages)

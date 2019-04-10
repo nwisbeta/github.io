@@ -26,7 +26,11 @@ Log in page must display forgotten details message and link for password reset (
 Examples:
 Generic app log in page enabling users to gain access to the app through authentication with their username/email address and password
 
+<img class="img-responsive img-thumbnail" src="/images/examples/design-standards-access-login-app-name.png">
+
 Example log in page enabling users to gain access to the app through an external authentication service
+
+<img class="img-responsive img-thumbnail" src="/images/examples/design-standards-access-login-forgotten.png">
 
 Log in after session timeout
 NHS Wales logo must be displayed on log in after timeout page (top middle)
@@ -45,5 +49,8 @@ Log out button must be located in settings (Material.io)
 Log out action must end session
 User must be logged out of session and taken to log in page after clicking log out button
 
+
 App Examples:
 Example settings page covering general settings, preferences, accessibility, legal/privacy information and log out
+
+<img class="img-responsive img-thumbnail" src="/images/examples/design-standards-access-login-pinexample.png">
