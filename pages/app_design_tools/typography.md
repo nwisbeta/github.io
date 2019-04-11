@@ -90,6 +90,7 @@ Area of work/speciality
 # Font Conversions
 
 ## Font Size
+
 | em/rem | sp  | pt  |
 |--------|-----|-----|
 | 0.0625 | 1.0 | 1.0 |
@@ -104,6 +105,7 @@ Area of work/speciality
 | 60 | 60 | 3.75   |
 
 ## Touch targets
+
 | px | dp   | mm  |
 |----|------|-----|
 | 44 | 58.6 | 9.3 |
