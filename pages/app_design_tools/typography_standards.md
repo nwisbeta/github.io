@@ -3,7 +3,7 @@ title: Typography
 keywords:
 sidebar: appdesign_tools_sidebar
 toc: false
-permalink: typography.html
+permalink: typography_standards.html
 folder: app_design_tools 
 ---
 

@@ -3,7 +3,7 @@ title: Messaging
 keywords:
 sidebar: appdesign_tools_sidebar
 toc: false
-permalink: messaging.html
+permalink: messaging_examples.html
 folder: app_design_tools 
 ---
 

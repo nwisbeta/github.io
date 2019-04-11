@@ -18,7 +18,7 @@ entries:
       output: web
 
     - title: Typography
-      url: /typography.html
+      url: /typography_standards.html
       output: web, pdf
 
     - title: App and Page Loading
@@ -26,7 +26,7 @@ entries:
       output: web
 
     - title: Messaging
-      url: /messaging.html
+      url: /messaging_examples.html
       output: web, pdf
 
     - title: Terms
