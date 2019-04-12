@@ -1,8 +1,8 @@
 ---
 title: NWIS Health APIs
 tags: [NWIS_API, DHEW]
-keywords: 
-sidebar: api_sidebar
+keywords: contact, help, SDK
+sidebar: apiguides_sidebar
 toc: false
 permalink: apiguides_landing_page.html
 folder: apiguides
