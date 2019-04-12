@@ -1,3 +1,13 @@
+Changes to the content:
+
+| Original | Revision |
+|----------|----------|
+| Introduction, Principles, Using this guide | About |
+
+
+
+
+
 keywords: display, design, response, text, icon, reset
 keywords: text, field, response, display, results, accessibility, 
 keywords: toggle, radio, buttons, checkbox, checkboxes, design, layout, dropdown, picker, selection, responsive, labels, 

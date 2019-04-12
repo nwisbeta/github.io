@@ -22,17 +22,9 @@ entries:
   - title: Overview
     output: web, pdf
     folderitems:
-    - title: App Design Standards
-      url: /app_design_landing_page.html
+    - title: About
+      url: /about.html
       output: web
-
-    - title: Principles
-      url: /principles.html
-      output: web, pdf
-
-    - title: Using this Guide
-      url: /using-this-guide.html
-      output: web, pdf
 
   - title: Design Standards
     output: web, pdf
