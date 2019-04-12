@@ -1,0 +1,69 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: "App Design Standards: Tools"
+  version: 1.0
+  folders:
+
+  - title: Tools
+    output: web, pdf
+    folderitems:
+    - title: Accessibility and design tools
+      url: /accessibility-design-tools.html
+      output: web
+
+    - title: Icons and assets
+      url: /icons-assets.html
+      output: web
+
+    - title: Typography
+      url: /typography_standards.html
+      output: web, pdf
+
+    - title: App and Page Loading
+      url: /app-page-loading.html
+      output: web
+
+    - title: Messaging
+      url: /messaging_examples.html
+      output: web, pdf
+
+    - title: Terms
+      url: /terms.html
+      output: web, pdf
+
+    - title: Glossary
+      url: /glossary.html
+      output: web
+
+    - title: Exceptions
+      url: /exceptions.html
+      output: web, pdf
+      
+  - title: Considerations
+    output: web, pdf
+    folderitems:
+    - title: Phase 1 - Requirements
+      url: /phase-1-requirements.html
+      output: web
+
+    - title: Phase 2 - Design
+      url: /phase-2-design.html
+      output: web
+
+    - title: Phase 3 - Prototype
+      url: /phase-3-prototype.html
+      output: web, pdf
+
+    - title: Phase 4 - Demonstrator
+      url: /phase-4-demonstrator.html
+      output: web
+
+    - title: Phase 5 - Beta
+      url: /phase-5-beta.html
+      output: web, pdf
+
+    - title: Phase 6 - Production
+      url: /phase-6-production.html
+      output: web, pdf

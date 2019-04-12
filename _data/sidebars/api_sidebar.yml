@@ -1,0 +1,72 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: Software Dev Kit for Health APIs
+  version: 0.1
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+      
+  - title: Overview
+    output: web, pdf
+    folderitems:
+
+    - title: Health APIs for NHS Wales
+      url: /apiguides_landing_page.html
+      output: web, pdf
+      type: homepage
+      
+    - title: Getting Started
+      url: /apiguides_getting_started_hapi.html
+      output: web, pdf
+      
+  - title: Patient Demographic Data API
+    output: web, pdf
+
+    folderitems:
+    - title: Overview
+      url: /pt_dmgrphc_landing_page.html
+      output: web, pdf
+      type: homepage
+      
+    - title: Use Case Queries
+      url: /pt_dmgrphc_use_cases.html
+      output: web, pdf
+      
+  - title: Reference Data API
+    output: web, pdf
+      
+    folderitems:
+    - title: Overview
+      url: /ref_data_landing_page.html
+      output: web, pdf
+      type: homepage
+    
+    - title: Use Case Queries
+      url: /ref_data_use_cases.html
+      output: web, pdf
+      
+  - title: Diagnostic Observations and Reports API
+    output: web, pdf
+    folderitems:
+    
+    - title: Overview
+      url: /diag_obs_reports_landing_page.html
+      output: web, pdf
+      type: homepage
+      
+    - title: Use Case Queries
+      url: /diag_obs_reports_use_cases.html
+      output: web, pdf

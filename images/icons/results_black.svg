@@ -1,0 +1,11 @@
+<svg id="baseline-assessment-24px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34.274 34.274">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <path id="Path_155" data-name="Path 155" d="M25.849,3H5.856A2.865,2.865,0,0,0,3,5.856V25.849a2.865,2.865,0,0,0,2.856,2.856H25.849a2.865,2.865,0,0,0,2.856-2.856V5.856A2.865,2.865,0,0,0,25.849,3ZM11.568,22.993H8.712V13h2.856Zm5.712,0H14.425V8.712h2.856Zm5.712,0H20.137V17.281h2.856Z" transform="translate(1.284 1.284)"/>
+  <path id="Path_156" data-name="Path 156" class="cls-1" d="M0,0H34.274V34.274H0Z"/>
+</svg>

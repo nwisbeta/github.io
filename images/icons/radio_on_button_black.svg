@@ -1,0 +1,11 @@
+<svg id="baseline-radio_button_checked-24px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <path id="Path_256" data-name="Path 256" d="M12,7a5,5,0,1,0,5,5A5,5,0,0,0,12,7Zm0-5A10,10,0,1,0,22,12,10,10,0,0,0,12,2Zm0,18a8,8,0,1,1,8-8A8,8,0,0,1,12,20Z"/>
+  <path id="Path_257" data-name="Path 257" class="cls-1" d="M0,0H24V24H0Z"/>
+</svg>

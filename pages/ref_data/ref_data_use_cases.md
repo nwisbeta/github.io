@@ -2,7 +2,7 @@
 title: "Reference Data API: Use Case Queries"
 tags: [NWIS_API, FHIR, use_case, code_sample]
 keywords: organization, reference, ODS, identifier, gppractice, practitionerrole
-sidebar: mydoc_sidebar
+sidebar: apiguides_sidebar
 toc: true
 permalink: ref_data_use_cases.html
 folder: ref_data

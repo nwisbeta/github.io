@@ -61,7 +61,7 @@ entries:
 
 #   folderitems:
 #   - title: Overview
-#     url: /mydoc_sidebar_navigation.html
+#     url: /api_sidebar_navigation.html
 #     output: web, pdf
 
 #    - title: Case studies

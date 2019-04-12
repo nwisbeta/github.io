@@ -2,7 +2,7 @@
 title: Getting Started
 tags: [getting_started, FHIR]
 keywords: quickstart, requirements, authorisation, authentication, install
-sidebar: mydoc_sidebar
+sidebar: apiguides_sidebar
 toc: true
 permalink: apiguides_getting_started.html
 folder: apiguides
