@@ -1,6 +1,6 @@
 ---
 title: Buttons 
-keywords:
+keywords: action, response, tap, messages, size, scale, font, display, colour, contrast, alignment, 
 sidebar: appdesign_sidebar
 toc: false
 permalink: buttons.html

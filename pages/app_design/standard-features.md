@@ -1,6 +1,6 @@
 ---
 title: Standard Features
-keywords:
+keywords: default, settings, home, preferences, feed, alerts, notification, notify, watchlist, profile, orientation, landscape
 sidebar: appdesign_sidebar
 toc: false
 permalink: standard-features.html

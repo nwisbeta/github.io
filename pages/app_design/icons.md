@@ -1,6 +1,6 @@
 ---
 title: Icons 
-keywords: icons, symbols, colour, labels, text, png, sgv, resolution
+keywords: icons, symbols, colour, labels, text, png, sgv, resolution, display, interface, contrast, 
 sidebar: appdesign_sidebar
 toc: false
 permalink: icons.html

@@ -1,13 +1,11 @@
 ---
 title: Branding
-keywords:
+keywords: logo, icons, icon, colour, palette, primary, secondary, blue, green, aqua, rose, purple, orange, yellow, red, NWIS, nwis
 sidebar: appdesign_sidebar
 toc: false
 permalink: branding.html
 folder: app_design 
 ---
-
-
 
 # Launch Screen App Icon
 Launch screen app icons must be simple and use a single object or logo on a solid colour background

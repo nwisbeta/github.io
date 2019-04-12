@@ -1,6 +1,6 @@
 ---
 title: Transitions 
-keywords:
+keywords: navigation, categories, swipe, components, 
 sidebar: appdesign_sidebar
 toc: false
 permalink: transitions.html

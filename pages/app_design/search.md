@@ -1,6 +1,6 @@
 ---
 title: Search 
-keywords:
+keywords: text, field, response, display, results, accessibility, 
 sidebar: appdesign_sidebar
 toc: false
 permalink: search.html

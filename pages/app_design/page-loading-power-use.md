@@ -1,6 +1,6 @@
 ---
 title: Page Loading and Power Use
-keywords:
+keywords: load, progress, power, battery, 
 sidebar: appdesign_sidebar
 toc: false
 permalink: page-loading-power-use.html

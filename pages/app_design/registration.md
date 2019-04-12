@@ -1,6 +1,6 @@
 ---
 title: Registration
-keywords:
+keywords: password, data, display, consent, interface, design
 sidebar: appdesign_sidebar
 toc: false
 permalink: registration.html

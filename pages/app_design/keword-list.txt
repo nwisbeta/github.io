@@ -1,0 +1,23 @@
+keywords: display, design, response, text, icon, reset
+keywords: text, field, response, display, results, accessibility, 
+keywords: toggle, radio, buttons, checkbox, checkboxes, design, layout, dropdown, picker, selection, responsive, labels, 
+keywords: action, response, tap, messages, size, scale, font, display, colour, contrast, alignment, 
+keywords: buttons, menus, data, tap, scroll, scrolling, swipe, pan, pinch, zoom, resize, elements, components, behaviour
+keywords: navigation, categories, swipe, components, 
+keywords: navigation, responsive, icons, notifications, items, display, screens, 
+keywords: password, data, display, consent, interface, design
+keywords: login, logout, password, access, credentials, authentication, pin, timeout
+keywords: loading, battery, response, access
+keywords: access, functionality, data, auditing
+keywords: load, progress, power, battery, 
+keywords: terms, translation, alignment, flags
+keywords: font, sizing, scale, colour, palette, blue, green, black, white, contrast, paragraph, case, links
+keywords: default, settings, home, preferences, feed, alerts, notification, notify, watchlist, profile, orientation, landscape
+keywords: logo, icons, icon, colour, palette, primary, secondary, blue, green, aqua, rose, purple, orange, yellow, red, NWIS, nwis
+keywords: interface, design, navigation, search, access, display, standard
+keywords: filter, organisation, data, alerts, priority, 
+keywords: icons, symbols, colour, labels, text, png, sgv, resolution, display, interface, contrast, 
+keywords: branding, display, ratio, labels, accessibility, caching, loading, 
+keywords: size, colour, resize, reading, swipe, label, contrast, display
+keywords: GDPR, gdpr, confidential, confidentiality, data, access
+keywords: open, standards, API, integration, systems, services, external

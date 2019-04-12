@@ -1,6 +1,6 @@
 ---
 title: Terminology and Language 
-keywords:
+keywords: terms, translation, alignment, flags
 sidebar: appdesign_sidebar
 toc: false
 permalink: terminology-and-language.html
@@ -18,4 +18,4 @@ Apps must be developed with provision for translation to other languages using l
 If the mobile app is being used for a right alignment language as an option then there needs to be a layout flag that swaps the alignment accordingly  
 
 # Flags
-Language flags must be used for text fields  *UNCLEAR*
+Language flags must be used for text fields  *UNCLEAR what are these?*

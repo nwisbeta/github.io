@@ -1,6 +1,6 @@
 ---
 title: Filters 
-keywords:
+keywords: display, design, response, text, icon, reset
 sidebar: appdesign_sidebar
 toc: false
 permalink: filters.html

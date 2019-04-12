@@ -1,6 +1,6 @@
 ---
 title: Menus 
-keywords:
+keywords: navigation, responsive, icons, notifications, items, display, screens, 
 sidebar: appdesign_sidebar
 toc: false
 permalink: menus.html

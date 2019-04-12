@@ -1,6 +1,6 @@
 ---
 title: Selection Controls 
-keywords:
+keywords: toggle, radio, buttons, checkbox, checkboxes, design, layout, dropdown, picker, selection, responsive, labels, 
 sidebar: appdesign_sidebar
 toc: false
 permalink: selection-controls.html

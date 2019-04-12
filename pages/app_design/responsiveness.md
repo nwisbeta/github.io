@@ -1,6 +1,6 @@
 ---
 title: Responsiveness and Adaptivity
-keywords:
+keywords: orientation, screen, device, display, readability, spacing
 sidebar: appdesign_sidebar
 toc: false
 permalink: responsiveness.html

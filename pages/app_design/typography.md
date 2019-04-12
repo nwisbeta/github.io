@@ -1,6 +1,6 @@
 ---
 title: Typography
-keywords:
+keywords: font, sizing, scale, colour, palette, blue, green, black, white, contrast, paragraph, case, links
 sidebar: appdesign_sidebar
 toc: false
 permalink: typography.html

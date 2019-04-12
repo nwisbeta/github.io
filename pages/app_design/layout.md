@@ -1,6 +1,6 @@
 ---
 title: Layout
-keywords:
+keywords: interface, design, navigation, search, access, display, standard
 sidebar: appdesign_sidebar
 toc: false
 permalink: layout.html

@@ -1,6 +1,6 @@
 ---
 title: Log in and Log out
-keywords:
+keywords: login, logout, password, access, credentials, authentication, pin, timeout
 sidebar: appdesign_sidebar
 toc: false
 permalink: log-in-log-out.html
