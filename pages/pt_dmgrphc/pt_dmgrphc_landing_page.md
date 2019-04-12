@@ -2,7 +2,7 @@
 title: Patient Demographic Data API
 tags: [NWIS_API, FHIR, resources, parameters, endpoints_and_methods]
 keywords: demographic, patient, 
-sidebar: apiguides_sidebar
+sidebar: api_sidebar
 toc: false
 permalink: pt_dmgrphc_landing_page.html
 folder: pt_dmgrphc
