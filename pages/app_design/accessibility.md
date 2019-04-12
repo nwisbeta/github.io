@@ -49,3 +49,11 @@ Provide alternative text labels for images and icons (iOS Human Interface Guidel
 * Example: Edit next to an edit icon  
 
 Avoid flashing of more than three times in any one second period (WCAG 2.1)  
+
+# Tools
+
+Readability Tool: https://www.webpagefx.com/tools/read-able/
+
+Colour Contrast Checker: https://contrastchecker.com/
+
+Colour Contrast Checker: https://webaim.org/resources/contrastchecker/

@@ -9,17 +9,9 @@ entries:
   - title: Tools
     output: web, pdf
     folderitems:
-    - title: Accessibility and design tools
-      url: /accessibility-design-tools.html
-      output: web
-
     - title: Icons and assets
       url: /icons-assets.html
       output: web
-
-    - title: Exceptions
-      url: /exceptions.html
-      output: web, pdf
       
   - title: Considerations
     output: web, pdf

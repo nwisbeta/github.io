@@ -93,3 +93,6 @@ This standard requires further governance considerations review for:
 
 Implementing clinical mobile applications requires care. Designers and developers must seek clinical and/or information governance guidance and sign off, in case of any doubt about real-world impact of the app function.
 
+# Exceptions
+
+Exceptions to these standards may be considered necessary to optimise UI and/or UX. These must always be accompanied by the appropriate documentation, including senior stakeholder sign-off, linked to the development checklists.
