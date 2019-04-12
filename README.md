@@ -1,6 +1,7 @@
 ---
 title: "README for nwisbeta.github.io"
 keywords: NWIS HAPI APIs
+search: exclude
 tags: [README, NWIS]
 permalink: 
 summary: 
