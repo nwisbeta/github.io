@@ -1,6 +1,6 @@
 ---
 title: Getting Started with HAPI server
-keywords: quickstart, Java, C#, .NET, Python, JSON
+keywords: 
 tags: [getting_started, FHIR, HAPI]
 sidebar: api_sidebar
 toc: true
