@@ -1,8 +1,8 @@
 ---
 title: About
-keywords:
+keywords: 
 sidebar: appdesign_sidebar
-toc: false
+toc: true
 permalink: about.html
 folder: app_design 
 ---
@@ -31,7 +31,7 @@ The design standards have been produced to align with the following principles
 
 # Harmonised Standards
 
-The guidance complies with the following harmonised standards:  
+The guidance complies with the following harmonised standards. References to these standards appear in brackets. 
 
 *   [Welsh Technical Standards Board](https://wardle.org/wales/2018/05/15/wtsb.html)
 *   [Web Content Accessibility Guidelines (WCAG) 2.1](https://www.w3.org/TR/WCAG21/) and [Application to Mobile](https://www.w3.org/TR/mobile-accessibility-mapping/)
@@ -54,3 +54,42 @@ The guidance complies with the following harmonised standards:
 
 
 {% include note.html content="In the event that executive protocols including those signed off by the Welsh Technical Standards Board conflict with any of the standards rules or recommendations then the standards must be updated as soon as is feasible so that all documentation is in alignment." %}
+
+
+# Terminology
+
+The following terms in this guide have specific meanings as below and are consistently used in other NWIS software development standards. They will be in italic format throughout the standards.
+
+_Do/must_: an absolute requirement of the standard 
+
+_Do not/must not_: this feature is not permitted in this standard
+
+_Should/should not_: follows the standard wherever possible, but not always possible due to external factors such as device differences (e.g. type, other software installed and working memory)
+
+_Avoid_: this feature or result does not meet the standard, but is tolerated in limited, documented circumstances  
+
+_If required_: this should only be used if appropriate or required but is not enforced
+
+_Exceptions_: sometimes exceptions to these standards are necessary to optimise UI and/or UX. The standard defines where exceptions are permitted. Document every exception, including senior stakeholder sign-off, using the development checklists (see Tools > Exceptions).
+
+_Example_: this provides an example of an implementation of the standard
+
+_Other Terminology_: terms such as "critical" and "important" are referred to throughout this standards documentation however they have not been defined within these standards. It is expected these terms will be defined elsewhere as further explained in the User Interaction/Notifications section.
+
+See [OpenAPI Specification](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.2.md#version-302) for similar use of key words.
+
+# Governance Impact on UI/UX Standards
+
+Clinical, information and quality assurance governance will affect UI and UX design standards. 
+
+Where these standards could lead to a serious safety effect, the standard indicates the need to refer to controls. 
+
+The standard is explicit when clinical and/or information governance is required, to implement the standard safely.
+
+This standard requires further governance considerations review for:
+
+* Notifications
+* Alerts
+
+Implementing clinical mobile applications requires care. Designers and developers must seek clinical and/or information governance guidance and sign off, in case of any doubt about real-world impact of the app function.
+

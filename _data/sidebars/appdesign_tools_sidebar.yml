@@ -17,26 +17,6 @@ entries:
       url: /icons-assets.html
       output: web
 
-    - title: Typography
-      url: /typography_standards.html
-      output: web, pdf
-
-    - title: App and Page Loading
-      url: /app-page-loading.html
-      output: web
-
-    - title: Messaging
-      url: /messaging_examples.html
-      output: web, pdf
-
-    - title: Terms
-      url: /terms.html
-      output: web, pdf
-
-    - title: Glossary
-      url: /glossary.html
-      output: web
-
     - title: Exceptions
       url: /exceptions.html
       output: web, pdf

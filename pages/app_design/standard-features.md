@@ -7,6 +7,8 @@ permalink: standard-features.html
 folder: app_design 
 ---
 
+*RENAME DEFAULT BEHAVIOUR?*
+
 Most mobile apps exhibit common features such as the Home and Settings screens  
 This section guides how to implement standard features in a common manner  
 Standard features must be used where relevant  

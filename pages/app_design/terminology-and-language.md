@@ -1,6 +1,6 @@
 ---
 title: Terminology and Language 
-keywords: terms, translation, alignment, flags
+keywords: terms, translation, alignment, flags messages, language, labels, text, font, size
 sidebar: appdesign_sidebar
 toc: false
 permalink: terminology-and-language.html
@@ -19,3 +19,57 @@ If the mobile app is being used for a right alignment language as an option then
 
 # Flags
 Language flags must be used for text fields  *UNCLEAR what are these?*
+
+
+# Preferred Labels for App Fields
+Log In
+Log Out
+Register
+First Name
+Last Name
+Email
+Date of Birth
+Sex  *CHECK GUIDANCE*
+Gender *CHECK GUIDANCE*
+Time
+Date
+Add Task
+To Do Item
+To Do List
+Filter
+Search
+Patient Information
+
+# Menu items
+Home
+Settings
+Feed
+Watchlist
+Notifications
+Settings
+Profile
+Help
+Menu
+
+# Settings
+User preferences
+Profile
+First name
+Last name
+Date of Birth
+Sex
+Gender
+Email
+Privacy
+Change password
+Change PIN
+Notifications
+Language
+Accessibility
+App info
+Build number
+Version
+Legal
+Terms and Conditions
+Privacy Policy
+Log out

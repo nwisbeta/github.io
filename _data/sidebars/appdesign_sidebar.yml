@@ -25,6 +25,9 @@ entries:
     - title: About
       url: /about.html
       output: web
+    - title: Glossary
+      url: /glossary.html
+      output: web
 
   - title: Design Standards
     output: web, pdf

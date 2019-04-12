@@ -1,10 +1,10 @@
 ---
 title: Glossary
 keywords: language, terms, text, instructions, labels, usability, accessibility, standards
-sidebar: appdesign_tools_sidebar
+sidebar: appdesign_sidebar
 toc: false
 permalink: glossary.html
-folder: app_design_tools 
+folder: app_design
 ---
 
 Address
