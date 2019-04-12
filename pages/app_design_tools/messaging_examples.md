@@ -1,6 +1,6 @@
 ---
 title: Messaging
-keywords:
+keywords: text, messages, instructions, guidance, help, alerts, notifications, data, actions, results, responses
 sidebar: appdesign_tools_sidebar
 toc: false
 permalink: messaging_examples.html

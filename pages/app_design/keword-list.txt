@@ -21,3 +21,8 @@ keywords: branding, display, ratio, labels, accessibility, caching, loading,
 keywords: size, colour, resize, reading, swipe, label, contrast, display
 keywords: GDPR, gdpr, confidential, confidentiality, data, access
 keywords: open, standards, API, integration, systems, services, external
+keywords: colour, design, link, symbol, action, meaning, response, interface, display, contrast, font, alert, notification
+keywords: font, size, bold, plain, case, heading, label, text, buttons, links, numbers, values, units, conversions, targets
+keywords: design, result, performance, action, default
+keywords: text, messages, instructions, guidance, help, alerts, notifications, data, actions, results, responses
+keywords: messages, language, labels, text, font, size

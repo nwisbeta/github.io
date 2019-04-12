@@ -1,6 +1,6 @@
 ---
 title: App and Page Loading
-keywords:
+keywords: design, result, performance, action, default
 sidebar: appdesign_tools_sidebar
 toc: false
 permalink: app-page-loading.html

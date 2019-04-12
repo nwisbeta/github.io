@@ -1,6 +1,6 @@
 ---
 title: Typography
-keywords:
+keywords: font, size, bold, plain, case, heading, label, text, buttons, links, numbers, values, units, conversions, targets
 sidebar: appdesign_tools_sidebar
 toc: false
 permalink: typography_standards.html

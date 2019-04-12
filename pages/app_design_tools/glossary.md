@@ -1,6 +1,6 @@
 ---
 title: Glossary
-keywords:
+keywords: language, terms, text, instructions, labels, usability, accessibility, standards
 sidebar: appdesign_tools_sidebar
 toc: false
 permalink: glossary.html

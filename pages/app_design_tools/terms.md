@@ -1,6 +1,6 @@
 ---
 title: Terms
-keywords:
+keywords: messages, language, labels, text, font, size
 sidebar: appdesign_tools_sidebar
 toc: false
 permalink: terms.html
@@ -15,8 +15,8 @@ First Name
 Last Name
 Email
 Date of Birth
-Sex
-Gender
+Sex  *CHECK GUIDANCE*
+Gender *CHECK GUIDANCE*
 Time
 Date
 Add Task
