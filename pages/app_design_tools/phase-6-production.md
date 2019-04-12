@@ -1,6 +1,6 @@
 ---
 title: Phase 6 - Production
-keywords:
+keywords: testing, documentation, assurance, release, iteration
 sidebar: appdesign_tools_sidebar
 toc: false
 permalink: phase-6-production.html

@@ -1,6 +1,6 @@
 ---
 title: Phase 5 - Beta
-keywords:
+keywords: prototype, testing, stakeholder, documentation
 sidebar: appdesign_tools_sidebar
 toc: false
 permalink: phase-5-beta.html
