@@ -2,26 +2,26 @@
 title: Terminology and Language 
 keywords: terms, translation, alignment, flags messages, language, labels, text, font, size
 sidebar: appdesign_sidebar
-toc: false
+toc: true
 permalink: terminology-and-language.html
 folder: app_design 
 ---
 
-# Terminology
+## Terminology
 Standard terms must be used throughout the app (iOS Human Interface Guidelines) (see Tools > Terms)  
 Terms must be clear and easy to understand (iOS Human Interface Guidelines)  
 Terms must be familiar and friendly (iOS Human Interface Guidelines)  
 Avoid the use of patronising terms for example 'we', 'our', and 'me' (i.e. My Settings) (iOS Human Interface Guidelines)  
 
-# Language
+## Language
 Apps must be developed with provision for translation to other languages using language flags (see Core Guidelines > Flags)  
 If the mobile app is being used for a right alignment language as an option then there needs to be a layout flag that swaps the alignment accordingly  
 
-# Flags
+## Flags
 Language flags must be used for text fields  *UNCLEAR what are these?*
 
 
-# Preferred Labels for App Fields
+## Preferred Labels for App Fields
 Log In
 Log Out
 Register
@@ -40,7 +40,7 @@ Filter
 Search
 Patient Information
 
-# Menu items
+## Menu items
 Home
 Settings
 Feed
@@ -51,7 +51,7 @@ Profile
 Help
 Menu
 
-# Settings
+## Settings
 User preferences
 Profile
 First name

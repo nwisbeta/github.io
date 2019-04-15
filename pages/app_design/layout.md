@@ -12,17 +12,17 @@ A consistent layout must be used across similar pages and components (WCAG 2.1, 
 Example: Consistent menu item locations and button locations
 
 <div class="col-sm-12">
-	<h3>App Examples:</h3>
 	<div class="row">
 		<div class="col-md-6 col-lg-6">
-			<h5>Generic App Layout</h5>
+			<h3>Generic App Layout</h3>
 			<img class="img-responsive img-thumbnail" src="/images/examples/design-standards-generic-layout.png">
 		</div>
 				
 		<div class="col-md-6 col-lg-6">
-			<h5>Log In Page</h5>
+			<h3>Log In Page</h3>
 			<img class="img-responsive img-thumbnail" src="/images/examples/design-standards-layout-login.png">
 		</div>
+	
 	</div>
 </div>			
 
@@ -49,16 +49,15 @@ App Examples:
 
 
 <div class="col-sm-12">
-	<h3>App Examples:</h3>
-	<div class="row">
+		<div class="row">
 
 		<div class="col-md-6 col-lg-6">
-			<h5>Patient Information</h5>
+			<h3>Patient Information</h3>
 			<img class="img-responsive img-thumbnail" src="/images/examples/design-standards-layout-patient-info.png">
 		</div>
 				
 		<div class="col-md-6 col-lg-6">
-			<h5>Settings Menu</h5>
+			<h3>Settings Menu</h3>
 			<img class="img-responsive img-thumbnail" src="/images/examples/design-standards-layout-settings.png">
 		</div>
 	</div>	

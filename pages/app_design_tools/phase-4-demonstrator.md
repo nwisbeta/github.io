@@ -17,7 +17,7 @@ Prior to release for stakeholder validation the development team must test and v
 
 Minor UX and/or UI changes such as changes in icon positioning, font size or colours may be implemented during the Demonstrator phase.
 
-# Checklist
+## Checklist
 
 <p>
 				<i class="far fa-square"></i> Check Phase 1 (Requirements), 2 (Design) and 3 (Prototype) checklists have been completed<br>

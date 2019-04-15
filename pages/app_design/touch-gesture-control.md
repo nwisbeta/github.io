@@ -2,7 +2,7 @@
 title: Touch Gesture Controls
 keywords: buttons, menus, data, tap, scroll, scrolling, swipe, pan, pinch, zoom, resize, elements, components, behaviour
 sidebar: appdesign_sidebar
-toc: false
+toc: true
 permalink: touch-gesture-control.html
 folder: app_design 
 ---

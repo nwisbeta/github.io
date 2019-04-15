@@ -20,6 +20,6 @@ Dynamic ordering can be used if required to enable the user to manually order it
 
 Alerts must be ordered by high alert to low/no alert
 
-#### Example alerts page showing alerts with appropriate ordering
+### Example alerts page showing alerts with appropriate ordering
 
 <img class="img-responsive img-thumbnail" src="/images/examples/design-standards-ordering-example.png">

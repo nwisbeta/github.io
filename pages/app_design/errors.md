@@ -11,7 +11,7 @@ Error messages must be relevant, understandable and actionable (Material.io)
 Error messages must explain what went wrong and how to fix it in the error message text (GOV.UK Design System, WCAG 2.1)
 do not use technical language (GOV.UK Design System)  
 
-#### Example error message pop up display
+### Example error message pop up display
 <img class="img-responsive img-thumbnail" src="/images/examples/design-standards-ui-errors-example.png">  
 
 Error messages must be short and fit on one or two lines (iOS Human Interface Guidelines)  

@@ -20,7 +20,7 @@ Pop ups must display one or two action buttons (Material.io) (see Navigation > B
 'Are you sure?' pop up with yes/no options must be used prior to submitting, changing or deleting critical data – this type of pop up must not be overused (iOS Human Interface Guidelines)  
 When a pop up is present the background must be darkened with a transparent overlay  
 
-#### Example showing pop up message design with pop up action buttons
+### Example showing pop up message design with pop up action buttons
 
 <img class="img-responsive img-thumbnail" src="/images/examples/design-standards-user-interaction-popup.png">
 

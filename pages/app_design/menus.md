@@ -18,7 +18,7 @@ Do not use more than two menu items on top menu (top left and right)
 
 * Touch targets must be a minimum of 44px x 44px and surrounded by a small amount of inactive space (WCAG 2.1, Material.io)
 
-#### Example layout showing back button placement which enables the user to navigate to the previous page if there is no direct menu location  
+### Example layout showing back button placement which enables the user to navigate to the previous page if there is no direct menu location  
 <img class="img-responsive img-thumbnail" src="/images/examples/design-standards-navigation-example-1.png">
 
 Menu items must be enabled on all pages except when a keyboard is displayed (see below) (iOS Human Interface Guidelines)  

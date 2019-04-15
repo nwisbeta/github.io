@@ -7,7 +7,7 @@ permalink: data-entry.html
 folder: app_design 
 ---
 
-# Data Entry Methods
+## Data Entry Methods
 Multiple methods of entering data must be available (e.g. on-screen keyboard, Bluetooth keyboard, touch, speech) (WCAG 2.1)  
 Do not collect more than the minimum amount of data required – limit data collection to what is necessary (ICO, GDPR)  
 * Avoid asking for a person’s title (GOV.UK Design System)  
@@ -51,7 +51,7 @@ Do not disable copy and paste UNLESS required for clinical governance and data p
 Toggle buttons must be used when selecting between on/off options (see Navigation > Selection Controls)  
 Data entry fields should be automatically saved periodically to prevent data loss (WCAG 2.1)  
 
-# Keyboards
+## Keyboards
 Set the keyboard to the type of data entry required to facilitate data entry and minimise errors (WCAG 2.1, iOS Human Interface Guidelines)  
 * Email keyboard must be used when typing in email fields
 * Numerical keyboard must be used for PIN input

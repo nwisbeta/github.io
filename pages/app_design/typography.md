@@ -7,7 +7,7 @@ permalink: typography.html
 folder: app_design 
 ---
 
-# Font
+## Font
 
 Calibri should be used  
 Font size must be in sp as it can be easily configured to use larger font size for accessibility (see Tools > Typography for unit conversions)  
@@ -17,10 +17,10 @@ Minimum font size 16 (sp) must be used for headings
 Minimum font size 14 (sp) must be used for subtitles  
 Minimum font size 12 (sp) must be used for body text  
 
-# Colour 
+##  Colour 
 NHS Wales primary palette colours or white, black and grey colours specified below must be used for text colour.
 
-#### Primary Palette
+### Primary Palette
 <div class="swatch-wrapper">
 	<div class="row text-center">
 		<div class="col-md-4" style="background-color: rgb(44, 62, 114); color: white; padding: 20px 10px 10px 10px;">
@@ -44,7 +44,7 @@ NHS Wales primary palette colours or white, black and grey colours specified bel
 	</div>
 </div>
 
-#### Black and white colours
+### Black and white colours
 
 <div class="swatch-wrapper">
 	<div class="row text-center">
@@ -81,15 +81,15 @@ For checking contrast use the following tools:
 * https://contrastchecker.com/
 * https://webaim.org/resources/contrastchecker/
 
-# Styles
+## Styles
 Titles, headings, subtitles and body text must be used consistently to create a hierarchy of information throughout the app (GOV.UK Design System)  
 Titles and headings must be in bold  
 Bold must be used to identify important information  
 
-#### Example clinical app patient information display 
+### Example clinical app patient information display 
 <img class="img-responsive img-thumbnail" src="/images/examples/design-standards-typography-styles.png">
 
-# Paragraph
+## Paragraph
 Lines of text must be no longer than 80 characters (WCAG 2.1) and should not require horizontal scrolling to read text (iOS Human Interface Guidelines)  
 A minimum of 1.5 line spacing must be used for body text (WCAG 2.1)  
 Line height must be at least 1.5 times the font size (WCAG 2.1)  
@@ -104,7 +104,7 @@ Bullet points or numbering can be used to make blocks of text easier to read if 
 1. Lorem ipsum
 2. Lorem ipsum
 
-# Case
+## Case
 Avoid using all capital letters (e.g. SAVE) except for last names (see Tools > Terms)  
 
 
@@ -120,20 +120,20 @@ Sentence case must also be used for lists, bullet points or numbering
 
 Avoid the use of shadows and borders for titles, headings, subtitles and body text
 
-#### Example clinical app patient information display
+### Example clinical app patient information display
 <img class="img-responsive img-thumbnail" src="/images/examples/design-standards-case-example-whole.png">
 
-# Alignment Rules
+## Alignment Rules
 Left or central alignment must be used as default  
 For the following use cases right alignment can be used:  
 * Content related to a left alignment category
 * Language conversion (e.g. Arabic/Hebrew/Urdu)
 
-#### Example settings page covering general settings, preferences, accessibility, legal/privacy information and log out
+### Example settings page covering general settings, preferences, accessibility, legal/privacy information and log out
 
 <img class="img-responsive img-thumbnail" src="/images/examples/design-standards-alignment-example.png">
 
-# Links
+## Links
 Links must be consistent  
 Appropriate font must be used (see Core Guidelines > Typography > Font)  
 Appropriate font size must be used (see Core Guidelines > Typography > Font)  
@@ -147,13 +147,13 @@ Links must open within the app, either embedded on the access page or within a n
 * If link opens in web browser it must go to a UI responsive website
 * If link opens in web browser to a third party site a warning message must be displayed to notify the user (see Tools > Messaging > Other)
 
-#### Example of in app link
+### Example of in app link
 <img class="img-responsive img-thumbnail" src="/images/examples/design-standards-links-example.png"> 
 
 
 
 
-# General
+## General
 
 | Style    | Font Type | Font Size (sp) | Font Case | Font Emphasis                                   |
 |----------|-----------|----------------|-----------|-------------------------------------------------|
@@ -163,26 +163,26 @@ Links must open within the app, either embedded on the access page or within a n
 | Body     | Calibri   | 14             | Sentence  | Important information in bold i.e. patient name |
 
 
-# Buttons
+## Buttons
 
 | Style | Font Type | Font Size (em/rem) | Font Case | Font Emphasis |
 |-------|-----------|--------------------|-----------|---------------|
 | Title | Calibri   | 14                 | Title     | Plain         |
 
-# Pop Ups
+## Pop Ups
 
 | Style   | Font Type | Font Size (em/rem) | Font Case | Font Emphasis |
 |---------|-----------|--------------------|-----------|---------------|
 | Heading | Calibri   | 16                 | Title     | Bold          |
 | Body    | Calibri   | 14                 | Sentence  | Plain         |
 
-# Links
+## Links
 
 | Style | Font Type | Font Size (em/rem) | Font Case | Font Emphasis   |
 |-------|-----------|--------------------|-----------|-----------------|
 | Body  | Calibri   | 14                 | Sentence  | Bold Underlined |
 
-# Typography Standard Values
+## Typography Standard Values
 
 The following standardised values must be used across all apps. All other cases are treated as exceptions.
 
@@ -232,15 +232,15 @@ Area of work/speciality
 
 
 
-# Font Conversions
+## Font Conversions
 
-## Font Size
+### Font Size
 
 | em/rem | sp  | pt  |
 |--------|-----|-----|
 | 0.0625 | 1.0 | 1.0 |
 
-## Example conversions
+### Example conversions
 
 | sp | pt | em.rem |
 |----|----|--------|
@@ -249,7 +249,7 @@ Area of work/speciality
 | 24 | 24 | 1.5    |
 | 60 | 60 | 3.75   |
 
-## Touch targets
+### Touch targets
 
 | px | dp   | mm  |
 |----|------|-----|

@@ -26,7 +26,7 @@ Menu item 3 – home button using NHS Wales icon which. Homepage must display mo
 Menu item 4 – notifications, alerts, watchlists.
 Menu item 5 - Outputs specific to the app such as results reports, galleries etc.
 
-# Checklist
+## Checklist
 <p>
 				<i class="far fa-square"></i> Check requirements specification and checklist has been completed<br>
 				<i class="far fa-square"></i> Work to requirements specification<br>

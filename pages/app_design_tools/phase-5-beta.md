@@ -15,7 +15,7 @@ If major UX and/or UI changes are needed then the development must roll back to 
 
 Minor UX and/or UI changes such as changes in icon positioning, font size or colours may be implemented during the Beta phase.
 
-# Checklist
+## Checklist
 
 <p>
 				<i class="far fa-square"></i> Check Phase 1 (Requirements), 2 (Design), 3 (Prototype) and 4 (Demonstrator) checklists have been completed<br>

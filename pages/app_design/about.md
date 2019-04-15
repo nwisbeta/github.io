@@ -7,17 +7,17 @@ permalink: about.html
 folder: app_design 
 ---
 
-# Background
+## Background
 NHS Wales Informatics Service (NWIS) commissioned work in spring 2018 to deliver this suite of User Experience (UX) and User Interface (UI) standards, together with an accompanying template and icon library.  
 
 Their purpose is to guide anyone building mobile applications on behalf of NWIS.  
 
 These standards have been validated through external expert review and NWIS stakeholder and user workshops and engagement that first took place in summer 2018.  
 
-# Scope
+## Scope
 The standards are limited to the guidance of UX and UI implementation for mobile (phone and tablet devices) native operating system applications for NHS Wales use. For the purpose of interoperability and transferability, this documentation aligns with existing and emerging national and international standards. Particular reference has been made to alignment with NWIS standards and branding.
 
-# Design Principles
+## Design Principles
 
 The design standards have been produced to align with the following principles
 
@@ -29,7 +29,7 @@ The design standards have been produced to align with the following principles
 * Progressive, dynamic and responsive to emerging standards and best practice
 * Accessible for the target stakeholder audience with consideration of potential barriers to access including disabilities
 
-# Harmonised Standards
+## Harmonised Standards
 
 The guidance complies with the following harmonised standards. References to these standards appear in brackets. 
 
@@ -56,7 +56,7 @@ The guidance complies with the following harmonised standards. References to the
 {% include note.html content="In the event that executive protocols including those signed off by the Welsh Technical Standards Board conflict with any of the standards rules or recommendations then the standards must be updated as soon as is feasible so that all documentation is in alignment." %}
 
 
-# Terminology
+## Terminology
 
 The following terms in this guide have specific meanings as below and are consistently used in other NWIS software development standards. They will be in italic format throughout the standards.
 
@@ -78,7 +78,7 @@ _Other Terminology_: terms such as "critical" and "important" are referred to th
 
 See [OpenAPI Specification](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.2.md#version-302) for similar use of key words.
 
-# Governance Impact on UI/UX Standards
+## Governance Impact on UI/UX Standards
 
 Clinical, information and quality assurance governance will affect UI and UX design standards. 
 
@@ -93,6 +93,6 @@ This standard requires further governance considerations review for:
 
 Implementing clinical mobile applications requires care. Designers and developers must seek clinical and/or information governance guidance and sign off, in case of any doubt about real-world impact of the app function.
 
-# Exceptions
+## Exceptions
 
 Exceptions to these standards may be considered necessary to optimise UI and/or UX. These must always be accompanied by the appropriate documentation, including senior stakeholder sign-off, linked to the development checklists.

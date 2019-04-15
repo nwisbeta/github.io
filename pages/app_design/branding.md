@@ -7,7 +7,7 @@ permalink: branding.html
 folder: app_design 
 ---
 
-# Launch Screen App Icon
+## Launch Screen App Icon
 Launch screen app icons must be simple and use a single object or logo on a solid colour background
 Launch screen app icons with a white background must have a coloured icon with a solid colour border
 
@@ -19,7 +19,7 @@ Launch screen app icons must be created in 1024px x 1024px resolution
 Launch screen app icons must include a vector format copy as an SVG file (Material.io)
 Launch screen app icons must include a graphics format copy as a PNG file (iOS Human Interface Guidelines)
 Launch screen app icons must use NWIS colours (See Branding > Colour)
-# Logos
+## Logos
 
 NWIS logo must be used as the home button icon to ensure branding is on every page 
 Example home icon using NWIS logo
@@ -27,7 +27,7 @@ Example home icon using NWIS logo
 
 Do not use the same logo more than once on each page
 
-# Colour
+## Colour
 The colours below, based on NWIS brand standards, must be used for all app UI elements unless an exception is generated:
 
 ## Primary colour palette

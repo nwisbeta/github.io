@@ -2,7 +2,7 @@
 title: Messaging and Standard Messages
 keywords: text, messages, instructions, guidance, help, alerts, notifications, data, actions, results, responses
 sidebar: appdesign_sidebar
-toc: false
+toc: true
 permalink: messaging.html
 folder: app_design 
 ---
@@ -14,16 +14,19 @@ Click here functionality must be provided when messaging is associated with an a
 * Click here link must open new page or pop up
 *CONFIRM CLICK HERE ADVICE - SOUNDS TERRIBLE*
 
-#### Example for personal details
-*SPELLING ERROR*
+## Example for personal details
+  _SPELLING ERROR_
 <img src="/images/examples/design-standards-user-interaction-messaging-links.png">
 
 
 ## Patient lookup  
+
 Scan patient barcode or enter NHS Number below  
 Scan patient barcode or enter Hospital Number below  
-Don’t know NHS Number? Click here  *CHECK AGAINST GOV.UK ACCESSIBILITY*
+Don’t know NHS Number? Click here  *CHECK AGAINST GOV.UK ACCESSIBILITY*  
+
 Don’t know Hospital Number? Click here  *CHECK AGAINST GOV.UK ACCESSIBILITY*
+
 ## Notifications (general)  
 You have notifications that require attention  
 Please acknowledge  
@@ -62,10 +65,10 @@ Invalid password – Please enter a valid password
 Invalid password – Please reset your password using the forgotten password button  
 ## Patient results  
 Unsupported device - You must use a tablet or computer to view this result  
-# Notification
+## Notification
 You have notifications that require attention  
 
-# Pop Up
+## Pop Up
 Pop up messages must be displayed with heading and body text  
 
 ## Non-clinical information

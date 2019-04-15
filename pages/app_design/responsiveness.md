@@ -16,6 +16,6 @@ Consideration must be given to:
 * Applying readability margins on larger devices to keep text lines short enough for easy reading (iOS Human Interface Guidelines)
 * Adequate margins and spacing (iOS Human Interface Guidelines)
 
-#### Tablet information display example
+### Tablet information display example
 
 <img class="img-responsive img-thumbnail" src="/images/examples/design-standards-responsiveness-tablet.png">

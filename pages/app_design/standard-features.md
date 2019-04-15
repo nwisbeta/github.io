@@ -2,7 +2,7 @@
 title: Standard Features
 keywords: default, settings, home, preferences, feed, alerts, notification, notify, watchlist, profile, orientation, landscape
 sidebar: appdesign_sidebar
-toc: false
+toc: true
 permalink: standard-features.html
 folder: app_design 
 ---
@@ -16,7 +16,7 @@ Consistent terms (shared naming conventions) must be used for all standard featu
 Consistent icons (a shared icon set) must be used for all standard features (see Tools > Icons)  
 Consistent menu access points must be used for standard features (see Navigation > Menus)  
 
-# Home
+## Home
 Home is also commonly referred to as either "The Home Page" or "The Main Screen/Page".  
 Home must include most important app feature (primary reason for app) or provide a summary of most important information.  
 Home can be configured or personalised in settings if required.  
@@ -26,7 +26,7 @@ Home can be configured or personalised in settings if required.
 
 <img class="img-responsive img-thumbnail" src="/images/examples/design-standards-sf-search.png">
 
-# Settings
+## Settings
 Settings must be displayed as three dots in the top right corner  
 Setting must cover general settings such as technical settings, preferences, help, app information, accessibility settings, feedback, legal/privacy information and log out  
 Settings must be displayed as a list with left alignment (Material.io)  
@@ -43,7 +43,7 @@ Clicking a settings menu item must open a new page which must have a back button
  
 <img class="img-responsive img-thumbnail" src="/images/examples/design-standards-sf-settings.png">
 
-# Help
+## Help
 Help must be included within the settings menu containing access to help functions such as support information and tutorials.  
 Support information should be categorised into the different app functions it relates to.  
 Help must provide answers to user questions (Material.io) that can include:  
@@ -55,7 +55,7 @@ Help must provide answers to user questions (Material.io) that can include:
 Help content must be easy to read and use simple language (target a reading age of 7-9 (WCAG 2.1)– avoid using technical language (Material.io)  
 Help content should contain step by step instructions and relevant images (Material.io)  
 
-#Feed (if used)
+## Feed (if used)
 Feed must include regularly updated information which can include:  
 * News
 * Content
@@ -83,18 +83,18 @@ Scroll gestures must be used to allow the user to move through the feed items (s
 Swipe down gesture must be used to allow the user to refresh the feed (see Navigation > Gesture Control)  
 Clicking the feed menu item whilst in the feed must scroll to the top of the feed and refresh the page (see Navigation > Menus)  
 
-#Connection and communication functions
+## Connection and communication functions
 Connection and communication functions are intended to cover connecting or communicating with people or entities, for example: a ward or patient within a particular hospital  
 A search bar should be present at the top of the page to allow the user to search for connections  
 Scroll gestures should be used to allow the user to move through connections and communications (see Navigation > Gesture Control)  
 Swipe down gesture should be used to allow the user to refresh connections/communications (see Navigation > Gesture Control)  
 Clicking the connection/communication group menu item whilst in the feed must scroll to the top of the page and refresh the page (see Navigation > Menus)  
 
-#### Example generic connection/communication page covering community and communication features
+### Example generic connection/communication page covering community and communication features
 
 <img class="img-responsive img-thumbnail" src="/images/examples/design-standards-sf-communication-example.png">
 
-# Watchlist and alerts
+## Watchlist and alerts
 Watchlist and alerts must be accessible on clinician apps  
 * Notifications are generally used instead of watchlist/alerts for patient facing apps (see Standard Features > Notifications)  
 Watchlist and alerts must be ordered from highest to lowest priority (see Navigation > Ordering)  
@@ -102,9 +102,9 @@ Scroll gesture must be used to allow the user to navigate through items (see Nav
 Swipe down gesture must be used to allow the user to refresh the page (see Navigation > Gesture Control)  
 Clicking the watchlist/alerts menu item whilst in the watchlist/alerts menu must scroll to the top of the feed and refresh the page (see Navigation > Gesture Control)  
 
-## Watchlist
+### Watchlist
 Users must be able to modify which patients or people appear on their watchlist  
-## Alerts
+### Alerts
 Any alert must be addressed and resolved using protocols that have been established and signed off at the executive governance level. For clinical alerts signing off must be completed by both clinical and information governance personnel. The date and national body that signed off the protocols must be displayed at the top of this alert section and updated or ratified periodically.  
 
 | Alert Protocol Version | Sign Off Date | Signatories (list) |
@@ -135,7 +135,7 @@ I If low priority alerts are to be used they may be displayed with a standard de
 The above guidelines ensures that colour must not be used as the only visual representation of alerts (Material.io)
 
 
-# Notifications
+## Notifications
 Any notification must be addressed and resolved using protocols that have been established and signed off at the executive governance level. For clinical notifications signing off must be completed by both clinical and information governance personnel. The date and national body that signed off the protocols must be displayed at the top of this alert section and updated or ratified at least annually.
 
 | Notification Protocol Version | Sign Off Date | Signatories (list) |
@@ -160,11 +160,11 @@ Scroll gestures must be used to allow the user to move through the feed items (s
 Swipe down gesture must be used to allow the user to refresh the feed (see Navigation > Gesture Control)  
 Clicking the notifications menu item whilst in the notifications menu must scroll to the top of the notifications menu and refresh the page (see Navigation > Menus)  
 
-#### Example generic notifications page allowing the users to view and retrieve notifications, with unread notifications displaying at the top of the page
+### Example generic notifications page allowing the users to view and retrieve notifications, with unread notifications displaying at the top of the page
 
 <img class="img-responsive img-thumbnail" src="/images/examples/design-standards-sf-notification-example.png">
 
-# Profile
+## Profile
 This profile guidance applies to both professionals (including clinicians) and members of the public, for public facing apps
 Profile must include at least three personal identifiers such as:
 First Name
@@ -175,14 +175,14 @@ Contact Details
 NHS Number
 Users must be able to view and edit their profile information
 
-#### Example generic profile page enabling users to view and edit their profile information
+### Example generic profile page enabling users to view and edit their profile information
 
 <img class="img-responsive img-thumbnail" src="/images/examples/design-standards-sf-profile-example.png">
 
-# Search
+## Search
 See Navigation > Search
 
-# Orientation
+## Orientation
 Portrait and landscape orientation should be supported (WCAG 2.1, iOS Human Interface Guidelines)  
 Landscape should be used to optimise data display  
 Example: Data view

@@ -33,14 +33,14 @@ Registration must display the mobile app terms and conditions
 * An error message must be displayed immediately (whilst the user is completing data entry) when there is a validation error for registration details that have been entered (GOV.UK Design System) (see User Interaction > Errors) – avoid displaying error messages after the form has been submitted
 
 
-#### Generic registration page detailing user credentials required for registration
+### Generic registration page detailing user credentials required for registration
 
 <img class="img-responsive img-thumbnail" src="/images/examples/design-standards-access-registration1.png">
 
-#### Generic registration page detailing user credentials required for registration, second step
+### Generic registration page detailing user credentials required for registration, second step
 
 <img class="img-responsive img-thumbnail" src="/images/examples/design-standards-access-registration2.png">
 
-#### Generic registration page detailing term and conditions as a summary and in full, final step 
+### Generic registration page detailing term and conditions as a summary and in full, final step 
 
 <img class="img-responsive img-thumbnail" src="/images/examples/design-standards-access-registration3.png">
