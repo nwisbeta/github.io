@@ -1,6 +1,6 @@
 ---
 title: About
-keywords: 
+keywords: design, principles, layout, action, results,
 sidebar: appdesign_sidebar
 toc: true
 permalink: about.html
