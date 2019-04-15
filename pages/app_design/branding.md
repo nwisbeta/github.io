@@ -2,37 +2,37 @@
 title: Branding
 keywords: logo, icons, icon, colour, palette, primary, secondary, blue, green, aqua, rose, purple, orange, yellow, red, NWIS, nwis
 sidebar: appdesign_sidebar
-toc: false
+toc: true
 permalink: branding.html
 folder: app_design 
 ---
 
-## Launch Screen App Icon
-Launch screen app icons must be simple and use a single object or logo on a solid colour background
-Launch screen app icons with a white background must have a coloured icon with a solid colour border
+## App Icon Requirements
+The icon you provide to launch the app requires a simple design, 'flattened', with no transparency.  
+Keep icon borders square (iOS Human Interface Guidelines) though the icon may display with rounded corners, as in the example. Use:
+
+* a single object or logo on a solid colour background
+* for an icon with a white background, use a coloured object with a solid colour border
+* NWIS colours 
+
+Deliver the finished icon at 1024px x 1024px resolution. Include:
+
+* a vector format copy as an SVG file (Material.io)
+* a graphics format copy as a PNG file (iOS Human Interface Guidelines)
 
 <img src="/images/examples/design-standards-icon-examples.png">
 
-Launch screen icon image borders must be created with no rounded corners (iOS Human Interface Guidelines) though the viewable image border may have rounded corners, as above
-Launch screen icons must be flattened with no transparency (iOS Human Interface Guidelines)
-Launch screen app icons must be created in 1024px x 1024px resolution
-Launch screen app icons must include a vector format copy as an SVG file (Material.io)
-Launch screen app icons must include a graphics format copy as a PNG file (iOS Human Interface Guidelines)
-Launch screen app icons must use NWIS colours (See Branding > Colour)
-## Logos
+Use the NWIS logo as the home button icon.  Do not use the same logo more than once on each page
 
-NWIS logo must be used as the home button icon to ensure branding is on every page 
-Example home icon using NWIS logo
+### Example home icon
 <img src="/images/examples/design-standards-home-example.png" alt="Examples of white icon on a solid colour background, and coloured icon on a white background, with a colour border" style="max-width: 120px">
 
-Do not use the same logo more than once on each page
-
 ## Colour
-The colours below, based on NWIS brand standards, must be used for all app UI elements unless an exception is generated:
+Design all app UI elements using NWIS brand standards, unless you generate an agreed exception.
 
-## Primary colour palette
+## Primary Palette
 
-### Main colours
+### Main Colours
 
 <div class="swatch-wrapper">
 	<div class="row text-center">
@@ -57,7 +57,7 @@ The colours below, based on NWIS brand standards, must be used for all app UI el
 	</div>
 </div>
 
-### Black and white colours
+### Black and White Colours
 
 <div class="swatch-wrapper">
 	<div class="row text-center">
@@ -88,9 +88,9 @@ The colours below, based on NWIS brand standards, must be used for all app UI el
 	</div>
 </div>
 
-## Secondary colour palette
+## Secondary Palette
 
-### Alert and notification colours
+### Alert and Notification Colours
 
 <div class="swatch-wrapper">
 				<div class="row text-center">
@@ -115,7 +115,7 @@ The colours below, based on NWIS brand standards, must be used for all app UI el
 				</div>
 			</div>
 
-### Additional colours
+### Additional Colours
 
 <div class="swatch-wrapper">
 				<div class="row text-center">
