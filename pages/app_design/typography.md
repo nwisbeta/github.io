@@ -9,16 +9,42 @@ folder: app_design
 
 ## Font
 
-Calibri should be used  
-Font size must be in sp as it can be easily configured to use larger font size for accessibility (see Tools > Typography for unit conversions)  
+Calibri should be used as the NWIS brand font for web content.
+
+Define font size in sp (Scale-independent Pixels) as this measurement can be easily configured to use larger font size for accessibility 
 Example: (sp = px * ratio * scale)  
 Minimum font size 34 (sp) must be used for titles  
 Minimum font size 16 (sp) must be used for headings  
 Minimum font size 14 (sp) must be used for subtitles  
 Minimum font size 12 (sp) must be used for body text  
 
+### General Font Standards
+
+| Style    | Font Type | Font Size (sp) | Font Case | Font Emphasis                                   |
+|----------|-----------|----------------|-----------|-------------------------------------------------|
+| Title    | Calibri   | 34             | Title     | Bold                                            |
+| Heading  | Calibri   | 20             | Title     | Bold                                            |
+| Subtitle | Calibri   | 16  _different from list_ | Sentence  | Plain                                           |
+| Body     | Calibri   | 14             | Sentence  | Important information in bold i.e. patient name |
+
+
+### Font Size Conversions
+
+| em/rem | sp  | pt  |
+|--------|-----|-----|
+| 0.0625 | 1.0 | 1.0 |
+
+### Example Conversions
+
+| sp | pt | em.rem |
+|----|----|--------|
+| 10 | 10 | 0.625  |
+| 12 | 12 | 0.75   |
+| 24 | 24 | 1.5    |
+| 60 | 60 | 3.75   |
+
 ##  Colour 
-NHS Wales primary palette colours or white, black and grey colours specified below must be used for text colour.
+Use the NHS Wales primary palette colours or white, black and grey colours for text colour.
 
 ### Primary Palette
 <div class="swatch-wrapper">
@@ -74,183 +100,120 @@ NHS Wales primary palette colours or white, black and grey colours specified bel
 		</div>
 	</div>
 </div>
+### Colour Contrast
 
-Text of 18pt or smaller must have a minimum contrast ratio of 4:5:1 between the colour of the text and colour of the background behind the text (see Accessibility)  
-Text of more than 18pt must have a minimum contrast ratio of 3:1 between the text colour and colour of the background behind the text (see Accessibility)  
+Text of 18pt or smaller must have a minimum contrast ratio of 4:5:1 between the colour of the text and colour of the background behind the text (see Accessibility).  
+Text of more than 18pt must have a minimum contrast ratio of 3:1 between the text colour and colour of the background behind the text (see Accessibility).  
 For checking contrast use the following tools:  
-* https://contrastchecker.com/
-* https://webaim.org/resources/contrastchecker/
+* [contrastchecker.com](https://contrastchecker.com/)
+* [WebAIM contrast checker](https://webaim.org/resources/contrastchecker/)
 
-## Styles
-Titles, headings, subtitles and body text must be used consistently to create a hierarchy of information throughout the app (GOV.UK Design System)  
-Titles and headings must be in bold  
-Bold must be used to identify important information  
+## Text Style
+Use titles, headings, subtitles and body text consistently to create a hierarchy of information throughout the app (GOV.UK Design System).  
+Bold text identifies important information. Set titles and headings must be in bold text.
 
-### Example clinical app patient information display 
+### Example clinical app: patient information is most important shown
 <img class="img-responsive img-thumbnail" src="/images/examples/design-standards-typography-styles.png">
 
-## Paragraph
-Lines of text must be no longer than 80 characters (WCAG 2.1) and should not require horizontal scrolling to read text (iOS Human Interface Guidelines)  
-A minimum of 1.5 line spacing must be used for body text (WCAG 2.1)  
-Line height must be at least 1.5 times the font size (WCAG 2.1)  
-Paragraph spacing must be at least 2 times larger than line spacing (WCAG 2.1)  
-Letter spacing must be at least 0.12 times the font size (WCAG 2.1)  
-Word spacing must be at least 0.16 times the font size (WCAG 2.1)  
-Lists must be used to make blocks of text easier to read (GOV.UK Design System)  
-Visual dividers must be used to separate list items  
-Bullet points or numbering can be used to make blocks of text easier to read if required (GOV.UK Design System)  
-* Sentence case must be used for lists, bullet points or numbering (i.e. capitalise the first letter of the first word for each item)
-* Numbering must display the number followed by a full stop (GOV.UK Design System, PulseTile UI Kit). Example:  
+### Paragraph Layout
+
+Limit lines of text to 80 characters or less (WCAG 2.1): text should not require horizontal scrolling to read (iOS Human Interface Guidelines).  
+
+Required paragraph display settings include:
+
+* line spacing 1.5 minimum, for body text (WCAG 2.1)  
+* line height at least 1.5 times the font size (WCAG 2.1)  
+* paragraph spacing at least 2 times larger than line spacing (WCAG 2.1)  
+* letter spacing at least 0.12 times the font size (WCAG 2.1)  
+* word spacing at least 0.16 times the font size (WCAG 2.1)  
+
+Use lists to make blocks of text easier to read (GOV.UK Design System). Separate list items with visual dividers. 
+
+Bullet points or numbering can make blocks of text easier to read if required (GOV.UK Design System).
+
+Use sentence for lists, bullet points or numbering: capitalise the first letter of the first word for each item
+
+For numbered lists, enter the number followed by a full stop (GOV.UK Design System, PulseTile UI Kit). Example:  
 1. Lorem ipsum
 2. Lorem ipsum
 
-## Case
-Avoid using all capital letters (e.g. SAVE) except for last names (see Tools > Terms)  
+### Case
+Avoid using all-capital letters, like SAVE, except for last names (see Tools > Terms)  
 
 
 <img src="/images/examples/design-standards-case-example.png">
 
-Title case must be used for titles/headings/subtitles/buttons/icons (capitalise first letter of each word)  
-* Example: App name (e.g. Welsh Clinical Portal)
-* Example: Information type (e.g. Date of Birth, Hospital Number, Patient Information)
-Sentence case must be used for body text (Material.io). Example: 'Scan patient barcode or enter NHS number below'
+Use title case, capitalising the first letter of each word, for titles, headings, subtitles, buttons, and icons. Examples:  
+* App name (e.g. Welsh Clinical Portal)
+* Information type (e.g. Date of Birth, Hospital Number, Patient Information)
 
-Sentence case must also be used for lists, bullet points or numbering  
+Use sentence case, capitalising the first word only, (Material.io) for:
+
+* Body text
+* Lists
+* Bullet points 
+* Numbered lists
+
 <img src="/images/examples/design-standards-case-example2.png">
 
-Avoid the use of shadows and borders for titles, headings, subtitles and body text
+Avoid adding shadows and borders for titles, headings, subtitles and body text.
 
-### Example clinical app patient information display
-<img class="img-responsive img-thumbnail" src="/images/examples/design-standards-case-example-whole.png">
+### Text Alignment 
 
-## Alignment Rules
-Left or central alignment must be used as default  
-For the following use cases right alignment can be used:  
-* Content related to a left alignment category
-* Language conversion (e.g. Arabic/Hebrew/Urdu)
+Use left or centre alignment as default.  
 
-### Example settings page covering general settings, preferences, accessibility, legal/privacy information and log out
+For the following use cases, text may use right alignment:
+  
+* Content related to a left alignment category _WHAT DOES THIS MEAN?_
+* Conversion to a right-alignment language like Arabic, Hebrew, or Urdu
+
+### Example settings page includes general settings, preferences, accessibility, legal/privacy information and log out
 
 <img class="img-responsive img-thumbnail" src="/images/examples/design-standards-alignment-example.png">
 
 ## Links
-Links must be consistent  
-Appropriate font must be used (see Core Guidelines > Typography > Font)  
-Appropriate font size must be used (see Core Guidelines > Typography > Font)  
-Appropriate font colour must be used (see Core Guidelines > Typography > Font)  
-Links must be displayed in NWIS Blue as default  
-Links must be underlined (GOV.UK Design System)  
-The linked text must not include a full stop at the end (GOV.UK Design System)  
-* Example: If the link is at the end of a sentence or paragraph it must not include a full stop at the end
-Users must be able to determine the purpose of the link from the link itself or link context (WCAG 2.1)  
-Links must open within the app, either embedded on the access page or within a new page  
+Users must be able to determine the purpose of the link from the link itself, or from link context (WCAG 2.1).
+
+Ensure links are displayed consistently, including:
+* Appropriate font  
+* Appropriate font size 
+* Appropriate font colour: links appear in NWIS Blue as default  
+* Underlining all links (GOV.UK Design System)  
+
+Linked text must not include a full stop at the end (GOV.UK Design System), even if the link is at the end of a sentence or paragraph.
+
+Links must open within the app, either embedded on the access page or within a new page 
 * If link opens in web browser it must go to a UI responsive website
 * If link opens in web browser to a third party site a warning message must be displayed to notify the user (see Tools > Messaging > Other)
+_THESE 3 STATEMENTS DON'T AGREE. IF LINKS MUST OPEN WITHIN AN APP, THEY CANNOT OPEN WITHIN A BROWSER_
 
-### Example of in app link
-<img class="img-responsive img-thumbnail" src="/images/examples/design-standards-links-example.png"> 
-
-
-
-
-## General
-
-| Style    | Font Type | Font Size (sp) | Font Case | Font Emphasis                                   |
-|----------|-----------|----------------|-----------|-------------------------------------------------|
-| Title    | Calibri   | 34             | Title     | Bold                                            |
-| Heading  | Calibri   | 20             | Title     | Bold                                            |
-| Subtitle | Calibri   | 16             | Sentence  | Plain                                           |
-| Body     | Calibri   | 14             | Sentence  | Important information in bold i.e. patient name |
-
-
-## Buttons
-
-| Style | Font Type | Font Size (em/rem) | Font Case | Font Emphasis |
-|-------|-----------|--------------------|-----------|---------------|
-| Title | Calibri   | 14                 | Title     | Plain         |
-
-## Pop Ups
-
-| Style   | Font Type | Font Size (em/rem) | Font Case | Font Emphasis |
-|---------|-----------|--------------------|-----------|---------------|
-| Heading | Calibri   | 16                 | Title     | Bold          |
-| Body    | Calibri   | 14                 | Sentence  | Plain         |
-
-## Links
+### Link Text
 
 | Style | Font Type | Font Size (em/rem) | Font Case | Font Emphasis   |
 |-------|-----------|--------------------|-----------|-----------------|
 | Body  | Calibri   | 14                 | Sentence  | Bold Underlined |
 
-## Typography Standard Values
+### Example of in app link
+<img class="img-responsive img-thumbnail" src="/images/examples/design-standards-links-example.png"> 
 
-The following standardised values must be used across all apps. All other cases are treated as exceptions.
+## Standard Units
 
-App design units
-For unit conversions see Tools > Conversions
+Use these units across all apps, to measure and define the elements listed. All other cases are treated as exceptions.
 
-Font size
-Default value: sp (EDIT: SP stands for Scale independent pixels. It is same as dp unit but it is also scaled by the user's font size preference.)
-
-Touch targets
-Default value: px
-
-Icon resolution
-Default value: px
-
-Image resolution
-Default value: px
-
-## Numeric values
-Date
-Time
-PIN
-Measurements
-Format: See units https://www.datadictionary.nhs.uk/data_dictionary/attributes/u/unit_of_measurement_de.asp?shownav=1
-Default value: SI units - see National Physics Laboratory http://www.npl.co.uk/reference/measurement-units/si-base-units/
-
-
-## Demographics 
-Consider headings below and refer to NWIS Data Dictionaries for guidance
-
-Gender (if used)
-Sex
-Title
-First Name
-Last Name
-Date of Birth
-Address
-Phone Number
-Ethnicity
-National Insurance Number
-Email
-Patient identifiers
-NHS number
-Hospital number
-Other
-Area of work/speciality
+|Typographic element | Default measurement unit |
+|--------|--------------|
+|Font size |sp |
+|Touch targets | px    |
+|Icon resolution | px    |
+|Date     |Numbers   |
+|Time     |Numbers         |
+|PIN    |Numbers         |
+|Measurements|See [NHS Data Dictionary units of measurement](https://www.datadictionary.nhs.uk/data_dictionary/attributes/u/unit_of_measurement_de.asp?shownav=1) |
+|SI units | See [National Physics Laboratory](http://www.npl.co.uk/reference/measurement-units/si-base-units/) |
 
 
 
-## Font Conversions
 
-### Font Size
 
-| em/rem | sp  | pt  |
-|--------|-----|-----|
-| 0.0625 | 1.0 | 1.0 |
 
-### Example conversions
 
-| sp | pt | em.rem |
-|----|----|--------|
-| 10 | 10 | 0.625  |
-| 12 | 12 | 0.75   |
-| 24 | 24 | 1.5    |
-| 60 | 60 | 3.75   |
-
-### Touch targets
-
-| px | dp   | mm  |
-|----|------|-----|
-| 44 | 58.6 | 9.3 |

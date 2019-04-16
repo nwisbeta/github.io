@@ -27,4 +27,9 @@ When a pop up is present the background must be darkened with a transparent over
 There must be a minimum contrast ratio of 3:1 between the pop up colour and colour of the background behind the pop up (WCAG 2.1) (see Accessibility)  
 To close a pop up, an action button must be selected by the user (Material.io)  
 
+## Pop Up Text Standards
 
+| Style   | Font Type | Font Size (em/rem) | Font Case | Font Emphasis |
+|---------|-----------|--------------------|-----------|---------------|
+| Heading | Calibri   | 16                 | Title     | Bold          |
+| Body    | Calibri   | 14                 | Sentence  | Plain         |

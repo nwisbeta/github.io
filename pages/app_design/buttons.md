@@ -13,7 +13,14 @@ Button width must be the size of the button text with 16dp padding either side (
 All buttons must have a relevant action - do not use inactive/disabled buttons (GOV.UK Design System)  
 Buttons must be adaptive to different devices and screen sizes (see Core Guidelines > Responsiveness/Adaptivity)  
 Button touch targets must be a minimum of 44px x 44px and surrounded by a small amount of inactive space (WCAG 2.1, Material.io)  
-Button examples can be found in Tools > Buttons  
+See the [Icons and Assets](/icons-assets.html) page for downloadable examples.
+
+### Touch targets
+
+| px | dp   | mm  |
+|----|------|-----|
+| 44 | 58.6 | 9.3 |
+
 
 ## Contained Buttons
 Contained buttons must be used to perform an important action with a single tap (Material.io)  
@@ -51,3 +58,10 @@ Pop up buttons must be displayed on the appropriate side and in the appropriate 
 Visual weighting must be used on pop up action buttons  
 * Primary action button colour must be NHS Wales Blue (RGB: 44 62 114, CYMK: 95 80 26 13, HEX: #2C3E72)
 * Secondary action button colour must be Grey (contrast on white background) (RGB: 89, 89, 89, CMYK: 00 00 00 65, HEX: #595959)
+
+## Button Text Standards
+
+| Style | Font Type | Font Size (em/rem) | Font Case | Font Emphasis |
+|-------|-----------|--------------------|-----------|---------------|
+| Title | Calibri   | 14                 | Title     | Plain         |
+

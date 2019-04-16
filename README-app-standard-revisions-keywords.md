@@ -59,7 +59,7 @@ First pass, 12 April 2019.
 |Tools |Standard Values  | _moved to_ Typography  |
 |Tools |Messaging | _moved to_ Messaging and standard messages |
 |Tools |Terms (404) |_moved to Terminology standards_|
-|Tools |Conversions  |_moved to_ Typography |
+|Tools |Conversions  |_moved to_ Typography AND Terminology and Language |
 |Tools |Glossary | _moved to Overview|
 |Tools |Exceptions  |_moved to_ About   |
 
