@@ -19,7 +19,7 @@ Log in page required elements:
 
 Provide a single method of log in, with alternative methods to fall back on (iOS Human Interface Guidelines).
 
-### Generic app log in page enabling users to gain access to the app through authentication with their username/email address and password
+### Access the app using username/email address and password authentication
 
 <img class="img-responsive img-thumbnail" src="/images/examples/design-standards-access-login-app-name.png" caption="Generic app log in page enabling users to gain access to the app through authentication with their username/email address and password">
 
@@ -31,7 +31,7 @@ If log in process requires the fields described:
 
 The log in page must display forgotten details message, and link for password reset. See [Messaging and Standard Messages](/messages.html) for sample messages wordings.
 
-### Example log in page enabling users to gain access to the app through an external authentication service
+### Access the app through an external authentication service
 
 <img class="img-responsive img-thumbnail" src="/images/examples/design-standards-access-login-forgotten.png">
 
@@ -52,7 +52,7 @@ Provide a single method of log in, with alternative methods to fall back on (iOS
 
 After a failed log in or PIN entry attempt, the application must log out the user, and return to the original log in page.
 
-### Generic log in after timeout page enabling PIN entry for re-authentication  
+### Access after timeout, with PIN request for re-authentication  
 
 <img class="img-responsive img-thumbnail" src="/images/examples/design-standards-access-login-pinexample.png">
 
