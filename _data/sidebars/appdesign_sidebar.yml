@@ -60,6 +60,10 @@ entries:
     - title: Responsiveness and Adaptivity
       url: /responsiveness.html
       output: web, pdf
+    
+    - title: Offline Use
+      url: /offline-use.html
+      output: web, pdf  
       
   - title: Access
     output: web, pdf

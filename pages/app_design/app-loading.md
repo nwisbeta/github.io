@@ -7,11 +7,10 @@ permalink: app-loading.html
 folder: app_design 
 ---
 
-Apps should aim to load within 2 seconds  
-If an app does not load within 1 second an app landing or loading screen must be displayed (iOS Human Interface Guidelines)  
+Apps should aim to load within 2 seconds.
+ 
+If an app does not load within 1 second, an app landing or loading screen must appear. (iOS Human Interface Guidelines)  
 
-The following loading moving loading or progress indicators should be displayed for page loading
+See [Icons and Assets](/icons-assets.html) for downloadable icons in white.
 
-| File Name                     | Descriptor                    |
-|-------------------------------|-------------------------------|
-| Loading_n (where n = 1 to 11) | Set of loading icons in white |
+_MERGE WITH PAGE LOADING GUIDANCE?_ 
