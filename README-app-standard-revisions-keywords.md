@@ -45,7 +45,7 @@ First pass, 12 April 2019.
 |Design standards |Pop Ups  |Pop Ups  |
 |Design standards |Notifications    |Notifications    |
 |Design standards |Support and Tutorials   |Support and Tutorials    |
-|Design standards |Onboarding  |Support and Tutorials    |
+|Design standards |Onboarding  |First Use    |
 |Design standards |Icons   |Icons (will probably move Tools>Icons to this page   |
 |Design standards |Images    | Images (could go with Branding?)   |
 |Design standards |Accessibility  |Accessibility (add to gesture control? or vv?)    |
@@ -79,6 +79,7 @@ keywords: load, progress, power, battery,
 keywords: terms, translation, alignment, flags  
 keywords: font, sizing, scale, colour, palette, blue, green, black, white, contrast, paragraph, case, links  
 keywords: default, settings, home, preferences, feed, alerts, notification, notify, watchlist, profile, orientation, landscape  
+keywords: onboarding, preferences, default, options, settings, getting started
 keywords: logo, icons, icon, colour, palette, primary, secondary, blue, green, aqua, rose, purple, orange, yellow, red, NWIS, nwis  
 keywords: interface, design, navigation, search, access, display, standard  
 keywords: filter, organisation, data, alerts, priority,   

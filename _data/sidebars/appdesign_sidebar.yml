@@ -69,6 +69,10 @@ entries:
     output: web, pdf
     
     folderitems:  
+    - title: First Use 
+      url: /first-use.html
+      output: web, pdf
+
     - title: App Loading 
       url: /app-loading.html
       output: web, pdf
@@ -151,10 +155,6 @@ entries:
    
     - title: Support and Tutorials
       url: /support-and-tutorials.html
-      output: web, pdf
-
-    - title: Onboarding
-      url: /onboarding.html
       output: web, pdf
 
   - title: Icons and Images
