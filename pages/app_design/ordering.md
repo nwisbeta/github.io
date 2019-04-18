@@ -7,19 +7,17 @@ permalink: ordering.html
 folder: app_design 
 ---
 
-Appropriate ordering must be used for the type of information displayed (Material.io) which can include:
+Choose ordering options to suit the type of information displayed (Material.io). These options can include:
 * High to low priority
 * Most to least relevant
 * Alphabetical order
-   * Example: Alerts ordered from highest to lowest priority
-   * Example: Search terms ordered by most relevant
+   * Alerts ordered from highest to lowest priority
+   * Search terms ordered by most relevant
 
-Dynamic ordering can be used if required to enable the user to manually order items
-* Hold and drag gesture (see Navigation > Gesture Control) can be used for manual ordering if required
-* Example: Manually ordering patient list or to-do items
+If required, dynamic ordering can enable the user to manually order items, such as a patient list or to-do items, using the hold and drag gesture.
 
-Alerts must be ordered by high alert to low/no alert
+App design must order alerts from high alert to low/no alert.  
 
-### Example alerts page showing alerts with appropriate ordering
+### Alerts page
 
 <img class="img-responsive img-thumbnail" src="/images/examples/design-standards-ordering-example.png">

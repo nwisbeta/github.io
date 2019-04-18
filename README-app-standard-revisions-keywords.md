@@ -1,8 +1,7 @@
 ---
 title: "Summary of changes to UI and UX standards"
-keywords: standards, UI, UX, apps, accessibility, usability, 
 search: exclude
-permalink: 
+permalink: README-app-standard-revisions-keywords.html
 summary: An outline of changes to NWIS Application Standards written by Rescon Technologies.
 ---
 
