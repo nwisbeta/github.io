@@ -7,9 +7,10 @@ permalink: images.html
 folder: app_design 
 ---
 
-Appropriate branding images must be used within the app (see Core Guidelines > Branding)  
-The use of other images must be avoided unless there is a real user need (GOV.UK Design System)  
-Images must be displayed at their intended aspect ratio  
-Images must be PNG files (iOS Human Interface Guidelines)  
-Images must have alternative text labels either immediately adjacent to the image or on clicking the image to support screen readers (see Accessibility) (Material.io, iOS Human Interface Guidelines)  
-Images must be downloaded from a server with image caching enabled to allow faster app loading and reduced app download size  
+Use NWIS branding images within the app - see [Branding](/branding.html).  Avoid using other images unless a real user need exists (GOV.UK Design System).  
+
+The app must: 
+* display images at their intended aspect ratio  
+* use PNG files (iOS Human Interface Guidelines)  
+* provide alternative text labels either immediately adjacent to the image or on clicking the image, to support screen readers (see Accessibility) (Material.io, iOS Human Interface Guidelines)  
+* download images from a server with image caching enabled, to allow faster app loading and to reduce the size of the app itself

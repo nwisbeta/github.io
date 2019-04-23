@@ -7,16 +7,20 @@ permalink: information-clinical-governance.html
 folder: app_design 
 ---
 
+Display only required information (ICO, GDPR).  Make additional non-essential information available by expanding a higher-level component to reveal lower level components - see [Gesture Control](/touch-gesture-control.html) or pop up - see [Pop Ups](/popups.html).
 
-Do not display more information than is required (ICO, GDPR)  
-Additional non-essential information must be displayed through the user being able to expand a higher-level component to reveal lower level components (see Navigation > Gesture Control) or pop up (see User Interaction > Pop Ups)  
-Do not collect more information than is required (GOV.UK Design System, ICO, GDPR)  
-Data should be updated every 10 minutes to ensure data accuracy (ICO, GDPR)  
-Notifications must be logged there must be easy access to audit logs detailing data entries and user activity  
-Sessions must timeout after 10 minutes of inactivity  
-Data must be stored securely during transit and at rest  
-Text entry fields must autosave on the app every 30 seconds  
-Data entry fields should be automatically saved periodically to prevent data loss (WCAG 2.1)  
-The difference between medical information and patient information must be highlighted to users  
-Non-clinical information must have non-clinical text in brackets next to the data field name  
-Example: Patient Information (Non-Clinical)  
+Collect only required information (GOV.UK Design System, ICO, GDPR).  
+
+Data should be updated every 10 minutes to ensure data accuracy (ICO, GDPR).  
+
+Log notifications. Ensure the app provides easy access to audit logs detailing data entries and user activity.  
+  
+Sessions must timeout after 10 minutes of inactivity.  
+
+Store data securely during transit and at rest.  
+
+Autosave text entry fields on the app every 30 seconds.
+
+The app should save data entry fields automatically periodically to prevent data loss (WCAG 2.1).  
+  
+Highlight the difference between medical information and patient information to users.  Non-clinical information must have non-clinical text in brackets next to the data field name. For example: Patient Information (Non-Clinical).  
