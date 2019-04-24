@@ -15,7 +15,7 @@ Backup plan is to simply use Bold and plain text.
 - review but no urgent Qs
 
 ### Branding 
-- confirm all RGB codes
+- confirm all RGB codes 
 
 ### Standard features
 - review and add links throughout

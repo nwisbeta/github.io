@@ -57,13 +57,13 @@ Use the NHS Wales primary palette colours or white, black and grey colours for t
 		</div>
 		<div class="col-md-4" style="background-color: rgb(18, 163, 201); color: white; padding: 20px 10px 10px 10px;">
 			<span class="swatch_title">NWIS Blue</span><br>
-			<span class="">R:44 G:62 B:114</span><br>
+			<span class="">R:18 G:163 B:201</span><br>
 			<span class="small">#12A3C9</span><br>
 			<span class="small">C:75 M:15 Y:14 K:0</span>
 		</div>
 		<div class="col-md-4" style="background-color: rgb(151, 204, 57); color: white; padding: 20px 10px 10px 10px;">
 			<span class="swatch_title">NWIS Green</span><br>
-			<span class="">R:44 G:62 B:114</span><br>
+			<span class="">R:151 G:204 B:57</span><br>
 			<span class="small">#97CC39</span><br>
 			<span class="small">C:49 M:0 Y:89 K:0</span>
 		</div>
@@ -76,7 +76,7 @@ Use the NHS Wales primary palette colours or white, black and grey colours for t
 	<div class="row text-center">
 		<div class="col-md-3" style="background-color: rgb(255, 255, 255); color: black; padding: 20px 10px 10px 10px;">
 			<span class="swatch_title">White</span><br>
-			<span class="">R:44 G:62 B:114</span><br>
+			<span class="">R:255 G:255 B:255</span><br>
 			<span class="small">#FFFFFF</span><br>
 			<span class="small">C:0 M:0 Y:0 K:0</span>
 		</div>
@@ -94,7 +94,7 @@ Use the NHS Wales primary palette colours or white, black and grey colours for t
 		</div>
 		<div class="col-md-3" style="background-color: rgb(227, 227, 227); color: black; padding: 20px 10px 10px 10px;">
 			<span class="swatch_title">Light Grey</span><br>
-			<span class="">R:44 G:62 B:114</span><br>
+			<span class="">R:227 G:227 B:227</span><br>
 			<span class="small">#E3E3E3</span><br>
 			<span class="small">C:0 M:0 Y:0 K:11</span>
 		</div>

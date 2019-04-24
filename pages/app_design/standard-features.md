@@ -20,7 +20,7 @@ The 'Home Page' or the 'Main Screen/Page' must include the most important app fe
 <img class="img-responsive img-thumbnail" src="/images/examples/design-standards-sf-search.png">
 
 ## Settings
-Provide access to settings as three dots in the top right corner. 
+Provide access to settings as three dots in the top right corner.  
 Settings must cover features such as:
 * Technical settings
 * Preferences
@@ -31,8 +31,10 @@ Settings must cover features such as:
 * Legal/privacy information 
 * Log out  
 
-Display settings as a list with left alignment (Material.io).    
+Display settings as a list with left alignment (Material.io).  
+  
 Use visual dividers to separate list items.    
+
 Group settings into categories:
 * Show category titles
 * Use up to six main categories
@@ -40,7 +42,7 @@ Group settings into categories:
 
 Settings must save user preferences (Material.io). 
 
-Clicking a settings menu item must open a new page, which must have a back button (top left corner), to enable navigation back to the settings page  
+Clicking a settings menu item must open a new page, which must have a back button (top left corner), to enable navigation back to the settings page.  
 
 ### Settings page
  
@@ -67,20 +69,22 @@ Feed must include regularly updated information such as:
 * Notices
 * Social Media
 
-### Feed page  _HOW ARE FEED AND NOTIFICATION ITEMS DIFFERENT_
+### Feed page 
 <img class="img-responsive img-thumbnail" src="/images/examples/design-standards-sf-feed-example.png">
 
 Feed must display date and time that each item was received.  
-Enable scroll gestures, to allow the user to move through the feed items (see Navigation > Gesture Control).  
-Critical feed items must provide a notification to alert the user. 
+
+Enable scroll gestures, to allow the user to move through the feed items - see [Touch Gesture Controls](/touch-gesture-control.html).  
+
+Critical feed items must provide a notification to alert the user.   
+
 For notifications:  
 * Any critical feed item must enable the user to address and resolve the issue, using protocols that have been established and signed off at the executive governance level  
-* In-app notifications (see User Interaction > Pop Ups) should prevent the user from doing other things until they take action (iOS Human Interface Guidelines)  
+* In-app notifications - see [Pop Ups](/popups.html) - should prevent the user from doing other things until they take action (iOS Human Interface Guidelines)  
 
-_ORIGINAL TEXT as follows_
-* Critical feed items must provide a notification to alert the user
+* Critical feed items must provide a notification to alert the user:
   * Any critical feed item must be addressed and resolved using protocols that have been established and signed off at the executive governance level
-  * In app notifications (see User Interaction > Pop Ups) should prevent the user from doing other things until they take action (iOS Human Interface Guidelines)
+  * In-app notifications - see [Pop Ups](/popups.html) - should prevent the user from doing other things until they take action (iOS Human Interface Guidelines)
 
 Important or critical feed items must appear at the top of the feed until acknowledged by the user. After the user acknowledges a feed item, it must appear a past feed item, with a different colour background, to differentiate it from unread feed items  
 
@@ -102,10 +106,12 @@ See [Touch Gesture Controls](/touch-gesture-control.html) for guidance about sta
 
 ## Connection and communication functions
 Connection and communication functions enable connecting or communicating with people or entities, such as a ward or patient within a particular hospital.  
-Provide a search bar at the top of the page to allow the user to search for connections.  
-Enable scroll gestures to allow the user to move through connections and communications.  
-Enable swipe down gesture to allow the user to refresh connections/communications.
-Selecting the connection/communication group menu item whilst in the feed must scroll to the top of the page _WHICH PAGE?_ and refresh the page  - see [Menus](/menus.html).
+Recommended features include:
+* a search bar at the top of the page to allow the user to search for connections
+* scroll gestures enabled to allow the user to move through connections and communications
+* swipe down gesture enabled to allow the user to refresh connections/communications
+
+Selecting the connection/communication group menu item whilst in the feed must scroll to the top of the page and refresh the page  - see [Menus](/menus.html).
 
 See [Touch Gesture Controls](/touch-gesture-control.html) for guidance about standard control gestures.
 
@@ -120,7 +126,7 @@ Notifications are generally used instead of watchlist/alerts for patient facing 
 
 Watchlist and alerts are ordered from highest to lowest priority by default. See [Ordering](/ordering.html).
 
-Enable scroll gestures to navigate through items.  Swipe down gesture must allow the user to refresh the page.
+Enable scroll gestures to navigate through items.  Swipe down gesture must refresh the page.
 
 Selecting the watchlist/alerts menu item whilst in the watchlist/alerts menu must scroll to the top of the feed and refresh the page.
 
@@ -139,11 +145,17 @@ Users must address and resolve any alert using established and signed-off protoc
 Alerts must show the time and date they were triggered.
 
 Critical alerts must provide a notification to the user.  
+
 Critical notifications within the app should prevent the user from doing other things until they take action (iOS Human Interface Guidelines). See [Pop Ups](/popups.html). 
+
 Critical alerts must require an acknowledgement by the user.  
+
 Important alerts must appear at the top of the page until the user acknowledges them.  
-Once a user has acknowledged an alert, the app must store it as a past alert and show it  with a different colour background to differentiate it from current alerts.
+
+Once a user has acknowledged an alert, the app must store it as a past alert and show it  with a different colour background to differentiate it from current alerts.  
+
 The app must show a one-month history of alerts, loading 10 items at a time.  
+
 Feed/watchlist icons must signal alerts/important notices on the bottom menu.  
 
 ### Example alert notification
@@ -172,17 +184,24 @@ Users must address and resolve any notification using established and signed-off
  
 <img class="img-responsive img-thumbnail" src="/images/examples/design-standards-sf-watchlist.png">
 
-The highest priority notifications must appear at the top of the page. After high priority notifications, the display shows the most recent notifications at the top of the page.
+The highest priority notifications must appear at the top of the page. After high priority notifications, the display shows the most recent notifications at the top of the page.  
+
 Notifications must include the time and date they were sent from the server, or received by the app if the server information is not available.  
+
 Critical alerts must provide a notification to the user.  
-* Critical notifications within the app (see User Interaction > Pop Ups) should prevent the user from doing other things until they take action (iOS Human Interface Guidelines).  
+* Critical notifications within the app - see [Pop Ups](/popups.html) should prevent the user from doing other things until they take action (iOS Human Interface Guidelines).  
 * Important notifications must appear at the top of the page until acknowledged by the user  
 * Once a a user has acknowledged an alert, the app must store it as a past notification, and display it with a different colour background to differentiate it from new notifications.
-The app must show a one-month history of notifications, load 10 items at a time.
-The notification menu item on bottom must must signal important notifications that may require receipt.  
-Enable scroll gestures to allow the user to move through the feed items (see Navigation > Gesture Control).  
-Swipe down gesture must allow the user to refresh the feed (see Navigation > Gesture Control).    
-Clicking the notifications menu item whilst in the notifications menu must scroll to the top of the notifications menu and refresh the page (see Navigation > Menus)  
+
+The app must show a one-month history of notifications, loaded 10 items at a time.  
+
+The notification menu item on bottom must must signal important notifications that may require receipt.   
+
+Enable scroll gestures to allow the user to move through the feed items - see [Touch Gesture Controls](/touch-gesture-control.html).  
+  
+Swipe down gesture must allow the user to refresh the feed - see [Touch Gesture Controls](/touch-gesture-control.html).  
+  
+Clicking the notifications menu item whilst in the notifications menu must scroll to the top of the notifications menu and refresh the page - see [Menus](/menus.html).  
 
 ### Notifications page to view, retrieve notifications: unread notifications at the top of the page
 

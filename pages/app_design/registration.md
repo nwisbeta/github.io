@@ -11,7 +11,7 @@ If the app offers user registration through the app interface, the design must i
 
 ## Record password
 * Hide password characters behind dots for security (iOS Human Interface Guidelines)  
-* Display lock icon next to password field (see Tools > Icons)  
+* Display lock icon next to password field - see [Icons](/icons.html)  
 
 ## Collect non-essential information 
 
@@ -32,13 +32,13 @@ What terms and conditions appear during registration depends on the information 
 * Send registration receipts in the same format as they were agreed on actual registration
 
 * Consider email validation during the registration process
-* An error message must be displayed immediately (whilst the user is completing data entry) when there is a validation error for registration details that have been entered (GOV.UK Design System) (see User Interaction > Errors) – avoid displaying error messages after the form has been submitted
+* An error message must be displayed immediately (whilst the user is completing data entry) when there is a validation error for registration details that have been entered (GOV.UK Design System) - see [Errors](/errors.html) – avoid displaying error messages after the form has been submitted
 
 ### Obtain consent if required
 
 Consent (if appropriate) must follow the same process as for agreeing to terms and conditions. NHS Wales-led Information Governance rules decide whether consent is appropriate, and whether consent is integrated or separate from normal registration.  
 
-Do not combine the process of registration or terms and conditions or consent on the same page. - they must be treated as different processes and appear on separate pages.  
+Do not combine the process of registration or terms and conditions or consent on the same page. The processes must be treated as different processes, and appear on separate pages.  
 
 ### Example: user credentials required for registration
 

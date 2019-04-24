@@ -20,7 +20,7 @@ The app design must not use colour alone as the only visual representation of co
 In particular:  
 * avoid use of red with green colours as the only means of visual representations (iOS Human Interface Guidelines, WebAIM)  
 * avoid use of blue with orange colours as the only means of visual representation (iOS Human Interface Guidelines)  
-* show alerts using shape and text in addition to colour (see Core Guidelines > Standard Features > Alerts)  
+* show alerts using shape and text in addition to colour - see [Standard Features](/standard-features.html)  
 
 ## Readability
 
