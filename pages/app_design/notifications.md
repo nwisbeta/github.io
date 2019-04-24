@@ -9,12 +9,9 @@ folder: app_design
 
 Notifications include messages like Reminders, Alerts, and Requests.  
 
-_DEFINITIONS?_
-
 ## Features 
 Avoid sending unnecessary notifications, alerts or requests (iOS Human Interface Guidelines)  
 The app must send notifications only if action is required, and the user has not yet actioned it  
-_HOW CAN A USER ACT IF THEY DO NOT RECEIVE A NOTIFICATION?_
 
 Users must be able to cancel or ignore non-critical notifications.
 

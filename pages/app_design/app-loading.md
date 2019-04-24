@@ -12,5 +12,3 @@ Apps should aim to load within 2 seconds.
 If an app does not load within 1 second, an app landing or loading screen must appear. (iOS Human Interface Guidelines)  
 
 See [Icons and Assets](/icons-assets.html) for downloadable icons in white.
-
-_MERGE WITH PAGE LOADING GUIDANCE?_ 

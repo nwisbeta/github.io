@@ -11,9 +11,9 @@ folder: app_design
 
 Use a consistent layout across similar pages and components (WCAG 2.1, Material.io, iOS Human Interface Guidelines), using the same layout for the menu buttons, access points, profile, and Home button across multiple pages.
 
-Provide navigation menus at the top and bottom of each page (see Navigation > Menus).
+Provide navigation menus at the top and bottom of each page - see [Menus](/menus.html).
 
-Where search functionality is present, position the search bar at the top centre of each page (see Navigation > Search).  
+Where search functionality is present, position the search bar at the top centre of each page - see [Search](/search.html).  
 
 <div class="col-sm-12">
 	<div class="row">
@@ -34,9 +34,9 @@ Where search functionality is present, position the search bar at the top centre
 
 Use a central column, for those pages that do not display _(fetched?)_ data. 
 
-Pages with a list of items must have a single column with left text alignment  
+Pages with a list of items must have a single column with left text alignment.  
 
-Provide a consistent layout for titles, headings, subtitles, body text (see Core Guidelines > Typography)  
+Provide a consistent layout for titles, headings, subtitles, body text - see [Typography](/typography.html).  
 
 When using columns to display information:
 * Do not use more than two columns, on a page with portrait orientation  
@@ -47,7 +47,7 @@ When using columns to display information:
 
 Avoid a layout that requires a lot of scrolling. Do not display too much information on one page as defined below (WCAG 2.1, ICO, GDPR):
 * Most important information must appear without scrolling (WCAG 2.1)  
-* Avoid displaying more than ten data fields on a single page (see User Interaction > Data Entry). If the interface requires more than ten data fields, use multiple pages
+* Avoid displaying more than ten data fields on a single page - see [Data Entry](/data-entry.html). If the interface requires more than ten data fields, use multiple pages
 
 
 <div class="col-sm-12">

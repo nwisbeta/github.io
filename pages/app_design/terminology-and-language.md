@@ -22,7 +22,7 @@ Apps must include provision for translation to other languages using language fl
 If the mobile app requirements include a right-alignment language as an option, use a layout flag swap the alignment accordingly.  
 
 ## Flags
-Use language flags for text fields  *UNCLEAR what are these?*
+Use language flags for text fields.
 
 ## Preferred General Terms
 
@@ -35,8 +35,8 @@ First Name
 Last Name  
 Email  
 Date of Birth  
-Sex  *CHECK GUIDANCE*  
-Gender *CHECK GUIDANCE*  
+Sex  
+Gender  
 Time  
 Date  
 Add Task  
@@ -58,8 +58,6 @@ Help
 Menu  
 
 ## Settings
-
-_CAPITALISATION IS DIFFERENT FOR THESE TERMS. DOES THIS MATTER?_ 
 
 User preferences  
 Profile  
@@ -86,7 +84,6 @@ Log out
 
 ## Demographics 
 Consider these headings and refer to NWIS Data Dictionaries for guidance
-_WHAT DOES THIS MEAN EXACTLY?_ 
 
 Gender (if used)  
 Sex  
@@ -102,8 +99,8 @@ Email
 
 ### Patient identifiers
 
-_THESE IDS ARE IN SENTENCE CASE - IS THIS IMPORTANT?_
 NHS number  
 Hospital number  
+
 ### Other  
 Area of work/speciality

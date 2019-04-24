@@ -65,7 +65,6 @@ Ensure appropriate labelling to support screen readers (WCAG 2.1). For example:
 * provide alternative text labels for images and icons (iOS Human Interface Guidelines, Material.io), such as Edit next to an edit icon  
 
 Avoid flashing of more than three times in any one second period (WCAG 2.1).
-_better wording for this condition?_
 
 ## Tools
 

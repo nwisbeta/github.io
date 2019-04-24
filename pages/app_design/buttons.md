@@ -11,11 +11,16 @@ Buttons must allow the user to complete a specific action with a single tap (Mat
 
 ## Base requirements
   
-Buttons must display a clear message relating to the action of the button (Material.io, iOS Human Interface Guidelines).   
+Buttons must display a clear message relating to the action of the button (Material.io, iOS Human Interface Guidelines).  
+   
 All buttons must have a relevant action. Do not include inactive/disabled buttons (GOV.UK Design System).  
+
 Buttons must adapt to different devices and screen sizes - see [Responsiveness and Adaptivity](/responsiveness).    
+
 Button text must be short and fit the button size (Material.io, iOS Human Interface Guidelines).  
+
 Button width must be the size of the button text with 16dp padding either side (Material.io).    
+
 For buttons the minimum touch target size is 44px x 44px, surrounded by a small amount of inactive space (WCAG 2.1, Material.io).  
 
 See the [Icons and Assets](/icons-assets.html) page for downloadable examples.  
@@ -29,13 +34,16 @@ See the [Icons and Assets](/icons-assets.html) page for downloadable examples.
 ## Contained Buttons
 
 Contained buttons' colour fill and elevation make them visually distinctive.    
+
 Use contained buttons to perform an important action with a single tap (Material.io).  
+
 Use colour consistent with the colour palettes (Material.io) - see [Branding](/branding.html).   
+
 Use title case for button text (iOS Human Interface Guidelines).  
 Contained buttons require:
 * Rectangular shape 
 * 2dp elevation  
-* Central alignment _RELATED TO THE SCREEN? OR SOMETHING ELSE?_
+* Central alignment 
 * Appropriate font and font colour for button text - see [Typography](/typography.html).  
 * Text positioned on the centre of the button 
 

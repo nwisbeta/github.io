@@ -77,7 +77,7 @@ For notifications:
 * Any critical feed item must enable the user to address and resolve the issue, using protocols that have been established and signed off at the executive governance level  
 * In-app notifications (see User Interaction > Pop Ups) should prevent the user from doing other things until they take action (iOS Human Interface Guidelines)  
 
-_NOT SURE WHAT ORIGINAL TEXT MEANS, as follows_
+_ORIGINAL TEXT as follows_
 * Critical feed items must provide a notification to alert the user
   * Any critical feed item must be addressed and resolved using protocols that have been established and signed off at the executive governance level
   * In app notifications (see User Interaction > Pop Ups) should prevent the user from doing other things until they take action (iOS Human Interface Guidelines)
@@ -146,8 +146,6 @@ Once a user has acknowledged an alert, the app must store it as a past alert and
 The app must show a one-month history of alerts, loading 10 items at a time.  
 Feed/watchlist icons must signal alerts/important notices on the bottom menu.  
 
-_HOW ARE CRITICAL AND IMPORTANT ALERT BEHAVIOURS DIFFERENT HERE?_ 
-
 ### Example alert notification
 <img src="/images/examples/design-standards-sf-feed-notification-icon.png" style="max-width: 100px;">
 
@@ -171,8 +169,6 @@ Users must address and resolve any notification using established and signed-off
 | Pending                       |               |                    |
 
 ### Watchlist page enabling clinicians to select/deselect users, and highlight notifications
-
- _ AWKWARD WORDING _
  
 <img class="img-responsive img-thumbnail" src="/images/examples/design-standards-sf-watchlist.png">
 

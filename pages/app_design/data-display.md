@@ -16,8 +16,6 @@ Use consistent values, with SI units as default, like metres, kilograms, litres.
 On clinical apps, provide three pieces of identifiable information to identify a patient, such as patient name (first and last name), NHS number, DOB (age)  
 * Example: SMITH, John (M) 943 476 5919 03/04/56 (62yrs) (NHS Common User Interface)
 
-_THIS EXAMPLE INCLUDES SEX - CHECK NHS WALES DATA REQUIREMENTS_  
-
 Last name must appear in uppercase (all capitals) to clearly distinguish it from the first name (NHS Common User Interface) 
 * Example: SMITH, John (M)  
 

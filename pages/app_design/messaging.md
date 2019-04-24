@@ -16,16 +16,6 @@ Provide 'click here' functionality when messaging is associated with an action:
 * 'Click here must be in bold and underlined - see [Typography](/typography.html). 
 * 'Click here' link must open new page or pop up
 
-   *CONFIRM CLICK HERE ADVICE - SOUNDS TERRIBLE*
-   *USERS DON'T CLICK PHONE APPS*
-
-https://webaim.org/techniques/hypertext/
-
-https://www.w3.org/WAI/WCAG21/Techniques/general/G53 
-
-https://www.gov.uk/guidance/style-guide/a-to-z-of-gov-uk-style#c
-SCROLL TO C FOR CLICK
-
 ## Example for personal details
   _SPELLING ERROR_
 <img src="/images/examples/design-standards-user-interaction-messaging-links.png">
@@ -39,12 +29,8 @@ Use standard messages across the app.
 
 * Scan patient barcode or enter NHS Number below  
 * Scan patient barcode or enter Hospital Number below  
-* Don’t know NHS Number? Click here  *CHECK AGAINST GOV.UK ACCESSIBILITY*  
-* Don’t know Hospital Number? Click here  *CHECK AGAINST GOV.UK ACCESSIBILIT* Y*
-
- _SUGGEST: 'Find the patient's NHS Number' OR 'Find your NHS number' as phrases_
-  _SUGGEST: 'Find the Hospital Number' as phrase_
-_click here_ doesn't tell you what will happen next.
+* Don’t know NHS Number? Click here    
+* Don’t know Hospital Number? Click here  
  
 ### Notifications (general)  
 * You have notifications that require attention  
@@ -54,9 +40,7 @@ _click here_ doesn't tell you what will happen next.
 * Enter your PIN  
 
 ### Forgotten Details  
-* Forgotten your details? Click here  *CHECK AGAINST GOV.UK ACCESSIBILITY*
-
-_SUGGEST 'Request a new password' or similar_
+* Forgotten your details? Click here  
 
 ### Filter  
 

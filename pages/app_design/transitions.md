@@ -19,9 +19,8 @@ Avoid transitions being too fast or too slow (Material.io):
 * Transitions should not be faster than 100ms 
 * Transitions should not be slower than 300ms 
 
-_ORIGINAL TEXT IS NOT CLEAR - see below_
+Transitions must be used to allow the user to reveal more detailed information if by expanding a higher level component to include lower level components and reinforcing that the components are related (Material.io):
 
-Transitions must be used to allow the user to reveal more detailed information if by expanding a higher level component to include lower level components and reinforcing that the components are related (Material.io)
 * The user must be able to minimise lower level components back to the higher category (original state)  
 * Example: Viewing additional patient information
 

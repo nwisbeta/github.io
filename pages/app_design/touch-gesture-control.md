@@ -8,7 +8,7 @@ folder: app_design
 ---
 
 Gestures must help users to navigate, take actions and manipulate content (Material.io).   
-Gestures must be as easy as possible to carry out. Consider screen reader interaction modes _WHAT IN PARTICULAR SHOULD DESIGN CONSIDER?_ - see [Accessibility](/accessibility.html) (WCAG 2.1).  
+Gestures must be as easy as possible to carry out. Consider screen reader interaction modes - see [Accessibility](/accessibility.html) (WCAG 2.1).  
 Use standard and familiar gestures (iOS Human Interface Guidelines) including:
 * tap
 * scroll
@@ -28,11 +28,11 @@ Use single tap for navigation, to perform actions, and to make choices within th
 
 A single tap of higher level components must expand lower level components, including:
   * Single tap of top or bottom menu item for navigation
-  * Single tap of bottom menu item when in bottom menu item scrolls to top of page and refreshes page _REFRESH PAGE?_
+  * Single tap of bottom menu item when in bottom menu item scrolls to top of page and refreshes page 
   * Single tap of top of screen scrolls to top of page
-  * Single tap of action button e.g. log out _DOES THIS FIT IN THIS LIST?_
+  * Single tap of action button e.g. log out  
   * Single tap of text box to enable data entry
-  * Single tap of tick boxes _DOES THIS FIT IN THIS LIST?_
+  * Single tap of tick boxes   
   * Single tap of higher level component (i.e. top level patient information) to reveal lower level components (i.e. additional patient information such as patient contact details)
  
 ## Scroll
@@ -41,7 +41,7 @@ Use scroll gestures to navigate through continuous information including (Materi
 * Body text
 * Lists of menu items, such as settings
 
-Scroll gestures must only scroll through one view at a time – do not use two scroll views on one page (iOS Human Interface Guidelines)  _DOES THIS MEAN 2 SEPARATE SCROLL BARS?_ 
+Scroll gestures must only scroll through one view at a time – do not use two scroll views on one page (iOS Human Interface Guidelines)    
 Possibly relates to guidance here
 https://developer.apple.com/design/human-interface-guidelines/ios/views/scroll-views/
 
@@ -53,13 +53,13 @@ Use swipe gestures for navigation, and actions within the app including (Materia
 * Move through a tutorial
 * Swipe down to refresh
 * 'Paging' through multiple tutorial pages
-* To acknowledge _ACKNOWLEDGE WHAT?_
+* To acknowledge 
 * Reveal delete button  
 
-Use back swipe gesture (_WHICH DIRECTION?_) when a back button is present to enable navigation to previous page/
+Use back swipe gesture when a back button is present to enable navigation to previous page.
   
 ## Pan 
-Use pan gestures to allow users to move elements in any direction  *WHAT DOES PAN MEAN*  For example, moving in any direction through map (Material.io)  
+Use pan gestures to allow users to move elements in any direction: for example, moving in any direction through map (Material.io)  
 
 ## Hold and Drag
 Use hold and drag gestures if required (Material.io, iOS Human Interface Guidelines), for example, hold and drag items on to-do list to change order.    

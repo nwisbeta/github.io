@@ -164,7 +164,7 @@ Use left or centre alignment as default.
 
 For the following use cases, text may use right alignment:
   
-* Content related to a left alignment category _WHAT DOES THIS MEAN?_
+* Content related to a left alignment category 
 * Conversion to a right-alignment language like Arabic, Hebrew, or Urdu
 
 ### Example settings page includes general settings, preferences, accessibility, legal/privacy information and log out
@@ -184,8 +184,7 @@ Linked text must not include a full stop at the end (GOV.UK Design System), even
 
 Links must open within the app, either embedded on the access page or within a new page 
 * If link opens in web browser it must go to a UI responsive website
-* If link opens in web browser to a third party site a warning message must be displayed to notify the user (see Tools > Messaging > Other)
-_THESE 3 STATEMENTS DON'T AGREE. IF LINKS MUST OPEN WITHIN AN APP, THEY CANNOT OPEN WITHIN A BROWSER_
+* If link opens in web browser to a third party site a warning message must be displayed to notify the user - see [Messaging](/messaging.html).
 
 ### Link Text
 

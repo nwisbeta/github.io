@@ -23,13 +23,11 @@ If an error message appears due to incorrect form entry, such as an invalid emai
 
 Validate text entry in real-time with a helper text next to the text field, to notify the user before the user tries to move to the next step.  
 
-_VAGUE GUIDANCE - NOT CERTAIN OF INTENT_  
 Pop up error messages must only be displayed when a user tries to move to the next stage of a process to prevent interruption when using the app (GOV.UK Design System)
 Example: Error message pops up when submitting log in details  
 
 If there are multiple errors, present errors together in a single error message (GOV.UK Design System). Do not display a series of error messages that pop up one after the other.  
 
-_VAGUE GUIDANCE - NOT CERTAIN OF INTENT_   
 Do not use error messages that inform users they are not eligible or do not have appropriate permissions to do something – do explain why this is the case and what to do next (GOV.UK Design System)  
 
 Use consistent error messages across the app. See [Messaging](/messaging.html).

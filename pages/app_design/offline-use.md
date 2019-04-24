@@ -15,5 +15,3 @@ The app design and implementation must consider:
 * Governance including encryption of personal and sensitive data
 * Upload and download functionality
 * Data entry logging and auditing
-
-*EXAMPLES? WHAT DOES THIS MEAN REALLY?*

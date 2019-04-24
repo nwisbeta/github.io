@@ -26,6 +26,6 @@ Icons must:
 
 Icon touch targets must be a minimum of 44px x 44px and surrounded by a small amount of inactive space (WCAG 2.1, Material.io).  
   
-Save icons in PNG or SGV formats (Material.io).  
+Save icons in PNG or SVG formats (Material.io).  
 
 Store app icons in 1024px x 1024px resolution. 
