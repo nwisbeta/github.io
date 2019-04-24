@@ -1,64 +1,65 @@
 ---
 title: Layout
-keywords:
+keywords: interface, design, navigation, search, access, display, standard
 sidebar: appdesign_sidebar
-toc: false
+toc: true
 permalink: layout.html
 folder: app_design 
 ---
 
+## Principles
 
-A consistent layout must be used across similar pages and components (WCAG 2.1, Material.io, iOS Human Interface Guidelines)  
-Example: Consistent menu item locations and button locations
+Use a consistent layout across similar pages and components (WCAG 2.1, Material.io, iOS Human Interface Guidelines), using the same layout for the menu buttons, access points, profile, and Home button across multiple pages.
+
+Provide navigation menus at the top and bottom of each page - see [Menus](/menus.html).
+
+Where search functionality is present, position the search bar at the top centre of each page - see [Search](/search.html).  
 
 <div class="col-sm-12">
-	<h3>App Examples:</h3>
 	<div class="row">
-		<div class="col-md-6 col-lg-6">
-			<h5>Generic App Layout</h5>
+		<div class="col-md-6 col-lg-6" style="padding: 00px 10px 20px 10px;">
+			<h3>Generic App Layout</h3>
 			<img class="img-responsive img-thumbnail" src="/images/examples/design-standards-generic-layout.png">
 		</div>
 				
-		<div class="col-md-6 col-lg-6">
-			<h5>Log In Page</h5>
+		<div class="col-md-6 col-lg-6" style="padding: 00px 10px 20px 10px;">
+			<h3>Log In Page</h3>
 			<img class="img-responsive img-thumbnail" src="/images/examples/design-standards-layout-login.png">
 		</div>
+	
 	</div>
 </div>			
 
+### Most important information appears in the centre 
 
-Navigation menus must be displayed at the top and bottom of each page (see Navigation > Menus)  
-Where search functionality is present the search bar must be displayed at the top centre of each page (see Navigation > Search)  
-Consider and refer to layout standards, standard access points (see Navigation > Menus) and standard features (see Core Guidelines > Standard Features) including profile (top left), settings (top right) and home (bottom centre), as per Figure below  
-Do not use more than two columns on a page with portrait orientation  
-Central column must be used for pages that do not display data  
-Most important data should be centralised as a heading where appropriate  
-Columns must be used to clearly display information  
-Information type must be in the left column  
-Relevant information must be in bold in the right column  
-Example: Patient information – Name: SMITH, John  
-Pages with a list of items must have a single column with left text alignment  
-Title, heading, subtitle, body text must be used consistently (see Core Guidelines > Typography)  
-Avoid the need for excessive scrolling/do not display too much information on one page as defined below (WCAG 2.1, ICO, GDPR)  
-Most important information must be visible without the need for scrolling (WCAG 2.1)  
-Avoid displaying more than ten data fields on one page (see User Interaction > Data Entry)  
-More than ten data fields must be displayed across multiple pages  
-Data fields must be displayed as one data field on each row  
-Margins and spacing should be used where possible (iOS Human Interface Guidelines, Material.io, UWP)  
-App Examples:
+Use a central column, for those pages that do not display _(fetched?)_ data. 
+
+Pages with a list of items must have a single column with left text alignment.  
+
+Provide a consistent layout for titles, headings, subtitles, body text - see [Typography](/typography.html).  
+
+When using columns to display information:
+* Do not use more than two columns, on a page with portrait orientation  
+* Centre the most important data as a heading where appropriate  
+* Information _type_, typically a field name, appears in the left column  
+* Relevant information, typically field contents, appears in bold in the right column  
+* Lay out one data field on each row only
+
+Avoid a layout that requires a lot of scrolling. Do not display too much information on one page as defined below (WCAG 2.1, ICO, GDPR):
+* Most important information must appear without scrolling (WCAG 2.1)  
+* Avoid displaying more than ten data fields on a single page - see [Data Entry](/data-entry.html). If the interface requires more than ten data fields, use multiple pages
 
 
 <div class="col-sm-12">
-	<h3>App Examples:</h3>
-	<div class="row">
+		<div class="row">
 
-		<div class="col-md-6 col-lg-6">
-			<h5>Patient Information</h5>
+		<div class="col-md-6 col-lg-6" style="padding: 00px 10px 20px 10px;">
+			<h3>Patient Information</h3>
 			<img class="img-responsive img-thumbnail" src="/images/examples/design-standards-layout-patient-info.png">
 		</div>
 				
-		<div class="col-md-6 col-lg-6">
-			<h5>Settings Menu</h5>
+		<div class="col-md-6 col-lg-6" style="padding: 00px 10px 20px 10px;">
+			<h3>Settings Menu</h3>
 			<img class="img-responsive img-thumbnail" src="/images/examples/design-standards-layout-settings.png">
 		</div>
 	</div>	

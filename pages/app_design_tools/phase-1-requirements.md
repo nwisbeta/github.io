@@ -1,6 +1,6 @@
 ---
 title: Phase 1 - Requirements
-keywords:
+keywords: design, planning, checklists, research, stakeholder, governance, compliance, requirements, 
 sidebar: appdesign_tools_sidebar
 toc: false
 permalink: phase-1-requirements.html
@@ -22,7 +22,7 @@ Depending on methodology and stakeholder engagement, requirements can either be 
 
 If requirements are developed in parallel with design and implementation phases then the requirements phase must refer to design standards documentation.
 
-# Checklist
+## Checklist
 
 <div class="col-lg-12">
 			<p>All checklists <i>must</i> be followed and completed for mobile app developments.</p>

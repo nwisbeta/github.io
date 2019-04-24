@@ -1,8 +1,8 @@
 ---
 title: Search 
-keywords:
+keywords: text, field, response, display, results, accessibility, 
 sidebar: appdesign_sidebar
-toc: false
+toc: true
 permalink: search.html
 folder: app_design 
 ---
@@ -10,12 +10,12 @@ folder: app_design
 If search functionality is required, it must allow users to find content by typing text into the search bar (iOS Human Interface Guidelines, Material.io)  
 Where search functionality is present the search bar must be displayed at the top centre of each page and pinned to the top menu (iOS Human Interface Guidelines)  
 
-#### Example search bar 
+### Example search bar 
 <img src="/images/examples/design-standards-navigation-search-input.png" style="max-width: 2000px">
 
-#### Example generic app layout showing search feature display
+### Example generic app layout showing search feature display
 <img class="img-responsive img-thumbnail" src="/images/examples/design-standards-navigation-search-search-example.png">
-# Search Input
+## Search Input
 Search must be free text field (iOS Human Interface Guidelines, Material.io)  
 Voice search option should be available using the devices microphone for search (Material.io)  
 Microphone icon must be used to indicate and action availability of voice search option  
@@ -24,7 +24,7 @@ Changing search icon functionality must be available in the settings menu
 Search input must remain in the search box to enable the search term to be modified when search results are presented  
 A clear (X) button must appear in the search box (right) when a search term is entered to enable the search term to be deleted in full (iOS Human Interface Guidelines)  
 
-# Search Results
+## Search Results
 Search results must be displayed directly below the search bar (Material.io, iOS Human Interface Guidelines)  
 Search results must be displayed as a list (iOS Human Interface Guidelines)  
 Search results must be clickable and must open in a new page  

@@ -22,17 +22,12 @@ entries:
   - title: Overview
     output: web, pdf
     folderitems:
-    - title: App Design Standards
-      url: /app_design_landing_page.html
+    - title: About
+      url: /about.html
       output: web
-
-    - title: Principles
-      url: /principles.html
-      output: web, pdf
-
-    - title: Using this Guide
-      url: /using-this-guide.html
-      output: web, pdf
+    - title: Glossary
+      url: /glossary.html
+      output: web
 
   - title: Design Standards
     output: web, pdf
@@ -65,11 +60,19 @@ entries:
     - title: Responsiveness and Adaptivity
       url: /responsiveness.html
       output: web, pdf
+    
+    - title: Offline Use
+      url: /offline-use.html
+      output: web, pdf  
       
   - title: Access
     output: web, pdf
     
     folderitems:  
+    - title: First Use 
+      url: /first-use.html
+      output: web, pdf
+
     - title: App Loading 
       url: /app-loading.html
       output: web, pdf
@@ -152,10 +155,6 @@ entries:
    
     - title: Support and Tutorials
       url: /support-and-tutorials.html
-      output: web, pdf
-
-    - title: Onboarding
-      url: /onboarding.html
       output: web, pdf
 
   - title: Icons and Images

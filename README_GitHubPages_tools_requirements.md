@@ -1,8 +1,9 @@
 ---
 title: "Tools and requirements to build GitHub Pages"
-keywords: NWIS HAPI APIs
-tags: [README, NWIS]
-permalink: 
+keywords: 
+search: exclude
+tags: 
+permalink: README_GitHubPages_tools_requirements.html
 summary: An outline of software, publishing tools and skills required to document Health APIs.
 ---
 

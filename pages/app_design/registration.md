@@ -1,46 +1,53 @@
 ---
 title: Registration
-keywords:
+keywords: password, data, display, consent, interface, design
 sidebar: appdesign_sidebar
-toc: false
+toc: true
 permalink: registration.html
 folder: app_design 
 ---
 
-If users are going to be given the option to register through the mobile app interface then:
+If the app offers user registration through the app interface, the design must include good practice features.
 
-When passwords are collected during user registration:  
-* Password characters must be hidden behind dots for password security (iOS Human Interface Guidelines)  
-* Lock icon must be displayed next to password field (see Tools > Icons)  
+## Record password
+* Hide password characters behind dots for security (iOS Human Interface Guidelines)  
+* Display lock icon next to password field (see Tools > Icons)  
 
-Non-essential information must be collected after registration through a walkthrough to set up the app or through the user’s profile which may include:  
+## Collect non-essential information 
+
+Collect non-essential information after registration, using a walkthrough to set up the app, or through the user’s profile. The non-essential information may include:  
 * NHS number
 * Address
-* Sex *CONFIRM THIS WORDING*
+* Sex 
 * Gender
 
-Registration must display the mobile app terms and conditions  
-* Display of terms and conditions during registration depends on the information governance policy  
-* Terms and conditions must be provided as a summary and in full
-* Terms and conditions must be accepted by the user during registration
-* There must not be more than ten summary statements for the terms and conditions summary
-* Tick boxes for each summary statement must be used for the user to accept the summary terms and conditions
-* The terms and conditions statements must be in clear plain language and passed through a reading age filter that is appropriate for the target audience (this will be different for clinical apps compared to patient apps) (see Tools > Useful Resources)
-* Registration receipts must be sent in the same format as they were agreed on actual registration
-* Consent (if appropriate) must follow the same process as above. NHS Wales led Information Governance rules will inform whether consent is appropriate and whether or not it is integrated or separate for normal registration
-* Do not combine the process of registration or terms and conditions or consent on the same page - they must be treated as different processes and displayed on separate pages
+## Display the app terms and conditions  
+What terms and conditions appear during registration depends on the information governance policy.
+
+* Provide terms and conditions as a summary, and in full.
+* Users must accept terms and conditions during registration.
+* A summary version of terms and conditions is up to ten summary statements.
+* Provide tick boxes for each summary statement for the user to accept the terms and conditions.
+* Write the terms and conditions statements in clear plain language. Check the text using a reading age test, appropriate for the target audience. The reading level acceptable for clinical apps can differ from the level for patient apps. 
+* Send registration receipts in the same format as they were agreed on actual registration
+
 * Consider email validation during the registration process
 * An error message must be displayed immediately (whilst the user is completing data entry) when there is a validation error for registration details that have been entered (GOV.UK Design System) (see User Interaction > Errors) – avoid displaying error messages after the form has been submitted
 
+### Obtain consent if required
 
-#### Generic registration page detailing user credentials required for registration
+Consent (if appropriate) must follow the same process as for agreeing to terms and conditions. NHS Wales-led Information Governance rules decide whether consent is appropriate, and whether consent is integrated or separate from normal registration.  
+
+Do not combine the process of registration or terms and conditions or consent on the same page. - they must be treated as different processes and appear on separate pages.  
+
+### Example: user credentials required for registration
 
 <img class="img-responsive img-thumbnail" src="/images/examples/design-standards-access-registration1.png">
 
-#### Generic registration page detailing user credentials required for registration, second step
+### User credentials required for registration, second step
 
 <img class="img-responsive img-thumbnail" src="/images/examples/design-standards-access-registration2.png">
 
-#### Generic registration page detailing term and conditions as a summary and in full, final step 
+### Terms and conditions as a summary and in full, final step 
 
 <img class="img-responsive img-thumbnail" src="/images/examples/design-standards-access-registration3.png">

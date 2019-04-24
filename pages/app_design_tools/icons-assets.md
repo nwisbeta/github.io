@@ -1,6 +1,6 @@
 ---
 title: Icons and assets
-keywords:
+keywords: colour, design, link, symbol, action, meaning, response, interface, display, contrast, font, alert, notification
 sidebar: appdesign_tools_sidebar
 toc: false
 permalink: icons-assets.html

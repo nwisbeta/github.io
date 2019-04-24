@@ -1,21 +1,106 @@
 ---
 title: Terminology and Language 
-keywords:
+keywords: terms, translation, alignment, flags messages, language, labels, text, font, size
 sidebar: appdesign_sidebar
-toc: false
+toc: true
 permalink: terminology-and-language.html
 folder: app_design 
 ---
 
-# Terminology
-Standard terms must be used throughout the app (iOS Human Interface Guidelines) (see Tools > Terms)  
-Terms must be clear and easy to understand (iOS Human Interface Guidelines)  
-Terms must be familiar and friendly (iOS Human Interface Guidelines)  
-Avoid the use of patronising terms for example 'we', 'our', and 'me' (i.e. My Settings) (iOS Human Interface Guidelines)  
+## Terminology Principles
 
-# Language
-Apps must be developed with provision for translation to other languages using language flags (see Core Guidelines > Flags)  
-If the mobile app is being used for a right alignment language as an option then there needs to be a layout flag that swaps the alignment accordingly  
+Use terms consistently throughout the app (iOS Human Interface Guidelines). Some terms are provided in this standard.
+Choose terms that are familiar, friendly, clear, and easy to understand (iOS Human Interface Guidelines).
 
-# Flags
-Language flags must be used for text fields  *UNCLEAR*
+Avoid patronising sentence constructions: for example, referring to users as 'we', 'our', and 'me' (i.e. My Settings) (iOS Human Interface Guidelines).  
+
+Use a readability test tool like [WebFX's read-able](https://www.webfx.com/tools/read-able/) to test content reading level.
+
+## Language
+Apps must include provision for translation to other languages using language flags (see Core Guidelines > Flags).
+  
+If the mobile app requirements include a right-alignment language as an option, use a layout flag swap the alignment accordingly.  
+
+## Flags
+Use language flags for text fields.
+
+## Preferred General Terms
+
+Use these terms for labels and instruction text.
+
+Log In  
+Log Out  
+Register  
+First Name  
+Last Name  
+Email  
+Date of Birth  
+Sex  
+Gender  
+Time  
+Date  
+Add Task  
+To Do Item  
+To Do List  
+Filter  
+Search  
+Patient Information  
+
+## Menu items
+Home  
+Settings  
+Feed  
+Watchlist  
+Notifications  
+Settings  
+Profile  
+Help  
+Menu  
+
+## Settings
+
+User preferences  
+Profile  
+First name  
+Last name  
+Date of Birth  
+Sex  
+Gender  
+Email  
+Privacy  
+Change password  
+Change PIN  
+Notifications  
+Language  
+Accessibility  
+App info  
+Build number  
+Version  
+Legal  
+Terms and Conditions  
+Privacy Policy  
+Log out  
+
+
+## Demographics 
+Consider these headings and refer to NWIS Data Dictionaries for guidance
+
+Gender (if used)  
+Sex  
+Title  
+First Name  
+Last Name  
+Date of Birth  
+Address  
+Phone Number  
+Ethnicity  
+National Insurance Number  
+Email   
+
+### Patient identifiers
+
+NHS number  
+Hospital number  
+
+### Other  
+Area of work/speciality

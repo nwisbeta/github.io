@@ -1,55 +1,67 @@
 ---
 title: Log in and Log out
-keywords:
+keywords: login, logout, password, access, credentials, authentication, pin, timeout
 sidebar: appdesign_sidebar
-toc: false
+toc: true
 permalink: log-in-log-out.html
 folder: app_design 
 ---
 
-Log in page must have central alignment  
-NHS Wales logo must be displayed on log in page (top middle)  
-NWIS colour splash must be displayed on the log in page (bottom right)  
-App name must be displayed on the log in page as a title with central alignment  
+## Log in
+Log in page required elements:
 
-Log in button must be displayed on log in page (see Tools > Buttons)  
-Log in page must contain log in credentials that are required for access  
-A single method of log in must be provided with alternative methods to fall back on (iOS Human Interface Guidelines)  
+* Central alignment
+* NHS Wales logo, at top centre of the screen
+* NWIS colour splash at bottom right of the screen
+* The app name as a title, centred on the screen 
+* The log in button
+* Log in credential fields that are required for access  
 
-#### Generic app log in page enabling users to gain access to the app through authentication with their username/email address and password
+Provide a single method of log in, with alternative methods to fall back on (iOS Human Interface Guidelines).
 
-<img class="img-responsive img-thumbnail" src="/images/examples/design-standards-access-login-app-name.png">
+### Access the app using username/email address and password authentication
 
-Depending on mechanics of log in and if the fields below are required:  
-* Relevant icons must be displayed next to log in credential fields (see Tools > Icons)
-* Appropriate default keyboard must be used to facilitate data entry (iOS Human Interface Guidelines)
-* Password characters must be hidden behind dots for password security (iOS Human Interface Guidelines)
-* Biometric (fingerprint/facial recognition) log in should be supported though must not be relied on as a method of log in (some devices may not support this) (iOS Human Interface Guidelines)
+<img class="img-responsive img-thumbnail" src="/images/examples/design-standards-access-login-app-name.png" caption="Generic app log in page enabling users to gain access to the app through authentication with their username/email address and password">
 
-Log in page must display forgotten details message and link for password reset (see Tools > Messaging)
+If log in process requires the fields described:  
+* Relevant icons must appear next to log in credential fields (see Tools > Icons)
+* Appropriate default keyboard must enable data entry (iOS Human Interface Guidelines)
+* Use dots to hide password characters, for password security (iOS Human Interface Guidelines)
+* Biometric (fingerprint/facial recognition) log in should be supported, though not relied on, as a method of log in, as not all devices support this option (iOS Human Interface Guidelines)
 
-#### Example log in page enabling users to gain access to the app through an external authentication service
+The log in page must display forgotten details message, and link for password reset. See [Messaging and Standard Messages](/messages.html) for sample messages wordings.
+
+### Access the app through an external authentication service
 
 <img class="img-responsive img-thumbnail" src="/images/examples/design-standards-access-login-forgotten.png">
 
-# Log in after session timeout
-NHS Wales logo must be displayed on log in after timeout page (top middle)  
-NHS Wales colour splash must be displayed on the log in after timeout page (bottom right)  
-App name must be displayed on the log in after timeout in page  
-PIN or email and password, or biometric (fingerprint/facial ID) authenticated entry must be requested on log in after timeout page  
-A single method of log in must be provided with alternative methods to fall back on (iOS Human Interface Guidelines)  
-Password or PIN entry must be displayed as dots for security  
-Log in after timeout page must display forgotten details messaging and link if this is a method of reset (see Tools > Messaging)  
-Log out button must be displayed on log in after timeout page (see Tools > Buttons)  
-Failed log ins or PIN entry: After failed log in or PIN entry the user must be logged out and taken to the log in page
+## Log in after session timeout
 
-#### Generic log in after timeout page enabling PIN entry for re-authentication  
+Returning after timeout page required elements:
+
+* NHS Wales logo at top middle of the screen 
+* NHS Wales colour splash  at bottom right of the screen
+* App name 
+* Request for PIN or email and password, or biometric (fingerprint/facial ID) authenticated entry
+* Use dots to hide password characters, for password security (iOS Human Interface Guidelines) 
+* Offer forgotten details messaging and link, if this is a method of reset. See [Messaging and Standard Messages](/messages.html) for sample messages wordings.
+
+Provide a single method of log in, with alternative methods to fall back on (iOS Human Interface Guidelines).
+
+### Failed log ins or PIN entry
+
+After a failed log in or PIN entry attempt, the application must log out the user, and return to the original log in page.
+
+### Access after timeout, with PIN request for re-authentication  
 
 <img class="img-responsive img-thumbnail" src="/images/examples/design-standards-access-login-pinexample.png">
 
 
-# Log Out
-Log out button must be located in settings (Material.io)  
-Log out action must end session  
-User must be logged out of session and taken to log in page after clicking log out button  
+## Log Out
+
+Log out required elements:
+
+* Log out button must appear in settings (Material.io)  
+* Log out action must end session  
+* Clicking log out ends the session, and takes user to log in page
 

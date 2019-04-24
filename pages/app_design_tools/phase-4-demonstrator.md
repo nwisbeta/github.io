@@ -1,6 +1,6 @@
 ---
 title: Phase 4 - Demonstrator
-keywords:
+keywords: prototype, checklists, stakeholder, governance, compliance, requirements, testing, 
 sidebar: appdesign_tools_sidebar
 toc: false
 permalink: phase-4-demonstrator.html
@@ -17,7 +17,7 @@ Prior to release for stakeholder validation the development team must test and v
 
 Minor UX and/or UI changes such as changes in icon positioning, font size or colours may be implemented during the Demonstrator phase.
 
-# Checklist
+## Checklist
 
 <p>
 				<i class="far fa-square"></i> Check Phase 1 (Requirements), 2 (Design) and 3 (Prototype) checklists have been completed<br>

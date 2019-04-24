@@ -1,6 +1,6 @@
 ---
 title: Phase 3 - Prototype
-keywords:
+keywords: prototype, checklists, stakeholder, governance, compliance, requirements, testing, 
 sidebar: appdesign_tools_sidebar
 toc: false
 permalink: phase-3-prototype.html
@@ -15,7 +15,7 @@ During the prototype phase the development team must define the device hardware 
 
 Example: iPhone 7, Capacity 128 GB, Free capacity >64 GB, Software Version 11.3.1 or higher, Model MKQT2BA/A
 
-# Checklist
+## Checklist
 
 <p>
 				<i class="far fa-square"></i> Check Phase 1 (Requirements) and 2 (Design) checklists have been completed<br>

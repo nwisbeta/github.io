@@ -1,6 +1,6 @@
 ---
 title: Phase 6 - Production
-keywords:
+keywords: testing, documentation, assurance, release, iteration
 sidebar: appdesign_tools_sidebar
 toc: false
 permalink: phase-6-production.html
@@ -14,7 +14,7 @@ Minor UX and/or UI changes such as icon positioning, font size or colours are pe
 If major UX and/or UI changes are needed then it must be rolled back to a pre-Demonstrator phase.
 
 
-# Checklist
+## Checklist
 
 <p>
 				<i class="far fa-square"></i> Check Phase 1 (Requirements), 2 (Design), 3 (Prototype), 4 (Demonstrator) and 5 (Beta) checklists have been completed<br>
