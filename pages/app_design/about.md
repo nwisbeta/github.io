@@ -39,7 +39,7 @@ The guidance complies with the following harmonised standards. References to the
 *   [UK Design Council Double Diamond Design Process](https://www.designcouncil.org.uk/news-opinion/design-process-what-double-diamond)
 *   [GOV.UK Design System](https://design-system.service.gov.uk/)
 *   [ISO 9241-210: Ergonomics of human-system integration – Part 210: Human centred design for interactive systems](https://www.iso.org/standard/52075.html)
-*   [NHS Digital Common User Interface (CUI)](https://digital.nhs.uk/data-and-information/information-standards/common-user-interface-cui)
+*   [NHS Digital Common User Interface (CUI)](https://digital.nhs.uk/data-and-information/information-standards/information-standards-and-data-collections-including-extractions/publications-and-notifications/standards-and-collections)
 *   [NHS Digital Personal Demographics Service (PDS)](http://webarchive.nationalarchives.gov.uk/20160921142924/http:/systems.digital.nhs.uk/demographics/pds/contents)
 *   [NHS Data Dictionary](https://www.datadictionary.nhs.uk/)
 *   [PulseTile UI Kit](http://showcase2.ripple.foundation/ui-kit.html#/charts)
