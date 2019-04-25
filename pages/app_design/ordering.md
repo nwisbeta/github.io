@@ -7,16 +7,14 @@ permalink: ordering.html
 folder: app_design 
 ---
 
-Choose ordering options to suit the type of information displayed (Material.io). These options can include:
+The design must provide ordering options to suit the type of information displayed (Material.io). These options can include:
 * High to low priority
 * Most to least relevant
 * Alphabetical order
-   * Alerts ordered from highest to lowest priority
-   * Search terms ordered by most relevant
 
 If required, dynamic ordering can enable the user to manually order items, such as a patient list or to-do items, using the hold and drag gesture.
 
-App design must order alerts from high alert to low/no alert.  
+The app design must order alerts from high alert to low/no alert.  
 
 ### Alerts page
 
