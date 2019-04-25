@@ -17,7 +17,7 @@ Avoid patronising sentence constructions: for example, referring to users as 'we
 Use a readability test tool like [WebFX's read-able](https://www.webfx.com/tools/read-able/) to test content reading level.
 
 ## Language
-Apps must include provision for translation to other languages using language flags (see Core Guidelines > Flags).
+Apps must include provision for translation to other languages using language flags.
   
 If the mobile app requirements include a right-alignment language as an option, use a layout flag swap the alignment accordingly.  
 
