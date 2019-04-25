@@ -9,11 +9,17 @@ folder: app_design
 
 ## Principles
 
-Use a consistent layout across similar pages and components (WCAG 2.1, Material.io, iOS Human Interface Guidelines), using the same layout for the menu buttons, access points, profile, and Home button across multiple pages.
+The app design must:
 
-Provide navigation menus at the top and bottom of each page - see [Menus](/menus.html).
+* Use a consistent layout across similar pages and components (WCAG 2.1, Material.io, iOS Human Interface Guidelines), including locations for menu item locations and button locations
+* Provide navigation menus at the top and bottom of each page - see [Menus](/menus.html)
+* Display the search bar at the top centre of each page - see [Search](/search.html), where search facility is present
+* Use a consistent layout for titles, headings, subtitles, body text - see [Typography](/typography.html)  
 
-Where search functionality is present, position the search bar at the top centre of each page - see [Search](/search.html).  
+Consider and refer to layout standards, standard access points - see [Menus](/menus.html) and standard features - see [Standard Features](/standard-features.html). Default positions for features include:  
+* Profile (top left)
+* Settings (top right) 
+* Home (bottom centre)
 
 <div class="col-sm-12">
 	<div class="row">
@@ -30,25 +36,26 @@ Where search functionality is present, position the search bar at the top centre
 	</div>
 </div>			
 
-### Most important information appears in the centre 
+ 
+## Columns for layout
 
-Use a central column, for those pages that do not display _(fetched?)_ data. 
+The design must use a central column, for those pages that do not display _(fetched?)_ data. Pages with a list of items must have a single column with left text alignment.  The design should centre the most important data as a heading, where appropriate. 
 
-Pages with a list of items must have a single column with left text alignment.  
-
-Provide a consistent layout for titles, headings, subtitles, body text - see [Typography](/typography.html).  
-
-When using columns to display information:
+When the design uses columns to display information:
 * Do not use more than two columns, on a page with portrait orientation  
-* Centre the most important data as a heading where appropriate  
-* Information _type_, typically a field name, appears in the left column  
-* Relevant information, typically field contents, appears in bold in the right column  
-* Lay out one data field on each row only
+* Information type, _typically a field name?_, must appear in the left column  
+* Relevant information, _typically field contents?_, must appear in bold in the right column  
+* data fields must appear with only one data field on each row
 
-Avoid a layout that requires a lot of scrolling. Do not display too much information on one page as defined below (WCAG 2.1, ICO, GDPR):
-* Most important information must appear without scrolling (WCAG 2.1)  
-* Avoid displaying more than ten data fields on a single page - see [Data Entry](/data-entry.html). If the interface requires more than ten data fields, use multiple pages
+Avoid a layout that requires a lot of scrolling. 
 
+Do not display too much information on one page(WCAG 2.1, ICO, GDPR). The layout must:
+* Display the most important information without scrolling (WCAG 2.1)  
+* Avoid displaying more than ten data fields on a single page - see [Data Entry](/data-entry.html) 
+
+If the interface requires more than ten data fields, use multiple pages.
+
+The design should use margins and spacing where possible (iOS Human Interface Guidelines, Material.io, UWP).
 
 <div class="col-sm-12">
 		<div class="row">
