@@ -2,38 +2,36 @@
 title: Errors  
 keywords:
 sidebar: appdesign_sidebar
-toc: false
+toc: true
 permalink: errors.html
 folder: app_design 
 ---
 
+## Principles
+Error messages throughout the app must:
+* Be relevant, understandable and actionable (Material.io)
+* Explain what went wrong and how to fix it, in plain language (GOV.UK Design System, WCAG 2.1)
+* Use consistent phrases - see [Messaging](/messaging.html)
 
-Ensure error messages throughout the app are relevant, understandable and actionable (Material.io).  
+Do not use technical language in error messages.
 
-Error messages must explain what went wrong and how to fix it, in plain language (GOV.UK Design System, WCAG 2.1).
+If an error message appears due to incorrect form entry, such as an invalid email address, the error message must explain in clear language what the error is, and provide the correct format for the entry.  
 
-## Message requirements
+The design should validate text entry in real-time, with a helper text next to the text field, to notify the user before the user tries to move to the next step.  
 
-Error messages must:
-* be short and fit on one or two lines (iOS Human Interface Guidelines)  
-* appear as a pop up with a heading (minimum bold 20 sp and body text (minimum 14 sp)  
-* use in sentence case - see [Typography](/typography.html)  
+Pop up error messages must only appear when a user tries to move to the next stage of a process, such as when submitting log in details with an error. Minimise interruptions to users when using the app (GOV.UK Design System).
 
-If an error message appears due to incorrect form entry, such as an invalid email address, the error message must explain in clear language what the error is,  and provide the correct format for the entry.  
+If multiple errors occur, the design must present errors together in a single error message (GOV.UK Design System). Do not display a series of error messages that pop up one after the other.  
 
-Validate text entry in real-time with a helper text next to the text field, to notify the user before the user tries to move to the next step.  
+Do not use error messages that inform users they are not eligible or do not have appropriate permissions to do something. For example, explain why they are not eligible, and what to do next (GOV.UK Design System).  
 
-Pop up error messages must only be displayed when a user tries to move to the next stage of a process to prevent interruption when using the app (GOV.UK Design System)
-Example: Error message pops up when submitting log in details  
+The design must configure crash reports to go to developers, for error tracking (GOV.UK Design System). By default, hide detailed error messages intended for developers from users.  
 
-If there are multiple errors, present errors together in a single error message (GOV.UK Design System). Do not display a series of error messages that pop up one after the other.  
+## Layout 
+* Provide a short text, and fit on one or two lines (iOS Human Interface Guidelines)  
+* Appear as a pop up with a heading (minimum bold 20 sp and body text (minimum 14 sp)  
+* Use in sentence case - see [Typography](/typography.html)  
 
-Do not use error messages that inform users they are not eligible or do not have appropriate permissions to do something – do explain why this is the case and what to do next (GOV.UK Design System)  
-
-Use consistent error messages across the app. See [Messaging](/messaging.html).
-
-Configure crash reports so reports go to developers, for error tracking (GOV.UK Design System). By default, hide detailed error messages for developers from users.  
-
-### Example error message pop up display
+### Pop Up Error Message
 
 <img class="img-responsive img-thumbnail" src="/images/examples/design-standards-ui-errors-example.png">  

@@ -7,7 +7,7 @@ permalink: user-feedback.html
 folder: app_design 
 ---
 
-Provide feedback for every user action (iOS Human Interface Guidelines). For example:
+The design must provide feedback for every user action (iOS Human Interface Guidelines). For example:
 
 * Profide confirmation messages for data entry
 * Show entry of each digit as a dot for PIN entry
