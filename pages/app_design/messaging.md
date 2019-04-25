@@ -7,9 +7,11 @@ permalink: messaging.html
 folder: app_design 
 ---
 
-Ensure messaging throughout the app is relevant, understandable and actionable (Material.io).
+The messaging used throughout the app must:
 
-Use consistent messaging throughout the app.
+* Be relevant, understandable and actionable (Material.io)
+* Remain consistent 
+* Use standard phrases
 
 Provide 'click here' functionality when messaging is associated with an action:
 
@@ -19,11 +21,6 @@ Provide 'click here' functionality when messaging is associated with an action:
 ## Example for personal details
   _SPELLING ERROR_
 <img src="/images/examples/design-standards-user-interaction-messaging-links.png">
-
-
-## Standard message phrases
-
-Use standard messages across the app. 
 
 ### Patient lookup
 
