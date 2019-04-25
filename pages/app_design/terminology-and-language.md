@@ -9,8 +9,8 @@ folder: app_design
 
 ## Terminology Principles
 
-Use terms consistently throughout the app (iOS Human Interface Guidelines). Some terms are provided in this standard.
-Choose terms that are familiar, friendly, clear, and easy to understand (iOS Human Interface Guidelines).
+The app must use terms consistently throughout (iOS Human Interface Guidelines). Some terms are provided in this standard.
+Terms must be familiar, friendly, clear, and easy to understand (iOS Human Interface Guidelines).
 
 Avoid patronising sentence constructions: for example, referring to users as 'we', 'our', and 'me' (i.e. My Settings) (iOS Human Interface Guidelines).  
 
