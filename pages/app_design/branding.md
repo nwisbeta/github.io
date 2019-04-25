@@ -7,28 +7,34 @@ permalink: branding.html
 folder: app_design 
 ---
 
-## App Icon Requirements
-The icon you provide to launch the app requires a simple design, 'flattened', with no transparency.  
-Keep icon borders square (iOS Human Interface Guidelines) though the icon may display with rounded corners, as in the example. Use:
+## Launch Screen Requirements
 
-* a single object or logo on a solid colour background
-* for an icon with a white background, use a coloured object with a solid colour border
-* NWIS colours 
+Launch screen icons must:
+* Have a simple design
+* Use a single object or logo on a solid colour background
+* Use NWIS colours 
 
-Deliver the finished icon at 1024px x 1024px resolution. Include:
+Launch screen app icons with a white background must use a coloured icon with a solid colour border.
 
-* a vector format copy as an SVG file (Material.io)
-* a graphics format copy as a PNG file (iOS Human Interface Guidelines)
+The launch screen image icons must:
+* Have no rounded corners (iOS Human Interface Guidelines) though the viewable image border may have rounded corners
+* Be flattened with no transparency (iOS Human Interface Guidelines)
+* Be created in 1024px x 1024px resolution
+* Include a vector format copy as an SVG file (Material.io)
+* Include a graphics format copy as a PNG file (iOS Human Interface Guidelines)
 
 <img src="/images/examples/design-standards-icon-examples.png">
 
-Use the NWIS logo as the home button icon.  Do not use the same logo more than once on each page
+## Logos
+Use the NWIS logo as the home button icon.   
+
+Do not use the same logo more than once on each page.
 
 ### Example home icon
 <img src="/images/examples/design-standards-home-example.png" alt="Examples of white icon on a solid colour background, and coloured icon on a white background, with a colour border" style="max-width: 120px">
 
 ## Colour
-Design all app UI elements using NWIS brand standards, unless you generate an agreed exception.
+Design for all app UI elements must use NWIS brand standards, unless the designers generate an agreed exception.
 
 ## Primary Palette
 

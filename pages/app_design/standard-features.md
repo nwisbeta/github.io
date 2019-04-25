@@ -7,10 +7,12 @@ permalink: standard-features.html
 folder: app_design 
 ---
 
-Most mobile apps provide common features such as the Home and Settings screens. Use standard features where relevant including:  
-* Consistent terms (shared naming conventions) 
-* Consistent icons (a shared icon set) 
-* Consistent menu access points 
+Most mobile apps provide common features such as the Home and Settings screens. 
+
+The app design must use standard features where relevant, including:  
+* Consistent terms (shared naming conventions) - see [Terminology and Language](/terminology-language.html)
+* Consistent icons (a shared icon set) - see [Icons](/icons.html)
+* Consistent menu access points - see [Menus](/menus.html)
 
 ## Home
 The 'Home Page' or the 'Main Screen/Page' must include the most important app feature (primary reason for app) or provide a summary of the most important information. Users can configure or personalise this page through their settings if required.  
@@ -20,8 +22,8 @@ The 'Home Page' or the 'Main Screen/Page' must include the most important app fe
 <img class="img-responsive img-thumbnail" src="/images/examples/design-standards-sf-search.png">
 
 ## Settings
-Provide access to settings as three dots in the top right corner.  
-Settings must cover features such as:
+
+Settings access must appear as three dots in the top right corner.  Settings must cover features such as:
 * Technical settings
 * Preferences
 * Help
@@ -31,11 +33,11 @@ Settings must cover features such as:
 * Legal/privacy information 
 * Log out  
 
-Display settings as a list with left alignment (Material.io).  
-  
-Use visual dividers to separate list items.    
+The design must:
 
-Group settings into categories:
+* Display settings as a list with left alignment (Material.io)
+* Use visual dividers to separate list items
+* Group settings into categories
 * Show category titles
 * Use up to six main categories
 * Avoid using more than six menu items within each category
@@ -51,7 +53,7 @@ Clicking a settings menu item must open a new page, which must have a back butto
 ## Help
 The settings menu must include Help, to access help functions such as support information and tutorials.  
 
-Define support information by the app functions it relates to.  
+The design should categorise support information by the app functions it relates to.  
 
 Help must provide answers to user questions (Material.io) that can include:  
 * Help topics
@@ -60,7 +62,11 @@ Help must provide answers to user questions (Material.io) that can include:
 * Tutorials
 * Walkthroughs
 
-Help content must use simple language. Target a reading age of 7-9 (WCAG 2.1) – avoid using technical language (Material.io). Help content should contain step by step instructions and relevant images (Material.io).
+Help content must use simple language, targeting a reading age of 7-9 (WCAG 2.1). 
+
+Avoid using technical language (Material.io). 
+
+Help content should contain step by step instructions and relevant images (Material.io).
 
 ## Feed (if used)
 Feed must include regularly updated information such as:  
@@ -69,22 +75,18 @@ Feed must include regularly updated information such as:
 * Notices
 * Social Media
 
+Feed must display date and time that each item was received.  
+
 ### Feed page 
 <img class="img-responsive img-thumbnail" src="/images/examples/design-standards-sf-feed-example.png">
-
-Feed must display date and time that each item was received.  
 
 Enable scroll gestures, to allow the user to move through the feed items - see [Touch Gesture Controls](/touch-gesture-control.html).  
 
 Critical feed items must provide a notification to alert the user.   
 
-For notifications:  
-* Any critical feed item must enable the user to address and resolve the issue, using protocols that have been established and signed off at the executive governance level  
-* In-app notifications - see [Pop Ups](/popups.html) - should prevent the user from doing other things until they take action (iOS Human Interface Guidelines)  
+Any critical feed item must enable the user to address and resolve the issue, using protocols that have been established and signed off at the executive governance level.  
 
-* Critical feed items must provide a notification to alert the user:
-  * Any critical feed item must be addressed and resolved using protocols that have been established and signed off at the executive governance level
-  * In-app notifications - see [Pop Ups](/popups.html) - should prevent the user from doing other things until they take action (iOS Human Interface Guidelines)
+In-app notifications - see [Pop Ups](/popups.html) - should prevent the user from doing other things until they take action (iOS Human Interface Guidelines).  
 
 Important or critical feed items must appear at the top of the feed until acknowledged by the user. After the user acknowledges a feed item, it must appear a past feed item, with a different colour background, to differentiate it from unread feed items  
 
@@ -106,10 +108,11 @@ See [Touch Gesture Controls](/touch-gesture-control.html) for guidance about sta
 
 ## Connection and communication functions
 Connection and communication functions enable connecting or communicating with people or entities, such as a ward or patient within a particular hospital.  
-Recommended features include:
-* a search bar at the top of the page to allow the user to search for connections
-* scroll gestures enabled to allow the user to move through connections and communications
-* swipe down gesture enabled to allow the user to refresh connections/communications
+
+Features should include:
+* A search bar at the top of the page to allow the user to search for connections
+* Scroll gestures enabled to allow the user to move through connections and communications
+* Swipe down gesture enabled to allow the user to refresh connections/communications
 
 Selecting the connection/communication group menu item whilst in the feed must scroll to the top of the page and refresh the page  - see [Menus](/menus.html).
 
@@ -120,13 +123,13 @@ See [Touch Gesture Controls](/touch-gesture-control.html) for guidance about sta
 <img class="img-responsive img-thumbnail" src="/images/examples/design-standards-sf-communication-example.png">
 
 ## Watchlist and alerts
-Clinician apps must provide watchlists and alerts.
+Clinician apps must provide watchlists and alerts. Notifications are generally used instead of watchlist/alerts for patient facing apps.
 
-Notifications are generally used instead of watchlist/alerts for patient facing apps.
+Watchlists and alerts must: 
 
-Watchlist and alerts are ordered from highest to lowest priority by default. See [Ordering](/ordering.html).
-
-Enable scroll gestures to navigate through items.  Swipe down gesture must refresh the page.
+* Appear in order from highest to lowest priority by default. See [Ordering](/ordering.html).
+* Enable scroll gestures to navigate through items.  
+* Enable swipe down gesture to refresh the page.
 
 Selecting the watchlist/alerts menu item whilst in the watchlist/alerts menu must scroll to the top of the feed and refresh the page.
 
@@ -150,9 +153,7 @@ Critical notifications within the app should prevent the user from doing other t
 
 Critical alerts must require an acknowledgement by the user.  
 
-Important alerts must appear at the top of the page until the user acknowledges them.  
-
-Once a user has acknowledged an alert, the app must store it as a past alert and show it  with a different colour background to differentiate it from current alerts.  
+Important alerts must appear at the top of the page until the user acknowledges them.  Once a user has acknowledged an alert, the app must store it as a past alert and show it  with a different colour background to differentiate it from current alerts.  
 
 The app must show a one-month history of alerts, loading 10 items at a time.  
 
@@ -167,9 +168,9 @@ Alerts must appear in an accessible format, that differentiates high, medium and
 * Low priority alerts (if required): a square with NWIS yellow fill  
 
 Optional discriminators relating to contrast between message/border and fill:  
-* High priority alerts can appear with highest density contrast message text/number and border   
-* Medium priority alerts can appear with a high density contrast message text/number and border  
-* If low priority alerts are required, they can appear with a standard density (W3C compliant) contrast message text/number border  
+* High priority alerts may appear with highest density contrast message text/number and border   
+* Medium priority alerts may appear with a high density contrast message text/number and border  
+* If low priority alerts are required, they may appear with a standard density (W3C compliant) contrast message text/number border  
 
 These guidelines ensure that colour is not the sole visual representation of alerts (Material.io).
 
@@ -189,17 +190,17 @@ The highest priority notifications must appear at the top of the page. After hig
 Notifications must include the time and date they were sent from the server, or received by the app if the server information is not available.  
 
 Critical alerts must provide a notification to the user.  
-* Critical notifications within the app - see [Pop Ups](/popups.html) should prevent the user from doing other things until they take action (iOS Human Interface Guidelines).  
-* Important notifications must appear at the top of the page until acknowledged by the user  
-* Once a a user has acknowledged an alert, the app must store it as a past notification, and display it with a different colour background to differentiate it from new notifications.
+
+Critical notifications within the app - see [Pop Ups](/popups.html) should prevent the user from doing other things until they take action (iOS Human Interface Guidelines).  
+
+Important notifications must appear at the top of the page until the user acknowledges them. Once a a user has acknowledged an alert, the app must store it as a past notification, and display it with a different colour background to differentiate it from new notifications.
 
 The app must show a one-month history of notifications, loaded 10 items at a time.  
 
-The notification menu item on bottom must must signal important notifications that may require receipt.   
-
-Enable scroll gestures to allow the user to move through the feed items - see [Touch Gesture Controls](/touch-gesture-control.html).  
-  
-Swipe down gesture must allow the user to refresh the feed - see [Touch Gesture Controls](/touch-gesture-control.html).  
+Notifications must:
+* Signal important notifications that may require receipt, via the notification menu item on bottom
+* Enable scroll gestures to move through the feed items - see [Touch Gesture Controls](/touch-gesture-control.html).  
+* Enable swipe down gesture to refresh the feed - see [Touch Gesture Controls](/touch-gesture-control.html).  
   
 Clicking the notifications menu item whilst in the notifications menu must scroll to the top of the notifications menu and refresh the page - see [Menus](/menus.html).  
 
@@ -208,7 +209,9 @@ Clicking the notifications menu item whilst in the notifications menu must scrol
 <img class="img-responsive img-thumbnail" src="/images/examples/design-standards-sf-notification-example.png">
 
 ## Profile
-This profile guidance applies to both clinical and patient apps. Profile must include at least three personal identifiers such as:
+This profile guidance applies to both clinical and patient apps. 
+
+A profile must include at least three personal identifiers such as:
 * First Name
 * Last Name
 * Date of Birth
@@ -226,5 +229,6 @@ Users must be able to view and edit their profile information.
 See [Search](/search.html).
 
 ## Orientation
-App designs must support both portrait and landscape orientation (WCAG 2.1, iOS Human Interface Guidelines).   
-Use landscape orientation to optimise data display (like a table, or chart). 
+App designs must support both portrait and landscape orientation (WCAG 2.1, iOS Human Interface Guidelines).  
+  
+Use landscape orientation to optimise data display, like a table or chart. 
