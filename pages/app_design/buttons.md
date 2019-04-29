@@ -40,7 +40,7 @@ Contained buttons must:
 Contained button designs must include:
 * Rectangular shape 
 * 2dp elevation  
-* Central alignment 
+* Central alignment on the screen or popup
 * Appropriate font and font colour for button text - see [Typography](/typography.html)  
 * Text positioned on the centre of the button 
 

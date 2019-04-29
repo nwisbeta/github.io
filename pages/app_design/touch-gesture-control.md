@@ -26,14 +26,14 @@ Single tap gestures must allow navigation, perform actions, and make choices wit
 * Menu items
 * Data fields
 
-A single tap of higher level components must expand lower level components, including:
-* Single tap of top or bottom menu item for navigation
-* Single tap of bottom menu item when in bottom menu item scrolls to top of page and refreshes page 
-* Single tap of top of screen scrolls to top of page
-* Single tap of action button e.g. log out  
-* Single tap of text box to allow data entry
-* Single tap of tick boxes   
-* Single tap of higher level component (i.e. top level patient information) to reveal lower level components (i.e. additional patient information such as patient contact details)
+Higher level components must expand lower level components through a single tap to the following items:
+* Top or bottom menu item: provides navigation
+* Bottom menu item: when user is using bottom menu item, scrolls to top of page and refreshes page 
+* Top of screen: scrolls to top of page
+* Action button: performs the action, such as log out  
+* Text box: allows data entry
+* Tick boxes: selects a box
+* Higher level component, such as top level patient information: reveals lower level components, such as patient contact details
  
 ## Scroll
 Scroll gestures must allow navigation through continuous information (Material.io, iOS Human Interface Guidelines), including:  
@@ -41,7 +41,7 @@ Scroll gestures must allow navigation through continuous information (Material.i
 * Body text
 * Lists of menu items, such as settings
 
-Scroll gestures must only scroll through one view at a time – do not use two scroll views on one page (iOS Human Interface Guidelines).    
+Scroll gestures must only scroll through one view at a time – do not nest one scroll view within another, on one page (iOS Human Interface Guidelines).    
 
 ## Swipe 
 Swipe gestures must allow navigation, and actions within the app, (Material.io, iOS Human Interface Guidelines) including:  
@@ -51,10 +51,10 @@ Swipe gestures must allow navigation, and actions within the app, (Material.io, 
 * Move through a tutorial
 * Swipe down to refresh
 * 'Paging' through multiple tutorial pages
-* To acknowledge 
+* To acknowledge a notification or alert
 * Reveal delete button  
 
-Back swipe gesture must allow navigation, when a back button is present to provide navigation to previous page.
+If a back button provides navigation to a previous page, the back swipe gesture must allow navigation to a previous pages, as an alternative method.
   
 ## Pan 
 Pan gestures must allow users to move elements in any direction: for example, moving in any direction through map (Material.io)  
