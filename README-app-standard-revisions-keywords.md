@@ -62,6 +62,15 @@ First pass, 12 April 2019.
 |Tools |Glossary | _moved to Overview|
 |Tools |Exceptions  |_moved to_ About   |
 
+# Second pass, week of 22 April 2019
+- revised text to active voice, preserving the MUST, MAY, AVOID, DO/DO NOT wording for standards.
+- clarified wording on some standards
+
+Changed content regarding
+- icon file formats (in line with current practice)
+- removed explicit 'click here' wording
+
+
 # Keywords raw list
 
 keywords: display, design, response, text, icon, reset  

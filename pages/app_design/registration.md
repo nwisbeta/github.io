@@ -9,7 +9,7 @@ folder: app_design
 
 ## Passwords
 
-If the app offers user registration through the app interface, the design must:
+If the app offers user registration through the app interface, rather than an administrator setting up a user, the design must:
 * Hide password characters behind dots for security (iOS Human Interface Guidelines)  
 * Display lock icon next to password field - see [Icons](/icons.html)  
 
@@ -26,7 +26,8 @@ What terms and conditions appear during registration depends on the information 
 
 The registration must:
 * Display the mobile app terms and conditions
-* Provide terms and conditions as a summary, and in full: a summary version is up to ten summary statements
+* Provide terms and conditions as a summary, and in full
+   * A summary version is up to ten summary statements
 * Provide tick boxes for each summary statement for the user to accept the terms and conditions
 * Provide the terms and conditions statements in clear plain language. 
 
@@ -42,7 +43,7 @@ An error message must appear immediately (whilst the user is completing data ent
 
 Consent (if appropriate) must follow the same process as for agreeing to terms and conditions. NHS Wales-led Information Governance rules decide whether consent is appropriate, and whether consent is integrated or separate from normal registration.  
 
-Do not combine the process of registration or terms and conditions or consent on the same page. The processes must be treated as different processes, and appear on separate pages.  
+Do not combine the process of registration, agreeing to terms and conditions, and providing consent on the same page. Treat processes as separate, and present them on separate pages.  
 
 ### Example: user credentials required for registration
 

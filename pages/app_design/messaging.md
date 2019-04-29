@@ -13,10 +13,10 @@ The messaging used throughout the app must:
 * Remain consistent 
 * Use standard phrases
 
-Provide 'click here' functionality when messaging is associated with an action:
+Provide 'click here' functionality when messaging connects to an action:
 
-* 'Click here must be in bold and underlined - see [Typography](/typography.html). 
-* 'Click here' link must open new page or pop up
+* Link text must be in bold and underlined - see [Typography](/typography.html). 
+* Link must open new page or pop up
 
 ## Example for personal details
   _SPELLING ERROR_
@@ -26,8 +26,8 @@ Provide 'click here' functionality when messaging is associated with an action:
 
 * Scan patient barcode or enter NHS Number below  
 * Scan patient barcode or enter Hospital Number below  
-* Don’t know NHS Number? Click here    
-* Don’t know Hospital Number? Click here  
+* Don’t know NHS Number?    
+* Don’t know Hospital Number?
  
 ### Notifications (general)  
 * You have notifications that require attention  
@@ -37,7 +37,7 @@ Provide 'click here' functionality when messaging is associated with an action:
 * Enter your PIN  
 
 ### Forgotten Details  
-* Forgotten your details? Click here  
+* Forgotten your details?   
 
 ### Filter  
 

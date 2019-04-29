@@ -39,12 +39,12 @@ Consider and refer to layout standards, standard access points - see [Menus](/me
  
 ## Columns for layout
 
-The design must use a central column, for those pages that do not display _(fetched?)_ data. Pages with a list of items must have a single column with left text alignment.  The design should centre the most important data as a heading, where appropriate. 
+The design must use a central column, for those pages that do not display data, such as results. Pages with a list of items must have a single column with left text alignment.  The design should centre the most important data as a heading, where appropriate. 
 
 When the design uses columns to display information:
 * Do not use more than two columns, on a page with portrait orientation  
-* Information type, _typically a field name?_, must appear in the left column  
-* Relevant information, _typically field contents?_, must appear in bold in the right column  
+* Information type, such as a field name, must appear in the left column  
+* Relevant information, such as the field contents, must appear in bold in the right column  
 * data fields must appear with only one data field on each row
 
 Avoid a layout that requires a lot of scrolling. 

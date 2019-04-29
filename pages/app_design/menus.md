@@ -15,13 +15,13 @@ Menu items must provide navigation only. Do not use menu items for actions (Mate
 
 Selecting menu items must take the user to the main screen associated with the menu item (Material.io).
 
-On a direct menu item section, clicking the menu item must scroll the page back to the top and refresh the data if applicable (Material.io). For example, in connect page, clicking the connect menu will scroll the page back to the top and refresh the data, if applicable  
+On a direct menu item section, selecting the menu item must scroll the page back to the top and refresh the data if applicable (Material.io). For example, in connect page, selecting the connect menu will scroll the page back to the top and refresh the data, if applicable  
 
-On a page which is not a direct menu item, selecting the menu item must return the user to the direct menu item. For example, in connect page and viewing patient details (not a direct menu item), clicking the connect menu item will take the user back to the connect page.
+On a page which is not a direct menu item, selecting the menu item must return the user to the direct menu item. For example, in connect page and viewing patient details (not a direct menu item), selecting the connect menu item will take the user back to the connect page.
 
 If there is no current direct menu location, a back button must enable navigation back to a menu location. The Back button must appear in the top left corner of the app, temporarily replacing profile/menu item icon.  
 
-If a back button is used, swipe navigation must enable easy return to the previous page. See [Touch Gesture Control](/touch-gesture-control.html).  
+If the design includes a back button, it must also enable swipe navigation to return to the previous page, as an alternative. See [Touch Gesture Control](/touch-gesture-control.html).  
 
 ## Layout
 
@@ -41,7 +41,7 @@ All menu items must use:
 
 For menu items, the minimum touch target size is 44px x 44px, surrounded by a small amount of inactive space (WCAG 2.1, Material.io).   
 
-Wherever possible the app's icon placement should stay symmetrical. For example, if a middle functional icon is required then the app should have a middle functional icon on the other side.
+Wherever possible the app's icon placement should remain symmetrical.
 
 The design must use standard menu access points to provide app functions:
 * Bottom menu left – general information, content, feeds, library, guides etc.
@@ -61,7 +61,11 @@ Menu items must respond and adapt in size to different devices and screen sizes.
 
 The design must enable menu items on all pages except when a keyboard is available (see below) (iOS Human Interface Guidelines).  If a keyboard is available, the design must hide the bottom menu items (iOS Human Interface Guidelines).  
     
-Icons must be used for each menu item with meaningful related text (Material.io). Menu item text must be short (Material.io).  Do not wrap text around an icon, or shrink text to fit (Material.io).
+Each menu item must:
+* Provide an icon 
+* Include meaningful related text (Material.io) to explain the action 
+
+Menu item text must be short (Material.io).  Do not wrap text around an icon, or shrink text to fit (Material.io).
 
 <img src="/images/examples/design-standards-navigation-menus.png" style="max-width: 120px"> 
 

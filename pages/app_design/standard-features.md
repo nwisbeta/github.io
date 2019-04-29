@@ -69,22 +69,27 @@ Avoid using technical language (Material.io).
 Help content should contain step by step instructions and relevant images (Material.io).
 
 ## Feed (if used)
-Feed must include regularly updated information such as:  
+
+A feed is a feature which provides regularly updated information such as:  
 * News
 * Content
 * Notices
 * Social Media
 
-Feed must display date and time that each item was received.  
+A feed must display date and time that each item was received.  
+
+
 
 ### Feed page 
 <img class="img-responsive img-thumbnail" src="/images/examples/design-standards-sf-feed-example.png">
 
 Enable scroll gestures, to allow the user to move through the feed items - see [Touch Gesture Controls](/touch-gesture-control.html).  
 
-Critical feed items must provide a notification to alert the user.   
+Information-only content does not require a notification, or action on the part of the user.  
 
-Any critical feed item must enable the user to address and resolve the issue, using protocols that have been established and signed off at the executive governance level.  
+Critical feed items which require a response from the user, must:
+* Provide a notification to alert the user, such as vibrating the phone or a sound
+* Must enable the user to address and resolve the issue, using protocols that the executive governance group have established
 
 In-app notifications - see [Pop Ups](/popups.html) - should prevent the user from doing other things until they take action (iOS Human Interface Guidelines).  
 
@@ -94,9 +99,7 @@ The feed display must show a one-month history of feed items, loading 10 items a
 
 Selecting a feed item must open a new page, which must include a back button (top left corner) to enable navigation back to the feed page.
   
-Feed icon must signal important notices on the bottom menu unless notification menu item is present. 
-
-If notification menu item is present, important notices must appear in notifications, and direct the user to relevant notice in feed for acknowledgement/read receipt.  
+The feed icon must signal important notices on the bottom menu, unless the app design includes a notification menu item.  If a notification menu item is present, important notices must appear in notifications, and direct the user to relevant notice in feed for acknowledgement/read receipt.  
 
 <img src="/images/examples/design-standards-sf-feed-notification-icon.png" style="max-width: 100px;">
 
@@ -114,7 +117,7 @@ Features should include:
 * Scroll gestures enabled to allow the user to move through connections and communications
 * Swipe down gesture enabled to allow the user to refresh connections/communications
 
-Selecting the connection/communication group menu item whilst in the feed must scroll to the top of the page and refresh the page  - see [Menus](/menus.html).
+Selecting the connection/communication group menu item whilst in the feed must scroll to the top of the connection and communication page, and refresh the page  - see [Menus](/menus.html).
 
 See [Touch Gesture Controls](/touch-gesture-control.html) for guidance about standard control gestures.
 
@@ -131,7 +134,7 @@ Watchlists and alerts must:
 * Enable scroll gestures to navigate through items.  
 * Enable swipe down gesture to refresh the page.
 
-Selecting the watchlist/alerts menu item whilst in the watchlist/alerts menu must scroll to the top of the feed and refresh the page.
+If the user selects a watchlist/alerts menu item whilst in the watchlist/alerts menu, the item must scroll to the top of the feed and refresh the page.
 
 See [Touch Gesture Controls](/touch-gesture-control.html) for guidance about standard control gestures.
 
@@ -139,7 +142,7 @@ See [Touch Gesture Controls](/touch-gesture-control.html) for guidance about sta
 Users must be able to modify which patients or people appear on their watchlist.  
 
 ### Alerts
-Users must address and resolve any alert using established and signed-off protocols, agreed at the executive governance level.  For clinical alerts, signing off must be completed by both clinical and information governance personnel. The national body that signed off the protocols must appear at the top of this alert section, including signoff date, and be updated or ratified periodically.
+Users must address and resolve any alert using established and signed-off protocols, agreed at the executive governance level.  For clinical alerts, both clinical and information governance personnel must sign off on protocols. The national body that signed off the protocols must appear at the top of this alert section, including signoff date, and be updated or ratified periodically.
 
 | Alert Protocol Version | Sign Off Date | Signatories (list) |
 |------------------------|---------------|--------------------|
@@ -147,13 +150,14 @@ Users must address and resolve any alert using established and signed-off protoc
 
 Alerts must show the time and date they were triggered.
 
-Critical alerts must provide a notification to the user.  
+Critical alerts must:
+
+* Provide a notification to the user, such as vibration or a sound
+* Require an acknowledgement by the user
 
 Critical notifications within the app should prevent the user from doing other things until they take action (iOS Human Interface Guidelines). See [Pop Ups](/popups.html). 
 
-Critical alerts must require an acknowledgement by the user.  
-
-Important alerts must appear at the top of the page until the user acknowledges them.  Once a user has acknowledged an alert, the app must store it as a past alert and show it  with a different colour background to differentiate it from current alerts.  
+Important alerts must appear at the top of the page until the user acknowledges them.  Once a user acknowledges an alert, the app must store it as a past alert and show it  with a different colour background to differentiate it from current alerts.  
 
 The app must show a one-month history of alerts, loading 10 items at a time.  
 
@@ -175,7 +179,7 @@ Optional discriminators relating to contrast between message/border and fill:
 These guidelines ensure that colour is not the sole visual representation of alerts (Material.io).
 
 ## Notifications
-Users must address and resolve any notification using established and signed-off protocols, agreed at the executive governance level. For clinical notifications signing off must be completed by both clinical and information governance personnel. The national body that signed off the protocols must appear at the top of this alert section, including signoff date, and be updated or ratified at least annually.
+Users must address and resolve any notification using established and signed-off protocols, agreed at the executive governance level. For clinical notifications both clinical and information governance personnel must sign off on protocols. The national body that signed off the protocols must appear at the top of this alert section, including signoff date, and be updated or ratified at least annually.
 
 | Notification Protocol Version | Sign Off Date | Signatories (list) |
 |-------------------------------|---------------|--------------------|
@@ -193,7 +197,7 @@ Critical alerts must provide a notification to the user.
 
 Critical notifications within the app - see [Pop Ups](/popups.html) should prevent the user from doing other things until they take action (iOS Human Interface Guidelines).  
 
-Important notifications must appear at the top of the page until the user acknowledges them. Once a a user has acknowledged an alert, the app must store it as a past notification, and display it with a different colour background to differentiate it from new notifications.
+Important notifications must appear at the top of the page until the user acknowledges them. Once a user acknowledges an alert, the app must store it as a past notification, and display it with a different colour background to differentiate it from new notifications.
 
 The app must show a one-month history of notifications, loaded 10 items at a time.  
 
