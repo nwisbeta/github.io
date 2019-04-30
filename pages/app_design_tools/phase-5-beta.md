@@ -11,9 +11,10 @@ The Beta phase is the live release of the mobile application, where users can tr
 
 Major UX and/or UI changes such as changes in screen layout or workflows must not occur during the demonstrator phase.
 
+The design team may make minor UX and/or UI changes, such as changes in icon positioning, font size or colours during the Beta phase.
+
 If the design requires major UX and/or UI changes, then the development must roll back to a pre-Demonstrator phase.
 
-The design team may make minor UX and/or UI changes, such as changes in icon positioning, font size or colours during the Beta phase.
 
 ## Checklist
 Check that the design team has completed Phase 1 (Requirements), 2 (Design), 3 (Prototype) and 4 (Demonstrator) checklists before proceeding.
