@@ -1,33 +1,37 @@
 ---
 title: Phase 1 - Requirements
-keywords: design, planning, checklists, research, stakeholder, governance, compliance, requirements, 
+keywords: planning, checklists, research, stakeholder, governance, compliance, requirements, 
 sidebar: appdesign_tools_sidebar
-toc: false
+toc: true
 permalink: phase-1-requirements.html
 folder: app_design_tools 
 ---
 
-The requirements phase documents the specific needs or opportunities that the mobile app will address. This should be headed by a top-level requirement followed by a set of lower level requirements. The requirements are defined by the stakeholders who are typically the problem owners and/or end users.
+The requirements phase documents the specific needs or opportunities that the mobile app will address. These needs should be headed by a top-level requirement, followed by a set of lower level requirements.  
 
-Example: The top-level requirement is for a mobile app that helps clinicians manage their patients better. To do this the app needs to:
+The stakeholders define the requirements. Stakeholders are typically the problem owners, and/or end users.  
 
-Access patient records
-Allow clinician interaction with a patient record
-Alert a clinician when there is a deterioration in a patient’s condition
-Provide functionality to allow a clinician to manage their job tasks
-Comply with NHS Wales information and clinical governance
-The requirements are the Core Guidelines of mobile app development and are used as inputs into the design stage as below. They are also a key input into verification. Testing must trace back to specific requirements.
+For example: The top-level requirement is for a mobile app that helps clinicians manage their patients better. The app needs to:
 
-Depending on methodology and stakeholder engagement, requirements can either be developed in parallel (agile method) with design and implementation phases, or before (waterfall method).
+* Access patient records
+* Allow clinician interaction with a patient record
+* Alert a clinician when there is a deterioration in a patient’s condition
+* Provide functionality to allow a clinician to manage their job tasks
+* Comply with NHS Wales information and clinical governance
 
-If requirements are developed in parallel with design and implementation phases then the requirements phase must refer to design standards documentation.
+The requirements are the Core Guidelines of mobile app development. They provide inputs to the design stage which follows. They are also a key input into verification. Testing must trace back to specific requirements.
+
+Depending on methodology and stakeholder engagement, the design team can develop requirements in parallel (agile method) with design and implementation phases, or before design and implementation phases (waterfall method).
+
+If the team develops requirements in parallel with design and implementation phases, then the requirements phase must refer to design standards documentation.
 
 ## Checklist
 
+The team must follow and complete all checklists for mobile app developments.
+
 <div class="col-lg-12">
-			<p>All checklists <i>must</i> be followed and completed for mobile app developments.</p>
 			
-			<p><i class="far fa-square"></i> Idea generation</p>
+			<p><h3> Develop Idea</h3></p>
 			
 			<p class="indented">
 				<i class="far fa-square"></i> Define the problem<br>
@@ -36,33 +40,32 @@ If requirements are developed in parallel with design and implementation phases 
 				<i class="far fa-square"></i> Develop a clear set of use cases<br>
 				<i class="far fa-square"></i> Develop a clear set of requirements
 			</p>
-		</div>
+</div>
 
 <div class="col-lg-12">
-			<p><i class="far fa-square"></i> Stakeholders</p>
+			<p><h3> Find and meet Stakeholders</h3></p>
 			
 			<p class="indented">
 				<i class="far fa-square"></i> Identify stakeholders<br>
 				<i class="far fa-square"></i> Stakeholder engagement/workshops<br>
-				<i class="far fa-square"></i> Evidence stakeholder engagement<br>
+				<i class="far fa-square"></i> Record stakeholder engagement<br>
 				<i class="far fa-square"></i> Validate ideas with stakeholders
 			</p>
-		</div>
+</div>	
+<div class="col-lg-12">
+			<p><h3>Provide Updates and Evidence</h3></p>
+			
+			<p class="indented">
+				<i class="far fa-square"></i> Share developments with colleagues new to the project<br>
+				<i class="far fa-square"></i> Demonstrate stakeholder idea validation
+			</p>
+</div>
 		
 <div class="col-lg-12">
-			<p><i class="far fa-square"></i> Idea validation</p>
+			<p><h3> Write Requirements Specification</h3>
 			
 			<p class="indented">
-				<i class="far fa-square"></i> Socialise developments with project naive colleagues<br>
-				<i class="far fa-square"></i> Evidence stakeholder idea validation
-			</p>
-		</div>
-
-<div class="col-lg-12">
-			<p><i class="far fa-square"></i> Requirements specification</p>
-			
-			<p class="indented">
-				<i class="far fa-square"></i> Identify and define the following requirements:
+				Identify and define the following requirements:
 			</p>
 			
 			<p class="indented-double">
@@ -79,4 +82,3 @@ If requirements are developed in parallel with design and implementation phases 
 					<i class="far fa-square"></i> Workflow include offline mode<br>
 					<i class="far fa-square"></i> Security
 				</p>
-		</div>
