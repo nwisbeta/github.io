@@ -1,0 +1,66 @@
+
+accessibility: "Refers to the design of products, devices, services or environments for people who experience disabilities. Includes a wide range of disabilities including blindness and low vision, deafness and hearing loss, learning disabilities, cognitive limitations, limited movement, speech disabilities, photosensitivity and combinations of these (WCAG 2.1)."  
+
+address: "Place where a person resides or from where an organisation operates, and where persons or organisations may be communicated with by post."  
+
+app-launch-screen: "The display screen where apps are launched from."  
+
+beta: "The first release that is made available outside of the organisation that developed it."   
+
+care-professional:  "A person who has a professional registration with a professional registration body."  
+
+clinical-governance: "The system through which organisations are accountable for continuously improving the quality of their services and safeguarding high standards of care by creating an environment in which clinical excellence will flourish (GOV.UK)."  
+
+consent: "Any freely given, specific, informed and unambiguous indication of the data subject’s wishes by which he or she, by a statement or by a clear affirmative action, signifies agreement to the processing of personal data relating to him or her (GDPR, ICO)."  
+
+crash-report: "Detailed report of errors and crashes."  
+
+database: "A collection of information that is organised so it can be accessed, managed and updated."  
+
+dataflow: "A model or diagram which outlines the entire process of data movement."  
+
+date-of-birth: "The date on which a person was born or is officially deemed to have been born."  
+
+demonstrator: "Demonstrator is a pre-release version."   
+
+enumeration: "Data type to map a set of names to numeric values."   
+
+ethnicity: "A person’s ethnic group."  
+
+font: "A set of characters in the same style and size."   
+
+gender: "The gender the individual identifies with."   
+
+gestures: "Using elements of touch to perform tasks."  
+
+icon: "A symbol used to help user navigation."  
+
+information-governance: "The way organisations process or handle information covering personal information and corporate information."  
+
+interoperability: "The ability of systems to exchange and make use of information and/or processes."  
+
+log-in: "The process by which an individual gains access to a computer system by identifying and authenticating themselves."  
+
+log-out: "The process by which an individual disconnects from a computer system."  
+
+menu: "A control element that provides access to functions."  
+
+mobile-app: "A computer program designed to run on a mobile device such as a phone or tablet."  
+
+popup: "A display area that appears in the foreground of an interface display."  
+
+production: "Live release, ready for general use."  
+
+prototype: "A first preliminary version."  
+
+responsiveness: "App responsiveness to different devices and screen size."  
+
+sex: "The biological or genetic sex of the individual."  
+
+stakeholder: "A person who is affected by an organisation, strategy or project."  
+
+touch-target: "The area of any on-screen element that someone can select, touch or interact with."  
+
+user-interface: "The interface features through which users interact with the hardware and software of computers and mobile devices."  
+
+user-experience: "The shaping of digital services so that they work for people (UK Design Council)."  
