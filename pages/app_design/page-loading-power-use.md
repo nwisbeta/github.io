@@ -9,11 +9,11 @@ folder: app_design
 
 Aim for pages to load within 2 seconds.  
 
-If pages do not load within 1 second, a moving loading or progress indicator must appear. See [Icons and Assets](/icons-assets.html) for downloadable icons in white.  
+If pages do not load within 1 second, a spinner progress indicator must appear. 
 
 Swipe down gesture must enable users to manually refresh pages, where information is regularly updated (Material.io) - see [Touch Gesture Controls](/touch-gesture-control.html).  
 
-### Example page loading indicator displayed when page loading is delayed  
+### Loading Indicator Appears If Page Loading is Slow
 <img class="img-responsive img-thumbnail" src="/images/examples/design-standards-loading-page.png">
 
 ## Power Efficiency

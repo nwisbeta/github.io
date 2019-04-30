@@ -1,6 +1,6 @@
 ---
 title: Offline Use
-keywords: access, functionality, data, auditing
+keywords: access, functionality, data, auditing, governance, confidentiality, privacy,
 sidebar: appdesign_sidebar
 toc: false
 permalink: offline-use.html

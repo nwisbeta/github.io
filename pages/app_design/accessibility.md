@@ -1,6 +1,6 @@
 ---
 title: Accessibility  
-keywords: size, colour, resize, reading, swipe, label, contrast, display
+keywords: text, size, colour, resize, reading, swipe, label, contrast, display,
 sidebar: appdesign_sidebar
 toc: true
 permalink: accessibility.html

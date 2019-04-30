@@ -1,6 +1,6 @@
 ---
 title: Data Entry  
-keywords:
+keywords: methods, accessibility, content, layout, governance, fields, touch, speech, mic, 
 sidebar: appdesign_sidebar
 toc: true
 permalink: data-entry.html
@@ -31,7 +31,7 @@ Use pre-set options instead of free text where possible, including:
 * Tick boxes 
 * Pickers
 
-### Text fields
+### Text Fields
 The data collection design must provide text boxes and fields only when users need to enter free text, and no other option is effective. Free text fields must:
 * Appear filled and outlined (Material.io)
 * Include a label indicating what information is required (iOS Human Interface Guidelines)

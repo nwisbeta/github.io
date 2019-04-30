@@ -12,10 +12,10 @@ If search functionality is required, it must:
 * Allow users to find content by typing text into the search bar (iOS Human Interface Guidelines, Material.io)
 * Provide a search bar at the top centre of each page, pinned to the top menu (iOS Human Interface Guidelines)
 
-### Search bar 
+### Search Bar 
 <img src="/images/examples/design-standards-navigation-search-input.png" style="max-width: 2000px">
 
-### Generic app layout showing search feature display
+### Generic Layout Showing Search Feature
 <img class="img-responsive img-thumbnail" src="/images/examples/design-standards-navigation-search-search-example.png">
 
 ## Input
@@ -40,7 +40,7 @@ Provide a back button (top left) after selecting a search result, to enable navi
   
 Search results should update in real-time, even as the user types.  As the user types, a list view must display potential search results directly below the search box, or show potential keywords that the user can search for.  
 
-Five most recent search items should appear under the search bar when the search bar is clicked to provide immediate search options (Material.io). Store local database on the device with a table for 5 last search results.
+Five most recent search items should appear under the search bar when the user selects the search bar, to provide immediate search options (Material.io). Store local database on the device with a table for 5 last search results.
 
 Five most relevant search items should appear, and update in real-time, under the search bar during the search input, to minimise data entry and provide immediate search results.  
   

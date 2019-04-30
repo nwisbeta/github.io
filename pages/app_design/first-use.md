@@ -7,8 +7,8 @@ permalink: first-use.html
 folder: app_design 
 ---
 
-Enable a walkthrough to set up user preferences/defaults, if required. Limit walkthroughs to essential preferences/defaults only.
+Enable a walkthrough to set up user preferences and change default settings, if required. Limit walkthroughs to essential preferences and default settings only.
  
-Activate walkthroughs to set up preferences/defaults at an appropriate time, such as at first use.
+Activate walkthroughs to set up preferences and settings at an appropriate time, such as at first use.
 
 Users must be able to cancel walkthroughs, unless they are critical to the app functions.

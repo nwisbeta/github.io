@@ -1,6 +1,6 @@
 ---
 title: Interoperability  
-keywords: open, standards, API, integration, systems, services, external
+keywords: open, standards, API, integration, systems, services, external,
 sidebar: appdesign_sidebar
 toc: false
 permalink: interoperability.html

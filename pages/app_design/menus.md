@@ -1,6 +1,6 @@
 ---
 title: Menus 
-keywords: navigation, responsive, icons, notifications, items, display, screens, 
+keywords: navigation, responsive, default, icons, notifications, items, display, screens, 
 sidebar: appdesign_sidebar
 toc: true
 permalink: menus.html
@@ -53,7 +53,7 @@ The design must use standard menu access points to provide app functions:
 * Top right – settings and help
 * Top middle - search
 
-### Layout with back button, to return to the previous page if there is no direct menu location  
+### Layout with Back Button
 <img class="img-responsive img-thumbnail" src="/images/examples/design-standards-navigation-example-1.png">
 
 ## Behaviour

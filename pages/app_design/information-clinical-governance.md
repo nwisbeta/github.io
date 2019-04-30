@@ -1,13 +1,15 @@
 ---
 title: Information and Clinical Governance  
-keywords: GDPR, gdpr, confidential, confidentiality, data, access
+keywords: GDPR, gdpr, confidential, confidentiality, data, access, privacy, protocol,
 sidebar: appdesign_sidebar
 toc: false
 permalink: information-clinical-governance.html
 folder: app_design 
 ---
 
-Do not display more information than is required (ICO, GDPR).  The design must make additional non-essential information available by expanding a higher-level component to reveal lower level components - see [Gesture Control](/touch-gesture-control.html) or pop up - see [Pop Ups](/popups.html).
+Do not display more information than is required (ICO, GDPR).  
+
+The app design must make additional non-essential information available by expanding a higher-level component to reveal lower level components - see [Gesture Control](/touch-gesture-control.html) or pop up - see [Pop Ups](/popups.html).
 
 Collect only required information (GOV.UK Design System, ICO, GDPR).  
 

@@ -21,5 +21,5 @@ Avoid transitions being too fast or too slow (Material.io):
 
 Transitions must allow the user to reveal more detailed information if by expanding a higher level component to include lower level components and reinforcing that the components are related (Material.io):
 
-The user must be able to minimise lower level components back to the higher category (original state): for example, viewing additional patient information _then returning to patient record?_
+The user must be able to minimise lower level components back to the higher category (original state): for example, viewing additional patient information.
 

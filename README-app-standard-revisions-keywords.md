@@ -62,7 +62,7 @@ First pass, 12 April 2019.
 |Tools |Glossary | _moved to Overview|
 |Tools |Exceptions  |_moved to_ About   |
 
-# Second pass, week of 22 April 2019
+## Second pass, week of 22 April 2019
 - revised text to active voice, preserving the MUST, MAY, AVOID, DO/DO NOT wording for standards.
 - clarified wording on some standards
 
@@ -70,41 +70,44 @@ Changed content regarding
 - icon file formats (in line with current practice)
 - removed explicit 'click here' wording
 
+## Week of 29 April
+- set up working glossary (first try didn't work)
+- search and replace 'click' in text
 
-# Keywords raw list
 
-keywords: display, design, response, text, icon, reset  
-keywords: text, field, response, display, results, accessibility,   
-keywords: toggle, radio, buttons, checkbox, checkboxes, design, layout, dropdown, picker, selection, responsive, labels,   
-keywords: action, response, tap, messages, size, scale, font, display, colour, contrast, alignment,   
-keywords: buttons, menus, data, tap, scroll, scrolling, swipe, pan, pinch, zoom, resize, elements, components, behaviour  
-keywords: navigation, categories, swipe, components,   
-keywords: navigation, responsive, icons, notifications, items, display, screens,   
-keywords: password, data, display, consent, interface, design  
-keywords: login, logout, password, access, credentials, authentication, pin, timeout  
-keywords: loading, battery, response, access  
-keywords: access, functionality, data, auditing  
-keywords: load, progress, power, battery,   
-keywords: terms, translation, alignment, flags  
-keywords: font, sizing, scale, colour, palette, blue, green, black, white, contrast, paragraph, case, links  
-keywords: default, settings, home, preferences, feed, alerts, notification, notify, watchlist, profile, orientation, landscape  
-keywords: onboarding, preferences, default, options, settings, getting started
-keywords: logo, icons, icon, colour, palette, primary, secondary, blue, green, aqua, rose, purple, orange, yellow, red, NWIS, nwis  
-keywords: interface, design, navigation, search, access, display, standard  
-keywords: filter, organisation, data, alerts, priority,   
-keywords: icons, symbols, colour, labels, text, png, sgv, resolution, display, interface, contrast,   
-keywords: branding, display, ratio, labels, accessibility, caching, loading,   
-keywords: size, colour, resize, reading, swipe, label, contrast, display  
-keywords: GDPR, gdpr, confidential, confidentiality, data, access  
-keywords: open, standards, API, integration, systems, services, external  
-keywords: colour, design, link, symbol, action, meaning, response, interface, display, contrast, font, alert, notification  
-keywords: font, size, bold, plain, case, heading, label, text, buttons, links, numbers, values, units, conversions, targets  
-keywords: design, result, performance, action, default  
-keywords: text, messages, instructions, guidance, help, alerts, notifications, data, actions, results, responses  
-keywords: messages, language, labels, text, font, size  
-keywords: design, planning, checklists, research, stakeholder, governance, compliance, requirements,   
-keywords: design, planning, checklists, research, stakeholder, governance, compliance, requirements,   
-keywords: prototype, checklists, stakeholder, governance, compliance, requirements, testing,   
-keywords: prototype, checklists, stakeholder, governance, compliance, requirements, testing,   
-keywords: prototype, testing, stakeholder, documentation  
-keywords: testing, documentation, assurance, release, iteration  
+## Keywords raw list
+
+design, principles, layout,
+language, terms, text, meaning, 
+interface, design, navigation, search, access, display, default,
+logo, icon, colour, palette, primary, secondary, blue, green, aqua, rose, purple, orange, yellow, red, NWIS, nwis
+default, settings, home, preferences, feed, alerts, notification, notify, watchlist, profile, orientation, landscape
+size, sizing, scale, colour, palette, blue, green, black, white, contrast, paragraph, case, links, bold, heading, label, text, buttons, numbers, values, units, conversions, targets
+terms, translation, alignment, flags messages, language, labels, text, font, size,
+load, progress, power, battery, 
+orientation, screen, device, display, readability, spacing, layout, tablet,
+access, functionality, data, auditing, governance, confidentiality, privacy,
+onboarding, preferences, defaults, options, settings, getting started,
+loading, battery, response, access, result, performance, action, default,
+login, logout, password, access, credentials, authentication, pin, timeout,
+password, data, display, consent, interface,
+navigation, responsive, default, icons, notifications, items, display, screens,
+navigation, categories, swipe, components, 
+menus, select, tap, scroll, swipe, pan, pinch, zoom, resize, elements, components, behaviour,
+action, response, tap, messages, size, scale, font, display, colour, contrast, alignment,
+toggle, radio, buttons, checkbox, checkboxes, design, layout, dropdown, picker, selection, responsive, labels, default, option, 
+text, field, response, display, results, accessibility, 
+display, response, icon, reset, default,
+filter, organisation, data, alerts, priority,
+text, messages, instructions, guidance, help, alerts, notifications, actions, results, responses, popup, 
+response, action, confirm, message,
+methods, accessibility, content, layout, governance, fields, touch, speech, mic,
+governance, layout, fields, clinical,
+action, response, confirm, delete, OK, cancel, error, 
+reminders, alerts, requests, external, push, email,
+support, tutorials, instructions, help,
+symbols, colour, labels, text, png, sgv, resolution, display, interface, contrast,
+branding, display, ratio, labels, accessibility, caching, loading,
+text, size, colour, resize, reading, swipe, label, contrast, display,
+GDPR, gdpr, confidential, confidentiality, data, access, privacy, protocol,
+open, standards, API, integration, systems, services, external,

@@ -19,17 +19,17 @@ When a user selects a toggle, the action must take place immediately (Material.i
 <div class="container">
     <div class="row">
     <div class="col-sm-6" > 
-		<h3>Example toggle on</h3> 
+		<h3>Toggle On</h3> 
 		<img class="img-responsive img-thumbnail" src="/images/examples/design-standards-navigation-toggle-on.png">
     </div>
     <div class="col-sm-6">
-		<h3>Example toggle off</h3> 
+		<h3>Toggle Off</h3> 
 		<img class="img-responsive img-thumbnail" src="/images/examples/design-standards-navigation-toggle-off.png">
     </div>
   </div>
 </div>
 
-## Radio buttons
+## Radio Buttons
 
 Radio buttons must:
 * Allow a user to select a single option from a list of pre-set options (GOV.UK Design System, Material.io)
@@ -41,11 +41,11 @@ Avoid pre-selecting radio buttons.
 <div class="container">
     <div class="row">
     <div class="col-md-6 col-lg-6" > 
-		<h3>Radio button selected</h3> 
+		<h3>Radio Button Selected</h3> 
 		<img class="img-responsive img-thumbnail" src="/images/examples/design-standards-navigation-radio-on.png">
     </div>
     <div class="col-md-6 col-lg-6">
-		<h3>Radio button unselected</h3> 
+		<h3>Radio Button Unselected</h3> 
 		<img class="img-responsive img-thumbnail" src="/images/examples/design-standards-navigation-radio-off.png">
     </div>
   </div>

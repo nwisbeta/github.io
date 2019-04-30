@@ -1,6 +1,6 @@
 ---
 title: Typography
-keywords: font, size, sizing, scale, colour, palette, blue, green, black, white, contrast, paragraph, case, links,  bold, plain, heading, label, text, buttons, numbers, values, units, conversions, targets
+keywords: size, sizing, scale, colour, palette, blue, green, black, white, contrast, paragraph, case, links, bold, heading, label, text, buttons, numbers, values, units, conversions, targets
 sidebar: appdesign_sidebar
 toc: true
 permalink: typography.html
@@ -71,7 +71,7 @@ The design must use the NHS Wales primary palette colours or white, black and gr
 	</div>
 </div>
 
-### Black and white colours
+### Black and White Colours
 
 <div class="swatch-wrapper">
 	<div class="row text-center">
@@ -117,26 +117,26 @@ The design must use titles, headings, subtitles and body text consistently to cr
 
 The design must use bold to identify important information. Titles and headings must be in bold text.
 
-### Clinical app: patient information is most important shown
+### Clinical App: Patient Information is Centred, Bold
 <img class="img-responsive img-thumbnail" src="/images/examples/design-standards-typography-styles.png">
 
 ### Paragraphs
 
 Limit lines of text to 80 characters or less (WCAG 2.1). Text should not require horizontal scrolling to read (iOS Human Interface Guidelines).  
 
-Paragraphs must set:
+Paragraphs (WCAG 2.1) must set:
 
-* Line spacing 1.5 minimum, for body text (WCAG 2.1)  
-* Line height at least 1.5 times the font size (WCAG 2.1)  
-* Paragraph spacing at least 2 times larger than line spacing (WCAG 2.1)  
-* Letter spacing at least 0.12 times the font size (WCAG 2.1)  
-* Word spacing at least 0.16 times the font size (WCAG 2.1)  
+* Line spacing 1.5 minimum, for body text   
+* Line height at least 1.5 times the font size 
+* Paragraph spacing at least 2 times larger than line spacing 
+* Letter spacing at least 0.12 times the font size  
+* Word spacing at least 0.16 times the font size 
 
 The layout must use lists to make blocks of text easier to read (GOV.UK Design System), and must separate list items with visual dividers. 
 
 Bullet points or numbering can make blocks of text easier to read if required (GOV.UK Design System).
 
-Lists, bullet points or numbering must use sentence case: capitalise the first letter of the first word for each item. 
+Lists, bullet points, or numbering must use sentence case: capitalise the first letter of the first word for each item. 
 
 Numbered lists must show the number followed by a full stop (GOV.UK Design System, PulseTile UI Kit). Example:  
 1. Lorem ipsum
@@ -148,12 +148,10 @@ Avoid using all-capital letters, like SAVE, except for last names - see [Termino
 <img src="/images/examples/design-standards-case-example.png">
 
 Titles, headings, subtitles, buttons and icons must use title case, capitalising the first letter of each word. Examples:  
-* App name (e.g. Welsh Clinical Portal)
-* Information type (e.g. Date of Birth, Hospital Number, Patient Information)
+* App name: for example, Welsh Clinical Portal)
+* Information type: for example, Date of Birth, Hospital Number, Patient Information)
 
 Body text, lists, bullet points and numbered lists must use sentence case, capitalising the first word only (Material.io). 
-
-<img src="/images/examples/design-standards-case-example2.png">
 
 Avoid adding shadows and borders for titles, headings, subtitles and body text.
 
@@ -166,7 +164,7 @@ For the following use cases, text may use right alignment:
 * Content related to a left alignment category 
 * Conversion to a right-alignment language like Arabic, Hebrew, or Urdu
 
-### Settings page: general settings, preferences, accessibility, legal/privacy information and log out
+### Settings page: General Settings, Preferences, Accessibility, Legal/Privacy, Log Out
 
 <img class="img-responsive img-thumbnail" src="/images/examples/design-standards-alignment-example.png">
 
@@ -183,7 +181,7 @@ Linked text must not include a full stop at the end (GOV.UK Design System), even
 
 Links must open within the app, either embedded on the access page or within a new page.  
 * If a link opens in web browser it must go to a UI responsive website
-* If a link opens in web browser to a third party site, a warning message must notify the user - see [Messaging](/messaging.html).
+* If a link opens in web browser to a third party site, a warning message must notify the user - see [Messaging](/messaging.html)
 
 ### Link Text
 
@@ -191,7 +189,7 @@ Links must open within the app, either embedded on the access page or within a n
 |-------|-----------|--------------------|-----------|-----------------|
 | Body  | Calibri   | 14                 | Sentence  | Bold Underlined |
 
-### In-app link
+### In-app Link
 <img class="img-responsive img-thumbnail" src="/images/examples/design-standards-links-example.png"> 
 
 ## Standard Units
