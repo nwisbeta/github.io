@@ -1,35 +1,32 @@
 ---
 title: Messaging and Standard Messages
-keywords: text, messages, instructions, guidance, help, alerts, notifications, data, actions, results, responses, popup, click, 
+keywords: text, messages, instructions, guidance, help, alerts, notifications, actions, results, responses, popup, 
 sidebar: appdesign_sidebar
 toc: true
 permalink: messaging.html
 folder: app_design 
----
+--- 
 
+## Principles
 The messaging used throughout the app must:
 
 * Be relevant, understandable and actionable (Material.io)
 * Remain consistent 
 * Use standard phrases
 
-Provide 'click here' functionality when messaging connects to an action:
+Provide 'click here' type of functionality when messaging connects to an action:
 
 * Link text must be in bold and underlined - see [Typography](/typography.html). 
 * Link must open new page or pop up
 
-## Example for personal details
-  _SPELLING ERROR_
-<img src="/images/examples/design-standards-user-interaction-messaging-links.png">
-
-### Patient lookup
+### Patient Lookup
 
 * Scan patient barcode or enter NHS Number below  
 * Scan patient barcode or enter Hospital Number below  
 * Don’t know NHS Number?    
 * Don’t know Hospital Number?
  
-### Notifications (general)  
+### General Notifications 
 * You have notifications that require attention  
 * Please acknowledge  
 
@@ -40,19 +37,18 @@ Provide 'click here' functionality when messaging connects to an action:
 * Forgotten your details?   
 
 ### Filter  
-
 * Filter results  
 
-### Non-clinical information  
+### Non-clinical Information  
 * Patient information (non-clinical)  
 
-### Clinical information  
+### Clinical Information  
 * Patient information (clinical)  
 
-### No search results  
+### No Search Results  
 * No search results found - Please try a different search  
 
-### Third party site  
+### Third-party Site  
 * Warning - This link will open an external website  
 
 ## Error Messages  
@@ -60,27 +56,27 @@ Provide error messages as pop ups, with heading and body text and two action but
 
 See [Pop Ups](/popups.html) and [Buttons](/buttons.html) for details.
 
-### Invalid patient ID
+### Invalid Patient ID
 
 * Invalid patient ID – Please enter a valid patient ID  
 * Invalid NHS number – Please enter a valid NHS number  
 * Invalid National Insurance number – Please enter a valid National Insurance number  
 * Invalid hospital number – Please enter a valid hospital number  
 
-### Patient not found
+### Patient Not Found
 * Patient not found – The patient could not be found, please try again. Patient ID: XXXXX   
 
-### Invalid email address
+### Invalid Email Address
 * Invalid email address – Please enter a valid email address  
 * Invalid email address – Please contact the administrator  
 * Invalid email address – Please register an account  
 * Invalid email address – Please register an account or contact the administrator  
 
-### Invalid password
+### Invalid Password
 * Invalid password – Please enter a valid password  
 * Invalid password – Please reset your password using the forgotten password button  
 
-### Patient results  
+### Patient Results  
 * Unsupported device - You must use a tablet or computer to view this result  
 
 ### Notification
@@ -95,15 +91,15 @@ Depending on the action available, pop ups must contain one or two action button
 * Back and Confirm  
 * OK  
 
-### Non-clinical information
+### Non-clinical Information
 
 * Please note – This information has not been entered into the clinical record  
 
-### Data submission
+### Submit Data
 
 * Submit - Are you sure you want to submit this entry?  
 
-### Data deletion
+### Delete Data
 
 * Delete – Are you sure you want to delete this entry?  
 

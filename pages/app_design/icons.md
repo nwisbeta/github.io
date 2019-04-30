@@ -1,6 +1,6 @@
 ---
 title: Icons 
-keywords: icons, symbols, colour, labels, text, png, sgv, resolution, display, interface, contrast, 
+keywords: symbols, colour, labels, text, png, sgv, resolution, display, interface, contrast, 
 sidebar: appdesign_sidebar
 toc: true
 permalink: icons.html
@@ -22,7 +22,7 @@ Icons must:
 * use colour to indicate selected and deselected states: do not use two different icons to indicate selected and deselected states such as a solid and outlined version (iOS Human Interface Guidelines)>  
 * be labelled with appropriate text (WCAG 2.1), in title case: do not include text within an icon (iOS Human Interface Guidelines)  
 
-### Home icon
+### Home Icon
 
 <img src="/images/examples/design-standards-icons-home-example.png" style="max-width: 120px;">
 
@@ -75,7 +75,7 @@ Select to download zipped files.
 						
 						<tr>
 							<td>arrow_back_black</td>
-							<td>Back arrow action (top left) on pages that do not have a direct menu location to enable navigation back to previous page</td>
+							<td>Back arrow for pages without a direct menu location, to enable navigation to previous page</td>
 							<td><img src="/images/icons/arrow_back_black.svg"></td>
 							<td rowspan="3"><a href="/images/downloads/icons-assets/nwis-arrow_back.zip">Download back arrow</a></td>
 						</tr>
@@ -147,7 +147,7 @@ Select to download zipped files.
 						
 						<tr>
 							<td>checkbox_checked</td>
-							<td></td>
+							<td>Checkbox, checked and unchecked</td>
 							<td><img src="/images/icons/checkbox_checked.svg"></td>
 							<td rowspan="2"><a href="/images/downloads/icons-assets/nwis-checkbox.zip">Download checkbox</a></td>
 						</tr>
@@ -342,7 +342,7 @@ Select to download zipped files.
 
 						<tr>
 							<td>nwis_logo_black</td>
-							<td></td>
+							<td>NWIS logo with text</td>
 							<td><img src="/images/icons/nwis_logo_black.svg"></td>
 							<td rowspan="3"><a href="/images/downloads/icons-assets/nwis_logo.zip">Download text logo</a></td>
 						</tr>
@@ -423,7 +423,7 @@ Select to download zipped files.
 						
 						<tr>
 							<td>settings_black</td>
-							<td>Standard cog settings icon</td>
+							<td>Settings icon: standard cog</td>
 							<td><img src="/images/icons/settings_black.svg"></td>
 							<td rowspan="3"><a href="/images/downloads/icons-assets/nwis-settings.zip">Download settings</a></td>
 						</tr>

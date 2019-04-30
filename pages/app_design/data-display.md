@@ -1,6 +1,6 @@
 ---
 title: Data Display   
-keywords:
+keywords: governance, layout, fields, clinical,
 sidebar: appdesign_sidebar
 toc: true
 permalink: data-display.html
@@ -38,7 +38,7 @@ Do not display more information than is required (ICO, GDPR).
 
 The app design must ensure additional non-essential information is accessible by expanding a higher level component to reveal lower level components - see [Gesture Control](/gesture-control.html) and [Pop Ups](/popups.html).
 
-### Clinical app showing patient information
+### Clinical App with Patient Information
 
 <img class="img-responsive img-thumbnail" src="/images/examples/design-standards-ui-patient-info.png">
 

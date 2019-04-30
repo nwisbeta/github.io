@@ -1,6 +1,6 @@
 ---
 title: Registration
-keywords: password, data, display, consent, interface, design
+keywords: password, data, display, consent, interface,
 sidebar: appdesign_sidebar
 toc: true
 permalink: registration.html
@@ -13,7 +13,7 @@ If the app offers user registration through the app interface, rather than an ad
 * Hide password characters behind dots for security (iOS Human Interface Guidelines)  
 * Display lock icon next to password field - see [Icons](/icons.html)  
 
-## Collect non-essential information 
+## Non-essential Information 
 
 The app must collect non-essential information after registration, using a walkthrough to set up the app, or through the user’s profile. The non-essential information may include:  
 * NHS number
@@ -21,7 +21,7 @@ The app must collect non-essential information after registration, using a walkt
 * Sex 
 * Gender
 
-## Display the app terms and conditions  
+## Display the App Terms and Conditions  
 What terms and conditions appear during registration depends on the information governance policy.  Users must accept terms and conditions during registration.
 
 The registration must:
@@ -33,26 +33,26 @@ The registration must:
 
 Designers must check the text using a reading age test, appropriate for the target audience. The reading level acceptable for clinical apps can differ from the level for patient apps. 
 
-The App must send registration receipts in the same format as they were agreed on actual registration.
+The app must send registration receipts in the same format as they were agreed on actual registration.
 
 Consider email validation during the registration process. 
 
-An error message must appear immediately (whilst the user is completing data entry) when there is a validation error for registration details (GOV.UK Design System) - see [Errors](/errors.html). Avoid displaying error messages after the form has been submitted.
+An error message must appear immediately, whilst the user is completing data entry, when there is a validation error for registration details (GOV.UK Design System) - see [Errors](/errors.html). Avoid displaying error messages after the user has submitted the form.
 
-### Obtain consent if required
+### Obtain Consent if Required
 
 Consent (if appropriate) must follow the same process as for agreeing to terms and conditions. NHS Wales-led Information Governance rules decide whether consent is appropriate, and whether consent is integrated or separate from normal registration.  
 
 Do not combine the process of registration, agreeing to terms and conditions, and providing consent on the same page. Treat processes as separate, and present them on separate pages.  
 
-### Example: user credentials required for registration
+### User Credentials Required for Registration
 
 <img class="img-responsive img-thumbnail" src="/images/examples/design-standards-access-registration1.png">
 
-### User credentials required for registration, second step
+### User credentials Required for Registration, Second Step
 
 <img class="img-responsive img-thumbnail" src="/images/examples/design-standards-access-registration2.png">
 
-### Terms and conditions as a summary and in full, final step 
+### Terms and Conditions as a Summary and in Full, Final Step 
 
 <img class="img-responsive img-thumbnail" src="/images/examples/design-standards-access-registration3.png">

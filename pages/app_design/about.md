@@ -1,6 +1,6 @@
 ---
 title: About
-keywords: design, principles, layout, action, results,
+keywords: design, principles, layout,
 sidebar: appdesign_sidebar
 toc: true
 permalink: about.html
@@ -59,7 +59,7 @@ The guidance complies with the following harmonised standards. References to the
 
 ## Terminology
 
-The following terms in this guide have specific meanings as below and are consistently used in other NWIS software development standards. They will be in italic format throughout the standards.
+The following terms in this guide have specific meanings as below and are consistently used in other NWIS software development standards. 
 
 _Do/must_: an absolute requirement of the standard 
 
@@ -73,7 +73,7 @@ _If required_: this should only be used if appropriate or required but is not en
 
 _Exceptions_: sometimes exceptions to these standards are necessary to optimise UI and/or UX. The standard defines where exceptions are permitted. Document every exception, including senior stakeholder sign-off, using the development checklists (see Tools > Exceptions).
 
-_Example_: this provides an example of an implementation of the standard
+_For example, such as_: this provides an example of an implementation of the standard
 
 _Other Terminology_: terms such as "critical" and "important" are referred to throughout this standards documentation however they have not been defined within these standards. It is expected these terms will be defined elsewhere as further explained in the User Interaction/Notifications section.
 

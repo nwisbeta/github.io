@@ -23,7 +23,6 @@ Use visual dividers to separate list items.
 
 Support information can be used in blank spaces within the app to encourage usage  
 * Example: Click here to enter patient information   
-_WHAT BLANK SPACES?_ 
 
 ## Tutorials
 
@@ -31,7 +30,7 @@ Mobile app tutorials can include:
 * Instructional overlay/walkthrough (displaying instructions and tips over the user interface)
 * User guides (swipe through tutorial or step by step guides)
 
-Avoid long tutorials – only include essential information, with a maximum of 10 pages (iOS Human Interface Guidelines).  
+Avoid long tutorials. Only include essential information, with a maximum of 10 pages (iOS Human Interface Guidelines).  
 
 User guides must indicate the position of the current page in the guide using indicator dots (iOS Human Interface Guidelines).  
 
@@ -52,11 +51,11 @@ Enable users to easily cancel tutorials at any point after entering.
 <div class="container">
     <div class="row">
     <div class="col-md-6 col-lg-6"> 
-		<h3>Example tutorial page: start</h3> 
+		<h3>Tutorial Start</h3> 
 		<img class="img-responsive img-thumbnail" src="/images/examples/design-standards-user-interaction-guides1.png">
     </div>
     <div class="col-md-6 col-lg-6">
-		<h3>Example tutorial page: page 2</h3> 
+		<h3>Tutorial Page 2</h3> 
 		<img class="img-responsive img-thumbnail" src="/images/examples/design-standards-user-interaction-guides2.png">
     </div>
   </div>

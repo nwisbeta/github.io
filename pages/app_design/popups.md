@@ -1,6 +1,6 @@
 ---
 title: Pop Ups   
-keywords:
+keywords: action, response, confirm, delete, OK, cancel, error, 
 sidebar: appdesign_sidebar
 toc: true
 permalink: popups.html
@@ -25,7 +25,7 @@ For example, provide a 'Are you sure?' pop up with yes/no options prior to submi
 
 When a pop up appears, use a transparent overlay to darken the background.
 
-### Pop up message with action buttons
+### Pop up Message with Action Buttons
 
 <img class="img-responsive img-thumbnail" src="/images/examples/design-standards-user-interaction-popup.png">
 

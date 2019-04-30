@@ -10,7 +10,7 @@ folder: app_design
 ## Principles
 Buttons must allow the user to complete a specific action with a single tap (Material.io, iOS Human Interface Guidelines, UWP). 
 
-All buttons must have a relevant action. Do not include inactive/disabled buttons (GOV.UK Design System).  
+All buttons must have a relevant action. Do not include inactive or disabled buttons (GOV.UK Design System).  
   
 Buttons must:
 
@@ -21,7 +21,7 @@ Buttons must:
  
 The button size must equal the size of the button text, with 16dp padding either side (Material.io).  See the [Icons and Assets](/icons-assets.html) page for downloadable examples of buttons.
 
-### Touch targets
+### Touch Targets
 
 | px | dp   | mm  |
 |----|------|-----|
@@ -72,7 +72,7 @@ Pop up action buttons must use visual weighting:
 * Primary action button colour use NHS Wales Blue (RGB: 44 62 114, CYMK: 95 80 26 13, HEX: #2C3E72)
 * Secondary action button colour use Grey (contrast on white background) (RGB: 89, 89, 89, CMYK: 00 00 00 65, HEX: #595959)
 
-### Example: confirm an action 
+### Confirm an Action 
 
 <img src="/images/examples/design-standards-navigation-buttons-popup-example.png">
 

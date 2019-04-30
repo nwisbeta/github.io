@@ -1,13 +1,13 @@
 ---
 title: Log in and Log out
-keywords: login, logout, password, access, credentials, authentication, pin, timeout
+keywords: login, logout, password, access, credentials, authentication, pin, timeout,
 sidebar: appdesign_sidebar
 toc: true
 permalink: log-in-log-out.html
 folder: app_design 
 ---
 
-## Log in
+## Log In
 
 The log in page must include:
 
@@ -19,11 +19,11 @@ The log in page must include:
 * Log in credential fields required for access  
 * A single method of log in, with alternative methods to fall back on (iOS Human Interface Guidelines)
 
-### Access using username/email address and password authentication
+### Access Using Username or Email Address, and Password Authentication
 
 <img class="img-responsive img-thumbnail" src="/images/examples/design-standards-access-login-app-name.png" caption="Generic app log in page enabling users to gain access to the app through authentication with their username/email address and password">
 
-If log in process requires the following fields:  
+If the log in process requires the following fields:  
 * Relevant icons must appear next to log in credential fields (see Tools > Icons)
 * Appropriate default keyboard must enable data entry (iOS Human Interface Guidelines)
 * Use dots to hide password characters, for password security (iOS Human Interface Guidelines)
@@ -31,11 +31,11 @@ If log in process requires the following fields:
 
 The log in page must display forgotten details message, and link for password reset. See [Messaging and Standard Messages](/messages.html) for sample messages wordings.
 
-### Access through an external authentication service
+### Access Through an External Authentication Service
 
 <img class="img-responsive img-thumbnail" src="/images/examples/design-standards-access-login-forgotten.png">
 
-## Log in after session timeout
+## Log In After Session Timeout
 
 The log in after session timeout page must include:
 
@@ -44,13 +44,13 @@ The log in after session timeout page must include:
 * App name 
 * Request for PIN or email and password, or biometric (fingerprint/facial ID) authenticated entry
 * Dots to hide password characters, for password security (iOS Human Interface Guidelines) 
-* Forgotten details messaging and link, if this is a method of reset - see [Messaging and Standard Messages](/messages.html) for sample messages wordings
+* Forgotten details message and link, if this reset method is available - see [Messaging and Standard Messages](/messages.html) for sample message wordings
 
-### Failed log ins or PIN entry
+### Failed Log Ins or PIN Entry
 
 After a failed log in or PIN entry attempt, the application must log out the user, and return to the original log in page.
 
-### Access after timeout, with PIN request for re-authentication  
+### Access After Timeout, with PIN Request for Re-authentication  
 
 <img class="img-responsive img-thumbnail" src="/images/examples/design-standards-access-login-pinexample.png">
 
@@ -61,5 +61,5 @@ The log out feature must:
 
 * Have a button in settings (Material.io)  
 * End session  
-* Take user to log in page after clicking log out
+* Take user to log in page after selecting log out
 

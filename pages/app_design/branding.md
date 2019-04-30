@@ -1,13 +1,13 @@
 ---
 title: Branding
-keywords: logo, icons, icon, colour, palette, primary, secondary, blue, green, aqua, rose, purple, orange, yellow, red, NWIS, nwis
+keywords: logo, icon, colour, palette, primary, secondary, blue, green, aqua, rose, purple, orange, yellow, red, NWIS, nwis
 sidebar: appdesign_sidebar
 toc: true
 permalink: branding.html
 folder: app_design 
 ---
 
-## Launch Screen Requirements
+## Launch Screen 
 
 Launch screen icons must:
 * Have a simple design
@@ -26,7 +26,7 @@ The launch screen image icons must:
 <img src="/images/examples/design-standards-icon-examples.png">
 
 ## Logos
-Use the NWIS logo as the home button icon.   
+The app design must use the NWIS logo as the home button icon, to ensure the NWIS brand appears on every page.   
 
 Do not use the same logo more than once on each page.
 
@@ -34,7 +34,7 @@ Do not use the same logo more than once on each page.
 <img src="/images/examples/design-standards-home-example.png" alt="Examples of white icon on a solid colour background, and coloured icon on a white background, with a colour border" style="max-width: 120px">
 
 ## Colour
-Design for all app UI elements must use NWIS brand standards, unless the designers generate an agreed exception.
+The app design for all app UI elements must use NWIS brand standards, unless the designers generate an agreed exception.
 
 ## Primary Palette
 

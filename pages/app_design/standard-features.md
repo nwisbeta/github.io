@@ -17,7 +17,7 @@ The app design must use standard features where relevant, including:
 ## Home
 The 'Home Page' or the 'Main Screen/Page' must include the most important app feature (primary reason for app) or provide a summary of the most important information. Users can configure or personalise this page through their settings if required.  
 
-### Show most important feature for a clinical app on the home page 
+### Most Important Feature Appears on the Home Page 
 
 <img class="img-responsive img-thumbnail" src="/images/examples/design-standards-sf-search.png">
 
@@ -78,8 +78,6 @@ A feed is a feature which provides regularly updated information such as:
 
 A feed must display date and time that each item was received.  
 
-
-
 ### Feed page 
 <img class="img-responsive img-thumbnail" src="/images/examples/design-standards-sf-feed-example.png">
 
@@ -121,7 +119,7 @@ Selecting the connection/communication group menu item whilst in the feed must s
 
 See [Touch Gesture Controls](/touch-gesture-control.html) for guidance about standard control gestures.
 
-### Connection/communication page for community and communication features
+### Connection/communication page
 
 <img class="img-responsive img-thumbnail" src="/images/examples/design-standards-sf-communication-example.png">
 
@@ -185,7 +183,7 @@ Users must address and resolve any notification using established and signed-off
 |-------------------------------|---------------|--------------------|
 | Pending                       |               |                    |
 
-### Watchlist page enabling clinicians to select/deselect users, and highlight notifications
+### Watchlist Page in a Clinical App
  
 <img class="img-responsive img-thumbnail" src="/images/examples/design-standards-sf-watchlist.png">
 
@@ -208,7 +206,7 @@ Notifications must:
   
 Clicking the notifications menu item whilst in the notifications menu must scroll to the top of the notifications menu and refresh the page - see [Menus](/menus.html).  
 
-### Notifications page to view, retrieve notifications: unread notifications at the top of the page
+### Notifications Page to View, Retrieve notifications
 
 <img class="img-responsive img-thumbnail" src="/images/examples/design-standards-sf-notification-example.png">
 
@@ -225,7 +223,7 @@ A profile must include at least three personal identifiers such as:
 
 Users must be able to view and edit their profile information.
 
-### Profile page with editable information
+### Profile Page for Users to Edit
 
 <img class="img-responsive img-thumbnail" src="/images/examples/design-standards-sf-profile-example.png">
 

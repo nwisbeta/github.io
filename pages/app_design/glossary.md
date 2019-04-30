@@ -1,12 +1,11 @@
 ---
 title: Glossary
-keywords: language, terms, text, instructions, labels, usability, accessibility, standards
+keywords: language, terms, text, meaning, 
 sidebar: appdesign_sidebar
 toc: false
 permalink: glossary.html
 folder: app_design
 ---
-
 
 Accessibility
 : {{site.data.glossary.accessibility}}
