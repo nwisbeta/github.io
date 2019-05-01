@@ -54,27 +54,27 @@ The app must:
 
 See [Selection Controls](/selection-controls.html) for full guidance. 
 
-The design must use radio buttons to select a single option from a list. Avoid pre-selecting radio buttons (GOV.UK Design System, Material.io).   
+The app design must use:
+* Radio buttons to select a single option from a list: avoid pre-selecting radio buttons (GOV.UK Design System, Material.io)
+* Drop-down menus or pickers to select from more than 10 pre-set options. 
+* Checkboxes when the user can select one or multiple pre-set options from a list (GOV.UK Design System, Material.io)
+* Toggle buttons to select between on/off options
 
-The design must use drop down menus or pickers to select from more than 10 pre-set options. For a long list of options such as selecting a country from a pre-set list, provide a clear indication that more options are available 'off screen', such as a downwards arrow icon.   
-
-The design must use checkboxes when the user can select one or multiple pre-set options from a list (GOV.UK Design System, Material.io).  
-
-The design must use toggle buttons to select between on/off options.  
+For a long list of options such as selecting a country from a pre-set list, provide a clear indication that more options are available 'off screen', such as a downwards arrow icon.   
 
 ### Automated Entries
 
-The app must: 
+The app design must: 
 * Automatically enter known information like date, time, location, to minimise user entry (WCAG 2.1, iOS Human Interface Guidelines)
 * Provide appropriate default values (iOS Human Interface Guidelines), such as current time for data entry
 * Use dropdown/pickers to scroll through multiple pre-set values (iOS Human Interface Guidelines) 
 
-For date entry, the app must use a date picker: 
+For date entry, the app design must use a date picker: 
 * 3 wheels must be used: date, month, year
 * Date must appear automatically if appropriate, such as with today's date
 * Define whether date picker can set future or past dates
 
-For times, the app must use a time picker: 
+For times, the app design must use a time picker: 
 * Time must appear automatically if appropriate
 * Define whether time picker can set future or past times
 
@@ -84,7 +84,7 @@ If Information Governance requirements state that all data changes must be track
 Do not disable copy and paste unless required for clinical governance and data protection purposes (GOV.UK Design System). 
 
 ## Keyboards
-Set the keyboard to the type of data entry required, to facilitate data entry and minimise errors (WCAG 2.1, iOS Human Interface Guidelines). For example the design must use:
+Set the keyboard to the type of data entry required, to facilitate data entry and minimise errors (WCAG 2.1, iOS Human Interface Guidelines). For example the app design must use:
 * Email keyboard for email fields
 * Numerical keyboard for PIN input
 * Default keyboard for all other fields

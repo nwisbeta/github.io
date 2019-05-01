@@ -15,19 +15,19 @@ Their purpose is to guide anyone building mobile applications on behalf of NWIS.
 These standards have been validated through external expert review and NWIS stakeholder and user workshops and engagement that first took place in summer 2018.  
 
 ## Scope
-The standards are limited to the guidance of UX and UI implementation for mobile (phone and tablet devices) native operating system applications for NHS Wales use. For the purpose of interoperability and transferability, this documentation aligns with existing and emerging national and international standards. Particular reference has been made to alignment with NWIS standards and branding.
+The standards apply to the guidance of UX and UI implementation for mobile (phone and tablet devices) native operating system applications for NHS Wales use. For the purpose of interoperability and transferability, this documentation aligns with existing and emerging national and international standards, and with NWIS standards and branding.
 
 ## Design Principles
 
-The design standards have been produced to align with the following principles
+The app design standards were produced to align with the following principles:
 
-* Usability for developers being easy to use and understand
-* Usefulness in that the guidance as a whole and in parts addresses valid existing or potential UX or UI design issue(s)
-* Minimally restrictive with attention made to not limit potential useful functions, features and/or innovations
-* Interoperability with current and future facing standards, services and products as possible
-* Easily implemented with minimal technical barriers or resource implications
+* Usability: easy for developers to use and understand
+* Usefulness: the guidance addresses valid existing or potential UX or UI design issue(s)
+* Minimally restrictive: to not limit potential useful functions, features and/or innovations
+* Interoperability: considering current and future-facing standards, services and products
+* Easily implemented: minimal technical barriers or resource implications
 * Progressive, dynamic and responsive to emerging standards and best practice
-* Accessible for the target stakeholder audience with consideration of potential barriers to access including disabilities
+* Accessible: available for the stakeholder audience, and aware of potential barriers to mobile access
 
 ## Harmonised Standards
 

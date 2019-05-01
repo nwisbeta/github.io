@@ -11,7 +11,7 @@ folder: app_design
 
 Calibri should be used as the NWIS brand font for web content.
 
-The design must set font size in sp (Scale-independent Pixels). This measurement configures easily to use larger font size for accessibility.
+The app design must set font size in sp (Scale-independent Pixels). This measurement configures easily to use larger font size for accessibility.
  
 Example: (sp = px * ratio * scale)  
 Minimum font size 34 (sp) must be used for titles  
@@ -45,7 +45,7 @@ Minimum font size 12 (sp) must be used for body text
 | 60 | 60 | 3.75   |
 
 ##  Colour 
-The design must use the NHS Wales primary palette colours or white, black and grey colours for text colour.
+The app design must use the NHS Wales primary palette colours or white, black and grey colours for text colour.
 
 ### Primary Palette
 <div class="swatch-wrapper">
@@ -113,9 +113,9 @@ For checking contrast use the following tools:
 
 ## Style
 
-The design must use titles, headings, subtitles and body text consistently to create a hierarchy of information throughout the app (GOV.UK Design System).  
+The app design must use titles, headings, subtitles and body text consistently to create a hierarchy of information throughout the app (GOV.UK Design System).  
 
-The design must use bold to identify important information. Titles and headings must be in bold text.
+The design must use bold to identify important information. Titles and headings must appear in bold text.
 
 ### Clinical App: Patient Information is Centred, Bold
 <img class="img-responsive img-thumbnail" src="/images/examples/design-standards-typography-styles.png">

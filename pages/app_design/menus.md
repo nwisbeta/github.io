@@ -43,7 +43,7 @@ For menu items, the minimum touch target size is 44px x 44px, surrounded by a sm
 
 Wherever possible the app's icon placement should remain symmetrical.
 
-The design must use standard menu access points to provide app functions:
+The app design must use standard menu access points to provide app functions:
 * Bottom menu left – general information, content, feeds, library, guides etc.
 * Bottom menu middle left – community and communication functions
 * Bottom menu middle – home button using NHS Wales icon. Homepage must display most important app feature or summary of most important information
@@ -59,7 +59,7 @@ The design must use standard menu access points to provide app functions:
 ## Behaviour
 Menu items must respond and adapt in size to different devices and screen sizes. See [Responsiveness  and Adaptivity](/responsiveness.html).
 
-The design must enable menu items on all pages except when a keyboard is available (see below) (iOS Human Interface Guidelines).  If a keyboard is available, the design must hide the bottom menu items (iOS Human Interface Guidelines).  
+The app design must enable menu items on all pages except when a keyboard is available (see below) (iOS Human Interface Guidelines).  If a keyboard is available, the design must hide the bottom menu items (iOS Human Interface Guidelines).  
     
 Each menu item must:
 * Provide an icon 

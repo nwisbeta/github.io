@@ -17,7 +17,7 @@ Do not use technical language in error messages.
 
 If an error message appears due to incorrect form entry, such as an invalid email address, the error message must explain in clear language what the error is, and provide the correct format for the entry.  
 
-The design should validate text entry in real-time, with a helper text next to the text field, to notify the user before the user tries to move to the next step.  
+The app design should validate text entry in real-time, with a helper text next to the text field, to notify the user before the user tries to move to the next step.  
 
 Pop up error messages must only appear when a user tries to move to the next stage of a process, such as when submitting log in details with an error. Minimise interruptions to users when using the app (GOV.UK Design System).
 
@@ -25,7 +25,7 @@ If multiple errors occur, the design must present errors together in a single er
 
 Do not use error messages that inform users they are not eligible or do not have appropriate permissions to do something. For example, explain why they are not eligible, and what to do next (GOV.UK Design System).  
 
-The design must configure crash reports to go to developers, for error tracking (GOV.UK Design System). By default, hide detailed error messages intended for developers from users.  
+The app design must configure crash reports to go to developers, for error tracking (GOV.UK Design System). By default, hide detailed error messages intended for developers from users.  
 
 ## Layout 
 * Provide a short text, and fit on one or two lines (iOS Human Interface Guidelines)  
