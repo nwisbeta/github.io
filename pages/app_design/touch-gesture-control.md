@@ -11,7 +11,7 @@ Gestures must help users to navigate, take actions and manipulate content (Mater
 
 Gestures must be as easy as possible to carry out. Consider screen reader interaction modes - see [Accessibility](/accessibility.html) (WCAG 2.1). 
  
-The design must use standard and familiar gestures (iOS Human Interface Guidelines) including:
+The app design must use standard and familiar gestures (iOS Human Interface Guidelines) including:
 * Tap
 * Scroll
 * Swipe
@@ -60,10 +60,10 @@ If a back button provides navigation to a previous page, the back swipe gesture 
 Pan gestures must allow users to move elements in any direction: for example, moving in any direction through map (Material.io)  
 
 ## Hold and Drag
-The design can use hold and drag gestures if required (Material.io, iOS Human Interface Guidelines): for example, hold and drag items on to-do list to change order.    
+The app design can use hold and drag gestures if required (Material.io, iOS Human Interface Guidelines): for example, hold and drag items on to-do list to change order.    
 
 ## Pinch
-The design can use Pinch gestures if required, to allow the user to zoom: for example, to zoom in on photo.  
+The app design can use Pinch gestures if required, to allow the user to zoom: for example, to zoom in on photo.  
 
 ## Icons
 Icons can communicate the gesture available (Material.io), such as a refresh icon appearing when swiping down on a page, which remains visible until the refresh action is complete.

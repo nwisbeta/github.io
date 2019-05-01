@@ -33,7 +33,7 @@ Settings access must appear as three dots in the top right corner.  Settings mus
 * Legal/privacy information 
 * Log out  
 
-The design must:
+The app design must:
 
 * Display settings as a list with left alignment (Material.io)
 * Use visual dividers to separate list items
@@ -53,7 +53,7 @@ Clicking a settings menu item must open a new page, which must have a back butto
 ## Help
 The settings menu must include Help, to access help functions such as support information and tutorials.  
 
-The design should categorise support information by the app functions it relates to.  
+The app design should categorise support information by the app functions it relates to.  
 
 Help must provide answers to user questions (Material.io) that can include:  
 * Help topics

@@ -39,9 +39,9 @@ Consider and refer to layout standards, standard access points - see [Menus](/me
  
 ## Columns for layout
 
-The design must use a central column, for those pages that do not display data, such as results. Pages with a list of items must have a single column with left text alignment.  The design should centre the most important data as a heading, where appropriate. 
+The app design must use a central column, for those pages that do not display data, such as results. Pages with a list of items must have a single column with left text alignment.  The design should centre the most important data as a heading, where appropriate. 
 
-When the design uses columns to display information:
+When the app design uses columns to display information:
 * Do not use more than two columns, on a page with portrait orientation  
 * Information type, such as a field name, must appear in the left column  
 * Relevant information, such as the field contents, must appear in bold in the right column  
@@ -55,7 +55,7 @@ Do not display too much information on one page(WCAG 2.1, ICO, GDPR). The layout
 
 If the interface requires more than ten data fields, use multiple pages.
 
-The design should use margins and spacing where possible (iOS Human Interface Guidelines, Material.io, UWP).
+The app design should use margins and spacing where possible (iOS Human Interface Guidelines, Material.io, UWP).
 
 <div class="col-sm-12">
 		<div class="row">

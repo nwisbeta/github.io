@@ -9,7 +9,7 @@ folder: app_design
 
 ## Colour and Contrast
 
-The design must have good contrast between text and the background colour (WCAG 2.1). In practice:
+The app design must have good contrast between text and the background colour (WCAG 2.1). In practice:
 
 * Small text (18sp or less) must have a minimum contrast ratio of 4.5:1
 * Large text (more than 18sp) must have a minimum contrast ratio of 3:1
