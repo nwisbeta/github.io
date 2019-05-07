@@ -63,11 +63,11 @@ Avoid pre-selecting checkboxes.
 <div class="container">
     <div class="row">
     <div class="col-md-6 col-lg-6"> 
-		<h3>Checkbox 'checked'</h3> 
+		<h3>Checkbox 'Checked'</h3> 
 		<img class="img-responsive img-thumbnail" src="/images/examples/design-standards-navigation-checkbox-on.png">
     </div>
     <div class="col-md-6 col-lg-6">
-		<h3>Checkbox 'unchecked'</h3> 
+		<h3>Checkbox 'Unchecked'</h3> 
 		<img class="img-responsive img-thumbnail" src="/images/examples/design-standards-navigation-checkbox-off.png">
     </div>
   </div>

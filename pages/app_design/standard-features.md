@@ -46,7 +46,7 @@ Settings must save user preferences (Material.io).
 
 Clicking a settings menu item must open a new page, which must have a back button (top left corner), to enable navigation back to the settings page.  
 
-### Settings page
+### Settings Page
  
 <img class="img-responsive img-thumbnail" src="/images/examples/design-standards-sf-settings.png">
 
@@ -78,7 +78,7 @@ A feed is a feature which provides regularly updated information such as:
 
 A feed must display date and time that each item was received.  
 
-### Feed page 
+### Feed Page 
 <img class="img-responsive img-thumbnail" src="/images/examples/design-standards-sf-feed-example.png">
 
 Enable scroll gestures, to allow the user to move through the feed items - see [Touch Gesture Controls](/touch-gesture-control.html).  
@@ -107,7 +107,7 @@ Selecting the feed menu item whilst in the feed must scroll to the top of the fe
 
 See [Touch Gesture Controls](/touch-gesture-control.html) for guidance about standard control gestures.
 
-## Connection and communication functions
+## Connection and Communication Functions
 Connection and communication functions enable connecting or communicating with people or entities, such as a ward or patient within a particular hospital.  
 
 Features should include:
@@ -119,11 +119,11 @@ Selecting the connection/communication group menu item whilst in the feed must s
 
 See [Touch Gesture Controls](/touch-gesture-control.html) for guidance about standard control gestures.
 
-### Connection/communication page
+### Connection/communication Page
 
 <img class="img-responsive img-thumbnail" src="/images/examples/design-standards-sf-communication-example.png">
 
-## Watchlist and alerts
+## Watchlist and Alerts
 Clinician apps must provide watchlists and alerts. Notifications are generally used instead of watchlist/alerts for patient facing apps.
 
 Watchlists and alerts must: 
@@ -161,7 +161,7 @@ The app must show a one-month history of alerts, loading 10 items at a time.
 
 Feed/watchlist icons must signal alerts/important notices on the bottom menu.  
 
-### Example alert notification
+### Example Alert Notification
 <img src="/images/examples/design-standards-sf-feed-notification-icon.png" style="max-width: 100px;">
 
 Alerts must appear in an accessible format, that differentiates high, medium and low priority alerts without relying on colour (see Accessibility) (WCAG 2.1). Alert levels include:
@@ -206,7 +206,7 @@ Notifications must:
   
 Clicking the notifications menu item whilst in the notifications menu must scroll to the top of the notifications menu and refresh the page - see [Menus](/menus.html).  
 
-### Notifications Page to View, Retrieve notifications
+### Notifications Page to View, Retrieve Notifications
 
 <img class="img-responsive img-thumbnail" src="/images/examples/design-standards-sf-notification-example.png">
 

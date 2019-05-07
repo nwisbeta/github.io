@@ -49,7 +49,7 @@ Do not combine the process of registration, agreeing to terms and conditions, an
 
 <img class="img-responsive img-thumbnail" src="/images/examples/design-standards-access-registration1.png">
 
-### User credentials Required for Registration, Second Step
+### User Credentials Required for Registration, Second Step
 
 <img class="img-responsive img-thumbnail" src="/images/examples/design-standards-access-registration2.png">
 

@@ -9,11 +9,11 @@ folder: app_design
 ## Requirements
 
 Pop ups must: 
-* require the user to act (Material.io)  
-* provide relevant and actionable information (Material.io)  
-* use consistent messaging (see Tools > Messaging)  
-* contain a heading (minimum bold 20 sp) and body text (minimum 14 sp)  
-* display one or two action buttons (Material.io) - see [Buttons](/buttons.html)
+* Require the user to act (Material.io)  
+* Provide relevant and actionable information (Material.io)  
+* Use consistent messaging (see Tools > Messaging)  
+* Contain a heading (minimum bold 20 sp) and body text (minimum 14 sp)  
+* Display one or two action buttons (Material.io) - see [Buttons](/buttons.html)
 
 ## Pop Up Message Syntax 
 
