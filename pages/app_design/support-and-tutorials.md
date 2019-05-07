@@ -10,10 +10,10 @@ folder: app_design
 All apps must have help information located in the settings, for support information and tutorials - see [Standard Features](/standard-features.html).  
 
 Support information and tutorials must:  
-* provide digital support to users  
-* must be useful and easy to understand  
-* must provide essential information for app use – avoid providing too much information (iOS Human Interface Guidelines)  
-* target a reading age of 7-9 (WCAG 2.1)  
+* Provide digital support to users  
+* Must be useful and easy to understand  
+* Must provide essential information for app use – avoid providing too much information (iOS Human Interface Guidelines)  
+* Target a reading age of 7-9 (WCAG 2.1)  
 
 ## Support
 
@@ -39,8 +39,8 @@ Users must be able to navigate forwards and backwards during a tutorial with swi
 Stakeholder should determine whether tutorials are automatic or manually activated.    
 
 For automatic tutorials: 
-* set up a general app tutorial when a user first loads and uses the app
-* set up a tutorial for a specific function at first use, such as using a watchlist: ensure the presence and access point of the tutorial is clearly available 
+* Set up a general app tutorial when a user first loads and uses the app
+* Set up a tutorial for a specific function at first use, such as using a watchlist: ensure the presence and access point of the tutorial is clearly available 
 
 Users must have the option to activate tutorials in the help section - see [Standard Features](/standard-features.html).
 

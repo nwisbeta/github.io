@@ -71,7 +71,7 @@ _Avoid_: this feature or result does not meet the standard, but is tolerated in 
 
 _If required_: this should only be used if appropriate or required but is not enforced
 
-_Exceptions_: sometimes exceptions to these standards are necessary to optimise UI and/or UX. The standard defines where exceptions are permitted. Document every exception, including senior stakeholder sign-off, using the development checklists (see Tools > Exceptions).
+_Exceptions_: sometimes exceptions to these standards are necessary to optimise UI and/or UX. The standard defines where exceptions are permitted. Document every exception, including senior stakeholder sign-off, using the development checklists.
 
 _For example, such as_: this provides an example of an implementation of the standard
 

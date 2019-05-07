@@ -19,7 +19,7 @@ The app design must use standard and familiar gestures (iOS Human Interface Guid
 * Hold and drag   
 * Pinch
 
-## Single tap 
+## Single Tap 
 
 Single tap gestures must allow navigation, perform actions, and make choices within the app (Material.io, iOS Human Interface Guidelines) including selecting:
 * Buttons
