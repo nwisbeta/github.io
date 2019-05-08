@@ -32,10 +32,6 @@ entries:
       url: /apiguides_getting_started_hapi.html
       output: web, pdf
       
-    - title: Getting Started with SNOMED CT
-      url: /apiguides_getting_started_snomed.html
-      output: web, pdf
-      
   - title: Patient Demographic Data API
     output: web, pdf
 
@@ -75,20 +71,3 @@ entries:
       url: /diag_obs_reports_use_cases.html
       output: web, pdf
       
-  - title: "SNOMED: CodeSystem APIs"
-    output: web, pdf
-    folderitems:
-    
-    - title: Overview
-      url: /snomed_codesystem_landing_page.html
-      output: web, pdf
-      type: homepage 
-
-  - title: "SNOMED: ValueSet APIs"
-    output: web, pdf
-    folderitems:
-    
-    - title: Overview
-      url: /snomed_valueset_landing_page.html
-      output: web, pdf
-      type: homepage 
