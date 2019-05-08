@@ -1,8 +1,9 @@
 ---
 title: "Tools and requirements to build GitHub Pages"
-keywords: NWIS HAPI APIs
-tags: [README, NWIS]
-permalink: 
+keywords: 
+search: exclude
+tags: 
+permalink: README_GitHubPages_tools_requirements.html
 summary: An outline of software, publishing tools and skills required to document Health APIs.
 ---
 
@@ -37,7 +38,7 @@ Most content controls used on the nwisbeta site (for editing headers, footers, t
 
 * _config.yml
 * _data/topnav.yml
-* _data/sidebars/mydoc_sidebar.yml
+* _data/sidebars/api_sidebar.yml
 * _includes/footer.html
 
 Run Jekyll locally to preview pages in your browser at 127.0.0.1:4000/
@@ -74,7 +75,7 @@ For new entries in the side navigation (like a new API):
 2. Create new content within the directory, saved as .md files, using kramdown Markdown. 
    Use a previous .md file as an example for the frontmatter, changing the file paths for the new content. Jekyll requires the frontmatter to create the HTML versions of pages correctly. 
 
-3. In _data/sidebars/mydoc_sidebar.yml, add the new directory as an entry in the side navigation. Pay attention to  the syntax and indentation for the entry. Every indent space matters.
+3. In _data/sidebars/api_sidebar.yml, add the new directory as an entry in the side navigation. Pay attention to  the syntax and indentation for the entry. Every indent space matters.
 
 4. Save files. Add and commit using Git commands. 
 

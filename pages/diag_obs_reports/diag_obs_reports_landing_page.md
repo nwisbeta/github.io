@@ -1,8 +1,8 @@
 ---
 title: Diagnostic Observations and Reports API
 tags: [NWIS_API, FHIR, resources, parameters, endpoints_and_methods]
-keywords: 
-sidebar: mydoc_sidebar
+keywords: observations, report, diagnostic, 
+sidebar: api_sidebar
 toc: true
 permalink: diag_obs_reports_landing_page.html
 folder: diag_obs_reports

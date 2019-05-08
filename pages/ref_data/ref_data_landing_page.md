@@ -1,8 +1,8 @@
 ---
 title: Reference Data API
 tags: [NWIS_API, FHIR, resources, parameters, endpoints_and_methods]
-keywords: 
-sidebar: mydoc_sidebar
+keywords: reference, organisation, ODS, practitioner, HB, board, organization, practitionerrole, 
+sidebar: api_sidebar
 toc: true
 permalink: ref_data_landing_page.html
 folder: ref_data

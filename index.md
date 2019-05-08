@@ -2,7 +2,7 @@
 title: "Health APIs for NHS Wales"
 keywords: NWIS HAPI APIs
 tags: [NWIS, NWIS_API,]
-sidebar: mydoc_sidebar
+sidebar: api_sidebar
 toc: false
 permalink: index.html
 summary: An overview of NWIS work on Health APIs, based on the FHIR specification.

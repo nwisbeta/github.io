@@ -1,0 +1,195 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: App Design Standards
+  version: 1.0
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: Overview
+    output: web, pdf
+    folderitems:
+    - title: About
+      url: /about.html
+      output: web
+    - title: Glossary
+      url: /glossary.html
+      output: web
+
+  - title: Design Standards
+    output: web, pdf
+
+    folderitems:
+    - title: Layout
+      url: /layout.html
+      output: web, pdf
+
+    - title: Branding
+      url: /branding.html
+      output: web, pdf
+
+    - title: Standard Features
+      url: /standard-features.html
+      output: web, pdf
+
+    - title: Typography
+      url: /typography.html
+      output: web, pdf
+
+    - title: Terminology and Language
+      url: /terminology-and-language.html
+      output: web, pdf
+      
+    - title: Page Loading and Power Use
+      url: /page-loading-power-use.html
+      output: web, pdf
+
+    - title: Responsiveness and Adaptivity
+      url: /responsiveness.html
+      output: web, pdf
+    
+    - title: Offline Use
+      url: /offline-use.html
+      output: web, pdf  
+      
+  - title: Access
+    output: web, pdf
+    
+    folderitems:  
+    - title: First Use 
+      url: /first-use.html
+      output: web, pdf
+
+    - title: App Loading 
+      url: /app-loading.html
+      output: web, pdf
+      
+    - title: Log in and Log out 
+      url: /log-in-log-out.html
+      output: web, pdf
+      
+    - title: Registration
+      url: /registration.html
+      output: web, pdf
+      
+  - title: Navigation
+    output: web, pdf
+    
+    folderitems:  
+    - title: Menus
+      url: /menus.html
+      output: web, pdf
+      
+    - title: Transitions
+      url: /transitions.html
+      output: web, pdf
+
+    - title: Touch Gesture Controls
+      url: /touch-gesture-control.html
+      output: web, pdf
+      
+    - title: Buttons
+      url: /buttons.html
+      output: web, pdf
+  
+    - title: Selection Controls
+      url: /selection-controls.html
+      output: web, pdf
+
+    - title: Search
+      url: /search.html
+      output: web, pdf
+  
+    - title: Filters
+      url: /filters.html
+      output: web, pdf
+   
+    - title: Ordering
+      url: /ordering.html
+      output: web, pdf
+ 
+  - title: User Interaction
+    output: web, pdf
+    
+    folderitems:  
+    - title: Messaging
+      url: /messaging.html
+      output: web, pdf
+      
+    - title: Errors
+      url: /errors.html
+      output: web, pdf
+
+    - title: User Feedback
+      url: /user-feedback.html
+      output: web, pdf
+      
+    - title: Data Entry
+      url: /data-entry.html
+      output: web, pdf
+  
+    - title: Data Display
+      url: /data-display.html
+      output: web, pdf
+
+    - title: Pop Ups
+      url: /popups.html
+      output: web, pdf
+  
+    - title: Notifications
+      url: /notifications.html
+      output: web, pdf
+   
+    - title: Support and Tutorials
+      url: /support-and-tutorials.html
+      output: web, pdf
+
+  - title: Icons and Images
+    output: web, pdf
+    
+    folderitems:  
+    - title: Icons 
+      url: /icons.html
+      output: web, pdf
+      
+    - title: Images 
+      url: /images.html
+      output: web, pdf
+  
+  - title: Accessibility
+    output: web, pdf
+    
+    folderitems:  
+    - title: Accessibility  
+      url: /accessibility.html
+      output: web, pdf
+
+  - title: Information and Clinical Governance
+    output: web, pdf
+    
+    folderitems:  
+    - title: Information and Clinical Governance  
+      url: /information-clinical-governance.html
+      output: web, pdf
+      
+  - title: Interoperability
+    output: web, pdf
+    
+    folderitems:  
+    - title: Interoperability 
+      url: /interoperability.html
+      output: web, pdf
+ 

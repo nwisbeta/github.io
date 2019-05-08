@@ -1,8 +1,8 @@
 ---
 title: Use Case Queries
 tags: [NWIS_API, FHIR, use_case, code_sample]
-keywords: 
-sidebar: mydoc_sidebar
+keywords: demographic, diagnostic, sample, code
+sidebar: api_sidebar
 toc: true
 permalink: diag_obs_reports_use_cases.html
 folder: diag_obs_reports
