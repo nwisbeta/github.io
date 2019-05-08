@@ -17,16 +17,8 @@ topnav_dropdowns:
       folderitems:
         - title: Overview
           url: /apiguides_landing_page.html
-        - title: Patient Demographic Data
-          url: /pt_dmgrphc_landing_page.html
-        
 
     - title: Partners
       folderitems:
         - title: Life Sciences Hub
           external_url: https://lshubwales.com/
-        - title: HAPI FHIR
-          external_url: http://hapifhir.io/
-        - title: University Health Network
-          external_url: https://www.uhn.ca/
-          

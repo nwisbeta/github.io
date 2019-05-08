@@ -3,7 +3,7 @@ title: Getting Started with SNOMED CT ontology
 keywords: 
 sidebar: apiguides_sidebar
 toc: true
-permalink: apiguides_getting_started_ontoserver.html
+permalink: apiguides_getting_started_snomed.html
 folder: apiguides
 ---
 
