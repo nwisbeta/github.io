@@ -20,18 +20,22 @@ entries:
       type: frontmatter
 
   - title: Overview
-    output: web, pdf
+    output: web, pdf  
     folderitems:
 
-    - title: Software Development Kits
-      url: /index.html
+    - title: Health APIs for NHS Wales
+      url: /apiguides_landing_page.html
       output: web, pdf
       type: homepage
 
-    - title: Partnership
-      url: /mydoc_introduction.html
+    - title: Getting Started with HAPI
+      url: /apiguides_getting_started_hapi.html
       output: web, pdf
       
+    - title: Getting Started with SNOMED CT
+      url: /apiguides_getting_started_snomed.html
+      output: web, pdf
+
   - title: Patient Demographic Data API
     output: web, pdf
 
@@ -39,39 +43,52 @@ entries:
     - title: Overview
       url: /pt_dmgrphc_landing_page.html
       output: web, pdf
-
-    - title: Resources
-      url: /mydoc_lists.html
+      type: homepage
+      
+    - title: Use Case Queries
+      url: /pt_dmgrphc_use_cases.html
       output: web, pdf
-
-    - title: Endpoints and methods
-      url: /mydoc_conditional_logic.html
+      
+  - title: Reference Data API
+    output: web, pdf
+      
+    folderitems:
+    - title: Overview
+      url: /ref_data_landing_page.html
       output: web, pdf
-
-    - title: Parameters
-      url: /mydoc_content_reuse.html
+      type: homepage
+    
+    - title: Use Case Queries
+      url: /ref_data_use_cases.html
       output: web, pdf
-
-    - title: Request example
-      url: /mydoc_content_reuse.html
+      
+  - title: Diagnostic Observations and Reports API
+    output: web, pdf
+    folderitems:
+    
+    - title: Overview
+      url: /diag_obs_reports_landing_page.html
       output: web, pdf
+      type: homepage
+      
+    - title: Use Case Queries
+      url: /diag_obs_reports_use_cases.html
+      output: web, pdf
+      
+  - title: "SNOMED: CodeSystem APIs"
+    output: web, pdf
+    folderitems:
+    
+    - title: Overview
+      url: /snomed_codesystem_landing_page.html
+      output: web, pdf
+      type: homepage 
 
-# - title: Reference Data API
-#    output: web, pdf
-
-#   folderitems:
-#   - title: Overview
-#     url: /mydoc_sidebar_navigation.html
-#     output: web, pdf
-
-#    - title: Case studies
-#      url: /mydoc_yaml_tutorial.html
-#      output: web, pdf
-
-#    - title: Resources
-#      url: /mydoc_tags.html
-#      output: web, pdf
-
-#    - title: Design and build
-#      url: /mydoc_series.html
-#      output: web, pdf
+  - title: "SNOMED: ValueSet APIs"
+    output: web, pdf
+    folderitems:
+    
+    - title: Overview
+      url: /snomed_valueset_landing_page.html
+      output: web, pdf
+      type: homepage 

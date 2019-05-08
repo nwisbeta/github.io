@@ -1,10 +1,10 @@
 ---
 title: "SNOMED: ValueSet APIs"
 keywords: 
-sidebar: mydoc_sidebar
+sidebar: apiguides_sidebar
 toc: true
-permalink: ontoserver_valueset_landing_page.html
-folder: ontoserver_valueset
+permalink: snomed_valueset_landing_page.html
+folder: snomed_valueset
 ---
 
 ## FHIR resource: ValueSet

@@ -1,7 +1,7 @@
 ---
 title: Getting Started with SNOMED CT ontology
 keywords: 
-sidebar: mydoc_sidebar
+sidebar: apiguides_sidebar
 toc: true
 permalink: apiguides_getting_started_ontoserver.html
 folder: apiguides

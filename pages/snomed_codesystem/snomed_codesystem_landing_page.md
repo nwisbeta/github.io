@@ -1,10 +1,10 @@
 ---
 title: "SNOMED: CodeSystem APIs"
 keywords: 
-sidebar: mydoc_sidebar
+sidebar: apiguides_sidebar
 toc: true
-permalink: ontoserver_codesystem_landing_page.html
-folder: ontoserver_codesystem 
+permalink: snomed_codesystem_landing_page.html
+folder: snomed_codesystem 
 ---
 
 ## FHIR resource: CodeSystem

@@ -80,7 +80,7 @@ entries:
     folderitems:
     
     - title: Overview
-      url: /ontoserver_codesystem_landing_page.html
+      url: /snomed_codesystem_landing_page.html
       output: web, pdf
       type: homepage 
 
@@ -89,6 +89,6 @@ entries:
     folderitems:
     
     - title: Overview
-      url: /ontoserver_valueset_landing_page.html
+      url: /snomed_valueset_landing_page.html
       output: web, pdf
       type: homepage 
