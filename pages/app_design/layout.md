@@ -49,7 +49,7 @@ When the app design uses columns to display information:
 
 Avoid a layout that requires a lot of scrolling. 
 
-Do not display too much information on one page(WCAG 2.1, ICO, GDPR). The layout must:
+Do not display too much information on one page (WCAG 2.1, ICO, GDPR). The layout must:
 * Display the most important information without scrolling (WCAG 2.1)  
 * Avoid displaying more than ten data fields on a single page - see [Data Entry](/data-entry.html) 
 
