@@ -7,43 +7,60 @@ permalink: README_GitHubPages_tools_requirements.html
 summary: An outline of software, publishing tools and skills required to document Health APIs.
 ---
 
-## Software setup required to build GitHub Pages
+## Respository for NHS Wales Informatics Service: Software development
+
+[GitHub Organisation repository](https://help.github.com/en/articles/about-organizations): nwisbeta
+nwisbeta is a free repository: it is public, with unlimited membership.
+
+See also [Permission levels for an organization](https://help.github.com/en/articles/permission-levels-for-an-organization).
+
+The GitHub Pages for this repository are at https://github.com/nwisbeta/nwisbeta.github.io 
+
+The resulting website: http://nwisbeta.github.io
+
+The site runs on Jekyll, a Ruby software gem, and uses a [Jekyll documentation theme](https://idratherbewriting.com/documentation-theme-jekyll/) designed by Tom Johnston.
+
+
+## Software setup required to build and maintain GitHub Pages
 
 * obtain full permissions to download and run software on the local machine
-* set up a GitHub personal login, and an organization account (nwisbeta)
-* start an organization respository (github.com/nwisbeta), and set up GitHub Pages. Free organization repositories are public. 
+* set up a GitHub personal login, and join organization account (nwisbeta)
 * download and install the following tools, using instructions on their sites:
   * Notepad++ https://notepad-plus-plus.org/ as tool to build the site on the laptop
   * Git for Windows https://gitforwindows.org/ to upload content to GitHub. GitBash provides command line interface
   * Jekyll for Windows, using RubyInstaller and Bundler https://jekyllrb.com/docs/installation/windows/
-* download and set up [Jekyll documentation theme](https://idratherbewriting.com/documentation-theme-jekyll/) within the organization repository
 
-NOTE: you do not need another copy of the documentation theme, unless you are building a new site from scratch.
+You do not need another copy of the documentation theme, unless you are building a new site from scratch, in a new repository.
 
 ## Jekyll
 
 If you have not used Jekyll before, [see the Jekyll website for a ground-up intro](https://jekyllrb.com/tutorials/convert-site-to-jekyll/#what-is-a-jekyll-website).
 
-**TL:dr**: You create content: mainly text in kramdown Markdown. Add images or data. Save content in appropriate folders.  
-
-You commit (and push) the content, and run Jekyll from the command line.  
+**TL:dr**: 
+* create content: mainly text in kramdown Markdown. Add images or data. Save content in appropriate folders  
+* run a local copy of Jekyll on your desktop using the command line interface, to check how the site appears and displays
+* after error checks, commit and push the content to the repository
 
 Jekyll creates the HTML versions of the pages, following the instructions in the theme to provide the layout, formatting and navigation. **You don't need to edit any HTML manually.**
 
 ## Documentation theme notes
 
-The nwisbeta.github.io site was set up following the documentation theme instructions. Some features are not yet in use but are available for future iterations.
+The nwisbeta.github.io site is set up following the documentation theme instructions. Some features are not yet in use but are available for future iterations.
 
 Most content controls used on the nwisbeta site (for editing headers, footers, top and side navigation) appear in:
 
 * _config.yml
 * _data/topnav.yml
-* _data/sidebars/api_sidebar.yml
+* _data/sidebars/api_sidebar.yml (for H-API content)
+* _data/sidebars/appdesign_sidebar.yml (for App Design standards)
+* _data/sidebars/appdesign_tools_sidebar.yml (for App Design tools: the design phases and checklists)
 * _includes/footer.html
 
-Run Jekyll locally to preview pages in your browser at 127.0.0.1:4000/
+From the GitBash window, run Jekyll locally to preview pages in your browser at 127.0.0.1:4000/
 
-You *must* run Jekyll within the nwisbeta.github.io directory on your local machine. It will generate errors if you try to run it from another directory.
+You *must* run Jekyll from the root of nwisbeta.github.io directory on your local machine. If you try to run the Jekyll command from another directory, it will generate errors.
+
+The best way to make significant changes to the site is to create a branch in GitHub, and work on the branch locally, before committing the work and submitting a pull request to merge your changes to the master branch. See [About branches](https://help.github.com/en/articles/about-branches) on the GitHub site. 
 
 ## Adding new content to the site
 
@@ -75,7 +92,7 @@ For new entries in the side navigation (like a new API):
 2. Create new content within the directory, saved as .md files, using kramdown Markdown. 
    Use a previous .md file as an example for the frontmatter, changing the file paths for the new content. Jekyll requires the frontmatter to create the HTML versions of pages correctly. 
 
-3. In _data/sidebars/api_sidebar.yml, add the new directory as an entry in the side navigation. Pay attention to  the syntax and indentation for the entry. Every indent space matters.
+3. In _data/sidebars/api_sidebar.yml, add the new directory as an entry in the side navigation. Pay attention to the syntax and indentation for the entry. Every indent space matters.
 
 4. Save files. Add and commit using Git commands. 
 
@@ -83,11 +100,13 @@ For new entries in the side navigation (like a new API):
 
 ## Open source comments and corrections
 
-On the nwis.github.io pages, each page includes an 'Edit Me' button. The button links to the nwisbeta.github.io repository.  
+On the nwis.github.io pages, each page includes an 'Edit Me' button. The button links to a 'reviews_feedback' branch on the nwisbeta.github.io repository.  
 
 Editing files requires a GitHub account.  
 
-GitHub account holders who attempt to edit create a fork of the site, in their *own* accounts. They can add comments or corrections to the text, commit them, and send a pull request. The pull request appears in the nwisbeta repository.
+See [Commenting on files](https://idratherbewriting.com/documentation-theme-jekyll/mydoc_commenting_on_files.html) in the Jekyll template documentation. 
+
+As the site runs on an open-source repository, any GitHub account holder can also fork a copy of the site, in their *own* accounts. They can add comments or corrections to the text, commit them, and send a pull request. The pull request appears in the nwisbeta repository.
 
 Only collaborators with admin permissions on the nwisbeta repository can approve pull requests (ie publish changes). 
 
