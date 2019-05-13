@@ -39,7 +39,7 @@ The app design must:
 * Use visual dividers to separate list items
 * Group settings into categories
 * Show category titles
-* Use up to six main categories
+* UAvoid using more than six main categories
 * Avoid using more than six menu items within each category
 
 Settings must save user preferences (Material.io). 
