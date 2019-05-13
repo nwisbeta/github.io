@@ -91,7 +91,7 @@ Critical feed items which require a response from the user, must:
 
 In-app notifications - see [Pop Ups](/popups.html) - should prevent the user from doing other things until they take action (iOS Human Interface Guidelines).  
 
-Important or critical feed items must appear at the top of the feed until acknowledged by the user. After the user acknowledges a feed item, it must appear as a past feed item, with a different colour background, to differentiate it from unread feed items  
+Important or critical feed items must appear at the top of the feed until acknowledged by the user. After the user acknowledges a feed item, it must appear as a past feed item, with a different colour background, to differentiate it from unread feed items.  
 
 The feed display must show a one-month history of feed items, loading 10 items at a time.
 
