@@ -9,7 +9,8 @@ summary: An outline of software, publishing tools and skills required to documen
 
 ## Respository for NHS Wales Informatics Service: Software development
 
-[GitHub Organisation repository](https://help.github.com/en/articles/about-organizations): nwisbeta
+[GitHub Organisation repository](https://help.github.com/en/articles/about-organizations): nwisbeta  
+
 nwisbeta is a free repository: it is public, with unlimited membership.
 
 See also [Permission levels for an organization](https://help.github.com/en/articles/permission-levels-for-an-organization).
@@ -41,7 +42,7 @@ If you have not used Jekyll before, [see the Jekyll website for a ground-up intr
 * run a local copy of Jekyll on your desktop using the command line interface, to check how the site appears and displays
 * after error checks, commit and push the content to the repository
 
-Jekyll creates the HTML versions of the pages, following the instructions in the theme to provide the layout, formatting and navigation. **You don't need to edit any HTML manually.**
+Jekyll creates the HTML versions of the pages, following the instructions in the theme to provide the layout, formatting and navigation. **You do not edit any HTML manually.**
 
 ## Documentation theme notes
 
@@ -73,8 +74,10 @@ This process requires:
 1. Clone the nwisbeta site from GitHub, to your local machine.  
    https://github.com/nwisbeta/nwisbeta.github.io.git 
 
+   If you are working in a branch, set up the branch following Git commands or [use the GitHub interface to create a branch](https://help.github.com/en/articles/creating-and-deleting-branches-within-your-repository).  
+   
    If you already have a local copy of the site, pull a current version of the repository using Git commands.
-
+      
 2. In Notepad++, open the nwisbeta.github.io folder as a workspace.
 
    From Notepad++ you can edit existing files and save changes locally.
