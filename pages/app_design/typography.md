@@ -42,64 +42,8 @@ Example: (sp = px * ratio * scale)
 
 ##  Colour 
 
-The app design must use the NWIS primary palette for text colour.
+The app design must use the NWIS primary palette for text colour. see [Branding>Primary Palette](/branding.html#primary-palette). 
 
-##  Primary Palette
-
-### Main Colours
-<div class="swatch-wrapper">
-	<div class="row text-center">
-		<div class="col-md-4" style="background-color: rgb(44, 62, 114); color: white; padding: 20px 10px 10px 10px;">
-			<span class="swatch_title">NHS Wales Blue</span><br>
-			<span class="">R:44 G:62 B:114</span><br>
-			<span class="small">#2C3E72</span><br>
-			<span class="small">C:95 M:80 Y:26 K:13</span>
-		</div>
-		<div class="col-md-4" style="background-color: rgb(18, 163, 201); color: white; padding: 20px 10px 10px 10px;">
-			<span class="swatch_title">NWIS Blue</span><br>
-			<span class="">R:18 G:163 B:201</span><br>
-			<span class="small">#12A3C9</span><br>
-			<span class="small">C:75 M:15 Y:14 K:0</span>
-		</div>
-		<div class="col-md-4" style="background-color: rgb(151, 204, 57); color: white; padding: 20px 10px 10px 10px;">
-			<span class="swatch_title">NWIS Green</span><br>
-			<span class="">R:151 G:204 B:57</span><br>
-			<span class="small">#97CC39</span><br>
-			<span class="small">C:49 M:0 Y:89 K:0</span>
-		</div>
-	</div>
-</div>
-
-### Black and White Colours
-
-<div class="swatch-wrapper">
-	<div class="row text-center">
-		<div class="col-md-3" style="background-color: rgb(255, 255, 255); color: black; padding: 20px 10px 10px 10px;">
-			<span class="swatch_title">White</span><br>
-			<span class="">R:255 G:255 B:255</span><br>
-			<span class="small">#FFFFFF</span><br>
-			<span class="small">C:0 M:0 Y:0 K:0</span>
-		</div>
-		<div class="col-md-3" style="background-color: rgb(0, 0, 0); color: white; padding: 20px 10px 10px 10px;">
-			<span class="swatch_title">Black</span><br>
-			<span class="">R:0 G:0 B:0</span><br>
-			<span class="small">#000000</span><br>
-			<span class="small">C:0 M:0 Y:0 K:100</span>
-		</div>
-		<div class="col-md-3" style="background-color: rgb(89, 89, 89); color: white; padding: 20px 10px 10px 10px;">
-			<span class="swatch_title">Dark Grey</span><br>
-			<span class="">R:89 G:89 B:89</span><br>
-			<span class="small">#595959</span><br>
-			<span class="small">C:0 M:0 Y:0 K:59</span>
-		</div>
-		<div class="col-md-3" style="background-color: rgb(227, 227, 227); color: black; padding: 20px 10px 10px 10px;">
-			<span class="swatch_title">Light Grey</span><br>
-			<span class="">R:227 G:227 B:227</span><br>
-			<span class="small">#E3E3E3</span><br>
-			<span class="small">C:0 M:0 Y:0 K:11</span>
-		</div>
-	</div>
-</div>
 ### Contrast
 
 Text of 18pt or smaller must have a minimum contrast ratio of 4:5:1 between the colour of the text and colour of the background behind the text - see [Accessibility](/accessibility.html).  
