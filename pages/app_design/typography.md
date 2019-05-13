@@ -11,7 +11,7 @@ folder: app_design
 
 Calibri should be used as the NWIS brand font for web content.
 
-The app design must set font size in sp (Scale-independent Pixels). This measurement configures easily to use larger font size for accessibility.
+The app design must set font size in sp (Scale-independent Pixels). This measurement configures easier to use larger font size for accessibility.
  
 Example: (sp = px * ratio * scale)  
 Minimum font size 34 (sp) must be used for titles  
