@@ -33,7 +33,7 @@ The app design standards were produced to align with the following principles:
 
 The guidance complies with the following harmonised standards. References to these standards appear in brackets. 
 
-*   [Welsh Technical Standards Board](https://wardle.org/wales/2018/05/15/wtsb.html)
+*   [Welsh Technical Standards Board](https://standards.cymru/)
 *   [Web Content Accessibility Guidelines (WCAG) 2.1](https://www.w3.org/TR/WCAG21/) and [Application to Mobile](https://www.w3.org/TR/mobile-accessibility-mapping/)
 *   [NHS Digital Interoperability Toolkit](https://digital.nhs.uk/services/the-interoperability-toolkit)
 *   [UK Design Council Double Diamond Design Process](https://www.designcouncil.org.uk/news-opinion/design-process-what-double-diamond)
