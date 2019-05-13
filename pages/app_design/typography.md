@@ -41,9 +41,12 @@ Example: (sp = px * ratio * scale)
 | 60 | 60 | 3.75   |
 
 ##  Colour 
-The app design must use the NHS Wales primary palette colours or white, black and grey colours for text colour.
 
-### Primary Palette
+The app design must use the NWIS primary palette for text colour.
+
+##  Primary Palette
+
+### Main Colours
 <div class="swatch-wrapper">
 	<div class="row text-center">
 		<div class="col-md-4" style="background-color: rgb(44, 62, 114); color: white; padding: 20px 10px 10px 10px;">
