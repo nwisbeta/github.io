@@ -101,6 +101,14 @@ For new entries in the side navigation (like a new API):
 
 5. Run Jekyll locally to check the pages appear correctly before pushing to the repository.
 
+### For branches: submit a pull request
+
+Pull requests 'pull' new content from a branch into the master copy. GitHub does the hard work of checking to ensure the new content doesn't conflict with the existing copy. For written content, a conflict is something like 'the two copies of this file refer to different sidebar YML files'. 
+
+After pushing content from your local copy to the GitHub server, go to https://github.com/nwisbeta/nwisbeta.github.io, select the branch you're working on, and select 'New pull request'.  Follow the instructions on the page.
+
+See [About pull requests](https://help.github.com/en/articles/about-pull-requests) for details.
+
 ## Open source comments and corrections
 
 On the nwis.github.io pages, each page includes an 'Edit Me' button. The button links to a 'reviews_feedback' branch on the nwisbeta.github.io repository.  
@@ -117,9 +125,10 @@ Not yet tested: how GitHub handles edits submitted by collaborators with non-adm
 
 ## References
 
-* https://idratherbewriting.com/documentation-theme-jekyll/index.html
-* https://jekyllrb.com/docs/installation/windows/
-* https://kramdown.gettalong.org/quickref.html
-* https://help.github.com/categories/github-pages-basics/
-* https://git-scm.com/doc
-* https://notepad-plus-plus.org/ 
+* https://idratherbewriting.com/documentation-theme-jekyll/index.html (Documentation theme using Jekyll, by Tom Johnston)
+* https://jekyllrb.com/docs/installation/windows/ (Install Jekyll, the Ruby gem, on Windows)
+* https://kramdown.gettalong.org/quickref.html (Quick reference for kramdown syntax)
+* https://help.github.com/categories/github-pages-basics/ (GitHub Page help)
+* https://git-scm.com/doc  (Git documentation)
+* https://notepad-plus-plus.org/  (Download Notepad++)
+* https://chris.beams.io/posts/git-commit/ (How to write a clear, helpful Git commit message)
