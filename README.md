@@ -18,8 +18,8 @@ The Software Development Kits explain the features available from the Health API
 
 https://dhew.wales.nhs.uk/hapi-fhir-jpaserver-example/home?serverId=home
 
-See [README about documentation process](/README_HAPI_documentation_process.html) for details about how NWIS is documenting these APIs.
+See [README about documentation process](/README_HAPI_documentation_process.md) for details about how NWIS is documenting these APIs.
 
-See [README about GitHub setup](/README_GitHubPages_tools_requirements.html) for information about setting up and running GitHub Pages. 
+See [README about GitHub setup](/README_GitHubPages_tools_requirements.md) for information about setting up and running GitHub Pages. 
 
-See [README about mobile app design standards](/README-app-standard-revisions-keywords) for a summary of moving a set of design standards to GitHub.
+See [README about mobile app design standards](/README-app-standard-revisions-keywords.md) for a summary of moving a set of design standards to GitHub.
