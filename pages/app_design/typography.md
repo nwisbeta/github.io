@@ -14,10 +14,6 @@ Calibri should be used as the NWIS brand font for web content.
 The app design must set font size in sp (Scale-independent Pixels). This measurement configures easier to use larger font size for accessibility.
  
 Example: (sp = px * ratio * scale)  
-Minimum font size 34 (sp) must be used for titles  
-Minimum font size 16 (sp) must be used for headings  
-Minimum font size 14 (sp) must be used for subtitles  
-Minimum font size 12 (sp) must be used for body text  
 
 ### General Font Standards
 
@@ -25,7 +21,7 @@ Minimum font size 12 (sp) must be used for body text
 |----------|-----------|----------------|-----------|-------------------------------------------------|
 | Title    | Calibri   | 34             | Title     | Bold                                            |
 | Heading  | Calibri   | 20             | Title     | Bold                                            |
-| Subtitle | Calibri   | 16  _different from list_ | Sentence  | Plain                                           |
+| Subtitle | Calibri   | 16             | Sentence  | Plain                                           |
 | Body     | Calibri   | 14             | Sentence  | Important information in bold i.e. patient name |
 
 
