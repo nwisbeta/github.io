@@ -15,7 +15,7 @@ Their purpose is to guide anyone building mobile applications on behalf of NWIS.
 These standards have been validated through external expert review and NWIS stakeholder and user workshops and engagement that first took place in summer 2018.  
 
 ## Scope
-The standards apply to the guidance of UX and UI implementation for mobile (phone and tablet devices) native operating system applications for NHS Wales use. For the purpose of interoperability and transferability, this documentation aligns with existing and emerging national and international standards, and with NWIS standards and branding.
+The standards apply to the guidance of UX and UI implementation for mobile (phone and tablet devices) native operating system applications for NWIS use. For the purpose of interoperability and transferability, this documentation aligns with existing and emerging national and international standards, and with NWIS standards and branding.
 
 ## Design Principles
 
