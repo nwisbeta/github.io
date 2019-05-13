@@ -46,11 +46,11 @@ The app design must use the NWIS primary palette for text colour. see [Branding>
 
 ### Contrast
 
-Text of 18pt or smaller must have a minimum contrast ratio of 4:5:1 between the colour of the text and colour of the background behind the text - see [Accessibility](/accessibility.html).  
+Text of 18pt or smaller must have a minimum contrast ratio of 4:5:1 between the colour of the text and the colour of the background behind the text - see [Accessibility](/accessibility.html).  
 
-Text of more than 18pt must have a minimum contrast ratio of 3:1 between the text colour and colour of the background behind the text.
+Text of more than 18pt must have a minimum contrast ratio of 3:1 between the text colour and the colour of the background behind the text.
 
-For checking contrast use the following tools:  
+Use the following tools to check contrast:  
 * [contrastchecker.com](https://contrastchecker.com/)
 * [WebAIM contrast checker](https://webaim.org/resources/contrastchecker/)
 
