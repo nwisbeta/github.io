@@ -91,8 +91,8 @@ Avoid using all-capital letters, like SAVE, except for last names - see [Termino
 <img src="/images/examples/design-standards-case-example.png">
 
 Titles, headings, subtitles, buttons and icons must use title case, capitalising the first letter of each word. Examples:  
-* App name: for example, Welsh Clinical Portal)
-* Information type: for example, Date of Birth, Hospital Number, Patient Information)
+* App name: for example, Welsh Clinical Portal
+* Information type: for example, Date of Birth, Hospital Number, Patient Information
 
 Body text, lists, bullet points and numbered lists must use sentence case, capitalising the first word only (Material.io). 
 
