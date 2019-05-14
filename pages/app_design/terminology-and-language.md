@@ -62,8 +62,8 @@ Menu
 
 User preferences  
 Profile  
-First name  
-Last name  
+First Name 
+Last Name  
 Date of Birth  
 Sex  
 Gender  
