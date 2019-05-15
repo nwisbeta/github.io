@@ -28,7 +28,7 @@ Single tap gestures must allow navigation, perform actions, and make choices wit
 
 Higher level components must expand lower level components through a single tap to the following items:
 * Top or bottom menu item: provides navigation
-* Bottom menu item: when user is using bottom menu item, scrolls to top of page and refreshes page 
+* Bottom menu item: when using the bottom menu item, scrolls to top of page and refreshes page 
 * Top of screen: scrolls to top of page
 * Action button: performs the action, such as log out  
 * Text box: allows data entry
