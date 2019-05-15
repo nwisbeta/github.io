@@ -27,7 +27,7 @@ App design must reveal the following functionality through a single tap gesture:
 
 * Buttons, Menu items and Data fields: provides item selection
 * Top or Botton menu items: provides navigation
-* Bottom menu item: scrolls to top of page and refreshes data (if appropriate) when using bottom menu items
+* Bottom menu item: scrolls to top of page and refreshes data (if appropriate) 
 * Top of screen: scrolls to top of page
 * Action button: performs the action, such as log out 
 * Text box: allows data entry
