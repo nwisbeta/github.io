@@ -50,7 +50,7 @@ Contained button designs must include:
 
 ## Pop Up Buttons
 
-For buttons within a pop up message (often referred to as pop-up menus), buttons must:
+For buttons within a pop up message, buttons must:
 * Appear side by side, at the bottom left and right of the message
 * Have at least 8dp between buttons
 * Use consistent messaging - see [Pop Ups](/popups.html)
