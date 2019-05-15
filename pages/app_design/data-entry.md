@@ -8,7 +8,7 @@ folder: app_design
 ---
 
 ## Principles
-The app design must provide multiple methods of entering data (WCAG 2.1), such as: 
+The app design must provide multiple methods for entering data (WCAG 2.1), such as: 
 
 * Onscreen keyboard
 * Bluetooth keyboard
