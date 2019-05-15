@@ -45,7 +45,7 @@ The app design must:
 |Field contents | Field size|
 |------------|------------|
 |Email address | up to 254 characters, and valid email address entry (IETF)|
-|UK postcode | up to 8 characters and a space GOV.UK Design System)|
+|UK postcode | up to 8 characters and a space (GOV.UK Design System)|
 |Patient information | up to 50 characters |
 |Health and care notes | up to 2000 characters |
 |Password | unlimited characters - no maximum length |
