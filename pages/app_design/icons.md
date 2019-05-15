@@ -33,7 +33,7 @@ Save icons in PNG or SVG formats (Material.io), SVG perferred. SVG format requir
 Store app icons in 1024px x 1024px resolution as SVG. 
 
 ## Downloads
-The app design should use the icons and assets provided as first choice (available in PNG and SVG formats).
+The app design should use the following icons provided as first choice (available in PNG and SVG formats).
 
 New icons must only be created if icons provided are not suitable. New icons must:
 *   Be clear, single tone and forward facing
