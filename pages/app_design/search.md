@@ -19,7 +19,7 @@ If search functionality is required, it must:
 <img class="img-responsive img-thumbnail" src="/images/examples/design-standards-navigation-search-search-example.png">
 
 ## Input
-Search must be free text field (iOS Human Interface Guidelines, Material.io).  
+Search must be a free text field (iOS Human Interface Guidelines, Material.io).  
 
 Voice search option should be available using the devices microphone for search (Material.io).  The microphone icon must indicate and action availability of voice search option.   
  
