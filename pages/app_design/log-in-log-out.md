@@ -25,11 +25,11 @@ The log in page must include:
 
   
 * Relevant icons must appear next to log in credential fields (see Tools > Icons)
-* Appropriate default keyboard must enable data entry (iOS Human Interface Guidelines)
+* The appropriate default keyboard must enable data entry (iOS Human Interface Guidelines)
 * Use dots to hide password characters, for password security (iOS Human Interface Guidelines)
 * Biometric (fingerprint/facial recognition) log in should be supported, though not relied on, as a method of log in, as not all devices support this option (iOS Human Interface Guidelines)
 
-The log in page must display forgotten details message, and link for password reset. See [Messaging and Standard Messages](/messages.html) for sample messages wordings.
+The log in page must display a forgotten details message and a link for password reset. See [Messaging and Standard Messages](/messages.html) for sample messages wordings.
 
 ### Access Through an External Authentication Service
 
