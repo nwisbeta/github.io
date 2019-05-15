@@ -13,7 +13,7 @@ Notifications include messages like Reminders, Alerts, and Requests.
 Avoid sending unnecessary notifications, alerts or requests (iOS Human Interface Guidelines).
 
 The app design must:
-* Send notifications only if action is required, and the user has not yet performed the action
+* Send notifications only if action is required and the user has not yet performed the action
 * Allow users to cancel or ignore non-critical notifications
 
 Critical notifications must stop the user from using other parts of the app until they take action (iOS Human Interface Guidelines).  
