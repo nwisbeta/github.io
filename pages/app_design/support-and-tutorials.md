@@ -37,8 +37,8 @@ Users must be able to navigate forwards and backwards during a tutorial with swi
 The Stakeholder should determine whether tutorials are automatic or manually activated.    
 
 For automatic tutorials: 
-* Set up a general app tutorial when a user first loads and uses the app
-* Set up a tutorial for a specific function at first use, such as using a watchlist: ensure the presence and access point of the tutorial is clearly available 
+* Invoke a general app tutorial when a user first loads and uses the app
+* Invoke a tutorial for a specific function at first use, such as using a watchlist: ensure the presence and access point of the tutorial is clearly available 
 
 Users must have the option to activate tutorials in the help section - see [Standard Features](/standard-features.html).
 
