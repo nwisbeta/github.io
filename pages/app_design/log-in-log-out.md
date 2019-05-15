@@ -61,5 +61,5 @@ The log out feature must:
 
 * Have a button in settings (Material.io)  
 * End session  
-* Take user to log in page after selecting log out
+* Take the user to the log in page after selecting log out
 
