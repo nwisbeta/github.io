@@ -76,7 +76,7 @@ For date entry, the app design must use a date picker:
 
 For times, the app design must use a time picker: 
 * Time must appear automatically if appropriate
-* Define whether time picker can set future or past times
+* Define whether the time picker can set future or past times
 
 ## Information Governance
 If Information Governance requirements state that all data changes must be tracked, then the user should have easy access to audit logs detailing data entries.    
