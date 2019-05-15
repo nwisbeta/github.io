@@ -13,7 +13,7 @@ Fixed top and bottom menus must enable navigation to different sections of the a
 
 Menu items must provide navigation only. Do not use menu items for actions (Material.io, iOS Human Interface Guidelines).
 
-Selecting menu items must take the user to the main screen associated with the menu item (Material.io).
+Selecting menu items must take the user to the main page associated with the menu item (Material.io).
 
 On a direct menu item section, selecting the menu item must return the user to the top of the page and refresh the page data if applicable (Material.io). For example, on the 'connect' page (which is shown as a direct menu item in our sample application screenshots), selecting the connect menu will scroll the page to the top and refresh the data if applicable.  
 
