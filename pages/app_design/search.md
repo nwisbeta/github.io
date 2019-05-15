@@ -40,7 +40,7 @@ Provide a back button (top left) after selecting a search result, to enable navi
   
 Search results should update in real-time, even as the user types.  As the user types, a list view must display potential search results directly below the search box, or show potential keywords that the user can search for.  
 
-Five most recent search items should appear under the search bar when the user selects the search bar, to provide immediate search options (Material.io). Store local database on the device with a table for 5 last search results.
+Five most recent search items should appear under the search bar when the user selects the search bar, to provide immediate search options (Material.io).
 
 Five most relevant search items should appear, and update in real-time, under the search bar during the search input, to minimise data entry and provide immediate search results.  
   
