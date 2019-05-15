@@ -50,7 +50,7 @@ Swipe gestures must allow navigation, and actions within the app, (Material.io, 
 * Move through a tutorial
 * Swipe down to refresh
 * 'Paging' through multiple tutorial pages
-* To acknowledge a notification or alert
+* Acknowledge a notification or alert
 * Reveal delete button  
 
 If a back button provides navigation to a previous page, the back swipe gesture must allow navigation to a previous pages, as an alternative method.
