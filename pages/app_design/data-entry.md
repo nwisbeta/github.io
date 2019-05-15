@@ -32,7 +32,7 @@ Use pre-set options instead of free text where possible, including:
 * Pickers
 
 ### Text Fields
-The data collection design must provide text boxes and fields only when users need to enter free text, and no other option is effective. Free text fields must:
+The data collection design must provide text boxes and fields only when users need to enter free text and no other option is effective. Free text fields must:
 * Appear filled and outlined (Material.io)
 * Include a label indicating what information is required (iOS Human Interface Guidelines)
 
