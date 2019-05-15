@@ -21,7 +21,7 @@ Pop up headings must provide a brief statement (Material.io) of up to four words
 
 Pop up body text must provide a concise message (iOS Human Interface Guidelines), with a full stop or question mark at the end of the message (Material.io).
 
-For example, provide a 'Are you sure?' pop up with yes/no options prior to submitting, changing or deleting critical data. Use this confirmation for critical data change only, to avoid overuse (iOS Human Interface Guidelines).
+For example, provide a 'Are you sure?' pop up with yes/no options prior to submitting, changing or deleting critical data. Use this confirmation for critical data changes only, to avoid overuse (iOS Human Interface Guidelines).
 
 When a pop up appears, use a transparent overlay to darken the background.
 
