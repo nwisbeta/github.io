@@ -15,7 +15,7 @@ The app design must:
 
 ## Patient Information Formatting
 
-For clinical apps, the design must:
+For clinical apps, the app design must:
 * Provide three pieces of identifiable information to identify a patient, such as patient name (first and last name), NHS number, DOB (age)  
 * Display the patient's last name in uppercase (all capitals) to clearly distinguish it from the first name (NHS Common User Interface) 
   * Example: SMITH, John (M) 943 476 5919 03/04/56 (62yrs) (NHS Common User Interface)
