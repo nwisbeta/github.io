@@ -20,7 +20,7 @@ Support information and tutorials must:
 * Base categories of support information on the app functions.  
 * Present category titles in bold text.  
 * Use visual dividers to separate list items.  
-* Support information can be used in blank spaces within the app to encourage usage. Example: 'Click here to enter patient information'   
+* Support information can be used in blank spaces within the app to encourage usage. Example: 'Tap to enter patient information'   
 
 ## Tutorials
 
