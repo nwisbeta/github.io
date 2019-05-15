@@ -36,7 +36,7 @@ The data collection design must provide text boxes and fields only when users ne
 * Appear filled and outlined (Material.io)
 * Include a label indicating what information is required (iOS Human Interface Guidelines)
 
-The app must:
+The app design must:
 * Automatically save text entry fields every 30 seconds
 * Use dynamic validation to check entries in fields immediately after entry. (iOS Human Interface Guidelines)
 * Provide secure text fields (hiding text behind dots) for fields requiring sensitive data, such as password or PIN
