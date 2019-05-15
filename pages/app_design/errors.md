@@ -19,7 +19,7 @@ If an error message appears due to incorrect form entry (such as an invalid emai
 
 The app design should validate text entry in real-time (with helper text next to the text field) to notify the user before the user tries to move to the next step.  
 
-Pop up error messages must only appear when a user tries to move to the next stage of a process, such as when submitting log in details with an error. Minimise interruptions to users when using the app (GOV.UK Design System).
+Pop up error messages must only appear when a user tries to move to the next stage of a process, such as when submitting log in details with an error. This minimises interruptions to users when using the app (GOV.UK Design System).
 
 If multiple errors occur, the design must present errors together in a single error message (GOV.UK Design System). Do not display a series of error messages that pop up one after the other.  
 
