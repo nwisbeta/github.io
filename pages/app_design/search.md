@@ -25,7 +25,7 @@ Voice search option should be available using the devices microphone for search 
  
 Users should have the option of changing the microphone icon and voice search functionality to a scanner/camera functionality.  The settings menu must provide the option to change the search icon functionality.  
 
-Search input must remain in the search box, to enable the user to modify the search term, when the search tool prsents results.  
+Search input must remain in the search box, to enable the user to modify the search term, when the search tool presents results.  
   
 A clear (X) button must appear in the search box (right) when a user enters a search term . This button must delete the search term in full (iOS Human Interface Guidelines).  
 
