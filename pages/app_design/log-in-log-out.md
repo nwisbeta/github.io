@@ -40,7 +40,7 @@ The log in page must display a forgotten details message and a link for password
 The log in after session timeout page must include:
 
 * NHS Wales logo at top middle of the screen 
-* NHS Wales colour splash  at bottom right of the screen
+* NWIS colour splash  at bottom right of the screen
 * App name 
 * Request for PIN or email and password, or biometric (fingerprint/facial ID) authenticated entry
 * Dots to hide password characters, for password security (iOS Human Interface Guidelines) 
