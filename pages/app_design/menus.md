@@ -19,7 +19,7 @@ On a direct menu item section, selecting the menu item must return the user to t
 
 On a page which is not a direct menu item, selecting the menu item must return the user to the direct menu item. For example, on the 'connect' section but viewing patient details (not a direct menu item), selecting the connect menu item returns the user back to the connect page.
 
-If there is no current direct menu location, a back button must enable navigation back to a menu location. The Back button must appear in the top left corner of the app, temporarily replacing profile/menu item icon.  
+If there is no current direct menu location, a back button must enable navigation back to a menu location. The Back button must appear in the top left corner of the app, temporarily the replacing profile/menu item icon.  
 
 If the design includes a back button, it must also enable swipe navigation to return to the previous page, as an alternative. See [Touch Gesture Control](/touch-gesture-control.html).  
 
