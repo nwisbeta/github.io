@@ -26,9 +26,9 @@ entries:
     - title: Health APIs for NHS Wales
       url: /apiguides_landing_page.html
       output: web, pdf
-      type: homepage
-      
-    - title: Getting Started
+      type: homepage     
+
+    - title: Getting Started with HAPI server
       url: /apiguides_getting_started_hapi.html
       output: web, pdf
       
@@ -70,3 +70,4 @@ entries:
     - title: Use Case Queries
       url: /diag_obs_reports_use_cases.html
       output: web, pdf
+      
