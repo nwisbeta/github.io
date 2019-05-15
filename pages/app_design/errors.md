@@ -17,7 +17,7 @@ Do not use technical language in error messages.
 
 If an error message appears due to incorrect form entry (such as an invalid email address) the error message must explain in clear language what the error is, and provide the correct format for the entry.  
 
-The app design should validate text entry in real-time, with helper text next to the text field, to notify the user before the user tries to move to the next step.  
+The app design should validate text entry in real-time (with helper text next to the text field) to notify the user before the user tries to move to the next step.  
 
 Pop up error messages must only appear when a user tries to move to the next stage of a process, such as when submitting log in details with an error. Minimise interruptions to users when using the app (GOV.UK Design System).
 
