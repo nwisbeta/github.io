@@ -65,7 +65,7 @@ For a long list of options such as selecting a country from a pre-set list, prov
 ### Automated Entries
 
 The app design must: 
-* Automatically enter known information (such as date, time and location) to minimise user entry (WCAG 2.1, iOS Human Interface Guidelines)
+* Automatically enter known information, such as date, time and location, to minimise user entry (WCAG 2.1, iOS Human Interface Guidelines)
 * Provide appropriate default values - such as current time for data entry (iOS Human Interface Guidelines)
 * Use dropdown/pickers to scroll through multiple pre-set values (iOS Human Interface Guidelines) 
 
