@@ -23,7 +23,7 @@ The log in page must include:
 
 <img class="img-responsive img-thumbnail" src="/images/examples/design-standards-access-login-app-name.png" caption="Generic app log in page enabling users to gain access to the app through authentication with their username/email address and password">
 
-If the log in process requires the following fields:  
+  
 * Relevant icons must appear next to log in credential fields (see Tools > Icons)
 * Appropriate default keyboard must enable data entry (iOS Human Interface Guidelines)
 * Use dots to hide password characters, for password security (iOS Human Interface Guidelines)
