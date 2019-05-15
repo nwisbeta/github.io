@@ -9,7 +9,7 @@ folder: app_design
 
 ## Navigation
 
-Fixed top and bottom menus must enable navigation to different sections of the app (Material.io, iOS Human Interface Guidelines).
+Fixed top and bottom (direct) menus must enable navigation to different sections of the app (Material.io, iOS Human Interface Guidelines).
 
 Menu items must provide navigation only. Do not use menu items for actions (Material.io, iOS Human Interface Guidelines).
 
