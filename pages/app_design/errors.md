@@ -15,7 +15,7 @@ Error messages throughout the app must:
 
 Do not use technical language in error messages.
 
-If an error message appears due to incorrect form entry, such as an invalid email address, the error message must explain in clear language what the error is, and provide the correct format for the entry.  
+If an error message appears due to incorrect form entry (such as an invalid email address) the error message must explain in clear language what the error is, and provide the correct format for the entry.  
 
 The app design should validate text entry in real-time, with a helper text next to the text field, to notify the user before the user tries to move to the next step.  
 
