@@ -34,7 +34,7 @@ User guides must indicate the position of the current page in the guide using in
 
 Users must be able to navigate forwards and backwards during a tutorial with swipe gesture.  
 
-The Stakeholder should determine whether tutorials are automatic or manually activated.    
+The stakeholder should determine whether tutorials are automatic or manually activated.    
 
 For automatic tutorials: 
 * Invoke a general app tutorial when a user first loads and uses the app
