@@ -9,9 +9,9 @@ folder: app_design
 
 ## Passwords
 
-If the app offers user registration through the app interface, rather than an administrator setting up a user, the design must:
+If the app allows the user to self-register, the design must:
 * Hide password characters behind dots for security (iOS Human Interface Guidelines)  
-* Display lock icon next to password field - see [Icons](/icons.html)  
+* Display a lock icon next to password field - see [Icons](/icons.html)  
 
 ## Non-essential Information 
 
