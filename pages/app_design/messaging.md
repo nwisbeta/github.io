@@ -86,7 +86,7 @@ See [Pop Ups](/popups.html) and [Buttons](/buttons.html) for details.
 
 ## Pop Up
 Present pop up messages with heading and body text. See [Pop Ups](/popups.html).  
-Depending on the action available, pop ups must contain one or two action buttons, which must use the following terms (in the order shown):
+Depending on the action available, pop ups must contain one or two action buttons, which must use the following terms in the order shown:
 
 * No and Yes  
 * Cancel and OK  
