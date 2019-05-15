@@ -14,10 +14,10 @@ The messaging used throughout the app must:
 * Remain consistent 
 * Use standard phrases
 
-Provide 'click here' type of functionality when messaging connects to an action:
+Provide 'click here' type functionality when messaging connects to an action:
 
 * Link text must be in bold and underlined - see [Typography](/typography.html). 
-* Link must open new page or pop up
+* Link must open a new page or pop up
 
 ### Patient Lookup
 
