@@ -43,7 +43,7 @@ An error message must appear immediately when a validation error occurs during r
 
 Consent (if appropriate) must follow the same process as for agreeing to terms and conditions. NHS Wales-led Information Governance rules decide whether consent is appropriate, and whether consent is integrated or separate from normal registration.  
 
-Do not combine the process of registration, agreeing to terms and conditions, and providing consent on the same page. Treat processes as separate, and present them on separate pages.  
+Do not combine the process of registration, agreeing to terms and conditions, and providing consent on the same page. Treat these processes as separate, and present them on individual pages.  
 
 ### User Credentials Required for Registration
 
