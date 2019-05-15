@@ -19,6 +19,8 @@ Provide 'click here' type functionality when messaging connects to an action:
 * Link text must be in bold and underlined - see [Typography](/typography.html). 
 * Link must open a new page or pop up
 
+## Standard Messages
+
 ### Patient Lookup
 
 * Scan patient barcode or enter NHS Number below  
