@@ -21,19 +21,18 @@ The app design must use standard and familiar gestures (iOS Human Interface Guid
 
 ## Single Tap 
 
-Single tap gestures must allow navigation, perform actions, and make choices within the app (Material.io, iOS Human Interface Guidelines) including selecting:
-* Buttons
-* Menu items
-* Data fields
+Single tap gestures must allow navigation, perform actions, and make selection choices within the app (Material.io, iOS Human Interface Guidelines). 
 
-Higher level components must expand lower level components through a single tap to the following items:
-* Top or bottom menu item: provides navigation
-* Bottom menu item: when using the bottom menu item, scrolls to top of page and refreshes page 
+App design must reveal the following functionality through a single tap gesture:
+
+* Buttons, Menu items and Data fields: provides item selection
+* Top or Botton menu items: provides navigation
+* Bottom menu item: scrolls to top of page and refreshes data (if appropriate) when using bottom menu items
 * Top of screen: scrolls to top of page
-* Action button: performs the action, such as log out  
+* Action button: performs the action, such as log out 
 * Text box: allows data entry
-* Tick boxes: selects a box
-* Higher level component, such as top level patient information: reveals lower level components, such as patient contact details
+* Tick boxes: selects a Tick box
+* Higher level components (such as top level patient information): reveals lower level components (such as patient contact details)
  
 ## Scroll
 Scroll gestures must allow navigation through continuous information (Material.io, iOS Human Interface Guidelines), including:  
