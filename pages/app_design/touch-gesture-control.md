@@ -32,7 +32,7 @@ App design must reveal the following functionality through a single tap gesture:
 * Action button: performs the action, such as log out 
 * Text box: allows data entry
 * Tick boxes: selects a Tick box
-* Higher level components (such as top level patient information): reveals lower level components (such as patient contact details)
+* Higher level components, such as top level patient information: reveals lower level components, such as patient contact details
  
 ## Scroll
 Scroll gestures must allow navigation through continuous information (Material.io, iOS Human Interface Guidelines), including:  
@@ -45,7 +45,7 @@ Scroll gestures must only scroll through one view at a time – do not nest one 
 ## Swipe 
 Swipe gestures must allow navigation, and actions within the app, (Material.io, iOS Human Interface Guidelines) including:  
 * Go back to previous page, using swipe right
-* Transition across related categories on a single page (sibling transition)
+* Transition across related categories on a single page - a sibling transition
 * Reveal or complete action e.g. delete or acknowledge
 * Move through a tutorial
 * Swipe down to refresh
