@@ -71,8 +71,8 @@ The app design must:
 
 For date entry, the app design must use a date picker: 
 * 3 wheels must be used: date, month, year
-* Date must appear automatically if appropriate, such as with today's date
-* Define whether date picker can set future or past dates
+* The Date must appear automatically if appropriate, such as with today's date
+* Define whether a date picker can set future or past dates
 
 For times, the app design must use a time picker: 
 * Time must appear automatically if appropriate
