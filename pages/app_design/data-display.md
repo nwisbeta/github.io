@@ -45,4 +45,4 @@ The app design must ensure additional non-essential information is accessible by
 ## Patient Results
 Only show recent or relevant patient results to avoid display of inaccurate/misleading information (GDPR, ICO).
   
-The app design must show results only on appropriate screen size. If the device screen cannot accommodate results, provide an error message telling the user to use another device to view the results. See [Messaging and Standard Messages](/messaging.html).
+The app design must show results only on the appropriate screen size. If the device screen cannot accommodate results, provide an error message telling the user to use another device to view the results. See [Messaging and Standard Messages](/messaging.html).
