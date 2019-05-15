@@ -38,6 +38,6 @@ Re-send critical notifications within an appropriate period of time, if the noti
 
 ## Reminders
 
-Reminders should be configurable unless critical and easy to change in the settings menu.  
+Reminders should be configurable by the user unless critical and easy to change in the settings menu.  
 
 Email notifications can be used for reminders if required.
