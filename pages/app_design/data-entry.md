@@ -24,7 +24,7 @@ The data collection design must:
 * Provide the simplest data entry method, to minimise the need for text entry (WCAG 2.1, iOS Human Interface Guidelines) 
 * Present one data field only per row
 
-Avoid displaying more than seven data entry fields on one page. For more than seven data fields, set up multiple pages.  
+Avoid displaying more than seven data entry fields on one page. For more than seven data fields, create multiple pages.  
 
 Use pre-set options instead of free text where possible, including:
 * Radio buttons
