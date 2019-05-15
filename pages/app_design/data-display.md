@@ -36,7 +36,7 @@ Avoid collecting titles - see [Data Entry](/data-entry.html).  If collected, dis
 
 Do not display more information than is required (ICO, GDPR).
 
-The app design must ensure additional non-essential information is accessible by expanding a higher level component to reveal lower level components - see [Gesture Control](/gesture-control.html) and [Pop Ups](/popups.html).
+The app design must ensure additional non-essential information is accessible by expanding a higher level component to reveal lower level components - see [Gesture Control](/touch-gesture-control.html) and [Pop Ups](/popups.html).
 
 ### Clinical App with Patient Information
 
