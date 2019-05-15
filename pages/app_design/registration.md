@@ -37,7 +37,7 @@ The app must send registration receipts in the same format as they were agreed o
 
 Consider email validation during the registration process. 
 
-An error message must appear immediately, whilst the user is completing data entry, when there is a validation error for registration details (GOV.UK Design System) - see [Errors](/errors.html). Avoid displaying error messages after the user has submitted the form.
+An error message must appear immediately when a validation error occurs during registration  - i.e while the user is completing data entry (GOV.UK Design System) - see [Errors](/errors.html). Avoid displaying error messages after the user has submitted the form.
 
 ### Obtain Consent if Required
 
