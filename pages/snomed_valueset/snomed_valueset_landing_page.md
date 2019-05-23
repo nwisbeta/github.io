@@ -1,5 +1,6 @@
 ---
 title: "SNOMED: ValueSet APIs"
+tags: [expand, validate, concept, parameters]
 keywords: ValueSet, concept, expand, validate,
 sidebar: api_sidebar
 toc: true

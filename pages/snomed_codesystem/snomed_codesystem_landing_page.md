@@ -1,5 +1,6 @@
 ---
 title: "SNOMED: CodeSystem APIs"
+tags: [parameters, lookup, concept,]
 keywords: CodeSystem, lookup, concept, 
 sidebar: api_sidebar
 toc: true

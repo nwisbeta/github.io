@@ -13,3 +13,7 @@ allowed-tags:
   - parameters
   - use_case
   - code_sample
+  - lookup
+  - validate
+  - expand
+  - concept
