@@ -41,6 +41,7 @@ The response should list:
 `
 GET http://nhswales-snomed-dev.app/fhir/CodeSystem
 `
+
 [HTML response to search for CodeSystem on the Ontoserver](https://nhswales-snomed-dev.app/fhir/CodeSystem)
 
 ### Search for all Code Systems on a server, and list their names and URLs
@@ -55,7 +56,7 @@ For this resource:
 `
 GET http://nhswales-snomed-dev.app/fhir/CodeSystem?_elements=name%2Curl
 `  
-
+  
 [HTML response to search for CodeSystems on a server, listing names and URIs](https://nhswales-snomed-dev.app/fhir/CodeSystem?_elements=name%2Curl)
 
 
@@ -63,13 +64,14 @@ GET http://nhswales-snomed-dev.app/fhir/CodeSystem?_elements=name%2Curl
 
 FHIR identifies all code systems with a globally-unique logical URI. If you know the URL you're looking for, you can find all the code systems that use that URL.
 
-In this example, the search subsumes any URLs that contain [http://snowmed.info](http://snowmed.info).
+In this example, the search subsumes any URLs that contain [http://snowmed.info](http://snowmed.info).  
 
 A single server can contain multiple editions (national) or versions (published quarterly or half-yearly) of SNOWMED CT. 
 
 `
-GET http://nhswales-snomed-dev.app/fhir/CodeSystem?url:below=http://snomed.info
-`  
+GET http://nhswales-snomed-dev.app/fhir/CodeSystem?url:below=http://snomed.info  
+`   
+
 [HTML version of search for CodeSystem by URI](http://nhswales-snomed-dev.app/fhir/CodeSystem?url:below=http://snomed.info)
 
 ### $lookup operation on CodeSystem to find a concept

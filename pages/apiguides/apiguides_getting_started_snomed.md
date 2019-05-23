@@ -21,12 +21,12 @@ SNOMED follows the Fast Health Interoperability Resources (FHIR) standard.  The 
 
 Dozens of endpoints are available, by building queries to collect medical terminology from the server. The queries are controlled with filters and parameters to widen or narrow them for a given request.
 
-No endpoint in these APIs writes to, modifies or deletes data provided by the ontology server.
+No endpoint in these APIs writes to, modifies, or deletes data provided by the ontology server.
 
-The APIs featured use 
+The APIs featured use: 
 
-* `GET` queries to confirm the server is populated with the correct data
-* `$expand` and `$validate` operations to test their performance on the `ValueSet` resource 
+* `GET` queries, to confirm the server is populated with the correct data
+* `$expand` and `$validate` operations, to test their performance on the `ValueSet` resource 
 
 
 ## NHS Wales test server for SNOMED CT queries
@@ -51,7 +51,7 @@ No authorisation steps required to access the test server.
 
 [System requirements](https://ontoserver.csiro.au/docs/5.3/index.html) for installation are available from the manufacturer's website.
 
-A package of sample APIs are available [from the manufacturer's home page](https://ontoserver.csiro.au/). 
+A package of sample APIs are available [from the server manufacturer's home page](https://ontoserver.csiro.au/). 
 
 These pages illustrate a set of these URLs run in [Postman, the API development tool](https://www.getpostman.com/). They demonstrate the range of resources you can expose with API queries.
 
