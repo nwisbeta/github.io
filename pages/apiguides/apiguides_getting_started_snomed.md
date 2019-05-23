@@ -1,6 +1,6 @@
 ---
 title: Getting Started with SNOMED CT ontology
-keywords: 
+keywords: started, install, test, 
 sidebar: api_sidebar
 toc: true
 permalink: apiguides_getting_started_snomed.html
