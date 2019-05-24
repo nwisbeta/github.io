@@ -30,7 +30,7 @@ These API examples use the [NWIS test ontology server](https://nhswales-snomed-d
 
 Enter the base URL with the `ValueSet` resource.   
 
-The response depends on which value sets are installed on the given Ontoserver. The NWIS test server has no ValueSets specified.
+The response depends on which value sets are installed. The NWIS test server has no ValueSets specified.
 
 `
 GET http://nhswales-snomed-dev.app/fhir/ValueSet
@@ -44,7 +44,7 @@ GET http://nhswales-snomed-dev.app/fhir/ValueSet
 
 The common search result parameter `_summary` returns only a part of the resource. In this case, it returns only those elements marked as 'summary' in the resource's base definition.
 
-On a server with ValueSets implemented, a summarised request generates a much faster response than an unsummarised one. 
+On a server with `ValueSets` implemented, a summarised request generates a much faster response than an unsummarised one. 
 
 `
 https://nhswales-snomed-dev.app/fhir/ValueSet?_summary=true
@@ -57,7 +57,7 @@ https://nhswales-snomed-dev.app/fhir/ValueSet?_summary=true
 
 The `ValueSet` resource's structure includes both `name` (computer-friendly) and `title` (human friendly) elements. 
 
-Based on tests to other ontology servers, this query returns results where the name of the ValueSet begins with 'a' (rather than contains 'a').
+Based on tests to other ontology servers, this query returns results where the name of the `ValueSet` begins with 'a' (rather than contains 'a').
 
 On this test server, no value sets are installed.
 
