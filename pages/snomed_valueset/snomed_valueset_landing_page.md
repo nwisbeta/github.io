@@ -22,15 +22,15 @@ The FHIR website provides [detailed documentation about the ValueSet resource](h
 
 [SNOMED International's Confluence pages](https://confluence.ihtsdotools.org/display/DOCRFSPG/2.2.+Value+Set) provide an example of using a value set to make entering Observation data faster and more efficient. 
 
-NHS Wales uses SNOMED CT as its base code system, with the United Kingdom Edition reference set module.  
+The NWIS test server uses SNOMED CT as its base code system, with the United Kingdom Edition reference set module.  
 
-These API examples use the NHS Wales test ontology server.
+These API examples use the [NWIS test ontology server](https://nhswales-snomed-dev.app/fhir/).
 
 ### View available ValueSets
 
 Enter the base URL with the `ValueSet` resource.   
 
-The response depends on which value sets are installed on the given Ontoserver. The NHS Wales Ontoserver has no ValueSets specified.
+The response depends on which value sets are installed on the given Ontoserver. The NWIS test server has no ValueSets specified.
 
 `
 GET http://nhswales-snomed-dev.app/fhir/ValueSet
@@ -71,7 +71,7 @@ GET http://nhswales-snomed-dev.app/fhir/ValueSet?name=a)
 
 ### $expand implicit ValueSet with all concepts subsumed by the concept 'Event'
 
-$expand is an operation available on the `ValueSet` resource: by expanding the definition of a single concept, you can create a collection of codes suitable for data entry or data validation. It uses the canonical URL for the concept 'Event' as its definition.
+`$expand` is an operation available on the `ValueSet` resource: by expanding the definition of a single concept, you can create a collection of codes suitable for data entry or data validation. It uses the canonical URL for the concept 'Event' as its definition.
 
 In this operation, the server returns all the codes that are 'under' (subsumed by) the code for the SNOMED concept of 'Event'. 
 
@@ -86,7 +86,7 @@ The FHIR website provides [documentation on using SNOMED with FHIR, and on impli
 
 ### $expand implicit ValueSet with all concepts subsumed by 'Event', filtered by string 'met'
 
-This query builds on the previous $expand operation. To restrict results to the $expand operation, you can add a text filter, so the results must contain the string specified.
+This query builds on an `$expand` operation. To restrict results to the `$expand` operation, you can add a text filter, so the results must contain the string specified.
 
 ` GET http://nhswales-snomed-dev.app/fhir/ValueSet/$expand?url=http://snomed.info/sct?fhir_vs=isa/272379006&filter=met 
 `  
@@ -97,7 +97,7 @@ This query builds on the previous $expand operation. To restrict results to the 
 
 SNOMED CT's Expression Constraint Language (ECL) allows you to build complex searches of resources in the query, from the URL. 
 
-In this example, the query specifies that the server search several expanded concepts by their codes, and sets a string filter of 'plaster' to narrow the search. The double 'less than' sign includes the top level concept in the search.
+In this example, the query specifies that the server search several expanded concepts by their codes, and sets a (text) string filter of 'plaster' to narrow the search. The double 'less than' sign includes the top level concept in the search.
 
 From [SNOMED ECL documentation](https://confluence.ihtsdotools.org/display/DOCECL/6.1+Simple+Expression+Constraints)
 
@@ -132,7 +132,7 @@ This query operation expands all concept IDs that correspond to real reference s
 
 ### $expand all available refsets with a filter of 'allergy' 
 
-In this operation, the results of the $expand refset operation are filtered with a text string 'allergy'. So of all refsets available, the response will list only those with 'allergy' in the name.
+In this operation, the results of the `$expand` refset operation are filtered with a text string 'allergy'. So of all refsets available, the response will list only those with 'allergy' in the name.
 
 `GET https://nhswales-snomed-dev.app/fhir/ValueSet/$expand?url=http://snomed.info/sct?fhir_vs=refset&filter=allergy
 `

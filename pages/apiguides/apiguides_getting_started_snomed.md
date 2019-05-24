@@ -9,7 +9,7 @@ folder: apiguides
 
 ## SNOMED CT using FHIR® standard
 
-NHS Wales is testing APIs that provide access to the  SNOMED CT ontology, provided by a dedicated ontology server.
+NWIS is testing use of SNOMED CT ontology, provided by a dedicated ontology server.
 
 SNOMED CT is the [clinical terminology standard for NHS Wales](http://gov.wales/docs/dhss/publications/151118whc053en.pdf).
 
@@ -19,9 +19,9 @@ SNOMED follows the Fast Health Interoperability Resources (FHIR) standard.  The 
 
 ### Endpoints
 
-Dozens of endpoints are available, by building queries to collect medical terminology from the server. The queries are controlled with filters and parameters to widen or narrow them for a given request.
+Multiple API endpoints are possible, by building queries to collect medical terminology from the server. The queries are controlled with filters and parameters to widen or narrow them for a given request.
 
-No endpoint in these APIs writes to, modifies, or deletes data provided by the ontology server.
+These queries do not write to, modify, or delete data provided by the ontology server.
 
 The APIs featured use: 
 

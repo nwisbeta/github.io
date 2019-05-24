@@ -16,9 +16,9 @@ The FHIR website provides [detailed documentation about the CodeSystem resource]
 
 An ontology server can support multiple code systems, including SNOMED CT and specialist ontologies for laboratory processes.  
 
-NHS Wales uses SNOMED CT as its base code system, with the United Kingdom Edition reference set module.  
+The NWIS test server uses SNOMED CT as its base code system, with the United Kingdom Edition reference set module.  
 
-These API examples use the NHS Wales test ontology server.
+These API examples use the [NWIS test ontology server](https://nhswales-snomed-dev.app/fhir/).
 
 ### View available Code Systems
 
@@ -42,7 +42,7 @@ The response should list:
 GET http://nhswales-snomed-dev.app/fhir/CodeSystem
 `
 
-[HTML response to search for CodeSystem on the Ontoserver](https://nhswales-snomed-dev.app/fhir/CodeSystem)
+[HTML response to search for CodeSystem](https://nhswales-snomed-dev.app/fhir/CodeSystem)
 
 ### Search for all Code Systems on a server, and list their names and URLs
 
@@ -76,7 +76,7 @@ GET http://nhswales-snomed-dev.app/fhir/CodeSystem?url:below=http://snomed.info
 
 ### $lookup operation on CodeSystem to find a concept
 
-The CodeSystem resource supports operations including $lookup, $subsumes, and $compose. 
+The CodeSystem resource supports operations including `$lookup`, `$subsumes`, and `$compose`. 
 
 If you know a concept's unique identifier, you can find its entry on the server.
 
