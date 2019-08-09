@@ -8,9 +8,10 @@ permalink: index.html
 summary: An overview of NWIS work on Health APIs, based on the FHIR specification.
 ---
 
-NHS Wales Informatics Services (NWIS) are using a Health Application Programming Interface (HAPI) FHIR server to test and build a library of RESTful Application Programming Interfaces (APIs) that implementers can adopt to simplify integration and interoperability with NHS Wales National Architecture.
+NHS Wales Informatics Services (NWIS) are opening up a suite of test APIs for third parties when developing integrations with NHS Wales systems.
 
-The project will provide access to the NHS Wales architecture in incremental phases, using internet-based application programming interfaces (APIs).  The initial phases deliver access to test case APIs.
+The project will incrementally provide access to the national architecture using web APIs.
+
+The intial suite of APIs will be implementations of the FHIR specification. A HAPI FHIR Server has been made available for test purposes.
  
-
 {% include links.html %}
