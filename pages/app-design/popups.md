@@ -3,7 +3,6 @@ title: Pop Ups
 keywords: action, response, confirm, delete, OK, cancel, error, 
 sidebar: appdesign_sidebar
 toc: true
-permalink: popups.html
 folder: app_design 
 ---
 ## Requirements

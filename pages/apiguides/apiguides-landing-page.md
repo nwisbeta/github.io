@@ -4,7 +4,6 @@ tags: [NWIS_API, DHEW]
 keywords: contact, help, SDK, NWIS, 
 sidebar: api_sidebar
 toc: false
-permalink: apiguides_landing_page.html
 folder: apiguides
 ---
 

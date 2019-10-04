@@ -3,7 +3,6 @@ title: About
 keywords: design, principles, layout,
 sidebar: appdesign_sidebar
 toc: true
-permalink: about.html
 folder: app_design 
 ---
 

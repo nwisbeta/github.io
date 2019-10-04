@@ -3,7 +3,6 @@ title: Messaging and Standard Messages
 keywords: text, messages, instructions, guidance, help, alerts, notifications, actions, results, responses, popup, 
 sidebar: appdesign_sidebar
 toc: true
-permalink: messaging.html
 folder: app_design 
 --- 
 

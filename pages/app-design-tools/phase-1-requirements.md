@@ -3,7 +3,6 @@ title: Phase 1 - Requirements
 keywords: planning, checklists, research, stakeholder, governance, compliance, requirements, 
 sidebar: appdesign_tools_sidebar
 toc: true
-permalink: phase-1-requirements.html
 folder: app_design_tools 
 ---
 

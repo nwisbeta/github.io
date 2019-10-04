@@ -3,7 +3,6 @@ title: Search
 keywords: text, field, response, display, results, accessibility, 
 sidebar: appdesign_sidebar
 toc: true
-permalink: search.html
 folder: app_design 
 ---
 

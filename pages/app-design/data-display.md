@@ -3,7 +3,6 @@ title: Data Display
 keywords: governance, layout, fields, clinical,
 sidebar: appdesign_sidebar
 toc: true
-permalink: data-display.html
 folder: app_design 
 ---
 

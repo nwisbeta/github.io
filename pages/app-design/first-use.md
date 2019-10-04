@@ -3,7 +3,6 @@ title: First Use
 keywords: onboarding, preferences, defaults, options, settings, getting started
 sidebar: appdesign_sidebar
 toc: false
-permalink: first-use.html
 folder: app_design 
 ---
 

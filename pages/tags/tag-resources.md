@@ -2,7 +2,6 @@
 title: "resources pages"
 tagName: resources
 search: exclude
-permalink: tag_resources.html
 sidebar: api_sidebar
 folder: tags
 ---

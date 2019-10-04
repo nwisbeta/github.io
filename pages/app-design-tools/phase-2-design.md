@@ -3,7 +3,6 @@ title: Phase 2 - Design
 keywords: design, planning, checklists, research, stakeholder, governance, compliance, requirements, 
 sidebar: appdesign_tools_sidebar
 toc: true
-permalink: phase-2-design.html
 folder: app_design_tools 
 ---
 ## Principles

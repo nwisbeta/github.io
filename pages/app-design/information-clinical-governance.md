@@ -3,7 +3,6 @@ title: Information and Clinical Governance
 keywords: GDPR, gdpr, confidential, confidentiality, data, access, privacy, protocol,
 sidebar: appdesign_sidebar
 toc: false
-permalink: information-clinical-governance.html
 folder: app_design 
 ---
 

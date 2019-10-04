@@ -3,7 +3,6 @@ title: Accessibility
 keywords: text, size, colour, resize, reading, swipe, label, contrast, display,
 sidebar: appdesign_sidebar
 toc: true
-permalink: accessibility.html
 folder: app_design 
 ---
 

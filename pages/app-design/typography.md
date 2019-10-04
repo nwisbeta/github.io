@@ -3,7 +3,6 @@ title: Typography
 keywords: size, sizing, scale, colour, palette, blue, green, black, white, contrast, paragraph, case, links, bold, heading, label, text, buttons, numbers, values, units, conversions, targets
 sidebar: appdesign_sidebar
 toc: true
-permalink: typography.html
 folder: app_design 
 ---
 

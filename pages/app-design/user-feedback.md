@@ -3,7 +3,6 @@ title: User Feedback
 keywords: response, action, confirm, message,
 sidebar: appdesign_sidebar
 toc: false
-permalink: user-feedback.html
 folder: app_design 
 ---
 

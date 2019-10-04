@@ -3,7 +3,6 @@ title: Standard Features
 keywords: default, settings, home, preferences, feed, alerts, notification, notify, watchlist, profile, orientation, landscape
 sidebar: appdesign_sidebar
 toc: true
-permalink: standard-features.html
 folder: app_design 
 ---
 

@@ -3,7 +3,6 @@ title: Phase 3 - Prototype
 keywords: prototype, checklists, stakeholder, governance, compliance, requirements, testing, 
 sidebar: appdesign_tools_sidebar
 toc: false
-permalink: phase-3-prototype.html
 folder: app_design_tools 
 ---
 

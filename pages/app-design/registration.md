@@ -3,7 +3,6 @@ title: Registration
 keywords: password, data, display, consent, interface,
 sidebar: appdesign_sidebar
 toc: true
-permalink: registration.html
 folder: app_design 
 ---
 

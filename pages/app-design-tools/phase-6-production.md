@@ -3,7 +3,6 @@ title: Phase 6 - Production
 keywords: testing, documentation, assurance, release, iteration
 sidebar: appdesign_tools_sidebar
 toc: false
-permalink: phase-6-production.html
 folder: app_design_tools 
 ---
 

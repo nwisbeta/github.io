@@ -4,7 +4,6 @@ keywords: started, install, .NET, test, libraries
 tags: [getting_started, FHIR, HAPI]
 sidebar: api_sidebar
 toc: true
-permalink: apiguides_getting_started_hapi.html
 folder: apiguides
 ---
 

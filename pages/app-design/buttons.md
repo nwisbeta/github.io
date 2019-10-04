@@ -3,7 +3,6 @@ title: Buttons
 keywords: action, response, tap, messages, size, scale, font, display, colour, contrast, alignment, 
 sidebar: appdesign_sidebar
 toc: true
-permalink: buttons.html
 folder: app_design 
 ---
 

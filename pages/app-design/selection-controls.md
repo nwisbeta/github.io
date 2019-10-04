@@ -3,7 +3,6 @@ title: Selection Controls
 keywords: toggle, radio, buttons, checkbox, checkboxes, design, layout, dropdown, picker, selection, responsive, labels, default, option, 
 sidebar: appdesign_sidebar
 toc: true
-permalink: selection-controls.html
 folder: app_design 
 ---
 

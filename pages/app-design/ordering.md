@@ -3,7 +3,6 @@ title: Ordering
 keywords: filter, organisation, data, alerts, priority, 
 sidebar: appdesign_sidebar
 toc: false
-permalink: ordering.html
 folder: app_design 
 ---
 

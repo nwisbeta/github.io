@@ -3,7 +3,6 @@ title: Support and Tutorials
 keywords: support, tutorials, instructions, help,
 sidebar: appdesign_sidebar
 toc: true
-permalink: support-and-tutorials.html
 folder: app_design 
 ---
 

@@ -3,7 +3,6 @@ title: Menus
 keywords: navigation, responsive, default, icons, notifications, items, display, screens, 
 sidebar: appdesign_sidebar
 toc: true
-permalink: menus.html
 folder: app_design 
 ---
 

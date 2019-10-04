@@ -3,7 +3,6 @@ title: Notifications
 keywords: reminders, alerts, requests, external, push, email,
 sidebar: appdesign_sidebar
 toc: true
-permalink: notifications.html
 folder: app_design 
 ---
 

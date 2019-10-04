@@ -2,7 +2,6 @@
 title: "Navigation pages"
 tagName: navigation
 search: exclude
-permalink: tag_navigation.html
 sidebar: api_sidebar
 folder: tags
 ---

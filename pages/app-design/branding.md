@@ -3,7 +3,6 @@ title: Branding
 keywords: logo, icon, colour, palette, primary, secondary, blue, green, aqua, rose, purple, orange, yellow, red, NWIS, nwis
 sidebar: appdesign_sidebar
 toc: true
-permalink: branding.html
 folder: app_design 
 ---
 

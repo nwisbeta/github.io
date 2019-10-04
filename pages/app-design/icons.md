@@ -3,7 +3,6 @@ title: Icons
 keywords: symbols, colour, labels, text, png, sgv, resolution, display, interface, contrast, 
 sidebar: appdesign_sidebar
 toc: true
-permalink: icons.html
 folder: app_design 
 ---
 

@@ -3,7 +3,6 @@ title: Terminology and Language
 keywords: terms, translation, alignment, flags messages, language, labels, text, font, size,
 sidebar: appdesign_sidebar
 toc: true
-permalink: terminology-and-language.html
 folder: app_design 
 ---
 

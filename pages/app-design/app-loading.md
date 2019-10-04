@@ -3,7 +3,6 @@ title: App Loading
 keywords: loading, battery, response, access, result, performance, action, default,
 sidebar: appdesign_sidebar
 toc: false
-permalink: app-loading.html
 folder: app_design 
 ---
 

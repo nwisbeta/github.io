@@ -3,7 +3,6 @@ title: Filters
 keywords: display, response, icon, reset, default,
 sidebar: appdesign_sidebar
 toc: false
-permalink: filters.html
 folder: app_design 
 ---
 

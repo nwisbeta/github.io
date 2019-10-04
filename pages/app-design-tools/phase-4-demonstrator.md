@@ -3,7 +3,6 @@ title: Phase 4 - Demonstrator
 keywords: prototype, checklists, stakeholder, governance, compliance, requirements, testing, 
 sidebar: appdesign_tools_sidebar
 toc: false
-permalink: phase-4-demonstrator.html
 folder: app_design_tools 
 ---
 

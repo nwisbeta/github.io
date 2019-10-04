@@ -3,7 +3,6 @@ title: Responsiveness and Adaptivity
 keywords: orientation, screen, device, display, readability, spacing, layout, tablet,
 sidebar: appdesign_sidebar
 toc: false
-permalink: responsiveness.html
 folder: app_design 
 ---
 

@@ -3,7 +3,6 @@ title: Log in and Log out
 keywords: login, logout, password, access, credentials, authentication, pin, timeout,
 sidebar: appdesign_sidebar
 toc: true
-permalink: log-in-log-out.html
 folder: app_design 
 ---
 

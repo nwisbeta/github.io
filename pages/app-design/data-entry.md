@@ -3,7 +3,6 @@ title: Data Entry
 keywords: methods, accessibility, content, layout, governance, fields, touch, speech, mic, 
 sidebar: appdesign_sidebar
 toc: true
-permalink: data-entry.html
 folder: app_design 
 ---
 

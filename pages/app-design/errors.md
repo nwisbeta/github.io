@@ -3,7 +3,6 @@ title: Errors
 keywords:
 sidebar: appdesign_sidebar
 toc: true
-permalink: errors.html
 folder: app_design 
 ---
 

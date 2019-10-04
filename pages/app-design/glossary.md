@@ -3,7 +3,6 @@ title: Glossary
 keywords: language, terms, text, meaning, 
 sidebar: appdesign_sidebar
 toc: false
-permalink: glossary.html
 folder: app_design
 ---
 

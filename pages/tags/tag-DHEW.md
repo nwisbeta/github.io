@@ -2,7 +2,6 @@
 title: "DHEW pages"
 tagName: DHEW
 search: exclude
-permalink: tag_DHEW.html
 sidebar: api_sidebar
 folder: tags
 ---
