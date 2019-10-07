@@ -11,11 +11,11 @@ entries:
     type: frontmatter
     folderitems:
     - title:
-      url: /titlepage.html
+      url: titlepage.html
       output: pdf
       type: frontmatter
     - title:
-      url: /tocpage.html
+      url: tocpage.html
       output: pdf
       type: frontmatter
 
@@ -23,10 +23,10 @@ entries:
     output: web, pdf
     folderitems:
     - title: About
-      url: /about.html
+      url: about.html
       output: web
     - title: Glossary
-      url: /glossary.html
+      url: glossary.html
       output: web
 
   - title: Design Standards
@@ -34,35 +34,35 @@ entries:
 
     folderitems:
     - title: Layout
-      url: /layout.html
+      url: /app-design/layout.html
       output: web, pdf
 
     - title: Branding
-      url: /branding.html
+      url: /app-design/branding.html
       output: web, pdf
 
     - title: Standard Features
-      url: /standard-features.html
+      url: /app-design/standard-features.html
       output: web, pdf
 
     - title: Typography
-      url: /typography.html
+      url: /app-design/typography.html
       output: web, pdf
 
     - title: Terminology and Language
-      url: /terminology-and-language.html
+      url: /app-design/terminology-and-language.html
       output: web, pdf
       
     - title: Page Loading and Power Use
-      url: /page-loading-power-use.html
+      url: /app-design/page-loading-power-use.html
       output: web, pdf
 
     - title: Responsiveness and Adaptivity
-      url: /responsiveness.html
+      url: /app-design/responsiveness.html
       output: web, pdf
     
     - title: Offline Use
-      url: /offline-use.html
+      url: /app-design/offline-use.html
       output: web, pdf  
       
   - title: Access
@@ -70,19 +70,19 @@ entries:
     
     folderitems:  
     - title: First Use 
-      url: /first-use.html
+      url: /app-design/first-use.html
       output: web, pdf
 
     - title: App Loading 
-      url: /app-loading.html
+      url: /app-design/app-loading.html
       output: web, pdf
       
     - title: Log in and Log out 
-      url: /log-in-log-out.html
+      url: /app-design/log-in-log-out.html
       output: web, pdf
       
     - title: Registration
-      url: /registration.html
+      url: /app-design/registration.html
       output: web, pdf
       
   - title: Navigation
@@ -90,35 +90,35 @@ entries:
     
     folderitems:  
     - title: Menus
-      url: /menus.html
+      url: /app-design/menus.html
       output: web, pdf
       
     - title: Transitions
-      url: /transitions.html
+      url: /app-design/transitions.html
       output: web, pdf
 
     - title: Touch Gesture Controls
-      url: /touch-gesture-control.html
+      url: /app-design/touch-gesture-control.html
       output: web, pdf
       
     - title: Buttons
-      url: /buttons.html
+      url: /app-design/buttons.html
       output: web, pdf
   
     - title: Selection Controls
-      url: /selection-controls.html
+      url: /app-design/selection-controls.html
       output: web, pdf
 
     - title: Search
-      url: /search.html
+      url: /app-design/search.html
       output: web, pdf
   
     - title: Filters
-      url: /filters.html
+      url: /app-design/filters.html
       output: web, pdf
    
     - title: Ordering
-      url: /ordering.html
+      url: /app-design/ordering.html
       output: web, pdf
  
   - title: User Interaction
@@ -126,35 +126,35 @@ entries:
     
     folderitems:  
     - title: Messaging
-      url: /messaging.html
+      url: /app-design/messaging.html
       output: web, pdf
       
     - title: Errors
-      url: /errors.html
+      url: /app-design/errors.html
       output: web, pdf
 
     - title: User Feedback
-      url: /user-feedback.html
+      url: /app-design/user-feedback.html
       output: web, pdf
       
     - title: Data Entry
-      url: /data-entry.html
+      url: /app-design/data-entry.html
       output: web, pdf
   
     - title: Data Display
-      url: /data-display.html
+      url: /app-design/data-display.html
       output: web, pdf
 
     - title: Pop Ups
-      url: /popups.html
+      url: /app-design/popups.html
       output: web, pdf
   
     - title: Notifications
-      url: /notifications.html
+      url: /app-design/notifications.html
       output: web, pdf
    
     - title: Support and Tutorials
-      url: /support-and-tutorials.html
+      url: /app-design/support-and-tutorials.html
       output: web, pdf
 
   - title: Icons and Images
@@ -162,11 +162,11 @@ entries:
     
     folderitems:  
     - title: Icons 
-      url: /icons.html
+      url: /app-design/icons.html
       output: web, pdf
       
     - title: Images 
-      url: /images.html
+      url: /app-design/images.html
       output: web, pdf
   
   - title: Accessibility
@@ -174,7 +174,7 @@ entries:
     
     folderitems:  
     - title: Accessibility  
-      url: /accessibility.html
+      url: /app-design/accessibility.html
       output: web, pdf
 
   - title: Information and Clinical Governance
@@ -182,7 +182,7 @@ entries:
     
     folderitems:  
     - title: Information and Clinical Governance  
-      url: /information-clinical-governance.html
+      url: /app-design/information-clinical-governance.html
       output: web, pdf
       
   - title: Interoperability
@@ -190,6 +190,6 @@ entries:
     
     folderitems:  
     - title: Interoperability 
-      url: /interoperability.html
+      url: /app-design/interoperability.html
       output: web, pdf
  

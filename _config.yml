@@ -1,5 +1,7 @@
 repository: nwisbeta/nwisbeta.github.io
 
+github: [metadata]
+
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
 
@@ -65,6 +67,12 @@ kramdown:
  auto_ids: true
  hard_wrap: false
  syntax_highlighter: rouge
+
+collections:
+  pages:
+    output: true
+    permalink: :path
+
 
 # filter used to process markdown. note that kramdown differs from github-flavored markdown in some subtle ways
 

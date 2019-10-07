@@ -24,12 +24,12 @@ entries:
     folderitems:
 
     - title: Health APIs for NHS Wales
-      url: /apiguides_landing_page.html
+      url: /apiguides/
       output: web, pdf
       type: homepage     
 
     - title: Getting Started with HAPI server
-      url: /apiguides_getting_started_hapi.html
+      url: /apiguides/getting-started.html
       output: web, pdf
       
   - title: Patient Demographic Data API
@@ -37,12 +37,12 @@ entries:
 
     folderitems:
     - title: Overview
-      url: /pt_dmgrphc_landing_page.html
+      url: /patient-demographics/
       output: web, pdf
       type: homepage
       
     - title: Use Case Queries
-      url: /pt_dmgrphc_use_cases.html
+      url: /patient-demographics/use-cases.html
       output: web, pdf
       
   - title: Reference Data API
@@ -50,12 +50,12 @@ entries:
       
     folderitems:
     - title: Overview
-      url: /ref_data_landing_page.html
+      url: /ref-data/
       output: web, pdf
       type: homepage
     
     - title: Use Case Queries
-      url: /ref_data_use_cases.html
+      url: /ref-data/use-cases.html
       output: web, pdf
       
   - title: Diagnostic Observations and Reports API
@@ -63,11 +63,11 @@ entries:
     folderitems:
     
     - title: Overview
-      url: /diag_obs_reports_landing_page.html
+      url: /diag-obs-reports/
       output: web, pdf
       type: homepage
       
     - title: Use Case Queries
-      url: /diag_obs_reports_use_cases.html
+      url: /diag-obs-reports/use-cases.html
       output: web, pdf
       
