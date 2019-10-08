@@ -22,6 +22,9 @@ entries:
   - title: Overview
     output: web, pdf
     folderitems:
+    - title: NHS Wales Digital Architecture
+      url: /architecture/overview/
+      
 
     - title: Health APIs for NHS Wales
       url: /apiguides/overview/
