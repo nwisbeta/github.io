@@ -1,7 +1,7 @@
 ---
 title: "Getting started pages"
 tagName: getting_started
-search: exclude
+search: false
 sidebar: api_sidebar
 folder: tags
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Code sample pages"
 tagName: code_sample
-search: exclude
+search: false
 sidebar: api_sidebar
 folder: tags
 ---

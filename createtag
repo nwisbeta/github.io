@@ -29,8 +29,8 @@ cat <<EOF >"${TAGDIR}/tag_${tag}.md"
 ---
 title: "${title}"
 tagName: ${tag}
-search: exclude
-permalink: tag_${tag}.html
+search: false
+permalink: tag-${tag}.html
 sidebar: api_sidebar
 hide_sidebar: true
 folder: tags

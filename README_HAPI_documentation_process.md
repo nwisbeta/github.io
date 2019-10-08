@@ -1,7 +1,7 @@
 ---
 title: "Documentation process for NWIS Health APIs"
 keywords: 
-search: exclude
+search: false
 tags: 
 permalink: README_HAPI_documentation_process.html
 summary: An outline of documentation process for Health APIs.

@@ -1,6 +1,6 @@
 ---
 title: "README for nwisbeta.github.io"
-search: exclude
+search: false
 tags:
 permalink: 
 summary: 

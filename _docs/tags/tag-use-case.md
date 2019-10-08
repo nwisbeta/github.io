@@ -1,7 +1,7 @@
 ---
 title: "use case pages"
 tagName: use_case
-search: exclude
+search: false
 sidebar: api_sidebar
 folder: tags
 ---

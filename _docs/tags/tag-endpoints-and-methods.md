@@ -1,7 +1,7 @@
 ---
 title: "endpoints_and_methods pages"
 tagName: endpoints_and_methods
-search: exclude
+search: false
 sidebar: api_sidebar
 folder: tags
 ---

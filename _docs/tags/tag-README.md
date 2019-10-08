@@ -1,7 +1,7 @@
 ---
 title: "README pages"
 tagName: README
-search: exclude
+search: false
 sidebar: api_sidebar
 folder: tags
 ---

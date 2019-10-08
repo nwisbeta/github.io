@@ -1,7 +1,7 @@
 ---
 title: "FHIR pages"
 tagName: FHIR
-search: exclude
+search: false
 sidebar: api_sidebar
 folder: tags
 ---

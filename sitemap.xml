@@ -1,12 +1,12 @@
 ---
 layout: none
-search: exclude
+search: false
 ---
 
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   {% for post in site.posts %}
-  {% unless post.search == "exclude" %}
+  {% unless post.search == false %}
   <url>
     <loc>{{site.url}}{{post.url}}</loc>
   </url>
@@ -14,8 +14,8 @@ search: exclude
   {% endfor %}
 
 
-  {% for page in site.pages %}
-  {% unless page.search == "exclude" %}
+  {% for page in site.docs %}
+  {% unless page.search == false %}
   <url>
     <loc>{{site.url}}{{ page.url}}</loc>
   </url>

@@ -1,7 +1,7 @@
 ---
 title: "NWIS API pages"
 tagName: NWIS_API
-search: exclude
+search: false
 sidebar: api_sidebar
 folder: tags
 ---

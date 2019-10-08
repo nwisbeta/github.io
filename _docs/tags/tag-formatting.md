@@ -1,7 +1,7 @@
 ---
 title: "Formatting pages"
 tagName: formatting
-search: exclude
+search: false
 sidebar: api_sidebar
 folder: tags
 ---

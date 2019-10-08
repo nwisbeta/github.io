@@ -1,7 +1,7 @@
 ---
 title: "News"
 tagName: news
-search: exclude
+search: false
 sidebar: api_sidebar
 folder: tags
 ---
