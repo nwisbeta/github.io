@@ -16,9 +16,9 @@ topnav_dropdowns:
     - title: NWIS Products
       folderitems:
         - title: Health APIs
-          url: /apiguides/
+          url: /apiguides/overview/
         - title: App Design Standards
-          url: /app-design/about.html       
+          url: /app-design/about/
           
     - title: Partners
       folderitems:
