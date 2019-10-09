@@ -24,6 +24,7 @@ entries:
     folderitems:
     - title: NHS Wales Digital Architecture
       url: /architecture/overview/
+      output: web, pdf
       
 
     - title: Health APIs for NHS Wales
