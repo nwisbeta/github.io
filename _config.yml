@@ -80,6 +80,16 @@ defaults:
   -
     scope:
       path: ""
+      type: "pages"
+    values:
+      layout: "page"
+      comments: true
+      search: true
+      sidebar: home_sidebar
+      topnav: topnav
+  -
+    scope:
+      path: ""
       type: "docs"
     values:
       layout: "page"
