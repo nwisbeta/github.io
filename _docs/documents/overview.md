@@ -11,7 +11,7 @@ folder: documents
 The Documents API allows you to store clinical documents with associated metadata in the Welsh Care Records Service - a central respository of clinical documents for patients in NHS Wales.
 
 ## Resource: DocumentReference
-Store documents using HTTP POST to send a correctly formed FHIR `DocumentReference` resource. The resource can be in XML or JSON format but it must contain a minimum set of metadata and the document encoded as a Base64 string.
+Store documents by sending a correctly formed FHIR `DocumentReference` resource via HTTP POST. The resource can be in XML or JSON format but it must contain a minimum set of metadata and the document encoded as a Base64 string.
 
 You can find information on the base `DocumentReference` resource in the [official FHIR documentation](http://hl7.org/fhir/STU3/documentreference.html). 
 
