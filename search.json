@@ -13,7 +13,7 @@ search: false
 "tags": "{{ page.tags }}",
 "keywords": "{{page.keywords}}",
 "url": "{{ page.url }}",
-"summary": "{{page.summary | strip }}",
+"summary": "{{page.summary | strip }}"
 }
 {% unless forloop.last and site.posts.size < 1 %},{% endunless %}
 {% endfor %}
