@@ -1,0 +1,11 @@
+title: Documents (WCRS)
+description: Store and retrieve clinical documents and perform basic searches
+type: SOAP/XML
+owner: NWIS - Integration and Reference
+overview: |
+  This API is used to store documents in the Welsh Care Records Service (WCRS), the central document store for NHS Wales.
+  Associated metadata allows for basic searches and a variety of documents types are permitted (XML, PDF, Microsoft Word, etc.)
+  It's used by applications across primary and secondary care.
+  It's used in all Health Boards
+
+

@@ -1,0 +1,9 @@
+title: Documents Advanced Search (WCRS)
+description: Perform faceted search queries against document content and metadata
+type: Solr 
+owner: NWIS - Corporate Applications
+overview: |
+  Apache Solr [Version?] is used to provide advanced searching capability against documents stored in the Welsh Care Records Service.
+  The standard metadata model for WCRS allows a predictable way to drill down...........does it?
+  It's used by applications across primary and secondary care.
+  It's used in all Health Boards

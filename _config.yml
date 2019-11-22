@@ -72,6 +72,8 @@ collections:
   docs:
     output: true
     permalink: :path/
+  apis:
+    output: false
 
 
 # filter used to process markdown. note that kramdown differs from github-flavored markdown in some subtle ways
