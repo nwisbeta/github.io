@@ -1,0 +1,9 @@
+title: Results & Reporting - (WRRS)
+description: Request lab tests for any sample such as blood or bone, etc.
+type: SOAP/XML
+owner: NWIS - Integration and Reference
+overview: |
+ This service acts as a mediator between user facing applications and the Laboratory Information Management System (LIMS) service.
+ When a user facing application such as WCP or GPTR requests a test, the lab gets notified and they are prepared for the sample when it arrives.
+ This service also returns a barcode which is printed off and attached to the sample before it gets sent.
+ Currently WRRS is only used by two NWIS applications, Welsh Clinical Portal (WCP) and GP Test Results (GPTR). This service is available nationally.
