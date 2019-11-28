@@ -1,0 +1,27 @@
+---
+title: NWIS API Catalogue
+tags: [NWIS_API, DHEW]
+keywords: catalogue
+sidebar: api_sidebar
+toc: false
+folder: apiguides
+---
+<ul>
+    {% for cat_hash in site.data.api-catalogue %}
+        <li>
+            <h3>{{ cat_hash[0]}}</h3>
+            <ul>
+                {% for api_hash in cat_hash[1] %}
+                    {% assign api = api_hash[1] %}            
+                    <li>
+                        <strong>{{ api.title }}</strong><br>
+                        <em>{{ api.description }}</em><br>
+                        Type: {{ api.type }}<br><br>                        
+                        {{ api.overview }}<br>
+                    </li>         
+                {% endfor %} 
+            </ul>
+
+        </li>
+    {% endfor %}
+</ul>
