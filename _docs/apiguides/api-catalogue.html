@@ -12,12 +12,13 @@ folder: apiguides
                 {% for api_hash in cat_hash[1] %}
                     {% assign api = api_hash[1] %}        
                     <div class="panel panel-default">
-                        <div class="panel-heading">{{ category }} - {{ api.title }}</div>
+                        <div class="panel-heading">
+                            {{ category }} - {{ api.title }}<br>
+                            <span style="font-weight: lighter;">{{ api.description }}</span>                        
+                        </div>
                         <div class="panel-body">
-                            <strong>{{ api.description }}</strong><br>
+                            {{ api.overview }}  <br>   
                             <span class="label label-primary">{{ api.type }}</span>
-                            <br><br>   
-                            {{ api.overview }}  
                         </div>
                       </div>                            
                 {% endfor %} 

@@ -1,5 +1,5 @@
 
-title: PROMs Event Request
+title: Event Request
 description: Request that a patient be sent an assessment questionnaire after clinical events
 type: SOAP/XML
 owner: NWIS - Corporate Applications
