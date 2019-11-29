@@ -6,22 +6,20 @@ sidebar: api_sidebar
 toc: false
 folder: apiguides
 ---
-<ul>
-    {% for cat_hash in site.data.api-catalogue %}
-        <li>
-            <h3>{{ cat_hash[0]}}</h3>
-            <ul>
-                {% for api_hash in cat_hash[1] %}
-                    {% assign api = api_hash[1] %}            
-                    <li>
-                        <strong>{{ api.title }}</strong><br>
-                        <em>{{ api.description }}</em><br>
-                        Type: {{ api.type }}<br><br>                        
-                        {{ api.overview }}<br>
-                    </li>         
-                {% endfor %} 
-            </ul>
 
-        </li>
+    {% for cat_hash in site.data.api-catalogue %}
+            {% assign category = cat_hash[0] %}
+                {% for api_hash in cat_hash[1] %}
+                    {% assign api = api_hash[1] %}        
+                    <div class="panel panel-default">
+                        <div class="panel-heading">{{ category }} - {{ api.title }}</div>
+                        <div class="panel-body">
+                            <strong>{{ api.description }}</strong><br>
+                            <span class="label label-primary">{{ api.type }}</span>
+                            <br><br>   
+                            {{ api.overview }}  
+                        </div>
+                      </div>                            
+                {% endfor %} 
     {% endfor %}
-</ul>
+

@@ -1,4 +1,4 @@
-title: Reference Data & Schema Lookup (WRDS)
+title: Reference Data & Schema Lookup
 description: Retrieves table schemas and data listing all fields in the database.
 type: RESTful
 owner: NWIS - Integration and Reference
