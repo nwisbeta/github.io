@@ -1,0 +1,3 @@
+[submodule "_data/api-catalogue"]
+	path = _data/api-catalogue
+	url = https://github.com/nwisbeta/api-catalogue
