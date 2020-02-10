@@ -105,21 +105,27 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.0.0/mermaid.min.js"></script>
     <script> 
     (function(){
-        const mermaidCodes = Array.from(document.querySelectorAll(".language-mermaid")).map(a => a.parentElement);
 
-        const svgImages = Array.from(document.querySelectorAll(".language-mermaid")).map((a,i) => {        
-                let svg;            
-                mermaid.render("mermaid-" + i, a.innerText, output => { svg = output });        
-                let template = document.createElement("template");  
-                template.innerHTML = svg;
-            
-                return template.content.firstChild;
-            }
-        );
+        const mermaids = Array.from(document.querySelectorAll(".language-mermaid"));
 
-        for(i=0; i < mermaidCodes.length; i++){             
-            mermaidCodes[i].parentNode.replaceChild(svgImages[i], mermaidCodes[i]);
+        for(i=0; i < mermaids.length; i++){       
+                
+                let svgElement = convertMermaidToSvgElement("mermaid-" + i, mermaids[i].innerText);
+
+                let mermaidElement = mermaids[i].parentElement;
+
+                mermaidElement.parentNode.replaceChild(svgElement, mermaidElement);
         }
+
+        function convertMermaidToSvgElement(id, code){
+                let svg;            
+                mermaid.render(id, code, output => { svg = output });        
+                let template = document.createElement("template");  
+                template.innerHTML = svg;            
+                return template.content.firstChild;
+        }
+
+
     })();
     </script>
     {% endif %}
