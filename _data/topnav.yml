@@ -18,7 +18,7 @@ topnav_dropdowns:
         - title: Health APIs
           url: /apiguides/overview/
         - title: App Design Standards
-          url: /app-design/about/
+          url: /mobile-app-design/
           
     - title: Partners
       folderitems:
