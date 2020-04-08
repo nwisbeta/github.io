@@ -17,10 +17,7 @@ entries:
     - title:
       url: /tocpage.html
       output: pdf
-      type: frontmatter
-      
-  - title: Overview
-    output: web, pdf      
+      type: frontmatter   
 
     - title: Health APIs for NHS Wales
       url: /apiguides/overview/
