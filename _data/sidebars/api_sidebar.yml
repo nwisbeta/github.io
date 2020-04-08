@@ -20,12 +20,7 @@ entries:
       type: frontmatter
       
   - title: Overview
-    output: web, pdf
-    folderitems:
-    - title: NHS Wales Digital Architecture
-      url: /architecture/overview/
-      output: web, pdf
-      
+    output: web, pdf      
 
     - title: Health APIs for NHS Wales
       url: /apiguides/overview/
