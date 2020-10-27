@@ -1,17 +1,12 @@
 ---
-title: "Health APIs for NHS Wales"
-keywords: NWIS HAPI APIs
-tags: [NWIS, NWIS_API,]
+title: "Sorry, this content has moved!"
 sidebar: api_sidebar
 toc: false
 permalink: index.html
-summary: An overview of NWIS work on Health APIs, based on the FHIR specification.
 ---
 
-NHS Wales Informatics Services (NWIS) are opening up a suite of test APIs for third parties when developing integrations with NHS Wales systems.
+This website and it's content have been replaced. To find out more visit:
 
-The project will incrementally provide access to the national architecture using web APIs.
+Developer Portal : [https://developer.nhs.wales](https://developer.nhs.wales) 
 
-The intial suite of APIs will be implementations of the FHIR specification. A HAPI FHIR Server has been made available for test purposes.
- 
-{% include links.html %}
+Mobile App Design Standards : [https://nwisbeta.github.io/mobile-app-design](https://nwisbeta.github.io/mobile-app-design)
