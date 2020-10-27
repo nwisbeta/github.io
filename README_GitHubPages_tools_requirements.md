@@ -55,7 +55,6 @@ Most content controls used on the nwisbeta site (for editing headers, footers, t
 * _data/sidebars/api_sidebar.yml (for H-API content)
 * _data/sidebars/appdesign_sidebar.yml (for App Design standards)
 * _data/sidebars/appdesign_tools_sidebar.yml (for App Design tools: the design phases and checklists)
-* _includes/footer.html
 
 From the GitBash window, run Jekyll locally to preview pages in your browser at 127.0.0.1:4000/
 
